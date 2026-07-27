@@ -290,6 +290,16 @@ const FASI = ['dawn', 'day', 'dusk', 'night'];
 let biomaScelto = 'arctic';
 let faseScelta = 'night';
 
+/* Tira giù un'immagine con calma, una volta sola. Non tiene niente in mano:
+   quello che serve è che stia nella cache del browser quando si preme. */
+const prelevate = new Set();
+const pigro = window.requestIdleCallback || ((f) => setTimeout(f, 200));
+function preleva(nome) {
+  if (prelevate.has(nome)) return;
+  prelevate.add(nome);
+  pigro(() => { new Image().src = `assets/spiagge/${nome}.jpg`; });
+}
+
 function costruisciChip(contenitore, valori, prefisso, scelto, alClick) {
   contenitore.innerHTML = valori.map(v =>
     `<button type="button" class="chip" data-val="${v}" data-chiave="${prefisso}.${v}" aria-pressed="${v === scelto}"></button>`
@@ -299,6 +309,7 @@ function costruisciChip(contenitore, valori, prefisso, scelto, alClick) {
       contenitore.querySelectorAll('.chip').forEach(o => o.setAttribute('aria-pressed', String(o === b)));
       alClick(b.dataset.val);
       rendi();
+      if (prefisso === 'bioma') for (const f of FASI) preleva(`${b.dataset.val}-${f}`);
     });
   });
 }
@@ -340,17 +351,16 @@ if (contBiomi && contFasi) {
     const scorta = new IntersectionObserver(([v], oss) => {
       if (!v.isIntersecting) return;
       oss.disconnect();
-      const code = [
-        ...FASI.map(f => `${biomaScelto}-${f}`),
-        ...BIOMI.flatMap(b => FASI.map(f => `${b}-${f}`)),
-      ];
-      const viste = new Set();
-      const pigro = window.requestIdleCallback || ((f) => setTimeout(f, 200));
-      for (const nome of code) {
-        if (viste.has(nome)) continue;
-        viste.add(nome);
-        pigro(() => { new Image().src = `assets/spiagge/${nome}.jpg`; });
-      }
+      /* SOLO LE ALTRE ORE DELLA COSTA CHE SI STA GUARDANDO — tre immagini, non
+         diciannove. Tirarle giù tutte e venti sembrava gentile e faceva il
+         danno peggiore della pagina: un telefono tiene in memoria le immagini
+         GIÀ DECODIFICATE, e venti da 603×1311 sono decine di megabyte. Quando
+         non ci stanno più, Safari butta via le più vecchie — comprese le
+         schermate che hai appena passato. Riscorrendo verso l'alto le deve
+         rifare da capo, ed è esattamente lì che si sentiva lo scatto:
+         scendendo liscio, risalendo no. Le altre si tirano giù quando si preme
+         il pulsante di quella costa. */
+      for (const f of FASI) preleva(`${biomaScelto}-${f}`);
     }, { rootMargin: '600px 0px' });
     scorta.observe(sezione);
   }
