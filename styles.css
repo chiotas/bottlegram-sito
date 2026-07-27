@@ -90,7 +90,10 @@ a { color: inherit; }
      telefono si sente, e si sentiva esattamente qui — sulle sezioni di carta,
      dove la barra è posata. Sotto un velo opaco al 96% quella sfocatura non si
      vedeva comunque: costava tutto e non si vedeva niente. */
-  background: color-mix(in srgb, var(--carta) 96%, transparent);
+  /* OPACA, non «quasi». Un velo semitrasparente fisso sopra il contenuto che
+     scorre va fuso con quello che ha sotto a ogni fotogramma, su tutta la
+     larghezza. Al 96% la differenza non si vedeva: si sentiva soltanto. */
+  background: var(--carta);
   color: var(--inchiostro);
   border-bottom-color: var(--carta-bordo);
 }
@@ -133,6 +136,12 @@ a { color: inherit; }
 .stelle {
   position: absolute; inset: 0 0 26% 0; z-index: 0; pointer-events: none;
   background-repeat: no-repeat;
+  /* Cinquantadue sfumature radiali su tutto lo schermo, e per giunta con
+     l'opacità che respira: senza uno strato suo il browser le ridisegna tutte
+     mentre scorri. Promosse, si disegnano una volta e poi si limitano a
+     schiarire e scurire. */
+  transform: translateZ(0);
+  will-change: opacity;
 }
 .prima {
 background-image:
@@ -842,7 +851,10 @@ background-image:
 
 /* ── La pergamena ──────────────────────────────────────────────────────── */
 
-.pergamena { margin: clamp(3rem, 6vw, 4.6rem) 0 0; }
+.pergamena {
+  /* Una carta di 900×460 con dentro un filtro e cento tracciati: se non sta su
+     uno strato suo, ogni pixel di scorrimento se la ridisegna. */
+  transform: translateZ(0); margin: clamp(3rem, 6vw, 4.6rem) 0 0; }
 .pergamena svg {
   width: 100%; height: auto; display: block;
   border-radius: 3px;
@@ -869,7 +881,9 @@ background-image:
   overflow: hidden;
   padding-top: clamp(6rem, 13vw, 11rem);
 }
-.fondale { position: absolute; inset: 0; z-index: 0; }
+.fondale {
+  /* La spiaggia larga delle regole è alta quanto la sezione: stesso motivo. */
+  transform: translateZ(0); position: absolute; inset: 0; z-index: 0; }
 .fondale svg { width: 100%; height: 100%; display: block; }
 .fondale svg { object-fit: cover; }
 .velatura {
