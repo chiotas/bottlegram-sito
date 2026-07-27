@@ -1,0 +1,883 @@
+/* ─────────────────────────────────────────────────────────────────────────
+   Bottlegram — la pagina.
+
+   I colori non sono scelti qui: vengono da Bottlegram/Support/Theme.swift e
+   dalla carta nautica di VoyageMapView. Chi cambia il tema dell'app cambia
+   anche questa pagina, e i due valori devono restare uguali.
+   ───────────────────────────────────────────────────────────────────────── */
+
+:root {
+  /* Carta e inchiostro — Theme.paper / paperEdge / ink / inkFaded */
+  --carta:          #F5EBD1;
+  --carta-bordo:    #D9C7A1;
+  --carta-fonda:    #F0E7D6;
+  --inchiostro:     #3D3329;
+  --inchiostro-lieve:#736657;
+  --spirito:        #007754;   /* Theme.spirit */
+  --ceralacca:      #6B2924;
+  --blu-profondo:   #1A4061;
+
+  /* Mediterraneo, notte — Theme.palette(.mediterranean, .night) */
+  --cielo-alto:     #0A0F2E;
+  --cielo-medio:    #141F47;
+  --cielo-orizzonte:#24335C;
+  --mare-lontano:   #08122E;
+  --mare-medio:     #0F1F42;
+  --mare-vicino:    #1F3357;
+  --luna:           #F2F2E0;
+
+  /* Pergamena — VoyageMapView */
+  --pergamena:      #F2E3BD;
+  --ink-bruno:      #734A24;
+  --ink-blu:        #294F6E;
+
+  /* Iowan Old Style c'è su ogni iPhone e su ogni Mac: chi legge da lì vede
+     esattamente il carattere dell'app. Altrove Palatino è il parente più
+     stretto — stessa origine veneziana, stesso passo. */
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  --mare-serif: Georgia, "Times New Roman", serif;
+
+  --colonna: 1140px;
+  --respiro: clamp(4.5rem, 11vw, 9rem);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(1.02rem, 0.96rem + 0.3vw, 1.16rem);
+  line-height: 1.62;
+  color: var(--inchiostro);
+  background: var(--carta);
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3 { line-height: 1.18; margin: 0; font-weight: 600; letter-spacing: -0.01em; }
+p { margin: 0; }
+a { color: inherit; }
+
+.salta {
+  position: absolute; left: -9999px; top: 0; z-index: 100;
+  background: var(--carta); color: var(--inchiostro);
+  padding: 0.8rem 1.2rem; border-radius: 999px;
+}
+.salta:focus { left: 1rem; top: 1rem; }
+
+:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; border-radius: 4px; }
+
+/* ── La barra ──────────────────────────────────────────────────────────── */
+
+.barra {
+  position: fixed; inset: 0 0 auto 0; z-index: 50;
+  display: flex; align-items: center; gap: 1.5rem;
+  padding: 0.85rem clamp(1rem, 4vw, 2.6rem);
+  color: var(--carta);
+  transition: background-color .5s ease, backdrop-filter .5s ease, color .5s ease, border-color .5s ease;
+  border-bottom: 1px solid transparent;
+}
+.barra.posata {
+  background: color-mix(in srgb, var(--carta) 92%, transparent);
+  backdrop-filter: saturate(140%) blur(10px);
+  -webkit-backdrop-filter: saturate(140%) blur(10px);
+  color: var(--inchiostro);
+  border-bottom-color: var(--carta-bordo);
+}
+
+.marchio {
+  display: inline-flex; align-items: center; gap: 0.55rem;
+  text-decoration: none; font-size: 1.06rem; letter-spacing: 0.04em;
+  font-weight: 600; margin-right: auto;
+}
+.marchio-glifo { width: 15px; height: 15px; fill: currentColor; opacity: 0.85; }
+
+.rotta { display: flex; gap: 1.5rem; font-size: 0.9rem; }
+.rotta a {
+  text-decoration: none; opacity: 0.78;
+  border-bottom: 1px solid transparent; padding-bottom: 2px;
+  transition: opacity .25s, border-color .25s;
+}
+.rotta a:hover { opacity: 1; border-bottom-color: currentColor; }
+
+
+@media (max-width: 780px) { .rotta { display: none; } }
+
+/* ── Notte ─────────────────────────────────────────────────────────────── */
+
+.notte { position: relative; color: var(--carta); background: var(--cielo-alto); }
+
+.eroe {
+  min-height: 100svh;
+  display: flex; flex-direction: column; justify-content: center; align-items: center;
+  padding: 7rem 1.4rem 0;
+  background: linear-gradient(to bottom, var(--cielo-alto) 0%, var(--cielo-medio) 58%, var(--cielo-orizzonte) 100%);
+  overflow: hidden;
+  isolation: isolate;
+}
+
+/* Le stelle sono puntini di sfondo, non cerchi in un SVG: un SVG stirato su
+   uno schermo stretto e alto le allungherebbe in trattini. In percentuale
+   restano al loro posto, e in pixel restano tonde. Due mani con due respiri
+   diversi: il cielo pulsa senza che si veda una stella accendersi. */
+.stelle {
+  position: absolute; inset: 0 0 26% 0; z-index: 0; pointer-events: none;
+  background-repeat: no-repeat;
+}
+.prima {
+background-image:
+    radial-gradient(1.1px 1.1px at 23.8% 52.2%, rgba(255,255,255,0.95) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(1.6px 1.6px at 47.4% 55.8%, rgba(255,255,255,0.46) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(1.0px 1.0px at 83.7% 24.9%, rgba(255,255,255,0.56) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(1.6px 1.6px at 71.7% 51.9%, rgba(255,255,255,0.71) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(1.0px 1.0px at 63.9% 14.5%, rgba(255,255,255,0.93) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(0.9px 0.9px at 52.3% 71.2%, rgba(255,255,255,0.54) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(0.9px 0.9px at 95.7% 4.1%, rgba(255,255,255,0.9) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(1.3px 1.3px at 26.9% 57.1%, rgba(255,255,255,0.84) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(1.6px 1.6px at 92.1% 37.9%, rgba(255,255,255,0.69) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(0.9px 0.9px at 93.6% 84.4%, rgba(255,255,255,0.47) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(1.3px 1.3px at 49.5% 24.8%, rgba(255,255,255,0.88) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(1.3px 1.3px at 85.5% 40.4%, rgba(255,255,255,0.77) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(1.0px 1.0px at 53.4% 39.1%, rgba(255,255,255,0.95) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(1.1px 1.1px at 68.2% 89.2%, rgba(255,255,255,1.0) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(1.1px 1.1px at 67.1% 15.7%, rgba(255,255,255,0.98) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(1.0px 1.0px at 90.5% 54.6%, rgba(255,255,255,0.8) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(0.9px 0.9px at 98.8% 25.6%, rgba(255,255,255,0.48) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(0.9px 0.9px at 85.4% 95.0%, rgba(255,255,255,0.64) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(0.9px 0.9px at 6.7% 86.1%, rgba(255,255,255,0.61) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(0.9px 0.9px at 76.9% 83.8%, rgba(255,255,255,0.78) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(1.6px 1.6px at 76.2% 36.3%, rgba(255,255,255,0.63) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(1.6px 1.6px at 88.1% 94.1%, rgba(255,255,255,0.58) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(0.9px 0.9px at 3.6% 0.7%, rgba(255,255,255,0.78) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(1.3px 1.3px at 3.1% 18.9%, rgba(255,255,255,0.61) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(1.1px 1.1px at 26.3% 66.2%, rgba(255,255,255,0.62) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(1.3px 1.3px at 95.9% 86.1%, rgba(255,255,255,0.66) 60%, rgba(255,255,255,0) 100%);
+  animation: brilla 7s ease-in-out infinite;
+}
+.seconda {
+background-image:
+    radial-gradient(1.0px 1.0px at 22.7% 92.4%, rgba(255,255,255,0.56) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(1.6px 1.6px at 4.4% 13.1%, rgba(255,255,255,0.57) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(1.3px 1.3px at 64.2% 44.1%, rgba(255,255,255,0.66) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(1.3px 1.3px at 57.3% 86.1%, rgba(255,255,255,0.5) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(1.1px 1.1px at 23.4% 1.9%, rgba(255,255,255,0.74) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(0.9px 0.9px at 47.4% 87.5%, rgba(255,255,255,0.81) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(1.3px 1.3px at 9.7% 78.2%, rgba(255,255,255,0.79) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(1.1px 1.1px at 37.7% 63.4%, rgba(255,255,255,0.58) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(1.6px 1.6px at 8.6% 86.7%, rgba(255,255,255,0.95) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(0.9px 0.9px at 58.2% 13.6%, rgba(255,255,255,0.75) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(1.0px 1.0px at 3.7% 67.4%, rgba(255,255,255,0.97) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(1.3px 1.3px at 57.9% 70.0%, rgba(255,255,255,0.61) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(1.0px 1.0px at 35.7% 84.3%, rgba(255,255,255,0.54) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(1.1px 1.1px at 60.1% 51.1%, rgba(255,255,255,0.84) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(1.6px 1.6px at 95.0% 81.0%, rgba(255,255,255,0.79) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(1.1px 1.1px at 30.9% 34.2%, rgba(255,255,255,0.73) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(1.6px 1.6px at 7.1% 86.7%, rgba(255,255,255,0.95) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(0.9px 0.9px at 54.5% 33.0%, rgba(255,255,255,0.61) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(1.1px 1.1px at 22.0% 3.2%, rgba(255,255,255,0.66) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(1.0px 1.0px at 83.4% 85.6%, rgba(255,255,255,0.81) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(0.9px 0.9px at 11.6% 89.5%, rgba(255,255,255,0.56) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(0.9px 0.9px at 76.6% 28.8%, rgba(255,255,255,0.89) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(1.6px 1.6px at 38.0% 80.3%, rgba(255,255,255,0.69) 60%, rgba(255,255,255,0) 100%),
+    radial-gradient(1.3px 1.3px at 23.2% 39.4%, rgba(255,255,255,0.67) 60%, rgba(255,255,255,0) 100%);
+  animation: brilla 11s ease-in-out -4s infinite;
+}
+@keyframes brilla { 0%, 100% { opacity: 1; } 50% { opacity: 0.45; } }
+
+/* La luna sta fuori dall'SVG del cielo: quello è stirato sulla larghezza —
+   va bene per le stelle, che restano punti, non per un disco, che diventerebbe
+   un uovo. */
+.luna {
+  position: absolute; z-index: 1;
+  top: clamp(4.5rem, 13vh, 9rem); right: clamp(2rem, 13vw, 12rem);
+  width: clamp(48px, 5vw, 72px); aspect-ratio: 1; border-radius: 50%;
+  background: var(--luna);
+  box-shadow: 0 0 70px 30px rgba(242, 242, 224, .09), 0 0 160px 70px rgba(242, 242, 224, .05);
+}
+/* Due crateri, uno grande e uno piccolo: bastano quelli perché una palla
+   bianca diventi la luna. */
+.luna::before, .luna::after {
+  content: ""; position: absolute; border-radius: 50%;
+  background: rgba(120, 118, 96, .16);
+}
+.luna::before { width: 30%; height: 30%; left: 20%; top: 26%; }
+.luna::after  { width: 17%; height: 17%; left: 56%; top: 55%;
+                background: rgba(120, 118, 96, .13); }
+
+.eroe-testo {
+  position: relative; z-index: 3;
+  max-width: 40rem; text-align: center;
+  margin-bottom: clamp(2rem, 14vh, 9rem);
+}
+
+.occhiello {
+  font-size: 0.76rem; letter-spacing: 0.22em; text-transform: uppercase;
+  opacity: 0.6; margin-bottom: 1.5rem;
+}
+
+.marchione {
+  font-size: clamp(3.2rem, 11vw, 6.2rem);
+  font-weight: 400; letter-spacing: 0.005em;
+  margin-bottom: 1.1rem;
+  text-shadow: 0 2px 30px rgba(0,0,0,.45);
+}
+.marchione.piccolo { font-size: clamp(1.8rem, 6vw, 2.4rem); margin-bottom: 0.5rem; }
+
+/* La voce del mare — Georgia corsivo, come nel prologo dell'app. */
+.voce-mare {
+  font-family: var(--mare-serif); font-style: italic;
+  font-size: clamp(1.16rem, 2.5vw, 1.5rem);
+  opacity: 0.92; margin-bottom: 1.6rem;
+}
+.voce-mare.piccola { font-size: 1.05rem; opacity: 0.7; }
+
+.eroe-corpo {
+  max-width: 32rem; margin: 0 auto;
+  opacity: 0.72; font-size: 1rem; line-height: 1.72;
+}
+
+.azioni {
+  margin-top: 2.6rem;
+  display: flex; flex-direction: column; align-items: center; gap: 1rem;
+}
+.sottovoce {
+  font-family: var(--mare-serif); font-style: italic;
+  font-size: 0.88rem; opacity: 0.5;
+}
+.bollo {
+  display: inline-block;
+  background: var(--carta); color: var(--inchiostro);
+  padding: 0.78rem 2rem; border-radius: 999px;
+  font-weight: 600; font-size: 0.98rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,.35);
+}
+.filo {
+  font-family: var(--mare-serif); font-style: italic;
+  font-size: 0.95rem; opacity: 0.72;
+  text-decoration: none; border-bottom: 1px solid currentColor; padding-bottom: 2px;
+  transition: opacity .25s;
+}
+.filo:hover { opacity: 1; }
+
+/* Il mare del titolo */
+.mare { position: absolute; inset: auto 0 0 0; height: min(48vh, 400px); z-index: 2; }
+.onde { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.dietro  { z-index: 1; }
+.davanti { z-index: 3; }
+.onda-lontana { fill: var(--mare-lontano); }
+.onda-media   { fill: var(--mare-medio); }
+.onda-vicina  { fill: var(--mare-vicino); }
+
+.strato { will-change: transform; }
+.lentissimo { animation: scorri 52s linear infinite; }
+.lento  { animation: scorri 34s linear infinite; }
+.medio  { animation: scorri 23s linear infinite reverse; }
+.svelto { animation: scorri 15s linear infinite; }
+@keyframes scorri { from { transform: translateX(0); } to { transform: translateX(-720px); } }
+
+/* Fuori dall'SVG stirato, se no il vetro si allarga con la finestra. */
+.bottiglia {
+  position: absolute; z-index: 2;
+  left: clamp(1.5rem, 19vw, 22rem); bottom: 39%;
+  width: 66px;
+  animation: dondola 7s ease-in-out infinite;
+  /* Il vetro sparisce sotto il pelo dell'acqua invece di finire di netto:
+     una bottiglia intera sopra l'onda sembra che voli. */
+  -webkit-mask-image: linear-gradient(to bottom, #000 0 60%, rgba(0,0,0,.45) 70%, transparent 80%);
+          mask-image: linear-gradient(to bottom, #000 0 60%, rgba(0,0,0,.45) 70%, transparent 80%);
+}
+.bottiglia svg { width: 100%; height: auto; display: block; }
+@keyframes dondola {
+  0%, 100% { transform: translateY(0) rotate(-6deg); }
+  50%      { transform: translateY(12px) rotate(5deg); }
+}
+
+/* Su uno schermo stretto la colonna del titolo occupa tutto: la bottiglia
+   scende sotto i pulsanti invece di finirci dietro. */
+@media (max-width: 760px) {
+  .bottiglia { left: auto; right: 9%; bottom: 27%; width: 52px; }
+}
+
+.giu {
+  position: absolute; bottom: 1.8rem; left: 50%; transform: translateX(-50%);
+  z-index: 4;
+  display: flex; flex-direction: column; align-items: center; gap: 0.5rem;
+  text-decoration: none; font-size: 0.74rem; letter-spacing: 0.2em; text-transform: uppercase;
+  opacity: 0.55; transition: opacity .3s;
+}
+.giu:hover { opacity: 1; }
+.giu svg { width: 17px; height: 17px; animation: respira 2.8s ease-in-out infinite; }
+@keyframes respira { 0%, 100% { transform: translateY(0); opacity: .5; } 50% { transform: translateY(5px); opacity: 1; } }
+
+/* ── Il naufragio ──────────────────────────────────────────────────────
+   La tempesta sta ferma (sticky alta quanto lo schermo, con margine negativo
+   perché non occupi spazio suo) e i tre versi le scorrono davanti uno alla
+   volta. Niente `overflow` qui sopra né sul body: ammazzerebbe lo sticky.
+
+   Tre atti, comandati dal verso in scena: nel primo la nave c'è ancora, nel
+   secondo il mare se l'è presa e il cielo si apre, nel terzo galleggia una
+   bottiglia. È la stessa storia che raccontano le tre righe. */
+
+.prologo { position: relative; background: #05080F; }
+
+.tempesta {
+  position: sticky; top: 0; z-index: 0;
+  height: 100vh; height: 100svh;
+  margin-bottom: -100vh; margin-bottom: -100svh;
+  overflow: hidden;
+}
+
+.cielo-tempesta {
+  position: absolute; inset: 0;
+  background: linear-gradient(to bottom, #02040B 0%, #050B16 46%, #0B1526 100%);
+}
+
+/* I banchi di nuvole vanno più piano di tutto il resto: il cielo di una
+   tempesta si muove, ma non corre. */
+.nubi-alte  { animation: scorri 150s linear infinite; }
+.nubi-medie { animation: scorri 105s linear infinite reverse; }
+.nubi-basse { animation: scorri 78s linear infinite; }
+
+/* Lo squarcio di luce sull'orizzonte: senza, le onde nere su cielo nero non
+   si vedono. Cresce atto dopo atto — è il tempo che si apre. */
+.chiarore {
+  position: absolute; inset: 0;
+  background:
+    radial-gradient(62% 12% at 50% 47.5%,
+      rgba(200, 222, 250, .46) 0%, rgba(150, 182, 224, .18) 46%, rgba(0,0,0,0) 80%),
+    radial-gradient(104% 30% at 50% 52%,
+      rgba(110, 142, 190, .13) 0%, rgba(0,0,0,0) 70%);
+  opacity: 0.65;
+  transition: opacity 2.2s ease;
+}
+.atto-2 .chiarore { opacity: 0.95; }
+.atto-3 .chiarore { opacity: 1.25; }
+
+.mareggiata, .nuvolaglia { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+/* L'onda lontana dietro le cose, le due vicine davanti: così la nave, l'isola
+   e la bottiglia stanno DENTRO l'acqua invece che incollate sopra. */
+.mareggiata.dietro  { z-index: 1; }
+.mareggiata.davanti { z-index: 3; }
+.pioggia { z-index: 4; }
+.lampo   { z-index: 5; }
+.nuvolaglia { transition: opacity 2.4s ease; }
+.atto-3 .nuvolaglia { opacity: 0.5; }
+
+/* La schiuma sulla cresta: una riga chiara sul filo dell'onda. È lei che dà
+   il rilievo — il pieno sotto è quasi nero e da solo resterebbe una macchia. */
+.cresta { fill: none; stroke: rgba(198, 218, 240, .34); stroke-width: 2.4; }
+.strato.lento .cresta { stroke: rgba(198, 218, 240, .22); }
+.strato.svelto .cresta { stroke: rgba(198, 218, 240, .14); }
+
+/* La pioggia. Il problema di una trama sola è che è una trama: colonne
+   uguali e trattini tutti alla stessa altezza fanno un reticolo, e si vede.
+   Tre strati con passi primi fra loro (17, 23, 31), e soprattutto la
+   maschera dei trattini INCLINATA di un grado o due rispetto alle colonne:
+   così ogni colonna cade sfasata rispetto alla vicina e la griglia sparisce. */
+.pioggia {
+  position: absolute; inset: -40% -30%;
+  pointer-events: none;
+  transition: opacity 2.2s ease;
+}
+.fitta {
+  background-image: repeating-linear-gradient(to right,
+    rgba(206, 226, 255, .9) 0 1.1px, rgba(0,0,0,0) 1.1px 17px);
+  -webkit-mask-image: repeating-linear-gradient(93.5deg, #000 0 13px, rgba(0,0,0,0) 13px 58px);
+          mask-image: repeating-linear-gradient(93.5deg, #000 0 13px, rgba(0,0,0,0) 13px 58px);
+  opacity: 0.13;
+  animation: scroscia-fitta .60s linear infinite;
+}
+.rada {
+  background-image: repeating-linear-gradient(to right,
+    rgba(206, 226, 255, .95) 0 1.7px, rgba(0,0,0,0) 1.7px 31px);
+  -webkit-mask-image: repeating-linear-gradient(87.2deg, #000 0 22px, rgba(0,0,0,0) 22px 103px);
+          mask-image: repeating-linear-gradient(87.2deg, #000 0 22px, rgba(0,0,0,0) 22px 103px);
+  opacity: 0.10;
+  animation: scroscia-rada .93s linear infinite;
+}
+.velo {
+  background-image: repeating-linear-gradient(to right,
+    rgba(220, 236, 255, .8) 0 0.8px, rgba(0,0,0,0) 0.8px 23px);
+  -webkit-mask-image: repeating-linear-gradient(91.4deg, #000 0 7px, rgba(0,0,0,0) 7px 41px);
+          mask-image: repeating-linear-gradient(91.4deg, #000 0 7px, rgba(0,0,0,0) 7px 41px);
+  opacity: 0.07;
+  animation: scroscia-velo .42s linear infinite;
+}
+.atto-2 .fitta { opacity: 0.09; }
+.atto-2 .rada  { opacity: 0.07; }
+.atto-2 .velo  { opacity: 0.04; }
+.atto-3 .pioggia { opacity: 0.015; }
+
+/* La rotazione sta dentro il fotogramma: se resta solo nella regola, la
+   prima chiave dell'animazione la cancella e la pioggia cade a piombo. */
+@keyframes scroscia-fitta {
+  from { transform: rotate(15deg) translateY(0); }
+  to   { transform: rotate(15deg) translateY(58px); }
+}
+@keyframes scroscia-rada {
+  from { transform: rotate(11deg) translateY(0); }
+  to   { transform: rotate(11deg) translateY(103px); }
+}
+@keyframes scroscia-velo {
+  from { transform: rotate(18deg) translateY(0); }
+  to   { transform: rotate(18deg) translateY(41px); }
+}
+
+.lampo {
+  position: absolute; inset: 0; background: #C6D8F2; opacity: 0; z-index: 3;
+  animation: lampeggia 13s ease-out 2s infinite;
+}
+/* Il fuoco dentro la nuvola: si accende un attimo prima della vampata. */
+.bagliore {
+  position: absolute; inset: 0; z-index: 1; opacity: 0;
+  background: radial-gradient(46% 34% at 68% 22%,
+    rgba(214, 232, 255, .95) 0%, rgba(150, 184, 230, .45) 34%, rgba(0,0,0,0) 70%);
+  animation: covare 13s ease-out 2s infinite;
+}
+.atto-3 .lampo, .atto-3 .bagliore { animation: none; opacity: 0; }
+@keyframes covare {
+  0%, 86%, 100% { opacity: 0; }
+  86.4% { opacity: 0.75; }
+  87.6% { opacity: 0.06; }
+  90.2% { opacity: 0.95; }
+  93%   { opacity: 0; }
+}
+@keyframes lampeggia {
+  0%, 88%, 100% { opacity: 0; }
+  88.6% { opacity: 0.16; }
+  89.4% { opacity: 0.02; }
+  90.6% { opacity: 0.34; }
+  91.4% { opacity: 0.05; }
+  92%   { opacity: 0.12; }
+  94%   { opacity: 0; }
+}
+
+/* Il relitto sbanda sulla cresta finché il primo verso lo racconta; poi il
+   mare se lo prende davvero, e va giù. Nessuna maschera addosso: una nave
+   semitrasparente non è un naufragio, è un fantasma. Sotto lo scafo c'è
+   un'ombra sull'acqua, e basta quella a posarla sul mare. */
+.relitto, .isolotto, .bottiglia-superstite { position: absolute; z-index: 2; }
+.relitto svg, .isolotto svg, .bottiglia-superstite svg { width: 100%; height: auto; display: block; }
+
+.relitto {
+  left: 11%; bottom: 43%;
+  width: clamp(96px, 12vw, 176px);
+  filter: drop-shadow(0 6px 14px rgba(0,0,0,.5));
+  animation: sbanda 6.5s ease-in-out infinite;
+  transition: opacity 1.8s ease;
+}
+/* Sparisce e basta: una barca che si inabissa in tre secondi è un cartone,
+   e il verso dice solo che il mare se l'è presa. */
+.atto-2 .relitto, .atto-3 .relitto { opacity: 0; }
+@keyframes sbanda {
+  0%, 100% { transform: rotate(-17deg) translateY(0); }
+  50%      { transform: rotate(10deg) translateY(13px); }
+}
+
+/* L'isolotto: la cosa sola che il mare ti lascia. Entra col secondo verso e
+   resta, perché da lì in poi è casa tua. */
+.isolotto {
+  right: 9%; bottom: 34%;
+  width: clamp(210px, 27vw, 400px);
+  opacity: 0; transform: translateY(14px);
+  transition: opacity 2.6s ease, transform 2.6s ease;
+}
+/* Il chiaro dietro l'isola: largo il doppio di lei e sfumato fino a niente,
+   se no si vede l'ovale invece della luce. */
+.isolotto::before {
+  content: ""; position: absolute; z-index: -1;
+  left: -55%; right: -55%; top: -70%; bottom: -30%;
+  background: radial-gradient(52% 46% at 52% 58%,
+    rgba(174, 198, 226, .22) 0%, rgba(134, 164, 200, .09) 40%, rgba(0,0,0,0) 74%);
+}
+.atto-2 .isolotto, .atto-3 .isolotto { opacity: 1; transform: none; }
+
+/* Quello che il mare porta. Arriva sull'ultimo verso, al largo dell'isola. */
+.bottiglia-superstite {
+  left: 26%; bottom: 37%;
+  width: clamp(34px, 3.8vw, 58px);
+  opacity: 0;
+  transition: opacity 2.4s ease;
+  /* Nessuna riga di galleggiamento: una linea dritta sull'acqua non esiste.
+     A nasconderle il fondo ci pensa l'onda che le passa davanti, e quel poco
+     che resta lo sfuma questa maschera. */
+  -webkit-mask-image: linear-gradient(to bottom, #000 0 66%, rgba(0,0,0,.5) 78%, transparent 92%);
+          mask-image: linear-gradient(to bottom, #000 0 66%, rgba(0,0,0,.5) 78%, transparent 92%);
+}
+.atto-3 .bottiglia-superstite {
+  opacity: 0.92;
+  animation: dondola 7s ease-in-out infinite;
+}
+
+.versi { position: relative; z-index: 2; }
+
+.verso {
+  min-height: 100vh; min-height: 100svh;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center; gap: 2.2rem;
+  padding: 0 1.4rem 20vh; margin: 0 auto;
+  text-align: center;
+
+  /* Emergono e tornano giù: chi apre la pagina non li trova già tutti lì. */
+  opacity: 0; filter: blur(8px); transform: translateY(20px);
+  transition: opacity 1.6s cubic-bezier(.16,1,.3,1), filter 1.6s cubic-bezier(.16,1,.3,1), transform 1.6s cubic-bezier(.16,1,.3,1);
+}
+.verso.emersa { opacity: 1; filter: blur(0); transform: none; }
+
+/* Il numero dell'atto: piccolo, in cifre romane. Trasforma tre paragrafi in
+   tre pagine — la stessa cosa che fa un numero in cima a un capitolo. */
+.numero {
+  font-size: 0.72rem; letter-spacing: 0.42em; text-transform: uppercase;
+  color: rgba(198, 218, 240, .55);
+  padding-bottom: 1.1rem; border-bottom: 1px solid rgba(198, 218, 240, .22);
+}
+
+.verso p {
+  max-width: 15.5em;
+  font-family: var(--mare-serif); font-style: italic;
+  font-size: clamp(1.5rem, 3.6vw, 2.25rem);
+  line-height: 1.7;
+  color: rgba(255,255,255,.95);
+  text-shadow: 0 2px 30px rgba(0,0,0,.75);
+}
+
+/* «Affiora» per tutto il resto — stessi tre movimenti, una volta sola. */
+.affiora { opacity: 0; filter: blur(7px); transform: translateY(18px); }
+.affiora.emersa {
+  opacity: 1; filter: blur(0); transform: none;
+  transition: opacity 1.8s cubic-bezier(.16,1,.3,1), filter 1.8s cubic-bezier(.16,1,.3,1), transform 1.8s cubic-bezier(.16,1,.3,1);
+}
+
+/* ── L'approdo ─────────────────────────────────────────────────────────── */
+
+.approdo {
+  background: linear-gradient(to bottom, #1A2947 0%, #24335C 45%, #2E3F63 100%);
+  padding: clamp(5rem, 14vh, 9rem) 1.4rem clamp(7rem, 16vh, 11rem);
+  display: flex; justify-content: center;
+  position: relative;
+}
+
+.carta-lettera {
+  position: relative; z-index: 2;
+  width: min(30rem, 100%);
+  background: linear-gradient(135deg, var(--carta) 0%, color-mix(in srgb, var(--carta) 94%, transparent) 55%, color-mix(in srgb, var(--carta-bordo) 90%, transparent) 100%);
+  color: var(--inchiostro);
+  border-radius: 6px;
+  padding: 2.2rem 2rem;
+  text-align: center;
+  box-shadow: 0 14px 34px rgba(0,0,0,.35);
+  transform: rotate(-0.8deg);
+}
+.carta-lettera.affiora.emersa { transform: rotate(-0.8deg); }
+
+.etichetta {
+  font-size: 0.72rem; font-weight: 600; letter-spacing: 0.15em;
+  text-transform: uppercase; color: var(--inchiostro-lieve);
+}
+.nome-spiaggia { font-size: 1.72rem; font-weight: 600; margin-top: 0.55rem; }
+.luogo { font-style: italic; color: var(--inchiostro-lieve); font-size: 0.98rem; }
+.carta-lettera hr { border: 0; border-top: 1px solid var(--carta-bordo); margin: 1.1rem 0; }
+.carta-lettera .corpo { font-size: 0.95rem; line-height: 1.7; }
+
+.riva { position: absolute; inset: auto 0 -1px 0; width: 100%; height: clamp(60px, 8vw, 120px); z-index: 1; }
+.riva-alta { position: absolute; inset: -1px 0 auto 0; width: 100%; height: clamp(50px, 6vw, 100px); }
+
+/* ── La carta (le sezioni chiare) ──────────────────────────────────────── */
+
+.carta {
+  background-color: var(--carta);
+  position: relative;
+}
+/* La grana della carta: rumore frattale, appena percettibile. */
+.carta::before {
+  content: ""; position: absolute; inset: 0; pointer-events: none; z-index: 0;
+  opacity: 0.5; mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3CfeComponentTransfer%3E%3CfeFuncA type='linear' slope='0.055'/%3E%3C/feComponentTransfer%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.sezione { padding: var(--respiro) 1.4rem; }
+.dentro { position: relative; z-index: 1; max-width: var(--colonna); margin: 0 auto; }
+
+.soprattitolo {
+  font-size: 0.72rem; letter-spacing: 0.22em; text-transform: uppercase;
+  color: var(--inchiostro-lieve); margin-bottom: 1rem;
+}
+.sezione h2 {
+  font-size: clamp(1.9rem, 4.4vw, 2.9rem);
+  max-width: 20ch; margin-bottom: 1.2rem;
+}
+.guida {
+  max-width: 46ch; color: var(--inchiostro-lieve);
+  font-size: 1.04rem; line-height: 1.75;
+}
+.guida.corsivo { font-style: italic; }
+
+.sezione h2.grande {
+  font-size: clamp(2.1rem, 5.2vw, 3.5rem);
+  max-width: 26ch; line-height: 1.14;
+}
+
+/* I quattro salmi dell'attesa: un emblema, una frase che si può ricordare,
+   e sotto il perché. Molta aria in mezzo — è il senso della pagina. */
+.attesa-corpo {
+  margin: clamp(3.5rem, 7vw, 6rem) 0 0;
+  display: grid; gap: clamp(2.5rem, 6vw, 5rem);
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: start;
+}
+@media (max-width: 900px) {
+  .attesa-corpo { grid-template-columns: 1fr; justify-items: center; }
+}
+
+/* Il telefono resta fermo accanto alle quattro frasi mentre scorrono: si
+   scrive una lettera sola, con calma, ed è il senso della sezione. */
+.appiccicato { position: sticky; top: 13vh; }
+
+.salmi {
+  list-style: none; margin: 0; padding: 0;
+  display: grid; gap: clamp(3rem, 6vw, 5rem);
+  max-width: 42rem;
+}
+.salmo {
+  display: grid; gap: 0 1.7rem;
+  grid-template-columns: 1.8rem minmax(0, 1fr);
+  border-top: 1px solid var(--carta-bordo); padding-top: 1.8rem;
+}
+.salmo .glifo { grid-row: span 2; margin-top: 0.4rem; }
+.salmo h3 {
+  font-size: clamp(1.28rem, 2.6vw, 1.72rem);
+  max-width: 26ch; margin-bottom: 0.75rem;
+}
+.salmo p { color: var(--inchiostro-lieve); max-width: 52ch; font-size: 1.03rem; line-height: 1.78; }
+
+@media (max-width: 620px) {
+  .salmo { grid-template-columns: 1fr; }
+  .salmo .glifo { grid-row: auto; margin-bottom: 0.9rem; }
+}
+
+.glifo { width: 24px; height: 24px; fill: var(--ceralacca); opacity: 0.9; display: block; }
+
+/* L'ultima parola, al centro, con l'aria intorno che si merita. */
+.chiusa {
+  margin: clamp(4.5rem, 9vw, 8rem) auto 0;
+  max-width: 28ch; text-align: center;
+  font-family: var(--mare-serif); font-style: italic;
+  font-size: clamp(1.2rem, 2.7vw, 1.6rem); line-height: 1.7;
+}
+
+/* ── La lettera e i sigilli ────────────────────────────────────────────── */
+
+.stretta { background-color: var(--carta-fonda); }
+.lettera-e-sigilli {
+  display: grid; gap: clamp(2.5rem, 6vw, 5rem);
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1fr);
+  align-items: center;
+}
+@media (max-width: 820px) { .lettera-e-sigilli { grid-template-columns: 1fr; } }
+
+.missiva { display: flex; justify-content: center; }
+.foglio {
+  position: relative;
+  width: min(23rem, 100%);
+  background: linear-gradient(135deg, var(--carta) 0%, color-mix(in srgb, var(--carta) 94%, transparent) 55%, color-mix(in srgb, var(--carta-bordo) 88%, transparent) 100%);
+  border-radius: 5px;
+  padding: 2.4rem 2rem 3.6rem;
+  box-shadow: 0 16px 38px rgba(61,51,41,.20);
+  transform: rotate(-1.4deg);
+}
+.testo-lettera { font-size: 1.02rem; line-height: 1.82; }
+.firma-lettera {
+  margin-top: 1.4rem; text-align: right; font-style: italic;
+  color: var(--inchiostro-lieve); font-size: 0.94rem;
+}
+.ceralacca {
+  position: absolute; right: 1.6rem; bottom: -1.5rem;
+  width: 62px; height: 62px;
+}
+
+.sigillo-cera { width: 100%; height: 100%; display: block; filter: drop-shadow(0 2px 3px rgba(0,0,0,.22)); }
+
+.parole h2 { margin-bottom: 1.2rem; }
+.parole p { color: var(--inchiostro-lieve); max-width: 42ch; }
+.parole p + p { margin-top: 1.1rem; }
+.fila-sigilli {
+  margin-top: 2.4rem;
+  display: flex; flex-wrap: wrap; gap: 0.9rem;
+}
+.fila-sigilli > div { width: 44px; height: 44px; }
+
+/* ── Le spiagge ────────────────────────────────────────────────────────── */
+
+.vetrina {
+  margin-top: clamp(3rem, 6vw, 4.6rem);
+  display: grid; gap: clamp(2.4rem, 6vw, 4.5rem);
+  grid-template-columns: minmax(0, auto) minmax(0, 1fr);
+  align-items: center;
+}
+/* La vetrina del diario: schermo a sinistra, parole a destra. */
+.vetrina.rovescia { grid-template-columns: auto minmax(0, 34rem); }
+
+@media (max-width: 880px) {
+  .vetrina, .vetrina.rovescia { grid-template-columns: 1fr; justify-items: center; }
+}
+
+.telefono { display: flex; justify-content: center; }
+.scocca {
+  width: min(310px, 78vw);
+  aspect-ratio: 300 / 650;
+  padding: 11px;
+  border-radius: 46px;
+  background: linear-gradient(150deg, #2A2F3A, #14171F 45%, #33394A);
+  box-shadow: 0 30px 60px rgba(61,51,41,.34), inset 0 0 0 1px rgba(255,255,255,.09);
+}
+.schermo {
+  width: 100%; height: 100%;
+  border-radius: 36px; overflow: hidden;
+  background: var(--cielo-alto);
+  position: relative;
+}
+.schermo svg { width: 100%; height: 100%; display: block; }
+
+/* Le schermate disegnate parlano con il carattere dell'app. */
+.schermo-svg { font-family: var(--serif); }
+.cursore { animation: batte 1.15s steps(1) infinite; }
+@keyframes batte { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+
+.vetrina .parole h2 { margin-bottom: 1.2rem; }
+.vetrina .parole p + p { margin-top: 1.1rem; }
+
+.comandi fieldset { border: 0; padding: 0; margin: 0 0 1.8rem; }
+.comandi legend {
+  padding: 0; font-size: 0.72rem; letter-spacing: 0.2em;
+  text-transform: uppercase; color: var(--inchiostro-lieve); margin-bottom: 0.85rem;
+}
+.chip-fila { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.chip {
+  font-family: var(--serif); font-size: 0.92rem;
+  padding: 0.42rem 0.95rem; border-radius: 999px; cursor: pointer;
+  background: transparent; color: var(--inchiostro-lieve);
+  border: 1px solid var(--carta-bordo);
+  transition: background-color .25s, color .25s, border-color .25s;
+}
+.chip:hover { border-color: var(--inchiostro-lieve); color: var(--inchiostro); }
+.chip[aria-pressed="true"] {
+  background: var(--blu-profondo); border-color: var(--blu-profondo); color: var(--carta);
+}
+.comandi .nota {
+  font-size: 0.92rem; font-style: italic; color: var(--inchiostro-lieve);
+  max-width: 34ch; border-left: 1px solid var(--carta-bordo); padding-left: 1rem;
+}
+
+/* ── La pergamena ──────────────────────────────────────────────────────── */
+
+.pergamena { margin: clamp(3rem, 6vw, 4.6rem) 0 0; }
+.pergamena svg {
+  width: 100%; height: auto; display: block;
+  border-radius: 3px;
+  box-shadow: 0 18px 40px rgba(61,51,41,.22);
+  transform: rotate(-0.4deg);
+}
+.etichetta-carta {
+  font-family: var(--serif); font-size: 15px; font-style: italic;
+}
+.pergamena figcaption {
+  margin-top: 1.6rem; font-size: 0.92rem; font-style: italic;
+  color: var(--inchiostro-lieve); max-width: 52ch;
+}
+
+/* ── Le regole ─────────────────────────────────────────────────────────── */
+
+/* Le regole, sulla spiaggia. Il testo sta a sinistra su una velatura che si
+   dirada verso destra: di là la spiaggia resta in chiaro, di qua si legge.
+   Il fondale è disegnato, non fotografato — come tutto il resto. */
+.spiaggia-grande {
+  position: relative;
+  color: var(--carta);
+  background: #0B1424;
+  overflow: hidden;
+  padding-top: clamp(6rem, 13vw, 11rem);
+}
+.fondale { position: absolute; inset: 0; z-index: 0; }
+.fondale svg { width: 100%; height: 100%; display: block; }
+.fondale svg { object-fit: cover; }
+.velatura {
+  position: absolute; inset: 0;
+  background:
+    linear-gradient(to bottom, rgba(11, 20, 36, 0) 78%, rgba(11, 20, 36, .96) 100%),
+    linear-gradient(to right,
+      rgba(6, 12, 22, .94) 0%, rgba(6, 12, 22, .90) 30%,
+      rgba(6, 12, 22, .62) 58%, rgba(6, 12, 22, .30) 100%);
+}
+.riva-carta { position: absolute; inset: -1px 0 auto 0; width: 100%; height: clamp(48px, 6vw, 100px); z-index: 1; }
+
+.regolamento { max-width: 40rem; }
+.spiaggia-grande .soprattitolo { color: rgba(245, 235, 209, .6); }
+.spiaggia-grande .guida { color: rgba(245, 235, 209, .78); }
+.spiaggia-grande .regolario dt { color: var(--carta); }
+.spiaggia-grande .regolario dd { color: rgba(245, 235, 209, .74); }
+.spiaggia-grande .recapito { border-top-color: rgba(245, 235, 209, .28); }
+.spiaggia-grande .recapito p { color: rgba(245, 235, 209, .74); }
+.spiaggia-grande .indirizzo { color: #BFD8CF; }
+
+/* Un respiro fra due sezioni: una riga sola, molta aria. */
+.divisorio {
+  padding: clamp(3.5rem, 8vw, 7rem) 1.4rem;
+  text-align: center;
+}
+.divisorio p {
+  position: relative; z-index: 1;
+  margin: 0 auto; max-width: 28ch;
+  font-family: var(--mare-serif); font-style: italic;
+  font-size: clamp(1.15rem, 2.5vw, 1.5rem); line-height: 1.7;
+  color: var(--inchiostro-lieve);
+}
+
+/* La colonna della carta, sotto la pergamena grande. */
+.sottocarta { margin-top: clamp(2.5rem, 5vw, 4rem); align-items: center; }
+.sottocarta .parole p { max-width: 46ch; }
+.minuta { font-size: 0.9rem; font-style: italic; opacity: .8; }
+
+.regolario { margin: clamp(2.6rem, 5vw, 3.6rem) 0 0; display: grid; gap: 1.9rem; max-width: 44rem; }
+.recapito { max-width: 46rem; }
+.regolario dt { font-weight: 600; font-size: 1.1rem; margin-bottom: 0.4rem; }
+.regolario dd { margin: 0; color: var(--inchiostro-lieve); font-size: 0.98rem; line-height: 1.72; }
+
+.recapito {
+  margin-top: 3.2rem; padding-top: 2rem;
+  border-top: 1px solid var(--carta-bordo);
+}
+.recapito h3 { font-size: 1.1rem; margin-bottom: 0.5rem; }
+.recapito p { color: var(--inchiostro-lieve); font-size: 0.98rem; }
+.indirizzo {
+  display: inline-block; margin-top: 0.6rem;
+  color: var(--blu-profondo); font-weight: 600; text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* ── Il piede ──────────────────────────────────────────────────────────── */
+
+.pie {
+  position: relative;
+  background: linear-gradient(to bottom, #0B1424 0%, var(--cielo-medio) 46%, var(--cielo-alto) 100%);
+  padding: clamp(7rem, 14vw, 11rem) 1.4rem clamp(3.5rem, 7vw, 5rem);
+  text-align: center;
+}
+.pie-dentro { max-width: 34rem; }
+.crediti { margin-top: 1.8rem; font-size: 0.92rem; opacity: 0.6; }
+.crediti a { text-decoration: underline; text-underline-offset: 3px; }
+.crediti.minute { font-size: 0.8rem; opacity: 0.42; line-height: 1.7; margin-top: 1.4rem; }
+
+/* ── Chi non vuole il movimento ────────────────────────────────────────── */
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .lento, .medio, .svelto, .lentissimo, .bottiglia, .stelle, .giu svg,
+  .pioggia, .lampo, .bagliore, .relitto, .bottiglia-superstite, .cursore,
+  .nubi-alte, .nubi-medie, .nubi-basse { animation: none; }
+  .appiccicato { position: static; }
+  .verso { opacity: 1; filter: none; transform: none; }
+  .affiora { opacity: 1; filter: none; transform: none; }
+  .affiora.emersa { transition: none; }
+  .carta-lettera { transform: rotate(-0.8deg); }
+}

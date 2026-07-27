@@ -1,0 +1,572 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bottlegram — a slow messaging app</title>
+<meta name="description" content="The sea has no use for hurry. Write to a stranger on a real beach and let the tide take days to carry it — no names, no feeds, an iPhone app for people who want the waiting back.">
+<meta name="theme-color" content="#0A0F2E">
+<link rel="icon" href="assets/icona.png" sizes="any">
+<link rel="apple-touch-icon" href="assets/icona.png">
+<link rel="stylesheet" href="styles.css">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Bottlegram — a slow messaging app">
+<meta property="og:description" content="The sea has no use for hurry. Write to a stranger on a real beach and let the tide take days to carry it.">
+<meta property="og:image" content="assets/anteprima.png">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+
+<a class="salta" href="#contenuto">Skip to content</a>
+
+<header class="barra" id="barra">
+  <a class="marchio" href="#" aria-label="Bottlegram">
+    <svg class="marchio-glifo" viewBox="0 0 100 100" aria-hidden="true"><path data-glifo="bottle" fill-rule="evenodd"/></svg>
+    <span>Bottlegram</span>
+  </a>
+  <nav class="rotta" aria-label="Sections">
+    <a href="#attesa">The waiting</a>
+    <a href="#diario">The journal</a>
+    <a href="#spiagge">The beaches</a>
+    <a href="#carta">The chart</a>
+  </nav>
+</header>
+
+<main id="contenuto">
+
+<!-- ══════════════════════════════ IL MARE ══════════════════════════════ -->
+<section class="eroe notte" aria-labelledby="titolo">
+  <div class="luna" aria-hidden="true"></div>
+  <div class="stelle prima" aria-hidden="true"></div>
+  <div class="stelle seconda" aria-hidden="true"></div>
+
+  <div class="eroe-testo">
+    <p class="occhiello">A slow messaging app</p>
+    <h1 id="titolo" class="marchione">Bottlegram</h1>
+    <p class="voce-mare">The sea has no use for hurry.</p>
+    <p class="eroe-corpo">Somewhere out there, a stranger is writing to you. No names. No noise. Only the tide, and whatever it decides to leave on your sand.</p>
+    <div class="azioni">
+      <span class="bollo">Coming to the App&nbsp;Store</span>
+      <p class="sottovoce">Not out yet. The sea is still being tested.</p>
+    </div>
+  </div>
+
+  <div class="mare" aria-hidden="true">
+    <svg class="onde dietro" viewBox="0 0 1440 400" preserveAspectRatio="none">
+      <g class="strato lento">
+        <path class="onda-lontana" d="M0,132 C180,98 540,166 720,132 C900,98 1260,166 1440,132 C1620,98 1980,166 2160,132 L2160,400 L0,400 Z"/>
+      </g>
+    </svg>
+
+    <div class="bottiglia">
+      <svg viewBox="0 0 60 96">
+        <rect x="24" y="2" width="12" height="9" rx="2.4" fill="#C08A4E"/>
+        <path d="M22 11 h16 v10 q0 4 4 7 l3 2 q3 2 3 6 v46 q0 4 -4 4 h-24 q-4 0 -4 -4 v-46 q0 -4 3 -6 l3 -2 q4 -3 4 -7 z" fill="#C7DED4"/>
+        <path d="M22 11 h5 v10 q0 4 -4 7 l-3 2 q-3 2 -3 6 v46 q0 4 4 4 h-3 q-4 0 -4 -4 v-46 q0 -4 3 -6 l3 -2 q4 -3 4 -7 z" fill="#A8CBBF" opacity="0.75"/>
+        <rect x="18" y="46" width="24" height="26" rx="1.5" fill="#F5EBD1"/>
+      </svg>
+    </div>
+
+    <svg class="onde davanti" viewBox="0 0 1440 400" preserveAspectRatio="none">
+      <g class="strato medio">
+        <path class="onda-media" d="M0,208 C180,164 540,252 720,208 C900,164 1260,252 1440,208 C1620,164 1980,252 2160,208 L2160,400 L0,400 Z"/>
+      </g>
+      <g class="strato svelto">
+        <path class="onda-vicina" d="M0,286 C180,234 540,338 720,286 C900,234 1260,338 1440,286 C1620,234 1980,338 2160,286 L2160,400 L0,400 Z"/>
+      </g>
+    </svg>
+  </div>
+
+  <a class="giu" href="#prologo"><span>The shipwreck</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4 v14 M6 13 l6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+</section>
+
+<!-- ═════════════════════════════ LA TEMPESTA ════════════════════════════
+     Il fondale resta fermo e cambia con i versi: la nave c'è finché il primo
+     verso dice che il mare se l'è presa, poi sparisce; il cielo si apre; e
+     sull'ultimo arriva la bottiglia. Tre atti, non tre paragrafi.          -->
+<section class="prologo notte" id="prologo" aria-label="The shipwreck">
+
+  <div class="tempesta atto-1" id="tempesta" aria-hidden="true">
+    <div class="cielo-tempesta"></div>
+
+    <!-- Tre banchi di nuvole che vanno, appena più chiari del cielo: di notte
+         una nuvola non è bianca, è un pezzo di buio con un bordo. -->
+    <svg class="nuvolaglia" viewBox="0 0 1440 900" preserveAspectRatio="none">
+      <g class="strato nubi-alte">
+        <path fill="#060D18" d="M0,132C45,158 135,106 180,132S315,90 360,132S495,102 540,132S675,84 720,132S855,106 900,132S1035,90 1080,132S1215,102 1260,132S1395,84 1440,132S1575,106 1620,132S1755,90 1800,132S1935,102 1980,132S2115,84 2160,132S2295,106 2340,132S2475,90 2520,132S2655,102 2700,132S2835,84 2880,132L2880,0 L0,0 Z"/>
+      </g>
+      <g class="strato nubi-medie">
+        <path fill="#0A1321" d="M0,214C60,260 180,168 240,214S420,148 480,214S660,176 720,214S900,168 960,214S1140,148 1200,214S1380,176 1440,214S1620,168 1680,214S1860,148 1920,214S2100,176 2160,214S2340,168 2400,214S2580,148 2640,214S2820,176 2880,214L2880,0 L0,0 Z"/>
+      </g>
+      <g class="strato nubi-basse">
+        <path fill="#0E1A2B" d="M0,298C90,360 270,236 360,298S630,206 720,298S990,236 1080,298S1350,206 1440,298S1710,236 1800,298S2070,206 2160,298S2430,236 2520,298S2790,206 2880,298L2880,0 L0,0 Z"/>
+      </g>
+    </svg>
+
+    <div class="chiarore"></div>
+    <div class="bagliore"></div>
+
+    <svg class="mareggiata dietro" viewBox="0 0 1440 900" preserveAspectRatio="none">
+      <g class="strato lentissimo">
+        <path class="cresta" d="M0,420 C160,318 480,522 720,420 C960,318 1280,522 1440,420 C1600,318 1920,522 2160,420"/>
+        <path d="M0,420 C160,318 480,522 720,420 C960,318 1280,522 1440,420 C1600,318 1920,522 2160,420 L2160,900 L0,900 Z" fill="#0C1A2E"/>
+      </g>
+    </svg>
+
+    <svg class="mareggiata davanti" viewBox="0 0 1440 900" preserveAspectRatio="none">
+      <g class="strato lento">
+        <path class="cresta" d="M0,548 C160,414 480,682 720,548 C960,414 1280,682 1440,548 C1600,414 1920,682 2160,548"/>
+        <path d="M0,548 C160,414 480,682 720,548 C960,414 1280,682 1440,548 C1600,414 1920,682 2160,548 L2160,900 L0,900 Z" fill="#071223"/>
+      </g>
+      <g class="strato svelto">
+        <path class="cresta" d="M0,700 C160,548 480,852 720,700 C960,548 1280,852 1440,700 C1600,548 1920,852 2160,700"/>
+        <path d="M0,700 C160,548 480,852 720,700 C960,548 1280,852 1440,700 C1600,548 1920,852 2160,700 L2160,900 L0,900 Z" fill="#03070F"/>
+      </g>
+    </svg>
+
+    <div class="pioggia fitta"></div>
+    <div class="pioggia rada"></div>
+    <div class="lampo"></div>
+
+    <!-- La nave, finché il primo verso non dice che il mare se l'è presa. -->
+    <div class="relitto">
+      <svg viewBox="0 0 140 118">
+        <ellipse cx="70" cy="102" rx="60" ry="7" fill="#050B15" opacity=".55"/>
+        <path d="M64,16 L69,16 L69,88 L64,88 Z" fill="#16233A"/>
+        <path d="M95,38 L99,38 L99,88 L95,88 Z" fill="#16233A"/>
+        <path d="M69,12 L92,19 L69,26 Z" fill="#2E4262"/>
+        <path d="M62,20 C34,36 27,62 32,86 L62,86 Z" fill="#2E4262"/>
+        <path d="M62,20 C46,34 39,58 40,86 L32,86 C27,62 34,36 62,20 Z" fill="#3B5177"/>
+        <path d="M93,42 C79,53 75,70 77,86 L93,86 Z" fill="#273956"/>
+        <path d="M12,84 L128,84 L114,102 Q70,111 26,102 Z" fill="#1B2C47"/>
+        <path d="M12,84 L128,84 L126,89 L14,89 Z" fill="#2B4066"/>
+      </svg>
+    </div>
+
+    <!-- L'isolotto: quello che il mare ti lascia, dal secondo verso in poi. -->
+    <div class="isolotto">
+      <svg viewBox="0 0 240 160">
+        <defs>
+          <radialGradient id="alone-isola" cx="50%" cy="52%" r="52%">
+            <stop offset="0%" stop-color="#AEC6E2" stop-opacity=".46"/>
+            <stop offset="58%" stop-color="#89A6CB" stop-opacity=".17"/>
+            <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+          </radialGradient>
+        </defs>
+        <!-- Un po' di cielo chiaro dietro: senza, una palma nera su una notte
+             nera non si vede, e l'isola resta una gobba. -->
+        <ellipse cx="116" cy="74" rx="120" ry="78" fill="url(#alone-isola)"/>
+        <!-- la duna, con la sabbia che prende il chiaro -->
+        <path d="M4,136 C34,124 62,102 96,84 C124,69 152,62 174,72 C200,84 220,110 238,136 Z" fill="#2B3E58"/>
+        <path d="M4,136 C34,124 62,102 96,84 C124,69 152,62 174,72 C182,76 189,82 195,89 C150,80 74,106 4,136 Z" fill="#3D5372"/>
+        <path d="M4,136 C46,120 100,108 148,110 C190,112 218,122 238,136 Z" fill="#1A2B42"/>
+        <!-- le palme: nere contro la sabbia e contro l'alone -->
+        <g transform="translate(88 4) scale(1.2)"><path data-glifo="palm" fill="#101E33" fill-rule="evenodd"/></g>
+        <g transform="translate(38 74) scale(0.5)"><path data-glifo="palm" fill="#0C1729" fill-rule="evenodd"/></g>
+      </svg>
+    </div>
+
+    <!-- E infine quello che il mare porta. -->
+    <div class="bottiglia-superstite">
+      <svg viewBox="0 0 60 96">
+        <rect x="24" y="2" width="12" height="9" rx="2.4" fill="#8A6438"/>
+        <path d="M22 11 h16 v10 q0 4 4 7 l3 2 q3 2 3 6 v46 q0 4 -4 4 h-24 q-4 0 -4 -4 v-46 q0 -4 3 -6 l3 -2 q4 -3 4 -7 z" fill="#93B5AA"/>
+        <rect x="18" y="46" width="24" height="26" rx="1.5" fill="#D8CFB4"/>
+      </svg>
+    </div>
+  </div>
+
+  <div class="versi">
+    <div class="verso">
+      <p>The storm took the ship, the cargo, and every map you owned.</p>
+    </div>
+    <div class="verso">
+      <p>The sea, in return, left you one thing: a beach at the end of the world.</p>
+    </div>
+    <div class="verso">
+      <p>They say the tide brings words from other castaways. And that a bottle, thrown well, can reach anyone.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═════════════════════════════ L'APPRODO ══════════════════════════════ -->
+<section class="approdo notte" aria-label="Your new home">
+  <div class="carta-lettera affiora">
+    <p class="etichetta">Your new home</p>
+    <p class="nome-spiaggia">Cala Goloritzé</p>
+    <p class="luogo">Sardegna, Italy</p>
+    <hr>
+    <p class="corpo">Every day the tide will bring bottles from strangers across the sea. Speak kindly — words travel far.</p>
+  </div>
+  <svg class="riva" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,86 C240,50 480,110 720,78 C960,46 1200,96 1440,64 L1440,120 L0,120 Z" fill="#F5EBD1"/>
+  </svg>
+</section>
+
+<!-- ════════════════════════════ L'ATTESA ════════════════════════════════ -->
+<section class="sezione carta" id="attesa">
+  <div class="dentro">
+    <p class="soprattitolo">The point</p>
+    <h2 class="grande">Everything here is slow,<br>and none of it is by accident.</h2>
+
+    <div class="attesa-corpo">
+      <div class="salmi">
+        <article class="salmo">
+          <svg class="glifo" viewBox="0 0 100 100" aria-hidden="true"><path data-glifo="hourglass" fill-rule="evenodd"/></svg>
+          <h3>You write, and then you wait.</h3>
+          <p>A letter takes as long as the water between you takes. A shore across the same sea might answer by morning; the far side of the world will keep you waiting for days. Nothing you can tap will make it come sooner — and after the first one, you stop wanting it to.</p>
+        </article>
+
+        <article class="salmo">
+          <svg class="glifo" viewBox="0 0 100 100" aria-hidden="true"><path data-glifo="moon" fill-rule="evenodd"/></svg>
+          <h3>The beach is empty, and it is yours.</h3>
+          <p>Nobody is online. Nobody is away. Nobody is typing, and nothing is marked delivered, seen or read. There is a shore, the sound of the water, and a horizon that asks nothing of you at all.</p>
+        </article>
+
+        <article class="salmo">
+          <svg class="glifo" viewBox="0 0 100 100" aria-hidden="true"><path data-glifo="quill" fill-rule="evenodd"/></svg>
+          <h3>You have all the time in the world to choose the words.</h3>
+          <p>A letter that costs something is written better. You will not fire off seven in a row here, you will not correct yourself an hour later, and you cannot call one back. So you sit with it a while, and you say the true thing instead of the quick one.</p>
+        </article>
+
+        <article class="salmo">
+          <svg class="glifo" viewBox="0 0 100 100" aria-hidden="true"><path data-glifo="wave" fill-rule="evenodd"/></svg>
+          <h3>And the waiting turns out to be the good part.</h3>
+          <p>Days pass. You do other things. Then the tide leaves something on your sand that nobody scheduled, nobody promoted and nobody could have sold you — a stranger's handwriting, from a coast you have never seen.</p>
+        </article>
+      </div>
+
+      <div class="telefono appiccicato">
+        <div class="scocca">
+          <div class="schermo">
+            <svg id="scena-attesa" viewBox="0 0 300 650" preserveAspectRatio="xMidYMid slice"
+                 role="img" aria-label="A beach at midday, with three bottles washed ashore"></svg>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p class="chiusa">Somewhere to go when everything else is shouting.</p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════ IL SIGILLO ═══════════════════════════ -->
+<section class="sezione carta stretta" id="sigilli">
+  <div class="dentro lettera-e-sigilli">
+    <div class="missiva">
+      <div class="foglio">
+        <p class="testo-lettera">Here it is morning and the wind comes off the land. I will not tell you my name, but I will tell you that I planted three fig trees behind the house and one of them took. If this bottle lands anywhere at all, write and tell me the weather where you are.</p>
+        <p class="firma-lettera">A stranger</p>
+        <div class="ceralacca" data-sigillo="lighthouse" data-tinta="0.015"></div>
+      </div>
+    </div>
+    <div class="parole">
+      <p class="soprattitolo">Who you are here</p>
+      <h2>No name. No face.<br>A seal in wax.</h2>
+      <p>Every castaway presses the same emblem into the wax, always — and on this sea that is the whole of a person: no profile, no photograph, no history, nothing to look up afterwards. A stranger, a shore, and their handwriting.</p>
+      <p>They may be writing to you in a language you have never read. One tap turns it into yours; another puts their own words back, exactly as they wrote them.</p>
+      <div class="fila-sigilli" id="fila-sigilli" aria-hidden="true"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════ IL DIARIO ═══════════════════════════════ -->
+<section class="sezione carta" id="diario">
+  <div class="dentro vetrina rovescia">
+    <div class="telefono">
+      <div class="scocca">
+        <div class="schermo">
+          <svg class="schermo-svg" viewBox="0 0 300 650" role="img" aria-label="A correspondence in the journal">
+            <rect width="300" height="650" fill="#F0E8D6"/>
+
+            <!-- la testata: il sigillo, e il nome che gli hai dato tu -->
+            <rect width="300" height="96" fill="#F5EBD1"/>
+            <line x1="0" y1="96" x2="300" y2="96" stroke="#D9C7A1"/>
+            <g transform="translate(133 20)">
+              <defs><radialGradient id="cera-testata" cx="38%" cy="32%" r="72%">
+                <stop offset="0%" stop-color="hsl(5.4 36.8% 52.5%)"/>
+                <stop offset="100%" stop-color="hsl(5.4 44.9% 33.1%)"/>
+              </radialGradient></defs>
+              <circle cx="17" cy="17" r="16.6" fill="url(#cera-testata)"/>
+              <circle cx="17" cy="17" r="16.3" fill="none" stroke="hsl(5.4 48.2% 25.7%)" stroke-width="1.3"/>
+              <circle cx="17" cy="17" r="13.2" fill="none" stroke="#F5EBD1" stroke-opacity="0.4" stroke-width="0.7"/>
+              <g transform="translate(8.93 8.93) scale(0.1615)"><path data-glifo="lighthouse" fill="#F5EBD1" fill-rule="evenodd"/></g>
+            </g>
+            <text x="150" y="82" text-anchor="middle" font-size="13.5" font-weight="600" fill="#3D3329">The lighthouse keeper</text>
+
+            <!-- la sua lettera -->
+            <g transform="translate(18 118) rotate(-0.7)">
+              <rect width="206" height="126" rx="5" fill="#F5EBD1" stroke="#E4D6B4"/>
+              <g fill="#3D3329" font-size="11">
+                <text x="16" y="30">Here it is morning and the wind</text>
+                <text x="16" y="50">comes off the land. I planted three</text>
+                <text x="16" y="70">fig trees behind the house and</text>
+                <text x="16" y="90">one of them took.</text>
+              </g>
+              <text x="16" y="112" font-size="9" font-style="italic" fill="#736657">washed ashore, at dawn</text>
+            </g>
+
+            <!-- la tua risposta -->
+            <g transform="translate(76 264) rotate(0.6)">
+              <rect width="206" height="104" rx="5" fill="#E7E0C6" stroke="#D6C8A2"/>
+              <g fill="#3D3329" font-size="11">
+                <text x="16" y="30">It is raining where I am, and I</text>
+                <text x="16" y="50">have never once seen a fig tree.</text>
+                <text x="16" y="70">Tell me what they smell like.</text>
+              </g>
+              <text x="190" y="92" text-anchor="end" font-size="9" font-style="italic" fill="#736657">at sea — two days out</text>
+            </g>
+
+            <!-- quella che sta ancora arrivando -->
+            <g transform="translate(18 392) rotate(-0.4)" opacity="0.55">
+              <rect width="206" height="74" rx="5" fill="#F5EBD1" stroke="#E4D6B4" stroke-dasharray="4 4"/>
+              <text x="103" y="34" text-anchor="middle" font-size="11" font-style="italic" fill="#736657">A bottle is on its way</text>
+              <text x="103" y="54" text-anchor="middle" font-size="11" font-style="italic" fill="#736657">to your shore.</text>
+            </g>
+
+            <line x1="26" y1="510" x2="274" y2="510" stroke="#D9C7A1"/>
+            <g transform="translate(150 566)">
+              <rect x="-72" y="-21" width="144" height="42" rx="21" fill="#1A4061"/>
+              <text y="5" text-anchor="middle" font-size="14" font-weight="600" fill="#F5EBD1">Reply</text>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <div class="parole">
+      <p class="soprattitolo">What you keep</p>
+      <h2>A correspondence, not a chat.</h2>
+      <p>Letters do not scroll away here. They stay in a journal made of paper, in the order the sea delivered them — yours on one side, theirs on the other, each with the day it came ashore written underneath.</p>
+      <p>You may give a stranger a private name, only for your own pages: <em>the lighthouse keeper</em>, <em>the girl with the boat</em>. They will never know it. And when a bottle of theirs is still out on the water, the journal simply says so, and asks you to wait.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Un respiro fra una sezione e l'altra: la riga che non è finita in chiusa. -->
+<div class="carta divisorio">
+  <p>The tide keeps its own time — and while you are here, so do you.</p>
+</div>
+
+<!-- ════════════════════════════ LE SPIAGGE ══════════════════════════════ -->
+<section class="sezione carta" id="spiagge">
+  <div class="dentro">
+    <p class="soprattitolo">Where you wake up</p>
+    <h2>A real beach, at the end of the world.</h2>
+    <p class="guida">Cala Goloritzé. Reynisfjara. Anse Source d'Argent. True stretches of coast at their true coordinates — and the light is the light of the hour there: if it is night on that shore, your beach is night, with the stars out over the water. Not one of these is a photograph. Every wave is drawn by the app, line by line.</p>
+
+    <div class="vetrina">
+      <div class="telefono">
+        <div class="scocca">
+          <div class="schermo"><svg id="scena" viewBox="0 0 300 650" preserveAspectRatio="xMidYMid slice" role="img"></svg></div>
+        </div>
+      </div>
+      <div class="comandi">
+        <fieldset>
+          <legend>The shore</legend>
+          <div class="chip-fila" id="biomi"></div>
+        </fieldset>
+        <fieldset>
+          <legend>The hour</legend>
+          <div class="chip-fila" id="fasi"></div>
+        </fieldset>
+        <p class="nota">Take a look around. On arctic beaches, at night, the aurora passes overhead.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════ LA CARTA ════════════════════════════════ -->
+<section class="sezione carta" id="carta">
+  <div class="dentro">
+    <p class="soprattitolo">The crossing</p>
+    <h2>You can watch it go.</h2>
+
+    <figure class="pergamena">
+      <svg viewBox="0 0 900 460" role="img" aria-label="A nautical chart with the route of a bottle across the open sea">
+        <defs>
+          <radialGradient id="alone-carta" cx="50%" cy="50%" r="70%">
+            <stop offset="60%" stop-color="#00000000"/>
+            <stop offset="100%" stop-color="#734A24" stop-opacity="0.20"/>
+          </radialGradient>
+          <filter id="grana-carta"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope="0.10"/></feComponentTransfer></filter>
+        </defs>
+        <rect width="900" height="460" fill="#F2E3BD"/>
+        <g stroke="#734A24" stroke-opacity="0.18" stroke-width="0.8" stroke-dasharray="7 5">
+          <path d="M0 92 H900 M0 184 H900 M0 276 H900 M0 368 H900"/>
+          <path d="M112 0 V460 M262 0 V460 M412 0 V460 M562 0 V460 M712 0 V460 M862 0 V460"/>
+        </g>
+
+        <path d="M-10 300 C60 268 118 300 168 286 C214 273 236 236 300 244 C352 250 372 292 350 330 C330 366 250 372 176 366 C110 360 40 356 -10 372 Z" fill="#E0C999" stroke="#734A24" stroke-width="1.6"/>
+        <path d="M596 108 C640 84 704 88 736 116 C766 142 760 186 720 202 C676 220 618 208 596 176 C580 152 578 120 596 108 Z" fill="#E0C999" stroke="#734A24" stroke-width="1.6"/>
+        <path d="M760 340 C800 326 860 336 884 360 C906 382 890 414 852 420 C812 426 768 412 754 388 C744 370 744 346 760 340 Z" fill="#E0C999" stroke="#734A24" stroke-width="1.6"/>
+
+        <path d="M212 300 C300 262 372 226 452 200" fill="none" stroke="#294F6E" stroke-width="2.4" stroke-linecap="round"/>
+        <path d="M452 200 C532 174 594 158 662 152" fill="none" stroke="#294F6E" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="5 8" opacity="0.9"/>
+
+        <g transform="translate(452 200) rotate(-22) scale(1.35)">
+          <rect x="-3.6" y="-13" width="7.2" height="5" rx="1.6" fill="#B4834E"/>
+          <path d="M-5 -8 h10 v6 q0 2.4 2.2 4 l1.6 1.2 q1.8 1.4 1.8 3.6 v14 q0 2.4 -2.4 2.4 h-14.4 q-2.4 0 -2.4 -2.4 v-14 q0 -2.2 1.8 -3.6 l1.6 -1.2 q2.2 -1.6 2.2 -4 z" fill="#8CBFAE" stroke="#294F6E" stroke-width="1"/>
+        </g>
+
+        <g transform="translate(662 152)">
+          <circle r="17" fill="#6B2924"/>
+          <circle r="17" fill="none" stroke="#4A1A17" stroke-width="1.4"/>
+          <circle r="13.5" fill="none" stroke="#F5EBD1" stroke-opacity="0.4" stroke-width="0.8"/>
+          <svg x="-8" y="-8" width="16" height="16" viewBox="0 0 100 100"><path data-glifo="lighthouse" fill="#F5EBD1" fill-rule="evenodd"/></svg>
+        </g>
+        <g transform="translate(212 300)">
+          <circle r="4.5" fill="#294F6E"/>
+          <circle r="9" fill="none" stroke="#294F6E" stroke-width="1" stroke-opacity="0.5"/>
+        </g>
+
+        <g transform="translate(792 92)" opacity="0.85">
+          <circle r="46" fill="none" stroke="#734A24" stroke-width="1.4"/>
+          <circle r="37" fill="none" stroke="#734A24" stroke-width="0.8"/>
+          <path d="M0 -44 L7 -8 L44 0 L7 8 L0 44 L-7 8 L-44 0 L-7 -8 Z" fill="#734A24"/>
+          <path d="M0 -31 L5 -5 L31 0 L5 5 L0 31 L-5 5 L-31 0 L-5 -5 Z" fill="#F2E3BD"/>
+          <text x="0" y="-52" text-anchor="middle" font-size="15" fill="#734A24" font-family="Iowan Old Style, Palatino, Georgia, serif">N</text>
+        </g>
+
+        <text class="etichetta-carta" x="228" y="330" fill="#294F6E">your shore</text>
+        <text class="etichetta-carta" x="592" y="132" fill="#6B2924">still at sea</text>
+
+        <ellipse cx="180" cy="120" rx="52" ry="34" fill="#734A24" opacity="0.07"/>
+        <ellipse cx="520" cy="404" rx="66" ry="26" fill="#734A24" opacity="0.05"/>
+        <rect width="900" height="460" fill="url(#alone-carta)"/>
+        <rect width="900" height="460" filter="url(#grana-carta)" opacity="0.5"/>
+      </svg>
+    </figure>
+
+    <div class="vetrina rovescia sottocarta">
+      <div class="parole">
+        <p>A bottle you have thrown leaves a line on the chart, and the line grows while you sleep. The solid part is the distance already sailed; the dashes ahead appear only once you know who is waiting at the far end.</p>
+        <p>The islands of strangers whose letters you have read stay marked there for good — a private map of everyone the sea has introduced you to.</p>
+        <p class="minuta">The chart is the app's own: coastlines from Natural Earth, public domain, carried inside it. No map service is ever called, and nothing about where you are leaves your hands.</p>
+      </div>
+
+      <div class="telefono">
+        <div class="scocca">
+          <div class="schermo">
+            <svg class="schermo-svg" viewBox="0 0 300 650" role="img" aria-label="The chart, on the phone">
+              <defs>
+                <filter id="grana-schermo"><feTurbulence type="fractalNoise" baseFrequency="1.1" numOctaves="3"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope="0.09"/></feComponentTransfer></filter>
+              </defs>
+              <rect width="300" height="650" fill="#F2E3BD"/>
+              <g stroke="#734A24" stroke-opacity="0.16" stroke-width="0.8" stroke-dasharray="6 5">
+                <path d="M0 120 H300 M0 240 H300 M0 360 H300 M0 480 H300"/>
+                <path d="M60 0 V650 M150 0 V650 M240 0 V650"/>
+              </g>
+
+              <path d="M-10 470 C40 440 96 452 132 434 C168 416 176 384 220 392 C262 400 286 438 268 472 C250 506 190 520 128 514 C74 508 20 512 -10 528 Z" fill="#E0C999" stroke="#734A24" stroke-width="1.4"/>
+              <path d="M132 168 C160 148 208 150 230 172 C250 192 244 224 214 236 C182 248 142 238 126 214 C114 196 116 178 132 168 Z" fill="#E0C999" stroke="#734A24" stroke-width="1.4"/>
+
+              <path d="M96 470 C126 430 150 386 176 348" fill="none" stroke="#294F6E" stroke-width="2.2" stroke-linecap="round"/>
+              <path d="M176 348 C196 316 194 268 186 232" fill="none" stroke="#294F6E" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 7" opacity="0.9"/>
+
+              <g transform="translate(176 348) rotate(24)">
+                <rect x="-3.4" y="-12" width="6.8" height="4.6" rx="1.5" fill="#B4834E"/>
+                <path d="M-4.6 -7.4 h9.2 v5.6 q0 2.2 2 3.7 l1.5 1.1 q1.7 1.3 1.7 3.3 v13 q0 2.2 -2.2 2.2 h-13.4 q-2.2 0 -2.2 -2.2 v-13 q0 -2 1.7 -3.3 l1.5 -1.1 q2 -1.5 2 -3.7 z" fill="#8CBFAE" stroke="#294F6E" stroke-width="0.9"/>
+              </g>
+
+              <g transform="translate(186 232)">
+                <circle r="14" fill="#6B2924"/>
+                <circle r="14" fill="none" stroke="#4A1A17" stroke-width="1.2"/>
+                <circle r="11" fill="none" stroke="#F5EBD1" stroke-opacity="0.4" stroke-width="0.7"/>
+                <svg x="-6.6" y="-6.6" width="13.2" height="13.2" viewBox="0 0 100 100"><path data-glifo="lighthouse" fill="#F5EBD1" fill-rule="evenodd"/></svg>
+              </g>
+              <g transform="translate(96 470)">
+                <circle r="4" fill="#294F6E"/>
+                <circle r="8" fill="none" stroke="#294F6E" stroke-width="0.9" stroke-opacity="0.5"/>
+              </g>
+
+              <g transform="translate(246 566)" opacity="0.85">
+                <circle r="30" fill="none" stroke="#734A24" stroke-width="1.1"/>
+                <circle r="24" fill="none" stroke="#734A24" stroke-width="0.7"/>
+                <path d="M0 -29 L5 -5 L29 0 L5 5 L0 29 L-5 5 L-29 0 L-5 -5 Z" fill="#734A24"/>
+                <path d="M0 -20 L3.4 -3.4 L20 0 L3.4 3.4 L0 20 L-3.4 3.4 L-20 0 L-3.4 -3.4 Z" fill="#F2E3BD"/>
+                <text x="0" y="-34" text-anchor="middle" font-size="10" fill="#734A24">N</text>
+              </g>
+
+              <rect x="0" y="0" width="300" height="66" fill="#F5EBD1" opacity="0.92"/>
+              <line x1="0" y1="66" x2="300" y2="66" stroke="#D9C7A1"/>
+              <text x="150" y="42" text-anchor="middle" font-size="15" font-weight="600" fill="#3D3329">Bottles at sea</text>
+
+              <g transform="translate(18 556)">
+                <rect width="164" height="62" rx="5" fill="#F5EBD1" stroke="#D9C7A1"/>
+                <text x="16" y="26" font-size="12.5" font-weight="600" fill="#3D3329">Toward the unknown</text>
+                <text x="16" y="46" font-size="11" font-style="italic" fill="#736657">lands tomorrow, at dawn</text>
+              </g>
+              <rect width="300" height="650" filter="url(#grana-schermo)" opacity="0.5"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════ LE REGOLE ═══════════════════════════════ -->
+<section class="sezione spiaggia-grande notte" id="regole">
+  <!-- Il fondale: la stessa spiaggia che disegna l'app, sdraiata. Nessuna
+       fotografia da nessuna parte, nemmeno qui. -->
+  <div class="fondale" aria-hidden="true">
+    <svg id="scena-regole" viewBox="0 -820 1440 1580" preserveAspectRatio="xMidYMax slice"></svg>
+    <div class="velatura"></div>
+  </div>
+  <svg class="riva-carta" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,0 L1440,0 L1440,58 C1200,92 960,42 720,72 C480,102 240,52 0,84 Z" fill="#F5EBD1"/>
+  </svg>
+
+  <div class="dentro regolamento">
+   <div class="parole">
+    <p class="soprattitolo">Before you go</p>
+    <h2>The rules of the sea</h2>
+    <p class="guida corsivo">Here you write to strangers, and a stranger deserves the same courtesy as a neighbour. These are the few rules that keep this sea liveable.</p>
+
+    <dl class="regolario">
+      <div>
+        <dt>The sea tolerates none of this</dt>
+        <dd>Harassment, insults, threats, hate or discrimination, sexual content, spam and scams. Zero tolerance: a letter like that is taken out of the sea, and whoever wrote it can be banished from their beach — even the first time.</dd>
+      </div>
+      <div>
+        <dt>Any letter can be reported to the Sea</dt>
+        <dd>At the foot of every open letter there is “Report to the Sea”. The correspondence closes, and the letter does not come back to your sand. You can block its author in the same gesture: the tide will never bring you together again, in either direction.</dd>
+      </div>
+      <div>
+        <dt>Someone looks, within a day</dt>
+        <dd>Every report is read by a person within 24 hours. The letter may be taken out of the sea and its author banished.</dd>
+      </div>
+      <div>
+        <dt>Stay a stranger</dt>
+        <dd>Nobody here knows who you are, and that is for the best: do not write your surname, your address, your number or your profiles. A letter sails and cannot be called back.</dd>
+      </div>
+    </dl>
+
+    <div class="recapito">
+      <h3>Writing to whoever keeps the lighthouse</h3>
+      <p>For an urgent report, a problem, or any question at all, this address reaches a real person:</p>
+      <a class="indirizzo" href="mailto:bottlegram@bulbmode.com">bottlegram@bulbmode.com</a>
+    </div>
+   </div>
+
+  </div>
+</section>
+
+</main>
+
+<footer class="pie notte">
+  <div class="dentro pie-dentro">
+    <p class="marchione piccolo">Bottlegram</p>
+    <p class="voce-mare piccola">A bottle, thrown well, can reach anyone.</p>
+    <p class="crediti">
+      <a href="mailto:bottlegram@bulbmode.com">bottlegram@bulbmode.com</a>
+    </p>
+    <p class="crediti minute">Coastlines from Natural Earth (public domain). Sounds from freesound.org (CC0). No map service, no tracking, no cookies: this page does not know who you are, exactly like the sea.</p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
