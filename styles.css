@@ -293,10 +293,17 @@ background-image:
   50%      { transform: translateY(12px) rotate(5deg); }
 }
 
-/* Su uno schermo stretto la colonna del titolo occupa tutto: la bottiglia
-   scende sotto i pulsanti invece di finirci dietro. */
+/* Su uno schermo stretto la colonna del titolo occupa tutto: la bottiglia si
+   sposta di lato invece di finire dietro le parole.
+
+   L'ALTEZZA NON SI TOCCA, e qui c'era il difetto: scesa al 27% finiva INTERA
+   sotto l'onda di mezzo, che nella scatola del mare (400px, viewBox 400)
+   riempie tutto da y=208 in giù, cioè da 192px dal fondo — e il vetro, alto
+   83px partendo da 108, arrivava a 191. Un pixel sotto il pelo dell'acqua: si
+   vedeva il tappo, o niente. Il 39% è la quota giusta e vale per tutti e due
+   gli schermi, perché la scatola del mare è alta uguale. */
 @media (max-width: 760px) {
-  .bottiglia { left: auto; right: 9%; bottom: 27%; width: 52px; }
+  .bottiglia { left: auto; right: 6%; bottom: 39%; width: 56px; }
 }
 
 .giu {
@@ -634,6 +641,17 @@ background-image:
    scrive una lettera sola, con calma, ed è il senso della sezione. */
 .appiccicato { position: sticky; top: 13vh; }
 
+/* MA SOTTO I 900px NO, e questa è la correzione di un difetto vero: lì la
+   colonna diventa una sola e il telefono finisce SOTTO le quattro frasi, senza
+   più niente da affiancare — eppure restava incollato. Alto 78vw × 650/300 ≈
+   660px più i 13vh di margine, non ci sta nello schermo di un telefono: il
+   browser lo tiene fermo, il dito scorre e la pagina no, e quando il
+   contenitore finisce salta di colpo. Deve stare DOPO la riga qui sopra, o la
+   regola base la scavalca. */
+@media (max-width: 900px) {
+  .appiccicato { position: static; }
+}
+
 .salmi {
   list-style: none; margin: 0; padding: 0;
   display: grid; gap: clamp(3rem, 6vw, 5rem);
@@ -738,6 +756,11 @@ background-image:
   position: relative;
 }
 .schermo svg { width: 100%; height: 100%; display: block; }
+
+/* Le schermate vere. `cover` e non `contain`: l'immagine e la scocca hanno lo
+   stesso rapporto (1206×2622 contro 300×650, uno scarto di mezzo punto), e
+   `cover` mangia quel mezzo punto invece di lasciare due righe di sfondo. */
+.schermata { width: 100%; height: 100%; display: block; object-fit: cover; }
 
 /* Le schermate disegnate parlano con il carattere dell'app. */
 .schermo-svg { font-family: var(--serif); }
@@ -864,6 +887,10 @@ background-image:
   text-align: center;
 }
 .pie-dentro { max-width: 34rem; }
+/* Il bollo in fondo ha più aria sopra che sotto: chiude la pagina, non apre
+   i crediti. La bottiglia della firma è già passata, qui si torna al punto. */
+.azioni-pie { margin-top: clamp(2.4rem, 5vw, 3.4rem); }
+
 .crediti { margin-top: 1.8rem; font-size: 0.92rem; opacity: 0.6; }
 .crediti a { text-decoration: underline; text-underline-offset: 3px; }
 .crediti.minute { font-size: 0.8rem; opacity: 0.42; line-height: 1.7; margin-top: 1.4rem; }
