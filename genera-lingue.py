@@ -241,6 +241,14 @@ SITO = {
  "pt-BR": "A carta náutica: uma rota traçada de Cala Goloritzé para fora do Mediterrâneo e ao norte pelo Atlântico rumo à Islândia, com a garrafa no meio do caminho.",
  "ja": "海図。カーラ・ゴロリッツェから地中海を出て、大西洋を北上しアイスランドへ向かう航路。瓶はその途中にいる。"},
 
+"The beach, as the app draws it: the shore and the hour chosen with the buttons beside it.": {
+ "it": "La spiaggia come la disegna l'app: la costa e l'ora scelte con i pulsanti qui accanto.",
+ "es": "La playa tal como la dibuja la app: la costa y la hora elegidas con los botones de al lado.",
+ "fr": "La plage telle que l'application la dessine : le rivage et l'heure choisis avec les boutons à côté.",
+ "de": "Der Strand, wie die App ihn zeichnet: Küste und Stunde, gewählt mit den Schaltflächen daneben.",
+ "pt-BR": "A praia como o app a desenha: a costa e a hora escolhidas com os botões ao lado.",
+ "ja": "アプリが描く浜辺。海岸と時刻は、となりのボタンで選ぶ。"},
+
 "Who you are here": {
  "it": "Chi sei, qui", "es": "Quién eres aquí", "fr": "Qui vous êtes ici",
  "de": "Wer Sie hier sind", "pt-BR": "Quem você é aqui", "ja": "ここでのあなた"},
@@ -325,21 +333,21 @@ SITO = {
  "it": "Dove ti svegli", "es": "Dónde te despiertas", "fr": "Où vous vous réveillez",
  "de": "Wo Sie aufwachen", "pt-BR": "Onde você acorda", "ja": "目を覚ます場所"},
 
-"A real beach, at the end of the world.": {
- "it": "Una spiaggia vera, in capo al mondo.",
- "es": "Una playa de verdad, en el fin del mundo.",
- "fr": "Une vraie plage, au bout du monde.",
- "de": "Ein wirklicher Strand, am Ende der Welt.",
- "pt-BR": "Uma praia de verdade, no fim do mundo.",
- "ja": "世界の果てにある、本物の浜辺。"},
+"A real beach, and not one you picked.": {
+ "it": "Una spiaggia vera, e non l'hai scelta tu.",
+ "es": "Una playa de verdad, y no la has elegido tú.",
+ "fr": "Une vraie plage, et ce n'est pas vous qui l'avez choisie.",
+ "de": "Ein wirklicher Strand — und keiner, den Sie ausgesucht haben.",
+ "pt-BR": "Uma praia de verdade, e não foi você que escolheu.",
+ "ja": "本物の浜辺。しかも、自分で選んだのではない。"},
+"Cala Goloritzé. Reynisfjara. Anse Source d'Argent. True stretches of coast at their true coordinates — and yours is drawn by lot. The storm decides where it leaves you, and from that morning on it is home. The light on it is the light of your own hour: open it at midnight and your beach is dark, with the stars out over the water. Not one of these is a photograph. Every wave is drawn by the app, line by line.": {
+ "it": "Cala Goloritzé. Reynisfjara. Anse Source d'Argent. Tratti di costa veri alle loro coordinate vere — e la tua te la dà la sorte. Decide la tempesta dove lasciarti, e da quella mattina è casa. La luce che ci sta sopra è quella della tua ora: aprila a mezzanotte e la tua spiaggia è buia, con le stelle sull'acqua. Nessuna di queste è una fotografia. Ogni onda la disegna l'app, linea per linea.",
+ "es": "Cala Goloritzé. Reynisfjara. Anse Source d'Argent. Tramos de costa reales en sus coordenadas reales, y la tuya te toca en suerte. La tormenta decide dónde dejarte, y desde esa mañana es tu casa. La luz que la baña es la de tu propia hora: ábrela a medianoche y tu playa está a oscuras, con las estrellas sobre el agua. Ninguna de estas es una fotografía. Cada ola la dibuja la app, línea a línea.",
+ "fr": "Cala Goloritzé. Reynisfjara. Anse Source d'Argent. De vraies portions de côte à leurs vraies coordonnées — et la vôtre vous échoit au hasard. C'est la tempête qui décide où elle vous laisse, et dès ce matin-là c'est chez vous. La lumière qui la baigne est celle de votre propre heure : ouvrez à minuit et votre plage est sombre, les étoiles au-dessus de l'eau. Aucune n'est une photographie. Chaque vague est dessinée par l'application, trait par trait.",
+ "de": "Cala Goloritzé. Reynisfjara. Anse Source d'Argent. Echte Küstenstücke an ihren echten Koordinaten — und Ihres fällt Ihnen durch Los zu. Der Sturm entscheidet, wo er Sie zurücklässt, und von jenem Morgen an ist es Ihr Zuhause. Das Licht darauf ist das Ihrer eigenen Stunde: öffnen Sie um Mitternacht, und Ihr Strand ist dunkel, die Sterne über dem Wasser. Keines davon ist eine Fotografie. Jede Welle zeichnet die App, Strich für Strich.",
+ "pt-BR": "Cala Goloritzé. Reynisfjara. Anse Source d'Argent. Trechos de costa reais nas coordenadas reais — e a sua vem por sorteio. A tempestade decide onde deixar você, e daquela manhã em diante é casa. A luz sobre ela é a da sua própria hora: abra à meia-noite e a sua praia está escura, com as estrelas sobre a água. Nenhuma delas é uma fotografia. Cada onda é desenhada pelo app, linha por linha.",
+ "ja": "カーラ・ゴロリッツェ。レイニスフィヤラ。アンス・スルス・ダルジャン。実在する海岸を、実在する座標のままに。そして自分の浜は、くじで決まる。どこに打ち上げるかを決めるのは嵐で、その朝からそこが家になる。射す光はあなたのいまの時刻の光だ。真夜中に開けば浜は暗く、水の上に星が出ている。どれも写真ではない。波の一本一本を、アプリが線で描いている。"},
 
-"Cala Goloritzé. Reynisfjara. Anse Source d'Argent. True stretches of coast at their true coordinates — and the light on them is the light of your own hour: open it at midnight and your beach is dark, with the stars out over the water. Not one of these is a photograph. Every wave is drawn by the app, line by line.": {
- "it": "Cala Goloritzé. Reynisfjara. Anse Source d'Argent. Tratti di costa veri alle loro coordinate vere — e la luce che ci sta sopra è quella della tua ora: aprila a mezzanotte e la tua spiaggia è buia, con le stelle sull'acqua. Nessuna di queste è una fotografia. Ogni onda la disegna l'app, linea per linea.",
- "es": "Cala Goloritzé. Reynisfjara. Anse Source d'Argent. Tramos de costa reales en sus coordenadas reales, y la luz que los baña es la de tu propia hora: ábrela a medianoche y tu playa está a oscuras, con las estrellas sobre el agua. Ninguna de estas es una fotografía. Cada ola la dibuja la app, línea a línea.",
- "fr": "Cala Goloritzé. Reynisfjara. Anse Source d'Argent. De vraies portions de côte à leurs vraies coordonnées — et la lumière qui les baigne est celle de votre propre heure : ouvrez à minuit et votre plage est sombre, les étoiles au-dessus de l'eau. Aucune n'est une photographie. Chaque vague est dessinée par l'application, trait par trait.",
- "de": "Cala Goloritzé. Reynisfjara. Anse Source d'Argent. Echte Küstenstücke an ihren echten Koordinaten — und das Licht darauf ist das Ihrer eigenen Stunde: öffnen Sie um Mitternacht, und Ihr Strand ist dunkel, die Sterne über dem Wasser. Keines davon ist eine Fotografie. Jede Welle zeichnet die App, Strich für Strich.",
- "pt-BR": "Cala Goloritzé. Reynisfjara. Anse Source d'Argent. Trechos de costa reais nas coordenadas reais — e a luz sobre eles é a da sua própria hora: abra à meia-noite e a sua praia está escura, com as estrelas sobre a água. Nenhuma delas é uma fotografia. Cada onda é desenhada pelo app, linha por linha.",
- "ja": "カーラ・ゴロリッツェ。レイニスフィヤラ。アンス・スルス・ダルジャン。実在する海岸を、実在する座標のままに。そこに射す光は、あなたのいまの時刻の光だ。真夜中に開けば浜は暗く、水の上に星が出ている。どれも写真ではない。波の一本一本を、アプリが線で描いている。"},
 
 "The shore": {
  "it": "La riva", "es": "La orilla", "fr": "Le rivage",
@@ -348,14 +356,14 @@ SITO = {
 "The hour": {
  "it": "L'ora", "es": "La hora", "fr": "L'heure",
  "de": "Die Stunde", "pt-BR": "A hora", "ja": "時刻"},
+"Here you can try them all. In the app you get one, and you do not choose it — which is the best thing about it. On arctic beaches, at night, the aurora passes overhead.": {
+ "it": "Qui puoi provarle tutte. Nell'app te ne tocca una, e non la scegli tu — che è la cosa più bella. Sulle spiagge artiche, di notte, l'aurora passa sopra la testa.",
+ "es": "Aquí puedes probarlas todas. En la app te toca una, y no la eliges tú, que es lo mejor de todo. En las playas árticas, de noche, la aurora pasa por encima.",
+ "fr": "Ici vous pouvez toutes les essayer. Dans l'application vous en recevez une, et vous ne la choisissez pas — c'est ce qu'il y a de plus beau. Sur les plages arctiques, la nuit, l'aurore passe au-dessus.",
+ "de": "Hier können Sie alle ausprobieren. In der App bekommen Sie einen, und Sie suchen ihn nicht aus — das ist das Schönste daran. An arktischen Stränden zieht nachts das Polarlicht über Sie hinweg.",
+ "pt-BR": "Aqui você pode experimentar todas. No app você ganha uma, e não é você que escolhe — que é o melhor disso. Nas praias árticas, à noite, a aurora passa lá em cima.",
+ "ja": "ここでは全部を試せる。アプリでは一つだけが与えられ、それを自分で選ぶことはできない——そこがいちばんいいところだ。北極圏の浜では、夜になるとオーロラが頭上を渡っていく。"},
 
-"Take a look around. On arctic beaches, at night, the aurora passes overhead.": {
- "it": "Guardati intorno. Sulle spiagge artiche, di notte, l'aurora passa sopra la testa.",
- "es": "Echa un vistazo. En las playas árticas, de noche, la aurora pasa por encima.",
- "fr": "Regardez autour de vous. Sur les plages arctiques, la nuit, l'aurore passe au-dessus.",
- "de": "Sehen Sie sich um. An arktischen Stränden zieht nachts das Polarlicht über Sie hinweg.",
- "pt-BR": "Dê uma olhada. Nas praias árticas, à noite, a aurora passa lá em cima.",
- "ja": "あたりを見てほしい。北極圏の浜では、夜になるとオーロラが頭上を渡っていく。"},
 
 "The crossing": {
  "it": "La traversata", "es": "La travesía", "fr": "La traversée",

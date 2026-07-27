@@ -307,11 +307,19 @@ function etichetteChip() {
   document.querySelectorAll('.chip[data-chiave]').forEach(b => { b.textContent = testo(b.dataset.chiave); });
 }
 
+/* LA SPIAGGIA CHE SI PROVA È L'APP VERA, non più il disegno.
+   Venti fotografie, cinque coste per quattro ore, fatte con la bandiera
+   `--phase` su un naufrago che vive in una campana di vetro. Il disegno resta
+   nel file (`disegnaSpiaggia`) e continua a servire al fondale delle regole.
+
+   L'ALT NON È DINAMICO di proposito: lo scambio di lingua fotografa gli
+   attributi una volta sola, quindi un alt riscritto da qui resterebbe inglese
+   per sempre. Quale costa e quale ora si legge dai pulsanti accanto, che sono
+   tradotti. */
 const scena = document.getElementById('scena');
 function rendi() {
   if (!scena) return;
-  scena.innerHTML = disegnaSpiaggia(biomaScelto, faseScelta);
-  scena.setAttribute('aria-label', `${testo('scena.alt')} — ${RIVE[biomaScelto].nome}, ${testo('fase.' + faseScelta)}`);
+  scena.src = `assets/spiagge/${biomaScelto}-${faseScelta}.jpg`;
 }
 
 const contBiomi = document.getElementById('biomi');
@@ -321,6 +329,31 @@ if (contBiomi && contFasi) {
   costruisciChip(contFasi, FASI, 'fase', faseScelta, v => { faseScelta = v; });
   etichetteChip();
   rendi();
+
+  /* Le altre diciannove si tirano giù quando la sezione si avvicina, non prima:
+     chi non arriva fin qui non paga un megabyte e mezzo per niente. E si
+     tirano giù PRIMA che qualcuno prema, perché una vetrina che sbianca a ogni
+     pulsante non è una vetrina. Prima le altre ore della costa che si sta
+     guardando — è lì che va il primo dito. */
+  const sezione = document.getElementById('spiagge');
+  if (sezione && 'IntersectionObserver' in window) {
+    const scorta = new IntersectionObserver(([v], oss) => {
+      if (!v.isIntersecting) return;
+      oss.disconnect();
+      const code = [
+        ...FASI.map(f => `${biomaScelto}-${f}`),
+        ...BIOMI.flatMap(b => FASI.map(f => `${b}-${f}`)),
+      ];
+      const viste = new Set();
+      const pigro = window.requestIdleCallback || ((f) => setTimeout(f, 200));
+      for (const nome of code) {
+        if (viste.has(nome)) continue;
+        viste.add(nome);
+        pigro(() => { new Image().src = `assets/spiagge/${nome}.jpg`; });
+      }
+    }, { rootMargin: '600px 0px' });
+    scorta.observe(sezione);
+  }
 }
 
 /* ── Le parole che affiorano ─────────────────────────────────────────
@@ -366,12 +399,58 @@ if ('IntersectionObserver' in window) {
 
 /* ── La barra che si posa sulla carta ────────────────────────────────── */
 
+/* La barra si posa sulla CARTA e resta trasparente sul BUIO.
+   Prima guardava solo se l'eroe era ancora in campo: appena usciva, la barra
+   diventava carta — e restava carta sopra la tempesta, che è nera. Una striscia
+   giallastra sopra un temporale notturno.
+   Ora si guarda cosa c'è DAVVERO sotto la barra: una striscia alta un pixel
+   subito sotto di lei, e le sezioni scure che la attraversano. Se ce n'è una,
+   la barra resta com'era all'inizio. */
 const barra = document.getElementById('barra');
-const eroe = document.querySelector('.eroe');
-if ('IntersectionObserver' in window && eroe) {
-  new IntersectionObserver(([v]) => {
-    barra.classList.toggle('posata', !v.isIntersecting);
-  }, { rootMargin: '-70px 0px 0px 0px' }).observe(eroe);
+if (barra) {
+  /* SI GUARDA COSA C'È DAVVERO SOTTO LA BARRA, un punto solo, appena sotto il
+     suo bordo. Se quel punto sta dentro una sezione scura la barra resta
+     trasparente come all'inizio; se sta sulla carta, si posa.
+
+     PRIMA guardava se l'eroe era ancora in campo, e appena usciva diventava
+     carta: restava carta anche sopra la tempesta, che è nera — una striscia
+     giallastra sopra un temporale notturno.
+     POI ci ho provato con un `IntersectionObserver` su una striscia alta un
+     pixel, e sbagliava al primo colpo: la prima risposta dell'osservatore
+     arriva prima che il disegno sia assestato, vedeva zero sezioni scure e
+     posava la barra sopra il mare del titolo. Un punto letto quando serve non
+     ha quel problema. */
+  const SOTTO_LA_BARRA = 57;
+  const scure = [...document.querySelectorAll('.notte')];
+  let inCoda = false;
+  const controlla = () => {
+    inCoda = false;
+    /* Geometria, non `elementsFromPoint`. Chiedere «cosa c'è sotto questo
+       punto» sembrava più diretto, e su Safari sbagliava: durante l'assestarsi
+       delle barre del browser, per un istante da quel punto tornava solo la
+       barra stessa, la riga diceva «carta» e ci restava — perché dopo non
+       succede più niente che la faccia ricontrollare. Un rettangolo non ha
+       istanti storti. */
+    const scuro = scure.some((s) => {
+      const r = s.getBoundingClientRect();
+      return r.top <= SOTTO_LA_BARRA && r.bottom > SOTTO_LA_BARRA;
+    });
+    barra.classList.toggle('posata', !scuro);
+  };
+  const quandoPuoi = () => {
+    if (inCoda) return;
+    inCoda = true;
+    requestAnimationFrame(controlla);
+  };
+  window.addEventListener('scroll', quandoPuoi, { passive: true });
+  window.addEventListener('resize', quandoPuoi);
+  controlla();
+  /* E ancora, quando il disegno si è assestato. Al primo colpo Safari può
+     avere rettangoli non ancora buoni: la barra si posava per mezzo secondo
+     sopra il mare del titolo, e con la dissolvenza di mezzo secondo addosso si
+     faceva in tempo a vederla. */
+  window.addEventListener('load', quandoPuoi);
+  requestAnimationFrame(() => requestAnimationFrame(controlla));
 }
 
 /* ── La spiaggia larga ───────────────────────────────────────────────────

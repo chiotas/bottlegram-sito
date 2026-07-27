@@ -104,7 +104,6 @@
       </g>
     </svg>
 
-    <div class="chiarore"></div>
     <div class="bagliore"></div>
 
     <svg class="mareggiata dietro" viewBox="0 0 1440 900" preserveAspectRatio="none">
@@ -301,17 +300,18 @@
 <section class="sezione carta" id="spiagge">
   <div class="dentro">
     <p class="soprattitolo">Where you wake up</p>
-    <h2>A real beach, at the end of the world.</h2>
+    <h2>A real beach, and not one you picked.</h2>
     <!-- ATTENZIONE, questa frase è stata già una volta falsa: diceva che la
          luce è quella dell'ora SULLA SPIAGGIA. L'app usa `Calendar.current`
          (Theme.swift, DayPhase.hourNow), cioè l'ora di chi guarda. Se un
          giorno cambia il codice, cambia anche qui — non prima. -->
-    <p class="guida">Cala Goloritzé. Reynisfjara. Anse Source d'Argent. True stretches of coast at their true coordinates — and the light on them is the light of your own hour: open it at midnight and your beach is dark, with the stars out over the water. Not one of these is a photograph. Every wave is drawn by the app, line by line.</p>
+    <p class="guida">Cala Goloritzé. Reynisfjara. Anse Source d'Argent. True stretches of coast at their true coordinates — and yours is drawn by lot. The storm decides where it leaves you, and from that morning on it is home. The light on it is the light of your own hour: open it at midnight and your beach is dark, with the stars out over the water. Not one of these is a photograph. Every wave is drawn by the app, line by line.</p>
 
     <div class="vetrina">
       <div class="telefono">
         <div class="scocca">
-          <div class="schermo"><svg id="scena" viewBox="0 0 300 650" preserveAspectRatio="xMidYMid slice" role="img"></svg></div>
+          <div class="schermo"><img id="scena" class="schermata" width="603" height="1311" decoding="async"
+            alt="The beach, as the app draws it: the shore and the hour chosen with the buttons beside it."></div>
         </div>
       </div>
       <div class="comandi">
@@ -323,7 +323,7 @@
           <legend>The hour</legend>
           <div class="chip-fila" id="fasi"></div>
         </fieldset>
-        <p class="nota">Take a look around. On arctic beaches, at night, the aurora passes overhead.</p>
+        <p class="nota">Here you can try them all. In the app you get one, and you do not choose it — which is the best thing about it. On arctic beaches, at night, the aurora passes overhead.</p>
       </div>
     </div>
   </div>

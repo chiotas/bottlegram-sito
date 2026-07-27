@@ -43,7 +43,12 @@
 
 *, *::before, *::after { box-sizing: border-box; }
 
-html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+/* Il fondo della TELA, che non è il fondo del body. iOS Safari dipinge con
+   questo la striscia dietro l'orologio e quella che si scopre tirando la
+   pagina oltre il fondo: lasciandolo al body veniva carta, e sopra il mare
+   notturno del titolo si vedeva una fascia crema attaccata al bordo alto.
+   Il body resta carta — è lui che dipinge le sezioni di carta. */
+html { background: var(--cielo-alto); scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
 
 body {
   margin: 0;
@@ -346,20 +351,12 @@ background-image:
 .nubi-medie { animation: scorri 105s linear infinite reverse; }
 .nubi-basse { animation: scorri 78s linear infinite; }
 
-/* Lo squarcio di luce sull'orizzonte: senza, le onde nere su cielo nero non
-   si vedono. Cresce atto dopo atto — è il tempo che si apre. */
-.chiarore {
-  position: absolute; inset: 0;
-  background:
-    radial-gradient(62% 12% at 50% 47.5%,
-      rgba(200, 222, 250, .46) 0%, rgba(150, 182, 224, .18) 46%, rgba(0,0,0,0) 80%),
-    radial-gradient(104% 30% at 50% 52%,
-      rgba(110, 142, 190, .13) 0%, rgba(0,0,0,0) 70%);
-  opacity: 0.65;
-  transition: opacity 2.2s ease;
-}
-.atto-2 .chiarore { opacity: 0.95; }
-.atto-3 .chiarore { opacity: 1.25; }
+/* QUI C'ERA `.chiarore`, uno squarcio di luce sull'orizzonte che cresceva
+   atto dopo atto. Tolto: sullo schermo non si leggeva come un orizzonte che si
+   apre ma come una macchia bianca in mezzo al mare, a mezz'altezza e larga
+   quanto la nave. La ragione per cui era stato messo — «senza, le onde nere su
+   cielo nero non si vedono» — non regge: le creste hanno un tratto tutto loro
+   (`.cresta`, rgba(198,218,240,.34)) e si vedono benissimo da sole. */
 
 .mareggiata, .nuvolaglia { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
 /* L'onda lontana dietro le cose, le due vicine davanti: così la nave, l'isola
@@ -742,6 +739,15 @@ background-image:
 
 .telefono { display: flex; justify-content: center; }
 .scocca {
+  /* UNO STRATO SUO. Dentro lo schermo ci sono filtri (`feTurbulence` per la
+     grana della carta) e centinaia di tracciati: senza questa riga il browser
+     li ridisegna a ogni pixel di scorrimento, e su un telefono si sente. Con
+     `translateZ(0)` la scocca diventa una texture che si ridisegna solo quando
+     cambia davvero. */
+  transform: translateZ(0);
+  /* E un dito sul disegno deve scorrere la pagina, non trascinare l'immagine. */
+  touch-action: pan-y;
+  -webkit-touch-callout: none;
   width: min(310px, 78vw);
   aspect-ratio: 300 / 650;
   padding: 11px;
@@ -883,13 +889,20 @@ background-image:
 .pie {
   position: relative;
   background: linear-gradient(to bottom, #0B1424 0%, var(--cielo-medio) 46%, var(--cielo-alto) 100%);
-  padding: clamp(7rem, 14vw, 11rem) 1.4rem clamp(3.5rem, 7vw, 5rem);
+  /* Meno vuoto sopra: c'erano fino a 11rem di niente prima del marchio, e su
+     un telefono era mezzo schermo di buio senza motivo. */
+  padding: clamp(4rem, 8vw, 6.5rem) 1.4rem clamp(3.5rem, 7vw, 5rem);
   text-align: center;
 }
 .pie-dentro { max-width: 34rem; }
 /* Il bollo in fondo ha più aria sopra che sotto: chiude la pagina, non apre
    i crediti. La bottiglia della firma è già passata, qui si torna al punto. */
-.azioni-pie { margin-top: clamp(2.4rem, 5vw, 3.4rem); }
+.azioni-pie {
+  /* Il bollo respira sopra e sotto: attaccato ai crediti sembrava la prima
+     riga del piedino invece dell'ultima cosa da fare. */
+  margin-top: clamp(2.6rem, 5vw, 3.6rem);
+  margin-bottom: clamp(2rem, 4vw, 3rem);
+}
 
 .crediti { margin-top: 1.8rem; font-size: 0.92rem; opacity: 0.6; }
 .crediti a { text-decoration: underline; text-underline-offset: 3px; }
@@ -917,20 +930,27 @@ background-image:
 .lingue { margin-left: auto; display: flex; align-items: center; }
 .lingue select {
   font-family: var(--serif); font-size: 0.86rem;
-  color: var(--carta); background: transparent;
-  border: 1px solid rgba(245,235,209,.28); border-radius: 999px;
+  /* IL COLORE SI EREDITA dalla barra, e non è un dettaglio: fissato a crema,
+     sulle sezioni di carta il selettore spariva — testo crema su fondo crema.
+     Si vedeva solo il marchio a sinistra, e la lingua non si poteva più
+     cambiare da metà pagina in giù. */
+  color: inherit; background: transparent;
+  border: 1px solid currentColor; border-color: color-mix(in srgb, currentColor 32%, transparent);
+  border-radius: 999px;
   padding: 0.3rem 1.7rem 0.3rem 0.8rem; cursor: pointer;
   appearance: none;
-  /* La punta della freccia, disegnata: un'immagine esterna qui sarebbe la sola
-     richiesta di rete della pagina. */
-  background-image: linear-gradient(45deg, transparent 50%, rgba(245,235,209,.6) 50%),
-                    linear-gradient(135deg, rgba(245,235,209,.6) 50%, transparent 50%);
+  /* La punta della freccia, disegnata con lo stesso inchiostro del testo:
+     un'immagine esterna qui sarebbe la sola richiesta di rete della pagina. */
+  background-image: linear-gradient(45deg, transparent 50%, currentColor 50%),
+                    linear-gradient(135deg, currentColor 50%, transparent 50%);
   background-position: right 0.78rem center, right 0.52rem center;
   background-size: 5px 5px, 5px 5px;
   background-repeat: no-repeat;
   transition: border-color .25s, color .25s;
 }
-.lingue select:hover, .lingue select:focus-visible { border-color: rgba(245,235,209,.6); }
+.lingue select:hover, .lingue select:focus-visible {
+  border-color: color-mix(in srgb, currentColor 70%, transparent);
+}
 /* Il menu che si apre lo disegna il sistema: va reso leggibile a mano, o su
    alcuni browser esce testo carta su fondo carta. */
 .lingue select option { color: #1B1B1B; background: #F5EBD1; }
