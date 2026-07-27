@@ -5,11 +5,14 @@ e due immagini. Niente build, niente npm, niente framework — come l'app, che n
 ha una libreria esterna.
 
 ```
-index.html     la pagina — tutte le parole stanno qui dentro
-styles.css     i colori dell'app: carta, inchiostro, mare notturno, pergamena
-app.js         i sigilli di ceralacca, le venti spiagge disegnate, i versi che affiorano
-assets/        icona (favicon) e anteprima 1200×630 per i link social
-.nojekyll      dice a GitHub Pages di servire i file così come sono
+index.html       la pagina — tutte le parole inglesi stanno qui dentro
+styles.css       i colori dell'app: carta, inchiostro, mare notturno, pergamena
+app.js           i sigilli di ceralacca, le venti spiagge disegnate, i versi che affiorano
+lingue.js        le altre sei lingue (GENERATO — vedi sotto)
+lingua.js        il cambio di lingua
+genera-lingue.py il sorgente di lingue.js
+assets/          icona, anteprima social, e le tre schermate vere dell'app
+.nojekyll        dice a GitHub Pages di servire i file così come sono
 ```
 
 ## Da dove viene la grafica
@@ -28,11 +31,51 @@ Niente è inventato: i valori arrivano dal repo dell'app e vanno tenuti allineat
 
 Se cambi il tema dell'app, i due valori vanno cambiati insieme.
 
-## La lingua
+## Le sette lingue
 
-Solo inglese, e sta tutta nell'HTML: chi arriva senza JavaScript legge comunque
-ogni parola. Le uniche stringhe in `app.js` sono le voci dentro la schermata
-disegnata (Map, Journal, Throw, Emporium) — la traduzione vera dell'app.
+it, en, es, fr, de, pt-BR, ja — tutte dentro la stessa pagina, perché GitHub
+Pages non ha niente lato server.
+
+**L'inglese sta nell'HTML e non si tocca**: è quello che legge chi arriva senza
+JavaScript, ed è anche la CHIAVE del dizionario. Niente `data-i18n` sparsi nel
+markup: una pagina di prosa dove ogni riga porta un attributo tecnico diventa
+illeggibile per chi la scrive.
+
+```
+lingue.js        GENERATO, non si corregge a mano
+lingua.js        scambia i nodi di testo, ricorda la scelta, indovina la lingua del browser
+genera-lingue.py il sorgente di lingue.js
+```
+
+`genera-lingue.py` rimette insieme due cose diverse, e la differenza conta:
+
+- le frasi che **esistono nell'app** — le regole del mare, i versi del
+  naufragio, le voci della schermata disegnata — vengono rilette da
+  `Bottlegram/Resources/Localizable.xcstrings` **a ogni rigenerazione**. Sono
+  quelle che si dichiarano ad Apple: se divergessero dall'app di una virgola
+  sarebbe un difetto, non una sfumatura. Nessuno le riscrive qui;
+- le frasi del **solo sito** stanno scritte a mano dentro lo script.
+
+Per rifarlo, dopo aver cambiato una parola inglese in `index.html` o una
+traduzione nell'app:
+
+```bash
+cd ~/Documents/Development/bottlegram-sito && python3 genera-lingue.py > lingue.js
+```
+
+(lo script cerca l'app in `~/Documents/Development/Bottlegram`: se il repo si
+sposta, la riga `XCSTRINGS` in cima va cambiata.)
+
+**Come ci si accorge che è ora di rigenerare:** se l'inglese in `index.html`
+cambia e `lingue.js` no, quella frase resta inglese e la console del browser
+elenca esattamente quali — invece di lasciare in pagina una traduzione vecchia
+attaccata a una frase nuova, che è il modo in cui questi file mentono.
+
+**Rimasto indietro:** la spiaggia interattiva di `#spiagge` disegna il nome del
+posto (`Haukland Beach, Lofoten, Norway`). Il nome proprio è giusto che resti in
+endonimo — è la regola dell'app — ma **il paese no**: nell'app `Lofoten,
+Norvegia` è tradotto (chiavi `country.*`), qui è fisso in inglese perché lo
+scrive `app.js` da una tabella sua.
 
 ## Il tono
 
@@ -60,10 +103,13 @@ Tre pezzi lavorano insieme e non vanno smontati singolarmente:
 
 Nessuna sezione è di solo testo: accanto alle parole c'è sempre qualcosa da
 guardare, e **niente è una fotografia** — la pagina scrive «not one of these is
-a photograph», e deve restare vero. Le quattro schermate del telefono sono
-disegnate: la spiaggia di mezzogiorno con tre bottiglie (`#attesa`), il
-carteggio del diario (`#diario`), la spiaggia interattiva (`#spiagge`, l'unica
-che cambia con bioma e ora) e la carta nautica (`#carta`). Le regole (`#regole`)
+a photograph», e deve restare vero anche adesso che tre schermate su quattro
+sono catture dell'app: quello che si vede lì dentro lo disegna l'app, non una
+macchina fotografica. Spiaggia (`#attesa`), diario (`#diario`) e carta
+(`#carta`) sono `assets/schermata-*.png`, fatte su un naufrago che vive in un
+`banco_di_prova` (vedi `vetrina.mjs` nella cartella di lavoro). La spiaggia di
+`#spiagge` **resta disegnata**: è l'unica con cui si gioca, e una fotografia non
+cambia con i pulsanti. Le regole (`#regole`)
 hanno per fondale la **spiaggia larga** — `disegnaSpiaggiaLarga()`, stesse
 tavolozze — con una velatura che si dirada verso destra: a sinistra si legge, a
 destra si guarda. Se un giorno arrivano gli screenshot veri, prendono il posto
@@ -129,9 +175,6 @@ Se prendi `bottlegram.app` o simile:
 - **«Coming to the App Store»**: quando l'app esce, in `index.html` trasforma
   lo `<span class="bollo">` in un `<a href="…">` verso la scheda, e togli la
   riga sotto («Not out yet»).
-- **Le schermate vere**: al posto dei tre telefoni disegnati si possono mettere
-  screenshot dell'app (sostituendo l'SVG dentro `.schermo`); i disegni restano
-  un buon secondo posto, perché sono fatti con gli stessi colori.
 - **L'anteprima social** (`assets/anteprima.png`, 1200×630) è generata a mano:
   se cambia la frase dell'apertura, va rifatta anche lì.
 - **Chi firma**: in fondo c'è solo il recapito `bottlegram@bulbmode.com`

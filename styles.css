@@ -908,3 +908,29 @@ background-image:
   .affiora.emersa { transition: none; }
   .carta-lettera { transform: rotate(-0.8deg); }
 }
+
+/* ── Il selettore di lingua ────────────────────────────────────────────────
+   In barra, sempre visibile — anche sotto i 780px, dove la navigazione
+   sparisce: chi arriva in giapponese ha più bisogno del selettore che degli
+   ancoraggi alle sezioni. Un <select> vero, non una fila di bandiere: le
+   bandiere sono paesi, non lingue, e c'è sempre qualcuno che ci resta male. */
+.lingue { margin-left: auto; display: flex; align-items: center; }
+.lingue select {
+  font-family: var(--serif); font-size: 0.86rem;
+  color: var(--carta); background: transparent;
+  border: 1px solid rgba(245,235,209,.28); border-radius: 999px;
+  padding: 0.3rem 1.7rem 0.3rem 0.8rem; cursor: pointer;
+  appearance: none;
+  /* La punta della freccia, disegnata: un'immagine esterna qui sarebbe la sola
+     richiesta di rete della pagina. */
+  background-image: linear-gradient(45deg, transparent 50%, rgba(245,235,209,.6) 50%),
+                    linear-gradient(135deg, rgba(245,235,209,.6) 50%, transparent 50%);
+  background-position: right 0.78rem center, right 0.52rem center;
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+  transition: border-color .25s, color .25s;
+}
+.lingue select:hover, .lingue select:focus-visible { border-color: rgba(245,235,209,.6); }
+/* Il menu che si apre lo disegna il sistema: va reso leggibile a mano, o su
+   alcuni browser esce testo carta su fondo carta. */
+.lingue select option { color: #1B1B1B; background: #F5EBD1; }
