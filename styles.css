@@ -80,13 +80,17 @@ a { color: inherit; }
   display: flex; align-items: center; gap: 1.5rem;
   padding: 0.85rem clamp(1rem, 4vw, 2.6rem);
   color: var(--carta);
-  transition: background-color .5s ease, backdrop-filter .5s ease, color .5s ease, border-color .5s ease;
+  transition: background-color .5s ease, color .5s ease, border-color .5s ease;
   border-bottom: 1px solid transparent;
 }
 .barra.posata {
-  background: color-mix(in srgb, var(--carta) 92%, transparent);
-  backdrop-filter: saturate(140%) blur(10px);
-  -webkit-backdrop-filter: saturate(140%) blur(10px);
+  /* NIENTE `backdrop-filter`, ed è la correzione di uno scatto vero. Una barra
+     fissa che sfoca quello che ha dietro obbliga il browser a rifare la sfocatura
+     a OGNI fotogramma di scorrimento, su tutta la larghezza dello schermo: su un
+     telefono si sente, e si sentiva esattamente qui — sulle sezioni di carta,
+     dove la barra è posata. Sotto un velo opaco al 96% quella sfocatura non si
+     vedeva comunque: costava tutto e non si vedeva niente. */
+  background: color-mix(in srgb, var(--carta) 96%, transparent);
   color: var(--inchiostro);
   border-bottom-color: var(--carta-bordo);
 }
@@ -439,7 +443,38 @@ background-image:
     rgba(214, 232, 255, .95) 0%, rgba(150, 184, 230, .45) 34%, rgba(0,0,0,0) 70%);
   animation: covare 13s ease-out 2s infinite;
 }
-.atto-3 .lampo, .atto-3 .bagliore { animation: none; opacity: 0; }
+/* LA SAETTA. Il bagliore da solo era una nuvola che si accende: manca la cosa
+   che tutti riconoscono, cioè il ramo. Parte da dentro il bagliore (68% 22%) e
+   scende verso l'acqua, con una forcella.
+   Il chiarore intorno è fatto con TRE tratti sovrapposti e non con una
+   sfocatura: `filter: blur()` qui costerebbe come quello che ho appena tolto
+   dalla barra, e su un fondo notturno tre tratti fanno lo stesso mestiere. */
+.saetta {
+  position: absolute; left: 57%; top: 5%; z-index: 2;
+  width: clamp(76px, 14vw, 180px);
+  opacity: 0; pointer-events: none;
+  animation: saetta 13s ease-out 2s infinite;
+}
+.saetta svg { width: 100%; height: auto; display: block; overflow: visible; }
+.saetta path { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.saetta .alone  { stroke: rgba(190, 216, 255, .16); stroke-width: 13; }
+.saetta .mezzo  { stroke: rgba(214, 232, 255, .46); stroke-width: 7; }
+.saetta .nucleo { stroke: #EDF4FF; stroke-width: 2.6; }
+.saetta .ramo   { stroke: #DCEAFF; stroke-width: 1.8; opacity: .9; }
+
+/* Il guizzo, non un'accensione: due colpi vicini e uno strascico, dentro la
+   stessa vampata del bagliore (che picchia al 90,2%). */
+@keyframes saetta {
+  0%, 88.3%, 100% { opacity: 0; }
+  88.6%  { opacity: 0.5; }
+  89.1%  { opacity: 0; }
+  90.2%  { opacity: 1; }
+  90.8%  { opacity: 0.2; }
+  91.2%  { opacity: 0.85; }
+  92%    { opacity: 0; }
+}
+
+.atto-3 .lampo, .atto-3 .bagliore, .atto-3 .saetta { animation: none; opacity: 0; }
 @keyframes covare {
   0%, 86%, 100% { opacity: 0; }
   86.4% { opacity: 0.75; }
@@ -528,6 +563,13 @@ background-image:
   transition: opacity 1.6s cubic-bezier(.16,1,.3,1), filter 1.6s cubic-bezier(.16,1,.3,1), transform 1.6s cubic-bezier(.16,1,.3,1);
 }
 .verso.emersa { opacity: 1; filter: blur(0); transform: none; }
+/* `filter: blur(0)` NON è «nessun filtro»: l'elemento resta su uno strato suo e
+   il browser continua a farci passare sopra un filtro a ogni disegno, per
+   sempre. Finita l'apparizione, `app.js` mette questa classe e il filtro se ne
+   va davvero. È metà dello scatto che si sentiva sulla carta dell'approdo.
+   AI VERSI DELLA TEMPESTA NON SI APPLICA: quelli tornano sott'acqua quando
+   escono di scena, e il filtro gli serve ancora. */
+.affiora.posata-giu { filter: none; }
 
 /* Il numero dell'atto: piccolo, in cifre romane. Trasforma tre paragrafi in
    tre pagine — la stessa cosa che fa un numero in cima a un capitolo. */

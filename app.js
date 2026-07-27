@@ -361,13 +361,32 @@ if (contBiomi && contFasi) {
    sfocatura che si scioglie, il piccolo scivolamento verso l'alto. */
 
 const affioranti = document.querySelectorAll('.affiora');
+
+/* FINITA L'APPARIZIONE, IL FILTRO SE NE VA DAVVERO. `filter: blur(0)` non è
+   «nessun filtro»: l'elemento resta su uno strato suo e il browser continua a
+   farci passare sopra un filtro a ogni disegno, per sempre. Era metà dello
+   scatto che si sentiva scorrendo sulla carta dell'approdo. */
+function smettiDiFiltrare(el) {
+  el.addEventListener('transitionend', (e) => {
+    if (e.propertyName === 'filter') el.classList.add('posata-giu');
+  }, { once: true });
+  // Rete di sicurezza: se la transizione non parte (movimento ridotto, elemento
+  // già a posto) l'evento non arriva mai e il filtro resterebbe lì.
+  setTimeout(() => el.classList.add('posata-giu'), 1600);
+}
+
 if ('IntersectionObserver' in window) {
   const guardia = new IntersectionObserver((voci) => {
-    voci.forEach(v => { if (v.isIntersecting) { v.target.classList.add('emersa'); guardia.unobserve(v.target); } });
+    voci.forEach(v => {
+      if (!v.isIntersecting) return;
+      v.target.classList.add('emersa');
+      smettiDiFiltrare(v.target);
+      guardia.unobserve(v.target);
+    });
   }, { threshold: 0.35, rootMargin: '0px 0px -8% 0px' });
   affioranti.forEach(el => guardia.observe(el));
 } else {
-  affioranti.forEach(el => el.classList.add('emersa'));
+  affioranti.forEach(el => { el.classList.add('emersa'); el.classList.add('posata-giu'); });
 }
 
 /* I versi del naufragio, invece, tornano sott'acqua quando escono di scena:
@@ -451,6 +470,13 @@ if (barra) {
      faceva in tempo a vederla. */
   window.addEventListener('load', quandoPuoi);
   requestAnimationFrame(() => requestAnimationFrame(controlla));
+  /* E dopo il salto a un'ancora. Arrivando su un indirizzo con `#sezione` il
+     browser salta li senza che parta uno scorrimento che si possa ascoltare:
+     la barra restava com'era al primo fotogramma, cioe carta sopra la
+     tempesta. Succede anche cliccando una voce della navigazione. */
+  window.addEventListener('hashchange', quandoPuoi);
+  setTimeout(controlla, 120);
+  setTimeout(controlla, 600);
 }
 
 /* ── La spiaggia larga ───────────────────────────────────────────────────
