@@ -97,9 +97,10 @@ Tre pezzi lavorano insieme e non vanno smontati singolarmente:
   hidden` (lo ammazzerebbe) e la sezione non ha `overflow`.
 - **L'attesa** (`#attesa`) — quattro frasi che si possono ricordare, molta aria
   in mezzo. Se aggiungi una riga, tolga qualcosa: la pagina vive di vuoto.
-- **La chiusa** — «Somewhere to go when everything else is shouting.» L'altra
-  metà della frase («The tide keeps its own time…») è diventata il divisorio
-  fra il diario e le spiagge: due frasi buone non stanno nella stessa riga.
+- **La chiusa** — «Somewhere to savour the quiet, while everything else is
+  racing.» L'altra metà della frase («The tide keeps its own time…») è
+  diventata il divisorio fra il diario e le spiagge: due frasi buone non
+  stanno nella stessa riga.
 
 Nessuna sezione è di solo testo: accanto alle parole c'è sempre qualcosa da
 guardare, e **niente è una fotografia** — la pagina scrive «not one of these is

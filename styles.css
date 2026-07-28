@@ -637,7 +637,7 @@ background-image:
 /* Il nome e il luogo ruotano: la dissolvenza sta su un contenitore loro
    (`.gira`), solo opacità. Il nome più lungo del mazzo detta la larghezza
    della carta, che non deve respirare a ogni cambio. */
-.nome-spiaggia, .luogo { transition: opacity .7s ease; }
+.nome-spiaggia, .luogo { transition: opacity .4s ease; }
 .carta-lettera.sfuma .nome-spiaggia, .carta-lettera.sfuma .luogo { opacity: 0; }
 .approdo-nota {
   font-family: var(--mare-serif); font-style: italic;

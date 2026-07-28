@@ -180,6 +180,8 @@ if (nomeApprodo && luogoApprodo) {
   };
   let quale = 0;
   let filo = null;
+  /* Un giro ogni ~2 secondi (chiesto da Francesco): la dissolvenza scende a
+     .4s (styles) e lo scambio del testo sta nel mezzo. */
   const gira = () => {
     carta.classList.add('sfuma');
     setTimeout(() => {
@@ -187,16 +189,16 @@ if (nomeApprodo && luogoApprodo) {
       nomeApprodo.textContent = RIVE_APPRODO[quale].nome;
       luogoApprodo.textContent = traduci(RIVE_APPRODO[quale].luogo);
       carta.classList.remove('sfuma');
-    }, 750);
+    }, 450);
   };
   if (!quiete.matches) {
     if ('IntersectionObserver' in window) {
       new IntersectionObserver(([v]) => {
-        if (v.isIntersecting && !filo) filo = setInterval(gira, 5200);
+        if (v.isIntersecting && !filo) filo = setInterval(gira, 2100);
         else if (!v.isIntersecting && filo) { clearInterval(filo); filo = null; }
       }, { threshold: 0.4 }).observe(carta);
     } else {
-      filo = setInterval(gira, 5200);
+      filo = setInterval(gira, 2100);
     }
   }
 }

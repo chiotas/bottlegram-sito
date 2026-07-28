@@ -164,13 +164,13 @@ SITO = {
  "pt-BR": "Os dias passam. Você faz outras coisas. Então a maré deixa na sua areia algo que ninguém programou, ninguém promoveu e ninguém poderia ter vendido para você — a letra de um desconhecido, de uma costa que você nunca viu.",
  "ja": "日が過ぎる。ほかのことをして暮らす。するとある日、潮が砂に何かを置いていく。誰も予定せず、誰も宣伝せず、誰にも売ることのできなかったもの——見たこともない海岸から届いた、知らない誰かの手書きの文字だ。"},
 
-"Somewhere to go when everything else is shouting.": {
- "it": "Un posto dove andare quando tutto il resto urla.",
- "es": "Un sitio al que ir cuando todo lo demás grita.",
- "fr": "Un endroit où aller quand tout le reste crie.",
- "de": "Ein Ort für die Zeiten, in denen alles andere schreit.",
- "pt-BR": "Um lugar para ir quando todo o resto está gritando.",
- "ja": "ほかのすべてが叫んでいるとき、行ける場所。"},
+"Somewhere to savour the quiet, while everything else is racing.": {
+ "it": "Un posto dove godersi la quiete, mentre tutto il resto corre.",
+ "es": "Un lugar donde disfrutar de la calma, mientras todo lo demás corre.",
+ "fr": "Un endroit où savourer le calme, pendant que tout le reste court.",
+ "de": "Ein Ort, an dem man die Stille genießt, während alles andere rennt.",
+ "pt-BR": "Um lugar para saborear a quietude, enquanto todo o resto corre.",
+ "ja": "ほかのすべてが走りつづけるあいだ、静けさを味わえる場所。"},
 
 "Here it is morning and the wind comes off the land. I will not tell you my name, but I will tell you that I planted three fig trees behind the house and one of them took. If this bottle lands anywhere at all, write and tell me the weather where you are.": {
  "it": "Qui è mattina e il vento viene da terra. Non ti dirò il mio nome, ma ti dirò che ho piantato tre fichi dietro casa e uno ha attecchito. Se questa bottiglia approda da qualche parte, scrivimi e dimmi che tempo fa da te.",
