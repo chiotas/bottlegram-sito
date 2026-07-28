@@ -463,6 +463,25 @@ SITO = {
  "pt-BR": "A carta é do próprio app: costas do Natural Earth, de domínio público, carregadas dentro dele. Nenhum serviço de mapas é chamado, e nada sobre onde você está sai das suas mãos.",
  "ja": "海図はアプリ自身のものだ。海岸線はパブリックドメインの Natural Earth を内部に持っている。地図サービスを呼ぶことは一度もなく、あなたの居場所に関する情報が手元から出ていくこともない。"},
 
+"·": {
+ "it": "·", "es": "·", "fr": "·", "de": "·", "pt-BR": "·", "ja": "·"},
+
+"Privacy": {
+ "it": "Privacy",
+ "es": "Privacidad",
+ "fr": "Confidentialité",
+ "de": "Datenschutz",
+ "pt-BR": "Privacidade",
+ "ja": "プライバシー"},
+
+"Support": {
+ "it": "Supporto",
+ "es": "Soporte",
+ "fr": "Assistance",
+ "de": "Support",
+ "pt-BR": "Suporte",
+ "ja": "サポート"},
+
 "A bottle, thrown well, can reach anyone.": {
  "it": "Una bottiglia, lanciata bene, può raggiungere chiunque.",
  "es": "Una botella, bien lanzada, puede llegar a cualquiera.",

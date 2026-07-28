@@ -1046,3 +1046,49 @@ background-image:
 /* Il menu che si apre lo disegna il sistema: va reso leggibile a mano, o su
    alcuni browser esce testo carta su fondo carta. */
 .lingue select option { color: #1B1B1B; background: #F5EBD1; }
+
+/* ── Le pagine di servizio (privacy, support) ──────────────────────────
+   Fogli di carta, non atterraggi: una colonna di prosa, la barra già
+   posata, il piede di notte. Le classi del regolario tornano dalla storia
+   git (erano della landing fino a 22c0087): le regole del mare hanno di
+   nuovo una casa, questa volta quella giusta. */
+
+.prosa {
+  max-width: 46rem; margin: 0 auto;
+  padding: clamp(7rem, 14vw, 9.5rem) 1.4rem var(--respiro);
+}
+.prosa h1 { font-size: clamp(2.1rem, 5vw, 2.9rem); letter-spacing: -0.015em; text-wrap: balance; }
+.prosa .data { margin-top: 0.7rem; font-size: 0.9rem; color: var(--inchiostro-lieve); font-style: italic; }
+.prosa .guida { margin-top: 1.6rem; }
+.prosa h2 {
+  font-size: 1.38rem; margin-top: clamp(2.6rem, 6vw, 3.4rem); margin-bottom: 0.85rem;
+  text-wrap: balance;
+}
+.prosa p { max-width: 65ch; text-wrap: pretty; }
+.prosa p + p { margin-top: 1em; }
+.prosa ul { margin: 1em 0 0; padding-left: 1.15em; max-width: 62ch; }
+.prosa li { margin-top: 0.55em; }
+.prosa li::marker { color: var(--inchiostro-lieve); }
+.prosa .lieve { color: var(--inchiostro-lieve); }
+.prosa a { text-decoration: underline; text-underline-offset: 3px; }
+
+.regolario { margin: clamp(2.2rem, 5vw, 3rem) 0 0; display: grid; gap: 1.9rem; max-width: 44rem; }
+.regolario dt { font-weight: 600; font-size: 1.1rem; margin-bottom: 0.4rem; }
+.regolario dd { margin: 0; color: var(--inchiostro-lieve); font-size: 0.98rem; line-height: 1.72; }
+
+.prosa h3 { font-size: 1.1rem; margin: 2rem 0 0.4rem; }
+
+.recapito { margin-top: 3.2rem; padding-top: 2rem; border-top: 1px solid var(--carta-bordo); }
+/* Il recapito in testa alla pagina (support): stessa riga, meno strada. */
+.recapito.primo { margin-top: 2.4rem; }
+.recapito h2 { margin-top: 0; font-size: 1.1rem; margin-bottom: 0.5rem; }
+.recapito p { color: var(--inchiostro-lieve); font-size: 0.98rem; }
+.indirizzo {
+  display: inline-block; margin-top: 0.6rem;
+  color: var(--blu-profondo); font-weight: 600; text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* Il piede delle pagine di servizio: più corto di quello della landing,
+   stessa notte. */
+.pie-prosa { padding: clamp(3rem, 6vw, 4.5rem) 1.4rem; }
