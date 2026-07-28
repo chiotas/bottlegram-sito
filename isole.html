@@ -3,10 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>L'isola — tre varianti</title>
+<title>L'isola — tre proposte nuove</title>
 <style>
   /* Pagina di lavoro: serve solo a scegliere, non fa parte del sito.
-     Stesso cielo e stesse onde della tempesta, così si giudica dove andrà. */
+     Stesso cielo e stesse onde della tempesta, così si giudica dove andrà.
+     Le tre di prima (cupola rifatta, mezzaluna, scoglio) sono state bocciate:
+     queste tre non sono ritocchi della cupola, sono tre isole diverse. */
   :root { --serif: "Iowan Old Style", Palatino, Georgia, serif; }
   * { box-sizing: border-box; }
   body { margin: 0; font-family: var(--serif); color: #C9D6EA; background: #05080F; }
@@ -31,26 +33,20 @@
 </head>
 <body>
 
-<h1>L'isola, tre varianti della stessa</h1>
-<p class="nota">Le palme sono ridisegnate: prima erano il glifo del sigillo di ceralacca — cinque losanghe dritte da un punto solo, fatte per essere impresse a 44 pixel. I colori sono quelli veri dell'app, <em>mediterranean · night</em>: sabbia asciutta #595766, bagnata #404052, sagome #0D0F1F.</p>
+<h1>L'isola: tre proposte nuove</h1>
+<p class="nota">Non sono tre versioni della stessa cupola: sono tre isole diverse, tutte disegnate con la lingua della tempesta — curve come quelle delle onde, righe di schiuma, masse scure con una faccia che prende il chiaro. Colori veri dell'app, <em>mediterranean · night</em>.</p>
 
-<!-- ══════════════ le parti comuni: la palma, l'alone, la schiuma ══════════ -->
+<!-- ══════════════ le parti comuni: la fronda, l'alone ══════════════ -->
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <defs>
-    <!-- UNA FRONDA VERA. La prima versione era ancora troppo magra — lunga
-         quaranta e spessa cinque — e da lontano tornava a sembrare uno stecco.
-         Una fronda di palma è larga un terzo della sua lunghezza nel punto di
-         mezzo, si gonfia subito dopo l'attacco e si assottiglia solo in punta.
-         Il verso della caduta sta nella curva di ritorno, che rientra sotto la
-         nervatura invece di chiudere dritta. -->
+    <!-- La fronda: larga un terzo della lunghezza, si gonfia dopo l'attacco,
+         chiude in punta con la curva di ritorno sotto la nervatura. -->
     <path id="fronda" d="M0,-2 C13,-15 29,-18 43,-12 C45.5,-11 45.5,-7.5 43,-7 C31,-9 19,-5 9,3 C5,6.5 -2,4.5 0,-2 Z"/>
 
-    <!-- LA PALMA, base a (0,0) e crescita verso l'alto.
-         Il tronco è una forma PIENA e non un tratto: solo così si assottiglia
-         salendo, ed è la cosa che si riconosce da lontano. Otto fronde e non
-         cinque, con le due basse che ricadono sotto la corona: una palma è una
-         massa che pende, non una stella con i raggi. -->
-    <g id="palma" fill="#0D0F1F">
+    <!-- LA PALMA GRANDE: otto fronde, tronco pieno che si assottiglia.
+         Il «vento» non sta in una corona strana: sta nell'inclinazione di
+         tutto l'albero, come i pini piegati delle coste vere. -->
+    <g id="palma-grande" fill="#0D0F1F">
       <path d="M-7,0 C-6,-26 -3.5,-49 1,-71 L7.5,-69.5 C3.5,-48 2,-25 4,0 Z"/>
       <g transform="translate(4.5 -72)">
         <use href="#fronda" transform="rotate(-183) scale(0.9)"/>
@@ -67,9 +63,8 @@
       <circle cx="-2.4" cy="-63" r="2"/>
     </g>
 
-    <!-- La palma giovane: la stessa con SEI fronde e il tronco corto. Un albero
-         giovane ne ha meno, non le stesse rimpicciolite. -->
-    <g id="palmetta" fill="#0D0F1F">
+    <!-- La palma quieta: sei fronde, per l'atollo dove il vento è passato. -->
+    <g id="palma-quieta" fill="#0D0F1F">
       <path d="M-5,0 C-4.5,-17 -3,-32 0.5,-45 L5.5,-44 C2.5,-31 1.5,-16 3,0 Z"/>
       <g transform="translate(3 -46)">
         <use href="#fronda" transform="rotate(-176) scale(0.66)"/>
@@ -112,67 +107,43 @@
     <path class="cresta" d="M0,232 C60,198 140,266 200,232 C260,198 340,266 400,232"/>
     <path d="M0,232 C60,198 140,266 200,232 C260,198 340,266 400,232 L400,300 L0,300 Z" fill="#03070F"/>
   </svg>
-  <span class="nome">Com'è adesso<small>Le palme sono il glifo del sigillo ingrandito, e l'isola è una cupola liscia che galleggia.</small></span>
+  <span class="nome">Com'è adesso<small>La cupola liscia con il glifo del sigillo per palma. Troppo geometrica per la scena in cui sta.</small></span>
 </div>
 
-<!-- ═══════════════════════════ 1 · L'ISOLOTTO ═════════════════════════════ -->
-<div class="quadro" id="uno">
-  <span class="etichetta">1</span>
+<!-- ═══════════════════════ A · L'ONDA DI SABBIA ═══════════════════════════
+     L'isola disegnata ESATTAMENTE come le onde della tempesta: tre strati di
+     duna con le stesse curve C del mare, ognuno con il suo filo di chiaro
+     sulla cresta — la schiuma delle onde, diventata il chiaro della sabbia.
+     La palma è piegata dal vento della tempesta appena passata.            -->
+<div class="quadro" id="a">
+  <span class="etichetta">A</span>
   <div class="isola">
     <svg viewBox="0 0 240 160">
-      <ellipse cx="130" cy="100" rx="88" ry="36" fill="url(#alone)"/>
+      <ellipse cx="124" cy="100" rx="88" ry="36" fill="url(#alone)"/>
 
-      <!-- Il corpo: la gobba sta a destra e a sinistra scende una lingua bassa
-           che entra in acqua. Un'isola non è simmetrica, e la cupola centrata
-           era la cosa che la faceva sembrare un disegno di un'isola. -->
-      <path d="M8,138 C36,134 60,129 82,120 C104,111 120,97 140,91 C160,85 178,90 194,101 C210,112 226,127 236,138 Z" fill="#595766"/>
-      <!-- La faccia che prende il chiarore, dalla parte del bagliore -->
-      <path d="M82,120 C104,111 120,97 140,91 C160,85 178,90 194,101 C176,96 158,97 141,103 C120,110 101,117 82,120 Z" fill="#6E6C7E"/>
-      <!-- La sabbia bagnata: la fascia che l'acqua scopre e ricopre -->
-      <path d="M8,138 C42,132 84,127 126,127 C170,127 208,132 236,138 Z" fill="#404052"/>
-      <!-- LA RIGA DI SCHIUMA. È questa che appoggia l'isola dentro l'acqua
-           invece di lasciarla posata sopra: senza, galleggia. -->
-      <path d="M12,136 C46,130 86,126 126,126 C168,126 204,130 232,136"
-            fill="none" stroke="#93A6C2" stroke-opacity=".55" stroke-width="1.5" stroke-linecap="round"/>
+      <!-- La duna dietro: quasi silhouette, come l'onda lontana -->
+      <path d="M42,132 C64,116 90,94 118,86 C144,80 168,87 188,100 C202,109 212,121 220,132 Z" fill="#2A2A3C"/>
+      <path d="M118,86 C144,80 168,87 188,100 C172,93 154,90 138,94 C130,96 123,90 118,86 Z" fill="#3A394C"/>
 
-      <use href="#palma" transform="translate(150 92) scale(1.06) rotate(5)"/>
-      <use href="#palmetta" transform="translate(120 106) scale(0.92) rotate(-9)"/>
-    </svg>
-  </div>
-  <svg class="onde" viewBox="0 0 400 300" preserveAspectRatio="none">
-    <path class="cresta" d="M0,176 C60,148 140,204 200,176 C260,148 340,204 400,176"/>
-    <path d="M0,176 C60,148 140,204 200,176 C260,148 340,204 400,176 L400,300 L0,300 Z" fill="#071223"/>
-    <path class="cresta" d="M0,232 C60,198 140,266 200,232 C260,198 340,266 400,232"/>
-    <path d="M0,232 C60,198 140,266 200,232 C260,198 340,266 400,232 L400,300 L0,300 Z" fill="#03070F"/>
-  </svg>
-  <span class="nome">1 · L'isolotto<small>La stessa idea, fatta bene: gobba spostata, una lingua di sabbia che entra in acqua, la riga di schiuma che la appoggia dentro il mare. Due palme, una grande e una giovane.</small></span>
-</div>
+      <!-- La duna davanti: più scura del cielo dietro, col chiaro SOLO sul
+           filo della cresta, dalla parte del bagliore -->
+      <path d="M8,136 C36,130 62,121 86,108 C106,97 124,91 142,93 C166,96 196,117 232,136 Z" fill="#45445A"/>
+      <path d="M86,108 C106,97 124,91 142,93 C133,91 120,94 106,101 C99,104.5 92,106.5 86,108 Z" fill="#636174"/>
+      <path d="M24,130 C48,123 68,115 90,104"
+            fill="none" stroke="#8B8AA0" stroke-opacity=".3" stroke-width="1.3" stroke-linecap="round"/>
 
-<!-- ═══════════════════════════ 2 · LA MEZZALUNA ═══════════════════════════ -->
-<div class="quadro" id="due">
-  <span class="etichetta">2</span>
-  <div class="isola">
-    <svg viewBox="0 0 240 160">
-      <ellipse cx="120" cy="102" rx="98" ry="34" fill="url(#alone)"/>
+      <!-- La sabbia bagnata e la riga di schiuma, con la sua curva -->
+      <path d="M8,136 C52,128 102,124 148,125 C184,126 212,131 232,136 Z" fill="#2B2B3A"/>
+      <path d="M14,134 C58,126 106,123 148,124 C182,125 208,130 228,134"
+            fill="none" stroke="#93A6C2" stroke-opacity=".5" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M60,129 C84,125 112,123 138,123.5"
+            fill="none" stroke="#93A6C2" stroke-opacity=".22" stroke-width="1" stroke-linecap="round"/>
 
-      <!-- Più larga e più bassa, con la sabbia che si allunga da tutte e due le
-           parti: si legge come un posto dove si cammina, non come una collina. -->
-      <path d="M2,140 C28,136 52,131 72,124 C92,117 106,106 124,101 C142,96 158,99 172,106 C190,115 214,130 238,140 Z" fill="#595766"/>
-      <path d="M72,124 C92,117 106,106 124,101 C142,96 158,99 172,106 C154,102 138,104 122,110 C104,117 88,122 72,124 Z" fill="#6E6C7E"/>
-      <path d="M2,140 C40,133 84,129 124,129 C168,129 208,134 238,140 Z" fill="#404052"/>
-      <path d="M6,138 C44,132 86,128 124,128 C166,128 206,132 234,138"
-            fill="none" stroke="#93A6C2" stroke-opacity=".55" stroke-width="1.5" stroke-linecap="round"/>
-
-      <!-- Tre palme in gruppo e non allineate: gli alberi crescono a mucchi. -->
-      <use href="#palma" transform="translate(138 98) scale(0.96) rotate(4)"/>
-      <use href="#palma" transform="translate(119 104) scale(0.74) rotate(-11)"/>
-      <use href="#palmetta" transform="translate(158 104) scale(0.84) rotate(12)"/>
-
-      <!-- Due ciuffi d'erba dalla parte opposta, per non lasciarla nuda -->
-      <g stroke="#0D0F1F" stroke-width="1.6" stroke-linecap="round" fill="none">
-        <path d="M56,127 C54,120 55,114 58,109"/>
-        <path d="M61,128 C61,121 63,115 67,111"/>
-        <path d="M66,128 C67,122 70,117 74,113"/>
+      <!-- La palma piegata dal vento: tutto l'albero, non solo la chioma -->
+      <use href="#palma-grande" transform="translate(148 98) scale(1.02) rotate(-14)"/>
+      <g stroke="#0D0F1F" stroke-width="1.5" stroke-linecap="round" fill="none">
+        <path d="M76,122 C72,117 68,114 62,112"/>
+        <path d="M83,123 C80,117 76,113 71,111"/>
       </g>
     </svg>
   </div>
@@ -182,31 +153,42 @@
     <path class="cresta" d="M0,232 C60,198 140,266 200,232 C260,198 340,266 400,232"/>
     <path d="M0,232 C60,198 140,266 200,232 C260,198 340,266 400,232 L400,300 L0,300 Z" fill="#03070F"/>
   </svg>
-  <span class="nome">2 · La mezzaluna<small>Più larga e più bassa, sabbia da tutte e due le parti. Tre palme a mucchio e qualche ciuffo d'erba: si legge come un posto dove si cammina.</small></span>
+  <span class="nome">A · L'onda di sabbia<small>L'isola parla la stessa lingua delle onde: tre strati di duna con le curve del mare, un filo di chiaro su ogni cresta come la schiuma. La palma è piegata dal vento della tempesta.</small></span>
 </div>
 
-<!-- ══════════════════════ 3 · L'ISOLA CON LO SCOGLIO ══════════════════════ -->
-<div class="quadro" id="tre">
-  <span class="etichetta">3</span>
+<!-- ═══════════════════════ B · IL RICOVERO ════════════════════════════════
+     Una punta di roccia a sinistra ripara una lingua di sabbia sottovento,
+     dove sta la palma. La roccia ha tre facce — quella verso il bagliore
+     prende il chiaro — e la sagoma ha due note: alta e dura da una parte,
+     bassa e morbida dall'altra. È l'isola su cui SI SBARCA.               -->
+<div class="quadro" id="b">
+  <span class="etichetta">B</span>
   <div class="isola">
     <svg viewBox="0 0 240 160">
-      <ellipse cx="126" cy="100" rx="90" ry="36" fill="url(#alone)"/>
+      <ellipse cx="112" cy="94" rx="96" ry="42" fill="url(#alone)"/>
 
-      <!-- La stessa isola, ma con una punta di roccia a un capo: la sagoma
-           acquista una seconda nota e smette di essere una curva sola. -->
-      <path d="M10,138 C38,134 62,129 84,120 C104,112 120,99 140,93 C160,87 178,92 194,103 C210,114 226,128 234,138 Z" fill="#595766"/>
-      <path d="M84,120 C104,112 120,99 140,93 C160,87 178,92 194,103 C176,98 158,99 141,105 C121,112 102,118 84,120 Z" fill="#6E6C7E"/>
+      <!-- La roccia: un massiccio a facce, punta fuori centro, quasi nera -->
+      <path d="M24,134 L40,94 L58,64 L82,50 L104,62 L116,86 L124,134 Z" fill="#171C2A"/>
+      <path d="M58,64 L82,50 L104,62 L116,86 L124,134 L94,134 L82,92 Z" fill="#262C3F"/>
+      <path d="M82,50 L104,62 L96,72 L76,58 Z" fill="#3E4459"/>
+      <path d="M40,94 L58,64 L66,76 L50,102 Z" fill="#20263A"/>
 
-      <!-- Lo scoglio, spezzato e più scuro della sabbia -->
-      <path d="M28,132 L40,106 L52,100 L62,112 L70,108 L80,130 Z" fill="#2C3040"/>
-      <path d="M40,106 L52,100 L62,112 L50,116 Z" fill="#43485C"/>
+      <!-- La sabbia sottovento, riparata dal massiccio -->
+      <path d="M98,134 C118,116 142,105 166,102 C192,99 214,116 228,134 Z" fill="#45445A"/>
+      <path d="M166,102 C182,100 198,106 212,118 C200,109 186,105.5 172,107 Z" fill="#636174"/>
 
-      <path d="M10,138 C44,132 86,127 128,127 C170,127 208,132 234,138 Z" fill="#404052"/>
-      <path d="M14,136 C48,130 88,126 128,126 C168,126 204,130 230,136"
-            fill="none" stroke="#93A6C2" stroke-opacity=".55" stroke-width="1.5" stroke-linecap="round"/>
+      <!-- La battigia e la schiuma; sul piede della roccia la schiuma ROMPE -->
+      <path d="M24,138 C78,131 140,127 176,127 C200,127 218,131 230,138 Z" fill="#2B2B3A"/>
+      <path d="M32,136 C84,129 142,126 176,126 C198,126 214,129 226,134"
+            fill="none" stroke="#93A6C2" stroke-opacity=".5" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M18,133 C26,128 36,126 46,128" fill="none" stroke="#93A6C2" stroke-opacity=".45" stroke-width="1.4" stroke-linecap="round"/>
+      <path d="M22,136 C30,132 40,131 50,132" fill="none" stroke="#93A6C2" stroke-opacity=".25" stroke-width="1" stroke-linecap="round"/>
 
-      <use href="#palma" transform="translate(152 94) scale(1.08) rotate(6)"/>
-      <use href="#palmetta" transform="translate(126 105) scale(0.88) rotate(-12)"/>
+      <use href="#palma-grande" transform="translate(174 104) scale(0.88) rotate(7)"/>
+      <g stroke="#0D0F1F" stroke-width="1.5" stroke-linecap="round" fill="none">
+        <path d="M138,119 C136,113 137,108 140,104"/>
+        <path d="M144,120 C144,113 146,108 150,105"/>
+      </g>
     </svg>
   </div>
   <svg class="onde" viewBox="0 0 400 300" preserveAspectRatio="none">
@@ -215,7 +197,50 @@
     <path class="cresta" d="M0,232 C60,198 140,266 200,232 C260,198 340,266 400,232"/>
     <path d="M0,232 C60,198 140,266 200,232 C260,198 340,266 400,232 L400,300 L0,300 Z" fill="#03070F"/>
   </svg>
-  <span class="nome">3 · L'isola con lo scoglio<small>Come la 1, ma a un capo affiora la roccia. La sagoma smette di essere una curva sola, e si capisce che il mare l'ha fatta lui.</small></span>
+  <span class="nome">B · Il ricovero<small>La roccia a tre facce ripara la lingua di sabbia sottovento, la schiuma rompe sul suo piede. Due note nella sagoma: dura a sinistra, morbida a destra — l'isola su cui si sbarca.</small></span>
+</div>
+
+<!-- ═══════════════════════ C · L'ATOLLO LUNGO ═════════════════════════════
+     Bassa e lunga, quasi tutta battigia: la macchia di palme sta a destra a
+     mucchio, a sinistra restano un tronco portato dal mare e un masso. La
+     costa non è una curva sola: ha una rientranza al centro, come se il mare
+     ci fosse già entrato. È l'isola-spiaggia: quella dell'app.            -->
+<div class="quadro" id="c">
+  <span class="etichetta">C</span>
+  <div class="isola">
+    <svg viewBox="0 0 240 160">
+      <ellipse cx="120" cy="102" rx="104" ry="36" fill="url(#alone)"/>
+
+      <!-- Il corpo: basso ma con due gobbe vere e la rientranza al centro -->
+      <path d="M6,134 C26,126 50,114 74,109 C92,105.5 102,109 110,115 C117,120 124,120 132,116 C148,108 168,99 188,99 C208,99 224,116 234,134 Z" fill="#45445A"/>
+      <path d="M132,116 C148,108 168,99 188,99 C199,99 210,105 219,114 C205,106 190,103.5 176,106 C160,109 144,114 132,116 Z" fill="#636174"/>
+      <path d="M74,109 C92,105.5 102,109 110,115 C103,109 94,107 84,108.5 Z" fill="#57566A"/>
+
+      <!-- La battigia, con la schiuma che entra nella rientranza -->
+      <path d="M6,138 C40,131 84,126 122,126 C162,126 202,131 234,138 Z" fill="#2B2B3A"/>
+      <path d="M12,136 C46,129 88,125 122,125 C160,125 196,129 226,136"
+            fill="none" stroke="#93A6C2" stroke-opacity=".5" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M102,122 C110,118.5 118,118.5 126,121"
+            fill="none" stroke="#93A6C2" stroke-opacity=".38" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- La macchia: tre palme a mucchio, non in fila -->
+      <use href="#palma-quieta" transform="translate(184 102) scale(1.2) rotate(-6)"/>
+      <use href="#palma-quieta" transform="translate(202 105) scale(0.95) rotate(9)"/>
+      <use href="#palma-quieta" transform="translate(168 107) scale(0.8) rotate(3)"/>
+
+      <!-- Il tronco portato dal mare, e un masso -->
+      <path d="M34,122 L64,115 L67,118.5 L37,125.5 Z" fill="#14181F"/>
+      <path d="M60,115 L66,110 L68.5,113.5 L64,117.5 Z" fill="#14181F"/>
+      <path d="M84,119 Q88,109 97,110 Q105,111 106,119 Q106,124 100,125 L89,125 Q84,123 84,119 Z" fill="#232838"/>
+    </svg>
+  </div>
+  <svg class="onde" viewBox="0 0 400 300" preserveAspectRatio="none">
+    <path class="cresta" d="M0,176 C60,148 140,204 200,176 C260,148 340,204 400,176"/>
+    <path d="M0,176 C60,148 140,204 200,176 C260,148 340,204 400,176 L400,300 L0,300 Z" fill="#071223"/>
+    <path class="cresta" d="M0,232 C60,198 140,266 200,232 C260,198 340,266 400,232"/>
+    <path d="M0,232 C60,198 140,266 200,232 C260,198 340,266 400,232 L400,300 L0,300 Z" fill="#03070F"/>
+  </svg>
+  <span class="nome">C · L'atollo lungo<small>Bassa e lunga, quasi tutta battigia, con la rientranza dove il mare è già entrato. Le palme a mucchio da una parte, un tronco portato dalla corrente dall'altra. L'isola-spiaggia: quella dell'app.</small></span>
 </div>
 
 <script src="app.js"></script>
