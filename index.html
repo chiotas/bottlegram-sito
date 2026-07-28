@@ -254,7 +254,7 @@
   <div class="dentro">
     <p class="soprattitolo">How it works</p>
     <h2 id="titolo-come" class="grande">Three bottles a day,<br>and a whole sea in between.</h2>
-    <p class="guida">Bottlegram is slow messaging. You write to nobody in particular, the current decides who finds you, and what comes back is a stranger.</p>
+    <p class="guida larga">Bottlegram is a slow messaging app. You do not write to anybody in particular — it is the current that decides who you end up talking to.</p>
 
     <!-- LA TRAVERSATA, DI NOTTE — e non un secondo portolano: la carta
          nautica ce l'ha già la sezione «The crossing», più in basso, e due
@@ -264,71 +264,69 @@
          delle ore. È l'intera app in un'immagine sola. -->
     <figure class="rotta-figura affiora">
       <svg class="traversata-notte" viewBox="0 0 1200 560" role="img"
-           aria-label="Two dark headlands facing each other across a night sea, with a bottle drifting between them.">
+           aria-label="A stretch of sea seen from above: two coasts, and a bottle drifting from one to the other.">
         <defs>
-          <linearGradient id="trav-cielo" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%"   stop-color="#0A0F2E"/>
-            <stop offset="55%"  stop-color="#141F47"/>
-            <stop offset="100%" stop-color="#24335C"/>
-          </linearGradient>
-          <linearGradient id="trav-mare" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%"   stop-color="#08122E"/>
-            <stop offset="45%"  stop-color="#0F1F42"/>
-            <stop offset="100%" stop-color="#1F3357"/>
-          </linearGradient>
-          <!-- La rotta: una sola volta. La disegna il tratteggio E la
-               percorre la bottiglia (`mpath`), così non ci sono due copie
-               di coordinate da tenere allineate a mano. -->
+          <!-- VISTA DALL'ALTO, e la prima versione non lo era: aveva il cielo,
+               le stelle e la linea dell'orizzonte, cioè una veduta LATERALE,
+               con sopra una rotta che si guarda solo dall'alto. Le due cose
+               insieme non stanno in piedi — la rotta smetteva di leggersi come
+               un viaggio e diventava un cavo teso fra due scogliere. Qui non
+               c'è più niente di verticale: solo acqua guardata da sopra. -->
+          <radialGradient id="trav-acqua" cx="50%" cy="50%" r="78%">
+            <stop offset="0%"   stop-color="#1F3357"/>
+            <stop offset="60%"  stop-color="#12224A"/>
+            <stop offset="100%" stop-color="#08122E"/>
+          </radialGradient>
           <path id="rotta-traversata"
-                d="M214,392 C400,300 520,436 640,368 C760,300 872,352 992,300"/>
+                d="M214,364 C392,286 512,432 648,352 C784,272 892,326 1004,254"/>
         </defs>
 
-        <rect width="1200" height="560" fill="url(#trav-cielo)"/>
+        <rect width="1200" height="560" fill="url(#trav-acqua)"/>
 
-        <!-- Poche stelle, asimmetriche: le stesse mani dell'icona. -->
-        <g fill="#F2F2E0" opacity="0.85">
-          <circle cx="168" cy="74"  r="2.6"/>
-          <circle cx="372" cy="132" r="1.8"/>
-          <circle cx="742" cy="66"  r="2.2"/>
-          <circle cx="948" cy="150" r="1.6"/>
-          <circle cx="1094" cy="58" r="2.4"/>
-          <circle cx="556" cy="42"  r="1.5"/>
+        <!-- Le correnti: righe lunghe e sottili nel verso in cui l'acqua va.
+             Sono quello che dice «questa è acqua vista da sopra» senza
+             scriverlo — e il motivo per cui la bottiglia si muove. -->
+        <g fill="none" stroke="#6E88B4" stroke-width="1.5" stroke-linecap="round" opacity="0.16">
+          <path d="M60,120 C300,74 520,158 760,110 C920,78 1060,120 1180,92"/>
+          <path d="M20,190 C260,146 500,224 740,178 C900,148 1050,186 1190,158"/>
+          <path d="M40,442 C280,398 520,476 760,430 C920,400 1070,436 1180,410"/>
+          <path d="M10,506 C250,464 490,538 730,494 C890,466 1050,500 1190,476"/>
+          <path d="M120,296 C320,262 470,310 620,286"/>
+          <path d="M700,470 C860,442 1000,472 1140,450"/>
         </g>
 
-        <!-- Il mare comincia dove finisce il cielo. -->
-        <path d="M0,262 C300,246 900,278 1200,254 L1200,560 L0,560 Z" fill="url(#trav-mare)"/>
-
-        <!-- Tre onde larghe, appena più chiare: danno il fondo senza rumore. -->
-        <g fill="#24335C" opacity="0.5">
-          <path d="M0,318 C260,300 500,340 760,322 C940,310 1080,326 1200,316 L1200,336 C1080,346 940,330 760,342 C500,360 260,320 0,338 Z"/>
-          <path d="M0,404 C280,386 540,424 800,406 C980,394 1090,410 1200,400 L1200,422 C1090,432 980,416 800,428 C540,446 280,408 0,426 Z"/>
-        </g>
-
-        <!-- Le due teste di costa. Nere contro il mare, come si vedono di
-             notte da lontano: quella di sinistra è la tua. -->
-        <path d="M0,560 L0,372 C60,356 118,394 170,382 C212,372 236,392 262,408
-                 C300,432 330,478 344,560 Z" fill="#060B1E"/>
-        <path d="M1200,560 L1200,282 C1144,292 1090,268 1042,286 C1006,299 984,296 958,316
-                 C918,346 890,410 878,560 Z" fill="#060B1E"/>
-
-        <!-- I due fuochi sulla riva: ceralacca, come i sigilli. -->
+        <!-- Le due terre, viste da sopra: entrano dai bordi e si fermano.
+             Bordo di sabbia chiaro attaccato alla costa — è il secondo segno
+             che siamo sopra e non di lato. -->
         <g>
-          <circle cx="214" cy="392" r="7" fill="#6B2924"/>
-          <circle cx="214" cy="392" r="16" fill="none" stroke="#6B2924" stroke-width="1.4" opacity="0.5"/>
-          <circle cx="992" cy="300" r="7" fill="#6B2924"/>
-          <circle cx="992" cy="300" r="16" fill="none" stroke="#6B2924" stroke-width="1.4" opacity="0.5"/>
+          <path d="M0,0 L0,560 L112,560 C168,506 150,438 196,392 C232,356 214,300 178,258
+                   C140,214 168,150 132,96 C108,60 74,28 0,0 Z" fill="#0B1330"/>
+          <path d="M0,0 L0,560 L112,560 C168,506 150,438 196,392 C232,356 214,300 178,258
+                   C140,214 168,150 132,96 C108,60 74,28 0,0 Z"
+                fill="none" stroke="#C9B489" stroke-width="5" opacity="0.5"/>
+
+          <path d="M1200,0 L1200,560 L1092,560 C1040,502 1064,436 1022,388 C988,350 1008,296 1042,256
+                   C1078,214 1046,146 1078,92 C1100,56 1136,26 1200,0 Z" fill="#0B1330"/>
+          <path d="M1200,0 L1200,560 L1092,560 C1040,502 1064,436 1022,388 C988,350 1008,296 1042,256
+                   C1078,214 1046,146 1078,92 C1100,56 1136,26 1200,0 Z"
+                fill="none" stroke="#C9B489" stroke-width="5" opacity="0.5"/>
         </g>
 
-        <!-- La rotta, tratteggiata come sulla carta dell'app. -->
+        <!-- I due punti di partenza e d'arrivo, in ceralacca come i sigilli. -->
+        <g>
+          <circle cx="214" cy="364" r="7" fill="#6B2924"/>
+          <circle cx="214" cy="364" r="16" fill="none" stroke="#6B2924" stroke-width="1.4" opacity="0.5"/>
+          <circle cx="1004" cy="254" r="7" fill="#6B2924"/>
+          <circle cx="1004" cy="254" r="16" fill="none" stroke="#6B2924" stroke-width="1.4" opacity="0.5"/>
+        </g>
+
         <use href="#rotta-traversata" fill="none" stroke="#C6DAF0" stroke-width="2.4"
-             stroke-dasharray="9 13" stroke-linecap="round" opacity="0.45"/>
+             stroke-dasharray="9 13" stroke-linecap="round" opacity="0.5"/>
 
-        <text class="riva-nome" x="214"  y="452" text-anchor="middle">Your shore</text>
-        <text class="riva-nome" x="992"  y="256" text-anchor="middle">Someone's shore</text>
-        <text class="rotta-ore" x="606"  y="212" text-anchor="middle">six to twenty-four hours</text>
+        <text class="riva-nome" x="214"  y="424" text-anchor="middle">Your shore</text>
+        <text class="riva-nome" x="1004" y="212" text-anchor="middle">Someone's shore</text>
+        <text class="rotta-ore" x="606"  y="180" text-anchor="middle">six to twenty-four hours</text>
 
-        <!-- La bottiglia in viaggio: lenta, e senza fine, perché la
-             traversata è il soggetto della figura. -->
         <g class="bottiglia-in-rotta">
           <g transform="translate(-13 -13)">
             <svg width="26" height="26" viewBox="0 0 100 100">
@@ -340,12 +338,18 @@
           </animateMotion>
         </g>
       </svg>
+          </g>
+          <animateMotion dur="18s" repeatCount="indefinite" rotate="auto">
+            <mpath href="#rotta-traversata"/>
+          </animateMotion>
+        </g>
+      </svg>
     </figure>
 
     <ol class="passi">
       <li class="passo">
         <span class="passo-numero">1</span>
-        <h3>You throw one</h3>
+        <h3>You throw a bottle</h3>
         <p>Every day the sea leaves you three bottles. You put a message inside and hand it to the current, without choosing who gets it.</p>
       </li>
       <li class="passo">

@@ -677,6 +677,13 @@ background-image:
   font-size: 1.04rem; line-height: 1.75;
 }
 .guida.corsivo { font-style: italic; }
+/* Il raccordo di «come funziona» va da bordo a bordo, non in colonna: è la
+   frase che definisce l'app, e stretta in 46ch accanto a mezzo schermo vuoto
+   sembrava una didascalia di qualcos'altro. */
+.guida.larga {
+  max-width: none; font-size: clamp(1.1rem, 1.5vw, 1.32rem);
+  line-height: 1.65; color: var(--inchiostro);
+}
 
 .sezione h2.grande {
   font-size: clamp(2.1rem, 5.2vw, 3.5rem);

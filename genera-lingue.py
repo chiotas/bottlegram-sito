@@ -55,21 +55,21 @@ SITO = {
  "fr": "et une mer entière entre les deux.", "de": "und dazwischen ein ganzes Meer.",
  "pt-BR": "e um mar inteiro no meio.", "ja": "あいだには、ひとつの海。"},
 
-"Bottlegram is slow messaging. You write to nobody in particular, the current decides who finds you, and what comes back is a stranger.": {
- "it": "Bottlegram è messaggistica lenta. Scrivi a nessuno in particolare, è la corrente a decidere chi ti trova, e quello che torna indietro è uno sconosciuto.",
- "es": "Bottlegram es mensajería lenta. Escribes a nadie en particular, la corriente decide quién te encuentra, y lo que vuelve es un desconocido.",
- "fr": "Bottlegram, c'est de la messagerie lente. Tu écris à personne en particulier, c'est le courant qui décide qui te trouve, et ce qui revient, c'est un inconnu.",
- "de": "Bottlegram ist langsame Post. Du schreibst an niemanden bestimmten, die Strömung entscheidet, wer dich findet, und zurück kommt ein Fremder.",
- "pt-BR": "Bottlegram é mensageria lenta. Você escreve para ninguém em particular, a correnteza decide quem te encontra, e o que volta é um desconhecido.",
- "ja": "Bottlegram は、ゆっくりとしたメッセージのやりとりです。宛先を決めずに書き、だれが拾うかは潮が決めます。返ってくるのは、見知らぬだれかです。"},
+"Bottlegram is a slow messaging app. You do not write to anybody in particular — it is the current that decides who you end up talking to.": {
+ "it": "Bottlegram è una applicazione di messaggistica lenta. Non scrivi a nessuno in particolare, è la corrente a decidere il tuo interlocutore.",
+ "es": "Bottlegram es una aplicación de mensajería lenta. No escribes a nadie en particular: es la corriente la que decide con quién acabas hablando.",
+ "fr": "Bottlegram est une application de messagerie lente. Tu n'écris à personne en particulier — c'est le courant qui décide de ton interlocuteur.",
+ "de": "Bottlegram ist eine App für langsame Nachrichten. Du schreibst niemandem bestimmten — die Strömung entscheidet, mit wem du am Ende sprichst.",
+ "pt-BR": "Bottlegram é um aplicativo de mensageria lenta. Você não escreve para ninguém em particular — é a correnteza que decide com quem você vai conversar.",
+ "ja": "Bottlegram は、ゆっくりとしたメッセージのやりとりをするアプリです。宛先はあなたが決めません。だれと話すことになるかは、潮が決めます。"},
 
-"A nautical chart: a bottle crossing from one coast to another along a dotted route.": {
- "it": "Una carta nautica: una bottiglia attraversa da una costa all'altra lungo una rotta tratteggiata.",
- "es": "Una carta náutica: una botella cruza de una costa a otra por una ruta punteada.",
- "fr": "Une carte marine : une bouteille traverse d'une côte à l'autre le long d'une route en pointillé.",
- "de": "Eine Seekarte: eine Flasche kreuzt entlang einer gestrichelten Route von einer Küste zur anderen.",
- "pt-BR": "Uma carta náutica: uma garrafa atravessa de uma costa a outra por uma rota pontilhada.",
- "ja": "海図。点線の航路にそって、瓶がひとつの岸からもうひとつの岸へ渡っていく。"},
+"A stretch of sea seen from above: two coasts, and a bottle drifting from one to the other.": {
+ "it": "Un tratto di mare visto dall'alto: due coste, e una bottiglia che va dall'una all'altra.",
+ "es": "Un trecho de mar visto desde arriba: dos costas, y una botella que va de una a otra.",
+ "fr": "Une étendue de mer vue d'en haut : deux côtes, et une bouteille qui va de l'une à l'autre.",
+ "de": "Ein Stück Meer von oben: zwei Küsten und eine Flasche, die von der einen zur anderen treibt.",
+ "pt-BR": "Um trecho de mar visto de cima: duas costas, e uma garrafa que vai de uma à outra.",
+ "ja": "上から見た海の一角。ふたつの岸と、その一方からもう一方へ流れていく瓶。"},
 
 "Your shore": {
  "it": "La tua riva", "es": "Tu orilla", "fr": "Ta rive",
@@ -84,9 +84,9 @@ SITO = {
  "fr": "de six à vingt-quatre heures", "de": "sechs bis vierundzwanzig Stunden",
  "pt-BR": "de seis a vinte e quatro horas", "ja": "六時間から二十四時間"},
 
-"You throw one": {
- "it": "Ne lanci una", "es": "Lanzas una", "fr": "Tu en lances une",
- "de": "Du wirfst eine", "pt-BR": "Você lança uma", "ja": "一本を放つ"},
+"You throw a bottle": {
+ "it": "Lanci una bottiglia", "es": "Lanzas una botella", "fr": "Tu lances une bouteille",
+ "de": "Du wirfst eine Flasche", "pt-BR": "Você lança uma garrafa", "ja": "瓶をひとつ放つ"},
 
 "Every day the sea leaves you three bottles. You put a message inside and hand it to the current, without choosing who gets it.": {
  "it": "Ogni giorno il mare ti lascia tre bottiglie. Ci metti dentro un messaggio e lo affidi alla corrente, senza scegliere per chi.",
