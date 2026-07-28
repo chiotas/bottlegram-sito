@@ -34,6 +34,104 @@ SITO = {
  "it": "Vai al contenuto", "es": "Ir al contenido", "fr": "Aller au contenu",
  "de": "Zum Inhalt springen", "pt-BR": "Ir para o conteúdo", "ja": "本文へ"},
 
+# ── «Come funziona»: la traversata (28/07) ────────────────────────────────
+# Le quattro tappe dicono le stesse cose della pagina «Come funziona»
+# dell'app (chiavi howto.* in Localizable.xcstrings), ma NON sono le stesse
+# stringhe: là si parla a chi è già dentro, qui a chi sta ancora decidendo.
+# Vanno tenute d'accordo nel contenuto, non nella lettera — se un giorno
+# cambiano le tre bottiglie o le ore, si cambiano tutte e due.
+
+"How it works": {
+ "it": "Come funziona", "es": "Cómo funciona", "fr": "Comment ça marche",
+ "de": "Wie es funktioniert", "pt-BR": "Como funciona", "ja": "遊びかた"},
+
+"Three bottles a day,": {
+ "it": "Tre bottiglie al giorno,", "es": "Tres botellas al día,",
+ "fr": "Trois bouteilles par jour,", "de": "Drei Flaschen am Tag,",
+ "pt-BR": "Três garrafas por dia,", "ja": "一日に三本、"},
+
+"and a whole sea in between.": {
+ "it": "e un mare intero in mezzo.", "es": "y un mar entero en medio.",
+ "fr": "et une mer entière entre les deux.", "de": "und dazwischen ein ganzes Meer.",
+ "pt-BR": "e um mar inteiro no meio.", "ja": "あいだには、ひとつの海。"},
+
+"Bottlegram is slow messaging. You write to nobody in particular, the current decides who finds you, and what comes back is a stranger.": {
+ "it": "Bottlegram è messaggistica lenta. Scrivi a nessuno in particolare, è la corrente a decidere chi ti trova, e quello che torna indietro è uno sconosciuto.",
+ "es": "Bottlegram es mensajería lenta. Escribes a nadie en particular, la corriente decide quién te encuentra, y lo que vuelve es un desconocido.",
+ "fr": "Bottlegram, c'est de la messagerie lente. Tu écris à personne en particulier, c'est le courant qui décide qui te trouve, et ce qui revient, c'est un inconnu.",
+ "de": "Bottlegram ist langsame Post. Du schreibst an niemanden bestimmten, die Strömung entscheidet, wer dich findet, und zurück kommt ein Fremder.",
+ "pt-BR": "Bottlegram é mensageria lenta. Você escreve para ninguém em particular, a correnteza decide quem te encontra, e o que volta é um desconhecido.",
+ "ja": "Bottlegram は、ゆっくりとしたメッセージのやりとりです。宛先を決めずに書き、だれが拾うかは潮が決めます。返ってくるのは、見知らぬだれかです。"},
+
+"A nautical chart: a bottle crossing from one coast to another along a dotted route.": {
+ "it": "Una carta nautica: una bottiglia attraversa da una costa all'altra lungo una rotta tratteggiata.",
+ "es": "Una carta náutica: una botella cruza de una costa a otra por una ruta punteada.",
+ "fr": "Une carte marine : une bouteille traverse d'une côte à l'autre le long d'une route en pointillé.",
+ "de": "Eine Seekarte: eine Flasche kreuzt entlang einer gestrichelten Route von einer Küste zur anderen.",
+ "pt-BR": "Uma carta náutica: uma garrafa atravessa de uma costa a outra por uma rota pontilhada.",
+ "ja": "海図。点線の航路にそって、瓶がひとつの岸からもうひとつの岸へ渡っていく。"},
+
+"Your shore": {
+ "it": "La tua riva", "es": "Tu orilla", "fr": "Ta rive",
+ "de": "Dein Ufer", "pt-BR": "Sua praia", "ja": "あなたの岸"},
+
+"Someone's shore": {
+ "it": "La riva di qualcuno", "es": "La orilla de alguien", "fr": "La rive de quelqu'un",
+ "de": "Jemandes Ufer", "pt-BR": "A praia de alguém", "ja": "だれかの岸"},
+
+"six to twenty-four hours": {
+ "it": "da sei a ventiquattro ore", "es": "de seis a veinticuatro horas",
+ "fr": "de six à vingt-quatre heures", "de": "sechs bis vierundzwanzig Stunden",
+ "pt-BR": "de seis a vinte e quatro horas", "ja": "六時間から二十四時間"},
+
+"You throw one": {
+ "it": "Ne lanci una", "es": "Lanzas una", "fr": "Tu en lances une",
+ "de": "Du wirfst eine", "pt-BR": "Você lança uma", "ja": "一本を放つ"},
+
+"Every day the sea leaves you three bottles. You put a message inside and hand it to the current, without choosing who gets it.": {
+ "it": "Ogni giorno il mare ti lascia tre bottiglie. Ci metti dentro un messaggio e lo affidi alla corrente, senza scegliere per chi.",
+ "es": "Cada día el mar te deja tres botellas. Metes dentro un mensaje y lo confías a la corriente, sin elegir para quién.",
+ "fr": "Chaque jour la mer te laisse trois bouteilles. Tu y glisses un message et tu le confies au courant, sans choisir pour qui.",
+ "de": "Jeden Tag lässt dir das Meer drei Flaschen da. Du legst eine Nachricht hinein und übergibst sie der Strömung, ohne zu wählen, für wen.",
+ "pt-BR": "Todo dia o mar te deixa três garrafas. Você põe uma mensagem dentro e a entrega à correnteza, sem escolher para quem.",
+ "ja": "海は毎日、三本の瓶を置いていきます。ことづてを入れて、宛先を選ばずに潮へゆだねます。"},
+
+"Someone finds it": {
+ "it": "Qualcuno la trova", "es": "Alguien la encuentra", "fr": "Quelqu'un la trouve",
+ "de": "Jemand findet sie", "pt-BR": "Alguém a encontra", "ja": "だれかが拾う"},
+
+"Hours later it washes up on another castaway's beach. In the same way, other people's bottles wash up on your sand.": {
+ "it": "Qualche ora dopo approda sulla spiaggia di un altro naufrago. Allo stesso modo, sulla tua sabbia arrivano le bottiglie degli altri.",
+ "es": "Unas horas después llega a la playa de otro náufrago. Del mismo modo, a tu arena llegan las botellas de los demás.",
+ "fr": "Quelques heures plus tard, elle échoue sur la plage d'un autre naufragé. De la même façon, les bouteilles des autres échouent sur ton sable.",
+ "de": "Stunden später strandet sie am Strand eines anderen Schiffbrüchigen. Genauso stranden fremde Flaschen an deinem Sand.",
+ "pt-BR": "Horas depois ela encalha na praia de outro náufrago. Do mesmo modo, na sua areia chegam as garrafas dos outros.",
+ "ja": "数時間ののち、べつの漂流者の浜へ流れ着きます。同じように、あなたの砂浜にも、ほかの人の瓶が届きます。"},
+
+"And answers, if they want to": {
+ "it": "E se vuole, risponde", "es": "Y si quiere, responde", "fr": "Et s'il veut, il répond",
+ "de": "Und antwortet, wenn er mag", "pt-BR": "E responde, se quiser", "ja": "気が向けば、返事が来る"},
+
+"Whoever finds your letter can write back, and a correspondence begins. Nobody has to: a bottle that goes unanswered is a thing that happens at sea.": {
+ "it": "Chi trova la tua lettera può risponderti, e da lì nasce una corrispondenza. Nessuno è obbligato: una bottiglia senza risposta è una cosa che in mare succede.",
+ "es": "Quien encuentre tu carta puede contestarte, y de ahí nace una correspondencia. Nadie está obligado: una botella sin respuesta es algo que en el mar pasa.",
+ "fr": "Celui qui trouve ta lettre peut te répondre, et une correspondance commence. Personne n'y est tenu : une bouteille sans réponse, ça arrive en mer.",
+ "de": "Wer deinen Brief findet, kann antworten, und daraus wird ein Briefwechsel. Niemand muss: eine Flasche ohne Antwort kommt auf See vor.",
+ "pt-BR": "Quem encontra sua carta pode responder, e daí nasce uma correspondência. Ninguém é obrigado: uma garrafa sem resposta é coisa que acontece no mar.",
+ "ja": "手紙を拾った人は、返事を書くことができます。そこから文通がはじまります。返事は義務ではありません。答えのない瓶も、海ではよくあることです。"},
+
+"The chart follows them": {
+ "it": "La carta le segue", "es": "La carta las sigue", "fr": "La carte les suit",
+ "de": "Die Karte folgt ihnen", "pt-BR": "A carta as acompanha", "ja": "海図が追いかける"},
+
+"On the map you can watch the bottles you have thrown, and the ones travelling back to you from the shores you already know.": {
+ "it": "Sulla mappa guardi le bottiglie che hai lanciato, e quelle che tornano verso di te dalle rive che conosci già.",
+ "es": "En el mapa miras las botellas que has lanzado, y las que vuelven hacia ti desde las orillas que ya conoces.",
+ "fr": "Sur la carte, tu regardes les bouteilles que tu as lancées, et celles qui reviennent vers toi des rives que tu connais déjà.",
+ "de": "Auf der Karte siehst du deine geworfenen Flaschen und die, die von den Ufern, die du schon kennst, zu dir zurückkommen.",
+ "pt-BR": "No mapa você acompanha as garrafas que lançou, e as que voltam para você das praias que já conhece.",
+ "ja": "地図では、あなたが放った瓶と、すでに知っている岸から戻ってくる瓶を見守れます。"},
+
 "The waiting": {
  "it": "L'attesa", "es": "La espera", "fr": "L'attente",
  "de": "Das Warten", "pt-BR": "A espera", "ja": "待つこと"},

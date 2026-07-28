@@ -423,3 +423,26 @@ const scenaFinale = document.getElementById('scena-finale');
 if (scenaFinale) {
   scenaFinale.innerHTML = disegnaSpiaggiaLarga('arctic', 'night');
 }
+
+/* ── La bottiglia che attraversa la carta di «come funziona» ──────────────
+   `animateMotion` è un'animazione SVG dichiarativa: `animation: none` nel
+   foglio di stile non la ferma, perché non è un'animazione CSS. Chi ha
+   chiesto quiete al sistema la vede ferma a metà traversata, che è anche
+   il fotogramma giusto — una bottiglia in mezzo al mare. */
+(() => {
+  const quiete = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const moto = document.querySelector('.bottiglia-in-rotta animateMotion');
+  if (!moto) return;
+  const regola = () => {
+    if (quiete.matches) {
+      moto.parentNode.pauseAnimations?.();
+      // A metà: `setCurrentTime` sull'SVG radice, che è chi tiene l'orologio.
+      moto.ownerSVGElement?.setCurrentTime(7);
+      moto.ownerSVGElement?.pauseAnimations();
+    } else {
+      moto.ownerSVGElement?.unpauseAnimations();
+    }
+  };
+  regola();
+  quiete.addEventListener('change', regola);
+})();

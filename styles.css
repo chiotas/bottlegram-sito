@@ -742,6 +742,64 @@ background-image:
   font-size: clamp(1.2rem, 2.7vw, 1.6rem); line-height: 1.7;
 }
 
+/* ── La traversata: come funziona ──────────────────────────────────────
+   La carta sta in mezzo fra il titolo e i quattro passi, e prende tutta la
+   larghezza della colonna: è l'immagine della sezione, non un'illustrazione
+   di corredo. I quattro passi sotto sono una griglia che si sfalda in una
+   colonna sola sui telefoni. */
+.rotta-figura {
+  margin: clamp(2.5rem, 6vw, 4rem) 0 0;
+}
+.traversata-notte {
+  display: block; width: 100%; height: auto;
+  border-radius: 3px;
+  box-shadow: 0 18px 44px rgba(10, 15, 46, .34);
+}
+/* I nomi delle due rive e le ore: caratteri della pagina, misurati in unità
+   del viewBox — su un telefono la figura scende a un terzo, quindi 17px
+   diventerebbero cinque e non si leggerebbe niente. */
+.traversata-notte .riva-nome {
+  font-family: var(--serif); font-size: 30px; font-style: italic;
+  fill: #C6DAF0; opacity: 0.78;
+}
+.traversata-notte .rotta-ore {
+  font-family: var(--serif); font-size: 24px;
+  letter-spacing: 0.2em; text-transform: uppercase;
+  fill: #C6DAF0; opacity: 0.42;
+}
+
+.passi {
+  list-style: none; margin: clamp(3rem, 6vw, 4.5rem) 0 0; padding: 0;
+  display: grid; gap: clamp(2rem, 4vw, 3rem);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.passo {
+  border-top: 1px solid var(--carta-bordo); padding-top: 1.4rem;
+}
+.passo-numero {
+  display: block; margin-bottom: 0.8rem;
+  font-size: 0.72rem; letter-spacing: 0.22em;
+  color: var(--ceralacca); opacity: 0.75;
+}
+.passo h3 {
+  font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+  margin: 0 0 0.6rem; max-width: 18ch;
+}
+.passo p {
+  margin: 0; color: var(--inchiostro-lieve);
+  font-size: 0.97rem; line-height: 1.7;
+}
+@media (max-width: 900px) {
+  .passi { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 560px) {
+  .passi { grid-template-columns: 1fr; }
+  /* Sotto i 560 la carta diventa una striscia troppo bassa per leggersi:
+     le si dà aria togliendo un po' di margine e basta — ritagliarla
+     toglierebbe proprio le due coste, che sono il soggetto. */
+  .rotta-figura { margin-inline: -0.6rem; }
+}
+
 /* ── La lettera e i sigilli ────────────────────────────────────────────── */
 
 .stretta { background-color: var(--carta-fonda); }
@@ -1003,6 +1061,9 @@ background-image:
   .lento, .medio, .svelto, .lentissimo, .bottiglia, .stelle, .giu svg,
   .pioggia, .lampo, .bagliore, .relitto, .bottiglia-superstite, .cursore,
   .nubi-alte, .nubi-medie, .nubi-basse { animation: none; }
+  /* La bottiglia che attraversa la carta di «come funziona»: `animateMotion`
+     è un'animazione SVG e `animation: none` non la tocca — si ferma con
+     l'attributo, non col foglio di stile (vedi app.js). */
   .appiccicato { position: static; }
   .verso { opacity: 1; filter: none; transform: none; }
   .affiora { opacity: 1; filter: none; transform: none; }
