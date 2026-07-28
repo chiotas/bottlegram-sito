@@ -42,6 +42,28 @@
     <!-- La fronda: larga un terzo della lunghezza, si gonfia dopo l'attacco,
          chiude in punta con la curva di ritorno sotto la nervatura. -->
     <path id="fronda" d="M0,-2 C13,-15 29,-18 43,-12 C45.5,-11 45.5,-7.5 43,-7 C31,-9 19,-5 9,3 C5,6.5 -2,4.5 0,-2 Z"/>
+    <!-- La fronda che RICADE: stessa foglia, specchiata sotto la nervatura.
+         In una palma vera le foglie si inarcano e cadono, non salgono. -->
+    <path id="fronda-giu" d="M0,2 C13,15 29,18 43,12 C45.5,11 45.5,7.5 43,7 C31,9 19,5 9,-3 C5,-6.5 -2,-4.5 0,2 Z"/>
+
+    <!-- LA PALMA VERA: sette fronde che partono dal cuore, si aprono e
+         RICADONO — le due alte arcuate, le laterali stese, le basse a
+         penzolare. Nessuna punta verso il cielo. -->
+    <g id="palma-ricadente">
+      <path d="M-6.5,0 C-5.5,-24 -3,-45 1,-64 L7,-62.5 C3.5,-44 2.5,-23 4,0 Z"/>
+      <g transform="translate(3.5 -65)">
+        <use href="#fronda" transform="rotate(-16) scale(0.72)"/>
+        <use href="#fronda" transform="rotate(-30) scale(1.02)"/>
+        <use href="#fronda" transform="scale(-1 1) rotate(-30) scale(1.02)"/>
+        <use href="#fronda-giu" transform="rotate(2) scale(1.15)"/>
+        <use href="#fronda-giu" transform="scale(-1 1) rotate(2) scale(1.15)"/>
+        <use href="#fronda-giu" transform="rotate(28) scale(0.95)"/>
+        <use href="#fronda-giu" transform="scale(-1 1) rotate(28) scale(0.95)"/>
+      </g>
+      <circle cx="3.5" cy="-62" r="2.6"/>
+      <circle cx="-1.2" cy="-59.5" r="2"/>
+      <circle cx="8" cy="-59" r="1.9"/>
+    </g>
 
     <!-- LA PALMA GRANDE: otto fronde, tronco pieno che si assottiglia.
          Il «vento» non sta in una corona strana: sta nell'inclinazione di
@@ -121,10 +143,9 @@
   <span class="etichetta">A</span>
   <div class="isola">
     <svg viewBox="0 0 240 160">
-      <ellipse cx="124" cy="96" rx="88" ry="40" fill="url(#alone)"/>
-      <!-- un secondo chiaro dietro la chioma: contro il cielo, senza questo,
-           la palma era un buco nero -->
-      <ellipse cx="140" cy="42" rx="62" ry="42" fill="url(#alone)" opacity=".85"/>
+<!-- NIENTE PIÙ FASCIO RADIALE CHE SPARA IN ALTO: l'alone sta più sotto,
+           attorno al bordo emerso, disegnato come tre tratti sovrapposti che
+           seguono il profilo — stessa tecnica della saetta. -->
 
       <!-- La duna dietro: quasi silhouette, come l'onda lontana -->
       <path d="M40,132 C60,112 86,84 116,72 C142,62 168,74 190,92 C202,102 212,118 220,132 Z" fill="#2A2A3C"/>
@@ -137,6 +158,21 @@
       <path d="M22,130 C46,122 64,112 84,98"
             fill="none" stroke="#8B8AA0" stroke-opacity=".3" stroke-width="1.3" stroke-linecap="round"/>
 
+      <!-- L'ALONE DI BORDO: abbraccia il profilo emerso dell'isola, dal pelo
+           dell'acqua a sinistra su per la gobba e giù fino al pelo a destra.
+           Tre tratti sullo stesso tracciato: largo e tenue, medio, filo. -->
+<!-- Il tratto NON arriva alle punte: lì la terra è sottile e l'alone
+           faceva un nodo di luce. Comincia e finisce dove c'è massa. -->
+      <g fill="none" stroke-linecap="round"
+         style="stroke: #AEC6E2;">
+        <path d="M34,127 C52,120 64,112 82,99 C99,86.5 117,75 133,75 C152,74 172,85 190,98 C200,105.5 210,115 218,124"
+              stroke-opacity=".07" stroke-width="9"/>
+        <path d="M30,129 C50,121.5 63,112.5 81,100 C98.5,87 117,75 133,75 C152,74 173,85.5 192,99 C203,107 213,117 221,126"
+              stroke-opacity=".13" stroke-width="4"/>
+        <path d="M26,131 C48,123 62,113 80,101 C98,87.5 117,75 133,75 C152,74 174,86 194,100 C206,109 216,119 224,128"
+              stroke-opacity=".3" stroke-width="1.5"/>
+      </g>
+
       <!-- La sabbia bagnata e la riga di schiuma, con la sua curva -->
       <path d="M8,136 C52,128 102,124 148,125 C184,126 212,131 232,136 Z" fill="#2B2B3A"/>
       <path d="M14,134 C58,126 106,123 148,124 C182,125 208,130 228,134"
@@ -144,13 +180,9 @@
       <path d="M60,129 C84,125 112,123 138,123.5"
             fill="none" stroke="#93A6C2" stroke-opacity=".22" stroke-width="1" stroke-linecap="round"/>
 
-      <!-- La palma piegata dal vento, in cima alla gobba: più chiara della
-           notte, perché sta contro il cielo -->
-      <use href="#palma-grande" fill="#25304E" transform="translate(142 82) scale(1.04) rotate(-14)"/>
-      <g stroke="#141B2E" stroke-width="1.5" stroke-linecap="round" fill="none">
-        <path d="M70,118 C66,113 62,110 56,108"/>
-        <path d="M77,119 C74,113 70,109 65,107"/>
-      </g>
+      <!-- La palma vera, in cima alla gobba: le fronde si aprono e RICADONO.
+           Il vento sta nell'inclinazione, non nella chioma. -->
+      <use href="#palma-ricadente" fill="#25304E" transform="translate(142 82) scale(1.05) rotate(-6)"/>
     </svg>
   </div>
   <svg class="onde" viewBox="0 0 400 300" preserveAspectRatio="none">
