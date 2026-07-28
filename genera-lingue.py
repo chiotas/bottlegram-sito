@@ -281,13 +281,13 @@ SITO = {
  "pt-BR": "Ela gira sozinha: o amanhecer em La Digue, o meio-dia na Sardenha, o entardecer na areia preta de Reynisfjara e uma noite ártica com a aurora lá em cima. No app você ganha uma praia, e não é você que escolhe — que é o melhor disso.",
  "ja": "ひとりでに移り変わる。ラ・ディーグの夜明け、サルデーニャの正午、レイニスフィヤラの黒い砂の夕暮れ、そして頭上をオーロラが渡る北極の夜。アプリでは一つの浜だけが与えられ、それを選ぶことはできない——そこがいちばんいいところだ。"},
 
-"One of the 126 shores the storm knows. Yours could be any of them.": {
- "it": "Una delle 126 rive che la tempesta conosce. La tua potrebbe essere una qualsiasi.",
- "es": "Una de las 126 orillas que la tormenta conoce. La tuya podría ser cualquiera.",
- "fr": "Un des 126 rivages que la tempête connaît. Le vôtre pourrait être n'importe lequel.",
- "de": "Eines von 126 Ufern, die der Sturm kennt. Ihres könnte jedes davon sein.",
- "pt-BR": "Uma das 126 praias que a tempestade conhece. A sua pode ser qualquer uma.",
- "ja": "嵐が知っている126の浜辺のひとつ。あなたの浜は、そのどれかもしれない。"},
+"One of the 250 shores the storm knows. Yours could be any of them.": {
+ "it": "Una delle 250 rive che la tempesta conosce. La tua potrebbe essere una qualsiasi.",
+ "es": "Una de las 250 orillas que la tormenta conoce. La tuya podría ser cualquiera.",
+ "fr": "Un des 250 rivages que la tempête connaît. Le vôtre pourrait être n'importe lequel.",
+ "de": "Eines von 250 Ufern, die der Sturm kennt. Ihres könnte jedes davon sein.",
+ "pt-BR": "Uma das 250 praias que a tempestade conhece. A sua pode ser qualquer uma.",
+ "ja": "嵐が知っている250の浜辺のひとつ。あなたの浜は、そのどれかもしれない。"},
 
 "Vík, Iceland": {
  "it": "Vík, Islanda", "es": "Vík, Islandia", "fr": "Vík, Islande",
