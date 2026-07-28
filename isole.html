@@ -46,7 +46,9 @@
     <!-- LA PALMA GRANDE: otto fronde, tronco pieno che si assottiglia.
          Il «vento» non sta in una corona strana: sta nell'inclinazione di
          tutto l'albero, come i pini piegati delle coste vere. -->
-    <g id="palma-grande" fill="#0D0F1F">
+    <!-- Il colore NON sta nel def: lo dà ogni <use>, perché su una duna alta
+         la palma sta contro il CIELO e scura come la sabbia non si vede. -->
+    <g id="palma-grande">
       <path d="M-7,0 C-6,-26 -3.5,-49 1,-71 L7.5,-69.5 C3.5,-48 2,-25 4,0 Z"/>
       <g transform="translate(4.5 -72)">
         <use href="#fronda" transform="rotate(-183) scale(0.9)"/>
@@ -64,7 +66,7 @@
     </g>
 
     <!-- La palma quieta: sei fronde, per l'atollo dove il vento è passato. -->
-    <g id="palma-quieta" fill="#0D0F1F">
+    <g id="palma-quieta">
       <path d="M-5,0 C-4.5,-17 -3,-32 0.5,-45 L5.5,-44 C2.5,-31 1.5,-16 3,0 Z"/>
       <g transform="translate(3 -46)">
         <use href="#fronda" transform="rotate(-176) scale(0.66)"/>
@@ -119,17 +121,20 @@
   <span class="etichetta">A</span>
   <div class="isola">
     <svg viewBox="0 0 240 160">
-      <ellipse cx="124" cy="100" rx="88" ry="36" fill="url(#alone)"/>
+      <ellipse cx="124" cy="96" rx="88" ry="40" fill="url(#alone)"/>
+      <!-- un secondo chiaro dietro la chioma: contro il cielo, senza questo,
+           la palma era un buco nero -->
+      <ellipse cx="140" cy="42" rx="62" ry="42" fill="url(#alone)" opacity=".85"/>
 
       <!-- La duna dietro: quasi silhouette, come l'onda lontana -->
-      <path d="M42,132 C64,116 90,94 118,86 C144,80 168,87 188,100 C202,109 212,121 220,132 Z" fill="#2A2A3C"/>
-      <path d="M118,86 C144,80 168,87 188,100 C172,93 154,90 138,94 C130,96 123,90 118,86 Z" fill="#3A394C"/>
+      <path d="M40,132 C60,112 86,84 116,72 C142,62 168,74 190,92 C202,102 212,118 220,132 Z" fill="#2A2A3C"/>
+      <path d="M116,72 C142,62 168,74 190,92 C174,82 156,78 140,82 C131,84.5 122,77 116,72 Z" fill="#3A394C"/>
 
-      <!-- La duna davanti: più scura del cielo dietro, col chiaro SOLO sul
-           filo della cresta, dalla parte del bagliore -->
-      <path d="M8,136 C36,130 62,121 86,108 C106,97 124,91 142,93 C166,96 196,117 232,136 Z" fill="#45445A"/>
-      <path d="M86,108 C106,97 124,91 142,93 C133,91 120,94 106,101 C99,104.5 92,106.5 86,108 Z" fill="#636174"/>
-      <path d="M24,130 C48,123 68,115 90,104"
+      <!-- La duna davanti: ALTA, gobbosa, col chiaro solo sul filo della
+           cresta dalla parte del bagliore -->
+      <path d="M8,136 C32,130 56,118 78,102 C96,88 116,77 136,79 C162,82 198,116 232,136 Z" fill="#45445A"/>
+      <path d="M78,102 C96,88 116,77 136,79 C126,75.5 112,80 98,90 C90,95.5 84,99 78,102 Z" fill="#636174"/>
+      <path d="M22,130 C46,122 64,112 84,98"
             fill="none" stroke="#8B8AA0" stroke-opacity=".3" stroke-width="1.3" stroke-linecap="round"/>
 
       <!-- La sabbia bagnata e la riga di schiuma, con la sua curva -->
@@ -139,11 +144,12 @@
       <path d="M60,129 C84,125 112,123 138,123.5"
             fill="none" stroke="#93A6C2" stroke-opacity=".22" stroke-width="1" stroke-linecap="round"/>
 
-      <!-- La palma piegata dal vento: tutto l'albero, non solo la chioma -->
-      <use href="#palma-grande" transform="translate(148 98) scale(1.02) rotate(-14)"/>
-      <g stroke="#0D0F1F" stroke-width="1.5" stroke-linecap="round" fill="none">
-        <path d="M76,122 C72,117 68,114 62,112"/>
-        <path d="M83,123 C80,117 76,113 71,111"/>
+      <!-- La palma piegata dal vento, in cima alla gobba: più chiara della
+           notte, perché sta contro il cielo -->
+      <use href="#palma-grande" fill="#25304E" transform="translate(142 82) scale(1.04) rotate(-14)"/>
+      <g stroke="#141B2E" stroke-width="1.5" stroke-linecap="round" fill="none">
+        <path d="M70,118 C66,113 62,110 56,108"/>
+        <path d="M77,119 C74,113 70,109 65,107"/>
       </g>
     </svg>
   </div>
@@ -184,7 +190,7 @@
       <path d="M18,133 C26,128 36,126 46,128" fill="none" stroke="#93A6C2" stroke-opacity=".45" stroke-width="1.4" stroke-linecap="round"/>
       <path d="M22,136 C30,132 40,131 50,132" fill="none" stroke="#93A6C2" stroke-opacity=".25" stroke-width="1" stroke-linecap="round"/>
 
-      <use href="#palma-grande" transform="translate(174 104) scale(0.88) rotate(7)"/>
+      <use href="#palma-grande" fill="#1E2942" transform="translate(174 104) scale(0.88) rotate(7)"/>
       <g stroke="#0D0F1F" stroke-width="1.5" stroke-linecap="round" fill="none">
         <path d="M138,119 C136,113 137,108 140,104"/>
         <path d="M144,120 C144,113 146,108 150,105"/>
@@ -224,9 +230,9 @@
             fill="none" stroke="#93A6C2" stroke-opacity=".38" stroke-width="1.2" stroke-linecap="round"/>
 
       <!-- La macchia: tre palme a mucchio, non in fila -->
-      <use href="#palma-quieta" transform="translate(184 102) scale(1.2) rotate(-6)"/>
-      <use href="#palma-quieta" transform="translate(202 105) scale(0.95) rotate(9)"/>
-      <use href="#palma-quieta" transform="translate(168 107) scale(0.8) rotate(3)"/>
+      <use href="#palma-quieta" fill="#1E2942" transform="translate(184 102) scale(1.2) rotate(-6)"/>
+      <use href="#palma-quieta" fill="#161F36" transform="translate(202 105) scale(0.95) rotate(9)"/>
+      <use href="#palma-quieta" fill="#161F36" transform="translate(168 107) scale(0.8) rotate(3)"/>
 
       <!-- Il tronco portato dal mare, e un masso -->
       <path d="M34,122 L64,115 L67,118.5 L37,125.5 Z" fill="#14181F"/>
