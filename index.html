@@ -156,26 +156,53 @@
       </svg>
     </div>
 
-    <!-- L'isolotto: quello che il mare ti lascia, dal secondo verso in poi. -->
+    <!-- L'isolotto: quello che il mare ti lascia, dal secondo verso in poi.
+         È la proposta A scelta da Francesco (isole.html): la duna con le
+         curve delle onde, l'alone che abbraccia il bordo emerso (tre tratti
+         come la saetta, niente fascio radiale), la palma del suo riferimento
+         con le fronde a goccia che ricadono. Il viewBox parte sopra lo zero
+         perché la chioma sporge oltre la gobba. -->
     <div class="isolotto">
-      <svg viewBox="0 0 240 160">
-        <defs>
-          <radialGradient id="alone-isola" cx="50%" cy="52%" r="52%">
-            <stop offset="0%" stop-color="#AEC6E2" stop-opacity=".46"/>
-            <stop offset="58%" stop-color="#89A6CB" stop-opacity=".17"/>
-            <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
-          </radialGradient>
-        </defs>
-        <!-- Un po' di cielo chiaro dietro: senza, una palma nera su una notte
-             nera non si vede, e l'isola resta una gobba. -->
-        <ellipse cx="116" cy="74" rx="120" ry="78" fill="url(#alone-isola)"/>
-        <!-- la duna, con la sabbia che prende il chiaro -->
-        <path d="M4,136 C34,124 62,102 96,84 C124,69 152,62 174,72 C200,84 220,110 238,136 Z" fill="#2B3E58"/>
-        <path d="M4,136 C34,124 62,102 96,84 C124,69 152,62 174,72 C182,76 189,82 195,89 C150,80 74,106 4,136 Z" fill="#3D5372"/>
-        <path d="M4,136 C46,120 100,108 148,110 C190,112 218,122 238,136 Z" fill="#1A2B42"/>
-        <!-- le palme: nere contro la sabbia e contro l'alone -->
-        <g transform="translate(88 4) scale(1.2)"><path data-glifo="palm" fill="#101E33" fill-rule="evenodd"/></g>
-        <g transform="translate(38 74) scale(0.5)"><path data-glifo="palm" fill="#0C1729" fill-rule="evenodd"/></g>
+      <svg viewBox="0 -26 240 186">
+        <!-- la duna dietro, quasi silhouette -->
+        <path d="M40,132 C60,112 86,84 116,72 C142,62 168,74 190,92 C202,102 212,118 220,132 Z" fill="#2A2A3C"/>
+        <path d="M116,72 C142,62 168,74 190,92 C174,82 156,78 140,82 C131,84.5 122,77 116,72 Z" fill="#3A394C"/>
+        <!-- la duna davanti, gobbosa, col chiaro sul filo della cresta -->
+        <path d="M8,136 C32,130 56,118 78,102 C96,88 116,77 136,79 C162,82 198,116 232,136 Z" fill="#45445A"/>
+        <path d="M78,102 C96,88 116,77 136,79 C126,75.5 112,80 98,90 C90,95.5 84,99 78,102 Z" fill="#636174"/>
+        <path d="M22,130 C46,122 64,112 84,98"
+              fill="none" stroke="#8B8AA0" stroke-opacity=".3" stroke-width="1.3" stroke-linecap="round"/>
+        <!-- la sabbia bagnata e la schiuma che la appoggia nel mare -->
+        <path d="M8,136 C52,128 102,124 148,125 C184,126 212,131 232,136 Z" fill="#2B2B3A"/>
+        <path d="M14,134 C58,126 106,123 148,124 C182,125 208,130 228,134"
+              fill="none" stroke="#93A6C2" stroke-opacity=".5" stroke-width="1.5" stroke-linecap="round"/>
+        <path d="M60,129 C84,125 112,123 138,123.5"
+              fill="none" stroke="#93A6C2" stroke-opacity=".22" stroke-width="1" stroke-linecap="round"/>
+        <!-- l'alone di bordo: tre tratti sul profilo emerso, mai alle punte -->
+        <g fill="none" stroke="#AEC6E2" stroke-linecap="round">
+          <path d="M34,127 C52,120 64,112 82,99 C99,86.5 117,75 133,75 C152,74 172,85 190,98 C200,105.5 210,115 218,124"
+                stroke-opacity=".07" stroke-width="9"/>
+          <path d="M30,129 C50,121.5 63,112.5 81,100 C98.5,87 117,75 133,75 C152,74 173,85.5 192,99 C203,107 213,117 221,126"
+                stroke-opacity=".13" stroke-width="4"/>
+          <path d="M26,131 C48,123 62,113 80,101 C98,87.5 117,75 133,75 C152,74 174,86 194,100 C206,109 216,119 224,128"
+                stroke-opacity=".3" stroke-width="1.5"/>
+        </g>
+        <!-- la palma: tronco a S con la base svasata, sette fronde a goccia -->
+        <g fill="#25304E" transform="translate(140 84) scale(0.82) rotate(-4)">
+          <path d="M-8,0 C-4,-3 -3,-7 -2.6,-14 C-1.6,-42 3,-70 13,-94 L19,-92 C10,-68 7.5,-40 8.4,-14 C8.7,-8 9.6,-3 11,0 Z"/>
+          <g transform="translate(16 -93)">
+            <path d="M2,-4 C15,-20 32,-28 50,-26 C37,-13 21,-3 6,3 C0,5 -1,-1 2,-4 Z"/>
+            <path d="M-2,-4 C-15,-20 -32,-28 -50,-26 C-37,-13 -21,-3 -6,3 C0,5 1,-1 -2,-4 Z"/>
+            <path d="M3,1 C21,-9 40,-7 55,6 C40,6 22,8 6,11 C0,12 -1,3 3,1 Z"/>
+            <path d="M-3,1 C-21,-9 -40,-7 -55,6 C-40,6 -22,8 -6,11 C0,12 1,3 -3,1 Z"/>
+            <path d="M3,6 C19,3 35,12 43,29 C30,21 16,15 4,13 C-1,12 -1,7 3,6 Z"/>
+            <path d="M-3,6 C-19,3 -35,12 -43,29 C-30,21 -16,15 -4,13 C1,12 1,7 -3,6 Z"/>
+            <path d="M-1,-5 C-5,-19 -13,-28 -26,-32 C-19,-22 -12,-10 -7,0 C-4,3 -2,-1 -1,-5 Z"/>
+          </g>
+          <circle cx="16" cy="-90" r="2.6"/>
+          <circle cx="11.5" cy="-88" r="2"/>
+          <circle cx="20.5" cy="-87.5" r="1.9"/>
+        </g>
       </svg>
     </div>
 

@@ -531,14 +531,8 @@ background-image:
   opacity: 0; transform: translateY(14px);
   transition: opacity 2.6s ease, transform 2.6s ease;
 }
-/* Il chiaro dietro l'isola: largo il doppio di lei e sfumato fino a niente,
-   se no si vede l'ovale invece della luce. */
-.isolotto::before {
-  content: ""; position: absolute; z-index: -1;
-  left: -55%; right: -55%; top: -70%; bottom: -30%;
-  background: radial-gradient(52% 46% at 52% 58%,
-    rgba(174, 198, 226, .22) 0%, rgba(134, 164, 200, .09) 40%, rgba(0,0,0,0) 74%);
-}
+/* QUI C'ERA IL CHIARO RADIALE dietro l'isola: tolto con la nuova isola —
+   l'alone adesso è di bordo, disegnato dentro l'SVG lungo il profilo emerso. */
 .atto-2 .isolotto, .atto-3 .isolotto { opacity: 1; transform: none; }
 
 /* Quello che il mare porta. Arriva sull'ultimo verso, al largo dell'isola. */
