@@ -139,7 +139,9 @@ if (scenari) {
   if (quiete.matches) {
     mostra(1); // il mezzogiorno mediterraneo, fermo
   } else {
-    const parti = () => { if (!giro) giro = setInterval(() => mostra(indice = (indice + 1) % quadri.length), 4200); };
+    /* Un quadro al secondo circa: l'ha chiesto Francesco — più marea, meno
+       diapositive. La dissolvenza scende a .65s (styles) o si impasterebbe. */
+    const parti = () => { if (!giro) giro = setInterval(() => mostra(indice = (indice + 1) % quadri.length), 1300); };
     const fermati = () => { if (giro) { clearInterval(giro); giro = null; } };
     if ('IntersectionObserver' in window) {
       new IntersectionObserver(([v]) => (v.isIntersecting ? parti() : fermati()), { threshold: 0.25 })

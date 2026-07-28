@@ -314,13 +314,13 @@ SITO = {
  "fr": "La marée est déjà en route.", "de": "Die Flut ist schon unterwegs.",
  "pt-BR": "A maré já está a caminho.", "ja": "潮はもう動きはじめている。"},
 
-"On a shore you have never seen, a stranger is pushing the cork into a bottle right now. The sea will decide whose sand it touches next. There is no reason it should not be yours.": {
- "it": "Su una riva che non hai mai visto, uno sconosciuto sta spingendo il tappo in una bottiglia proprio adesso. Il mare deciderà su quale sabbia farla approdare. E non c'è nessun motivo per cui non debba essere la tua.",
- "es": "En una orilla que nunca has visto, un desconocido está apretando el corcho de una botella ahora mismo. El mar decidirá qué arena toca después. Y no hay ninguna razón para que no sea la tuya.",
- "fr": "Sur un rivage que vous n'avez jamais vu, un inconnu enfonce le bouchon d'une bouteille en ce moment même. La mer décidera quel sable elle touchera ensuite. Et il n'y a aucune raison que ce ne soit pas le vôtre.",
- "de": "An einem Ufer, das Sie nie gesehen haben, drückt gerade ein Fremder den Korken in eine Flasche. Das Meer entscheidet, wessen Sand sie als Nächstes berührt. Es gibt keinen Grund, warum es nicht Ihrer sein sollte.",
- "pt-BR": "Numa praia que você nunca viu, um desconhecido está apertando a rolha de uma garrafa agora mesmo. O mar vai decidir em qual areia ela chega. E não há razão nenhuma para que não seja a sua.",
- "ja": "見たこともない岸辺で、いままさに見知らぬ誰かが瓶にコルクを押し込んでいる。次にどの砂に届くかは海が決める。それがあなたの砂でない理由は、どこにもない。"},
+"On a shore you have never seen, a stranger is pushing the cork into a bottle right now. The sea will decide whose sand it touches next. Maybe yours.": {
+ "it": "Su una riva che non hai mai visto, uno sconosciuto sta spingendo il tappo in una bottiglia proprio adesso. Il mare deciderà su quale sabbia farla approdare. Magari proprio sulla tua.",
+ "es": "En una orilla que nunca has visto, un desconocido está apretando el corcho de una botella ahora mismo. El mar decidirá qué arena toca después. Quizá justo la tuya.",
+ "fr": "Sur un rivage que vous n'avez jamais vu, un inconnu enfonce le bouchon d'une bouteille en ce moment même. La mer décidera quel sable elle touchera ensuite. Peut-être le vôtre.",
+ "de": "An einem Ufer, das Sie nie gesehen haben, drückt gerade ein Fremder den Korken in eine Flasche. Das Meer entscheidet, wessen Sand sie als Nächstes berührt. Vielleicht Ihren.",
+ "pt-BR": "Numa praia que você nunca viu, um desconhecido está apertando a rolha de uma garrafa agora mesmo. O mar vai decidir em qual areia ela chega. Quem sabe na sua.",
+ "ja": "見たこともない岸辺で、いままさに見知らぬ誰かが瓶にコルクを押し込んでいる。次にどの砂に届くかは海が決める。もしかしたら、あなたの砂に。"},
 
 "Who you are here": {
  "it": "Chi sei, qui", "es": "Quién eres aquí", "fr": "Qui vous êtes ici",

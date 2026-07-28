@@ -46,23 +46,24 @@
          In una palma vera le foglie si inarcano e cadono, non salgono. -->
     <path id="fronda-giu" d="M0,2 C13,15 29,18 43,12 C45.5,11 45.5,7.5 43,7 C31,9 19,5 9,-3 C5,-6.5 -2,-4.5 0,2 Z"/>
 
-    <!-- LA PALMA VERA: sette fronde che partono dal cuore, si aprono e
-         RICADONO — le due alte arcuate, le laterali stese, le basse a
-         penzolare. Nessuna punta verso il cielo. -->
+    <!-- LA PALMA DEL RIFERIMENTO di Francesco: tronco ALTO e slanciato con
+         la curva a S e la base svasata; sette fronde larghe a goccia, ognuna
+         due curve che si CHIUDONO IN PUNTA — due arcuate in alto, due stese
+         ai lati, due che penzolano, una piccola sopra. -->
     <g id="palma-ricadente">
-      <path d="M-6.5,0 C-5.5,-24 -3,-45 1,-64 L7,-62.5 C3.5,-44 2.5,-23 4,0 Z"/>
-      <g transform="translate(3.5 -65)">
-        <use href="#fronda" transform="rotate(-16) scale(0.72)"/>
-        <use href="#fronda" transform="rotate(-30) scale(1.02)"/>
-        <use href="#fronda" transform="scale(-1 1) rotate(-30) scale(1.02)"/>
-        <use href="#fronda-giu" transform="rotate(2) scale(1.15)"/>
-        <use href="#fronda-giu" transform="scale(-1 1) rotate(2) scale(1.15)"/>
-        <use href="#fronda-giu" transform="rotate(28) scale(0.95)"/>
-        <use href="#fronda-giu" transform="scale(-1 1) rotate(28) scale(0.95)"/>
+      <path d="M-8,0 C-4,-3 -3,-7 -2.6,-14 C-1.6,-42 3,-70 13,-94 L19,-92 C10,-68 7.5,-40 8.4,-14 C8.7,-8 9.6,-3 11,0 Z"/>
+      <g transform="translate(16 -93)">
+        <path d="M2,-4 C15,-20 32,-28 50,-26 C37,-13 21,-3 6,3 C0,5 -1,-1 2,-4 Z"/>
+        <path d="M-2,-4 C-15,-20 -32,-28 -50,-26 C-37,-13 -21,-3 -6,3 C0,5 1,-1 -2,-4 Z"/>
+        <path d="M3,1 C21,-9 40,-7 55,6 C40,6 22,8 6,11 C0,12 -1,3 3,1 Z"/>
+        <path d="M-3,1 C-21,-9 -40,-7 -55,6 C-40,6 -22,8 -6,11 C0,12 1,3 -3,1 Z"/>
+        <path d="M3,6 C19,3 35,12 43,29 C30,21 16,15 4,13 C-1,12 -1,7 3,6 Z"/>
+        <path d="M-3,6 C-19,3 -35,12 -43,29 C-30,21 -16,15 -4,13 C1,12 1,7 -3,6 Z"/>
+        <path d="M-1,-5 C-5,-19 -13,-28 -26,-32 C-19,-22 -12,-10 -7,0 C-4,3 -2,-1 -1,-5 Z"/>
       </g>
-      <circle cx="3.5" cy="-62" r="2.6"/>
-      <circle cx="-1.2" cy="-59.5" r="2"/>
-      <circle cx="8" cy="-59" r="1.9"/>
+      <circle cx="16" cy="-90" r="2.6"/>
+      <circle cx="11.5" cy="-88" r="2"/>
+      <circle cx="20.5" cy="-87.5" r="1.9"/>
     </g>
 
     <!-- LA PALMA GRANDE: otto fronde, tronco pieno che si assottiglia.
@@ -182,7 +183,7 @@
 
       <!-- La palma vera, in cima alla gobba: le fronde si aprono e RICADONO.
            Il vento sta nell'inclinazione, non nella chioma. -->
-      <use href="#palma-ricadente" fill="#25304E" transform="translate(142 82) scale(1.05) rotate(-6)"/>
+      <use href="#palma-ricadente" fill="#25304E" transform="translate(140 84) scale(0.82) rotate(-4)"/>
     </svg>
   </div>
   <svg class="onde" viewBox="0 0 400 300" preserveAspectRatio="none">

@@ -865,7 +865,7 @@ background-image:
 .scenari .scenario {
   position: absolute; inset: 0;
   opacity: 0;
-  transition: opacity 1.4s ease;
+  transition: opacity .65s ease;
 }
 .scenari .scenario.attiva { opacity: 1; }
 .vetrina.sola {
