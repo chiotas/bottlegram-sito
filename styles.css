@@ -635,6 +635,22 @@ background-image:
 .carta-lettera hr { border: 0; border-top: 1px solid var(--carta-bordo); margin: 1.1rem 0; }
 .carta-lettera .corpo { font-size: 0.95rem; line-height: 1.7; }
 
+.approdo-colonna {
+  position: relative; z-index: 2;
+  display: flex; flex-direction: column; align-items: center;
+  gap: 1.7rem;
+}
+/* Il nome e il luogo ruotano: la dissolvenza sta su un contenitore loro
+   (`.gira`), solo opacità. Il nome più lungo del mazzo detta la larghezza
+   della carta, che non deve respirare a ogni cambio. */
+.nome-spiaggia, .luogo { transition: opacity .7s ease; }
+.carta-lettera.sfuma .nome-spiaggia, .carta-lettera.sfuma .luogo { opacity: 0; }
+.approdo-nota {
+  font-family: var(--mare-serif); font-style: italic;
+  font-size: 0.95rem; color: rgba(245, 235, 209, .72);
+  text-align: center; max-width: 34ch;
+}
+
 .riva { position: absolute; inset: auto 0 -1px 0; width: 100%; height: clamp(60px, 8vw, 120px); z-index: 1; }
 .riva-alta { position: absolute; inset: -1px 0 auto 0; width: 100%; height: clamp(50px, 6vw, 100px); }
 
@@ -799,25 +815,69 @@ background-image:
   /* E un dito sul disegno deve scorrere la pagina, non trascinare l'immagine. */
   touch-action: pan-y;
   -webkit-touch-callout: none;
+  position: relative;
   width: min(310px, 78vw);
-  aspect-ratio: 300 / 650;
-  padding: 11px;
-  border-radius: 46px;
-  background: linear-gradient(150deg, #2A2F3A, #14171F 45%, #33394A);
-  box-shadow: 0 30px 60px rgba(61,51,41,.34), inset 0 0 0 1px rgba(255,255,255,.09);
+  /* NIENTE `aspect-ratio` QUI: l'altezza la detta lo schermo, che ha il
+     rapporto ESATTO delle schermate (603×1311). Prima la scocca imponeva
+     300×650, lo schermo ereditava un rapporto sbagliato del 3,6% e `cover` si
+     mangiava i bordi — le schermate sembravano tagliate, perché lo erano. */
+  padding: 10px;
+  /* Il raggio della scocca è in pixel: i `cqw` valgono per i DISCENDENTI del
+     contenitore, non per lui — su di lui risolverebbero contro il viewport. */
+  border-radius: 48px;
+  container-type: inline-size;
+  background: linear-gradient(150deg, #3A404E, #14171F 42%, #2B3140 78%, #454C5E);
+  box-shadow:
+    0 30px 60px rgba(61,51,41,.34),
+    inset 0 0 0 1px rgba(255,255,255,.10),
+    inset 0 1px 0 rgba(255,255,255,.14);
 }
+/* I tasti: volume a sinistra, accensione a destra. Fuori dal bordo di un
+   pelo — sono quello che distingue un telefono da un rettangolo coi raggi. */
+.scocca::before, .scocca::after {
+  content: ""; position: absolute; width: 3px; border-radius: 2px;
+  background: linear-gradient(to bottom, #3E4556, #1A1E28);
+}
+.scocca::before { left: -3px; top: 22%; height: 15%;
+  box-shadow: 0 calc(18% + 14px) 0 0 #262B37; }
+.scocca::after  { right: -3px; top: 26%; height: 13%; }
 .schermo {
-  width: 100%; height: 100%;
-  border-radius: 36px; overflow: hidden;
+  width: 100%;
+  /* Il rapporto vero delle schermate: niente da tagliare, niente da inventare. */
+  aspect-ratio: 603 / 1311;
+  /* La cornice nera fra vetro e schermo: è lei che fa sembrare acceso un
+     telefono. Dentro, la Dynamic Island è già nella schermata vera. */
+  border: 6px solid #06070C;
+  border-radius: 13.5cqw;
+  overflow: hidden;
   background: var(--cielo-alto);
   position: relative;
 }
 .schermo svg { width: 100%; height: 100%; display: block; }
 
-/* Le schermate vere. `cover` e non `contain`: l'immagine e la scocca hanno lo
-   stesso rapporto (1206×2622 contro 300×650, uno scarto di mezzo punto), e
-   `cover` mangia quel mezzo punto invece di lasciare due righe di sfondo. */
+/* Le schermate vere: stesso rapporto dello schermo, `cover` non toglie nulla. */
 .schermata { width: 100%; height: 100%; display: block; object-fit: cover; }
+
+/* ── Gli scenari in dissolvenza ─────────────────────────────────────────
+   Quattro schermate una sopra l'altra; `.attiva` sta in piena luce, le altre
+   aspettano sotto. Solo `opacity`: niente layout, niente filtri — è la
+   transizione che non si sente sotto il dito. */
+.scenari .scenario {
+  position: absolute; inset: 0;
+  opacity: 0;
+  transition: opacity 1.4s ease;
+}
+.scenari .scenario.attiva { opacity: 1; }
+.vetrina.sola {
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 1.6rem;
+}
+.didascalia {
+  max-width: 44ch; text-align: center;
+  font-size: 0.94rem; font-style: italic; color: var(--inchiostro-lieve);
+  line-height: 1.7;
+}
 
 /* Le schermate disegnate parlano con il carattere dell'app. */
 .schermo-svg { font-family: var(--serif); }
@@ -827,27 +887,8 @@ background-image:
 .vetrina .parole h2 { margin-bottom: 1.2rem; }
 .vetrina .parole p + p { margin-top: 1.1rem; }
 
-.comandi fieldset { border: 0; padding: 0; margin: 0 0 1.8rem; }
-.comandi legend {
-  padding: 0; font-size: 0.72rem; letter-spacing: 0.2em;
-  text-transform: uppercase; color: var(--inchiostro-lieve); margin-bottom: 0.85rem;
-}
-.chip-fila { display: flex; flex-wrap: wrap; gap: 0.5rem; }
-.chip {
-  font-family: var(--serif); font-size: 0.92rem;
-  padding: 0.42rem 0.95rem; border-radius: 999px; cursor: pointer;
-  background: transparent; color: var(--inchiostro-lieve);
-  border: 1px solid var(--carta-bordo);
-  transition: background-color .25s, color .25s, border-color .25s;
-}
-.chip:hover { border-color: var(--inchiostro-lieve); color: var(--inchiostro); }
-.chip[aria-pressed="true"] {
-  background: var(--blu-profondo); border-color: var(--blu-profondo); color: var(--carta);
-}
-.comandi .nota {
-  font-size: 0.92rem; font-style: italic; color: var(--inchiostro-lieve);
-  max-width: 34ch; border-left: 1px solid var(--carta-bordo); padding-left: 1rem;
-}
+/* QUI C'ERANO I CHIP del selettore di scenari (`.comandi`, `.chip`): il
+   selettore non esiste più — gli scenari girano da soli qui sopra. */
 
 /* ── La pergamena ──────────────────────────────────────────────────────── */
 
@@ -896,14 +937,36 @@ background-image:
 }
 .riva-carta { position: absolute; inset: -1px 0 auto 0; width: 100%; height: clamp(48px, 6vw, 100px); z-index: 1; }
 
-.regolamento { max-width: 40rem; }
 .spiaggia-grande .soprattitolo { color: rgba(245, 235, 209, .6); }
-.spiaggia-grande .guida { color: rgba(245, 235, 209, .78); }
-.spiaggia-grande .regolario dt { color: var(--carta); }
-.spiaggia-grande .regolario dd { color: rgba(245, 235, 209, .74); }
-.spiaggia-grande .recapito { border-top-color: rgba(245, 235, 209, .28); }
-.spiaggia-grande .recapito p { color: rgba(245, 235, 209, .74); }
-.spiaggia-grande .indirizzo { color: #BFD8CF; }
+.spiaggia-grande .guida { color: rgba(245, 235, 209, .82); }
+
+/* ── La sezione finale: la notte artica, e la sola cosa da fare ────────── */
+
+.finale { padding-bottom: clamp(7rem, 15vh, 12rem); }
+/* Testo al centro: la velatura di lato non serve più — qui scurisce il cielo
+   quanto basta a leggere, e si fa fitta verso il fondo dove arriva il piede. */
+.finale .velatura {
+  background:
+    radial-gradient(58% 44% at 50% 38%, rgba(4, 10, 24, .58) 0%, rgba(4, 10, 24, .30) 62%, rgba(4, 10, 24, 0) 100%),
+    linear-gradient(to bottom, rgba(11, 20, 36, .30) 0%, rgba(11, 20, 36, .12) 55%, rgba(11, 20, 36, .96) 100%);
+}
+.chiamata {
+  display: flex; flex-direction: column; align-items: center;
+  text-align: center;
+  min-height: min(78vh, 640px); justify-content: center;
+}
+.chiamata h2 {
+  font-size: clamp(2.1rem, 5.4vw, 3.4rem);
+  max-width: 16ch;
+  text-shadow: 0 2px 34px rgba(0, 0, 0, .6);
+}
+.chiamata .guida {
+  margin-top: 1.4rem; max-width: 44ch;
+  font-size: clamp(1.04rem, 2vw, 1.18rem);
+  text-shadow: 0 1px 18px rgba(0, 0, 0, .55);
+}
+.chiamata .soprattitolo { margin-bottom: 1.3rem; }
+.chiamata .azioni { margin-top: 3rem; }
 
 /* Un respiro fra due sezioni: una riga sola, molta aria. */
 .divisorio {
@@ -923,23 +986,6 @@ background-image:
 .sottocarta .parole p { max-width: 46ch; }
 .minuta { font-size: 0.9rem; font-style: italic; opacity: .8; }
 
-.regolario { margin: clamp(2.6rem, 5vw, 3.6rem) 0 0; display: grid; gap: 1.9rem; max-width: 44rem; }
-.recapito { max-width: 46rem; }
-.regolario dt { font-weight: 600; font-size: 1.1rem; margin-bottom: 0.4rem; }
-.regolario dd { margin: 0; color: var(--inchiostro-lieve); font-size: 0.98rem; line-height: 1.72; }
-
-.recapito {
-  margin-top: 3.2rem; padding-top: 2rem;
-  border-top: 1px solid var(--carta-bordo);
-}
-.recapito h3 { font-size: 1.1rem; margin-bottom: 0.5rem; }
-.recapito p { color: var(--inchiostro-lieve); font-size: 0.98rem; }
-.indirizzo {
-  display: inline-block; margin-top: 0.6rem;
-  color: var(--blu-profondo); font-weight: 600; text-decoration: underline;
-  text-underline-offset: 3px;
-}
-
 /* ── Il piede ──────────────────────────────────────────────────────────── */
 
 .pie {
@@ -951,14 +997,6 @@ background-image:
   text-align: center;
 }
 .pie-dentro { max-width: 34rem; }
-/* Il bollo in fondo ha più aria sopra che sotto: chiude la pagina, non apre
-   i crediti. La bottiglia della firma è già passata, qui si torna al punto. */
-.azioni-pie {
-  /* Il bollo respira sopra e sotto: attaccato ai crediti sembrava la prima
-     riga del piedino invece dell'ultima cosa da fare. */
-  margin-top: clamp(2.6rem, 5vw, 3.6rem);
-  margin-bottom: clamp(2rem, 4vw, 3rem);
-}
 
 .crediti { margin-top: 1.8rem; font-size: 0.92rem; opacity: 0.6; }
 .crediti a { text-decoration: underline; text-underline-offset: 3px; }
@@ -976,6 +1014,10 @@ background-image:
   .affiora { opacity: 1; filter: none; transform: none; }
   .affiora.emersa { transition: none; }
   .carta-lettera { transform: rotate(-0.8deg); }
+  /* Gli scenari non girano e l'approdo non ruota: chi ha chiesto quiete vede
+     una schermata sola, ferma (app.js li lascia dove sono). */
+  .scenari .scenario { transition: none; }
+  .nome-spiaggia, .luogo { transition: none; }
 }
 
 /* ── Il selettore di lingua ────────────────────────────────────────────────

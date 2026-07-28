@@ -241,13 +241,86 @@ SITO = {
  "pt-BR": "A carta náutica: uma rota traçada de Cala Goloritzé para fora do Mediterrâneo e ao norte pelo Atlântico rumo à Islândia, com a garrafa no meio do caminho.",
  "ja": "海図。カーラ・ゴロリッツェから地中海を出て、大西洋を北上しアイスランドへ向かう航路。瓶はその途中にいる。"},
 
-"The beach, as the app draws it: the shore and the hour chosen with the buttons beside it.": {
- "it": "La spiaggia come la disegna l'app: la costa e l'ora scelte con i pulsanti qui accanto.",
- "es": "La playa tal como la dibuja la app: la costa y la hora elegidas con los botones de al lado.",
- "fr": "La plage telle que l'application la dessine : le rivage et l'heure choisis avec les boutons à côté.",
- "de": "Der Strand, wie die App ihn zeichnet: Küste und Stunde, gewählt mit den Schaltflächen daneben.",
- "pt-BR": "A praia como o app a desenha: a costa e a hora escolhidas com os botões ao lado.",
- "ja": "アプリが描く浜辺。海岸と時刻は、となりのボタンで選ぶ。"},
+"Dawn at Anse Source d'Argent, as the app draws it: a rose sky, calm water, a palm on the sand.": {
+ "it": "L'alba ad Anse Source d'Argent come la disegna l'app: un cielo rosa, l'acqua calma, una palma sulla sabbia.",
+ "es": "El alba en Anse Source d'Argent tal como la dibuja la app: un cielo rosado, agua en calma, una palmera en la arena.",
+ "fr": "L'aube à Anse Source d'Argent telle que l'application la dessine : un ciel rose, une eau calme, un palmier sur le sable.",
+ "de": "Morgengrauen an der Anse Source d'Argent, wie die App es zeichnet: ein rosa Himmel, stilles Wasser, eine Palme im Sand.",
+ "pt-BR": "O amanhecer em Anse Source d'Argent como o app o desenha: um céu rosado, água calma, uma palmeira na areia.",
+ "ja": "アプリが描くアンス・スルス・ダルジャンの夜明け。薔薇色の空、静かな水、砂の上の一本のやし。"},
+
+"Midday at Cala Goloritzé, as the app draws it: blue sky, turquoise sea, bottles on the pale sand.": {
+ "it": "Mezzogiorno a Cala Goloritzé come lo disegna l'app: cielo azzurro, mare turchese, bottiglie sulla sabbia chiara.",
+ "es": "El mediodía en Cala Goloritzé tal como lo dibuja la app: cielo azul, mar turquesa, botellas en la arena clara.",
+ "fr": "Midi à Cala Goloritzé tel que l'application le dessine : ciel bleu, mer turquoise, des bouteilles sur le sable clair.",
+ "de": "Mittag an der Cala Goloritzé, wie die App ihn zeichnet: blauer Himmel, türkisfarbenes Meer, Flaschen im hellen Sand.",
+ "pt-BR": "O meio-dia em Cala Goloritzé como o app o desenha: céu azul, mar turquesa, garrafas na areia clara.",
+ "ja": "アプリが描くカーラ・ゴロリッツェの正午。青い空、ターコイズの海、明るい砂の上の瓶。"},
+
+"Dusk at Reynisfjara, as the app draws it: an ember sky over black volcanic sand.": {
+ "it": "Il tramonto a Reynisfjara come lo disegna l'app: un cielo di brace sopra la sabbia vulcanica nera.",
+ "es": "El atardecer en Reynisfjara tal como lo dibuja la app: un cielo de brasas sobre la arena volcánica negra.",
+ "fr": "Le crépuscule à Reynisfjara tel que l'application le dessine : un ciel de braise sur le sable volcanique noir.",
+ "de": "Dämmerung in Reynisfjara, wie die App sie zeichnet: ein glutroter Himmel über schwarzem Vulkansand.",
+ "pt-BR": "O entardecer em Reynisfjara como o app o desenha: um céu de brasas sobre a areia vulcânica preta.",
+ "ja": "アプリが描くレイニスフィヤラの夕暮れ。黒い火山砂の上に、燠火のような空。"},
+
+"Night at Haukland Beach, as the app draws it: the aurora over a dark arctic sea.": {
+ "it": "La notte a Haukland Beach come la disegna l'app: l'aurora sopra un mare artico scuro.",
+ "es": "La noche en Haukland Beach tal como la dibuja la app: la aurora sobre un mar ártico oscuro.",
+ "fr": "La nuit à Haukland Beach telle que l'application la dessine : l'aurore au-dessus d'une mer arctique sombre.",
+ "de": "Nacht am Haukland Beach, wie die App sie zeichnet: das Polarlicht über einem dunklen arktischen Meer.",
+ "pt-BR": "A noite em Haukland Beach como o app a desenha: a aurora sobre um mar ártico escuro.",
+ "ja": "アプリが描くハウクラン・ビーチの夜。暗い北極の海の上を渡るオーロラ。"},
+
+"It turns by itself: dawn at La Digue, midday in Sardegna, dusk on the black sand of Reynisfjara, and an arctic night with the aurora overhead. In the app you get one shore, and you do not choose it — which is the best thing about it.": {
+ "it": "Gira da sola: l'alba a La Digue, mezzogiorno in Sardegna, il tramonto sulla sabbia nera di Reynisfjara, e una notte artica con l'aurora sopra la testa. Nell'app te ne tocca una, e non la scegli tu — che è la cosa più bella.",
+ "es": "Gira sola: el alba en La Digue, el mediodía en Cerdeña, el atardecer en la arena negra de Reynisfjara y una noche ártica con la aurora por encima. En la app te toca una, y no la eliges tú — que es lo mejor de todo.",
+ "fr": "Elle tourne toute seule : l'aube à La Digue, midi en Sardaigne, le crépuscule sur le sable noir de Reynisfjara, et une nuit arctique avec l'aurore au-dessus. Dans l'application vous en recevez une, et vous ne la choisissez pas — c'est ce qu'il y a de plus beau.",
+ "de": "Er wechselt von selbst: Morgengrauen auf La Digue, Mittag auf Sardinien, Dämmerung auf dem schwarzen Sand von Reynisfjara und eine arktische Nacht mit dem Polarlicht darüber. In der App bekommen Sie einen Strand, und Sie suchen ihn nicht aus — das ist das Schönste daran.",
+ "pt-BR": "Ela gira sozinha: o amanhecer em La Digue, o meio-dia na Sardenha, o entardecer na areia preta de Reynisfjara e uma noite ártica com a aurora lá em cima. No app você ganha uma praia, e não é você que escolhe — que é o melhor disso.",
+ "ja": "ひとりでに移り変わる。ラ・ディーグの夜明け、サルデーニャの正午、レイニスフィヤラの黒い砂の夕暮れ、そして頭上をオーロラが渡る北極の夜。アプリでは一つの浜だけが与えられ、それを選ぶことはできない——そこがいちばんいいところだ。"},
+
+"One of the 126 shores the storm knows. Yours could be any of them.": {
+ "it": "Una delle 126 rive che la tempesta conosce. La tua potrebbe essere una qualsiasi.",
+ "es": "Una de las 126 orillas que la tormenta conoce. La tuya podría ser cualquiera.",
+ "fr": "Un des 126 rivages que la tempête connaît. Le vôtre pourrait être n'importe lequel.",
+ "de": "Eines von 126 Ufern, die der Sturm kennt. Ihres könnte jedes davon sein.",
+ "pt-BR": "Uma das 126 praias que a tempestade conhece. A sua pode ser qualquer uma.",
+ "ja": "嵐が知っている126の浜辺のひとつ。あなたの浜は、そのどれかもしれない。"},
+
+"Vík, Iceland": {
+ "it": "Vík, Islanda", "es": "Vík, Islandia", "fr": "Vík, Islande",
+ "de": "Vík, Island", "pt-BR": "Vík, Islândia", "ja": "ヴィーク、アイスランド"},
+
+"La Digue, Seychelles": {
+ "it": "La Digue, Seychelles", "es": "La Digue, Seychelles", "fr": "La Digue, Seychelles",
+ "de": "La Digue, Seychellen", "pt-BR": "La Digue, Seicheles", "ja": "ラ・ディーグ、セーシェル"},
+
+"Lofoten, Norway": {
+ "it": "Lofoten, Norvegia", "es": "Lofoten, Noruega", "fr": "Lofoten, Norvège",
+ "de": "Lofoten, Norwegen", "pt-BR": "Lofoten, Noruega", "ja": "ロフォーテン、ノルウェー"},
+
+"Sintra, Portugal": {
+ "it": "Sintra, Portogallo", "es": "Sintra, Portugal", "fr": "Sintra, Portugal",
+ "de": "Sintra, Portugal", "pt-BR": "Sintra, Portugal", "ja": "シントラ、ポルトガル"},
+
+"One last thing": {
+ "it": "Un'ultima cosa", "es": "Una última cosa", "fr": "Une dernière chose",
+ "de": "Eine letzte Sache", "pt-BR": "Uma última coisa", "ja": "最後にひとつ"},
+
+"The tide is already on its way.": {
+ "it": "La marea è già in viaggio.", "es": "La marea ya está en camino.",
+ "fr": "La marée est déjà en route.", "de": "Die Flut ist schon unterwegs.",
+ "pt-BR": "A maré já está a caminho.", "ja": "潮はもう動きはじめている。"},
+
+"On a shore you have never seen, a stranger is pushing the cork into a bottle right now. The sea will decide whose sand it touches next. There is no reason it should not be yours.": {
+ "it": "Su una riva che non hai mai visto, uno sconosciuto sta spingendo il tappo in una bottiglia proprio adesso. Il mare deciderà su quale sabbia farla approdare. E non c'è nessun motivo per cui non debba essere la tua.",
+ "es": "En una orilla que nunca has visto, un desconocido está apretando el corcho de una botella ahora mismo. El mar decidirá qué arena toca después. Y no hay ninguna razón para que no sea la tuya.",
+ "fr": "Sur un rivage que vous n'avez jamais vu, un inconnu enfonce le bouchon d'une bouteille en ce moment même. La mer décidera quel sable elle touchera ensuite. Et il n'y a aucune raison que ce ne soit pas le vôtre.",
+ "de": "An einem Ufer, das Sie nie gesehen haben, drückt gerade ein Fremder den Korken in eine Flasche. Das Meer entscheidet, wessen Sand sie als Nächstes berührt. Es gibt keinen Grund, warum es nicht Ihrer sein sollte.",
+ "pt-BR": "Numa praia que você nunca viu, um desconhecido está apertando a rolha de uma garrafa agora mesmo. O mar vai decidir em qual areia ela chega. E não há razão nenhuma para que não seja a sua.",
+ "ja": "見たこともない岸辺で、いままさに見知らぬ誰かが瓶にコルクを押し込んでいる。次にどの砂に届くかは海が決める。それがあなたの砂でない理由は、どこにもない。"},
 
 "Who you are here": {
  "it": "Chi sei, qui", "es": "Quién eres aquí", "fr": "Qui vous êtes ici",
@@ -349,22 +422,6 @@ SITO = {
  "ja": "カーラ・ゴロリッツェ。レイニスフィヤラ。アンス・スルス・ダルジャン。実在する海岸を、実在する座標のままに。そして自分の浜は、くじで決まる。どこに打ち上げるかを決めるのは嵐で、その朝からそこが家になる。射す光はあなたのいまの時刻の光だ。真夜中に開けば浜は暗く、水の上に星が出ている。どれも写真ではない。波の一本一本を、アプリが線で描いている。"},
 
 
-"The shore": {
- "it": "La riva", "es": "La orilla", "fr": "Le rivage",
- "de": "Das Ufer", "pt-BR": "A praia", "ja": "岸"},
-
-"The hour": {
- "it": "L'ora", "es": "La hora", "fr": "L'heure",
- "de": "Die Stunde", "pt-BR": "A hora", "ja": "時刻"},
-"Here you can try them all. In the app you get one, and you do not choose it — which is the best thing about it. On arctic beaches, at night, the aurora passes overhead.": {
- "it": "Qui puoi provarle tutte. Nell'app te ne tocca una, e non la scegli tu — che è la cosa più bella. Sulle spiagge artiche, di notte, l'aurora passa sopra la testa.",
- "es": "Aquí puedes probarlas todas. En la app te toca una, y no la eliges tú, que es lo mejor de todo. En las playas árticas, de noche, la aurora pasa por encima.",
- "fr": "Ici vous pouvez toutes les essayer. Dans l'application vous en recevez une, et vous ne la choisissez pas — c'est ce qu'il y a de plus beau. Sur les plages arctiques, la nuit, l'aurore passe au-dessus.",
- "de": "Hier können Sie alle ausprobieren. In der App bekommen Sie einen, und Sie suchen ihn nicht aus — das ist das Schönste daran. An arktischen Stränden zieht nachts das Polarlicht über Sie hinweg.",
- "pt-BR": "Aqui você pode experimentar todas. No app você ganha uma, e não é você que escolhe — que é o melhor disso. Nas praias árticas, à noite, a aurora passa lá em cima.",
- "ja": "ここでは全部を試せる。アプリでは一つだけが与えられ、それを自分で選ぶことはできない——そこがいちばんいいところだ。北極圏の浜では、夜になるとオーロラが頭上を渡っていく。"},
-
-
 "The crossing": {
  "it": "La traversata", "es": "La travesía", "fr": "La traversée",
  "de": "Die Überfahrt", "pt-BR": "A travessia", "ja": "航路"},
@@ -406,26 +463,6 @@ SITO = {
  "pt-BR": "A carta é do próprio app: costas do Natural Earth, de domínio público, carregadas dentro dele. Nenhum serviço de mapas é chamado, e nada sobre onde você está sai das suas mãos.",
  "ja": "海図はアプリ自身のものだ。海岸線はパブリックドメインの Natural Earth を内部に持っている。地図サービスを呼ぶことは一度もなく、あなたの居場所に関する情報が手元から出ていくこともない。"},
 
-"Before you go": {
- "it": "Prima di andare", "es": "Antes de irte", "fr": "Avant de partir",
- "de": "Bevor Sie gehen", "pt-BR": "Antes de ir", "ja": "行く前に"},
-
-"At the foot of every open letter there is “Report to the Sea”. The correspondence closes, and the letter does not come back to your sand. You can block its author in the same gesture: the tide will never bring you together again, in either direction.": {
- "it": "In fondo a ogni lettera aperta c'è «Riferisci al Mare». Il carteggio si chiude, e la lettera non torna sulla tua sabbia. Con lo stesso gesto puoi bloccare chi l'ha scritta: la marea non vi rimetterà più insieme, né in un verso né nell'altro.",
- "es": "Al pie de cada carta abierta está «Informar al Mar». La correspondencia se cierra y la carta no vuelve a tu arena. Con el mismo gesto puedes bloquear a quien la escribió: la marea no volverá a reuniros, en ninguna dirección.",
- "fr": "Au bas de chaque lettre ouverte se trouve « Signaler à la Mer ». La correspondance se ferme, et la lettre ne revient pas sur votre sable. Du même geste, vous pouvez bloquer son auteur : la marée ne vous réunira plus jamais, dans aucun sens.",
- "de": "Am Fuß jedes geöffneten Briefes steht „Dem Meer melden“. Der Briefwechsel schließt sich, und der Brief kehrt nicht in Ihren Sand zurück. Mit derselben Geste können Sie den Verfasser sperren: Die Flut wird Sie nie wieder zusammenbringen, in keine Richtung.",
- "pt-BR": "No pé de cada carta aberta há «Relatar ao Mar». A correspondência se encerra, e a carta não volta para a sua areia. No mesmo gesto você pode bloquear quem a escreveu: a maré nunca mais vai juntar vocês, em nenhuma direção.",
- "ja": "開いた手紙の末尾には「海に知らせる」がある。文通はそこで閉じ、その手紙が砂に戻ってくることはない。同じ動作で相手をブロックすることもできる。そうすれば潮が二人を引き合わせることは、どちらの向きにも二度とない。"},
-
-"For an urgent report, a problem, or any question at all, this address reaches a real person:": {
- "it": "Per una segnalazione urgente, un problema o una domanda qualsiasi, questo indirizzo arriva a una persona vera:",
- "es": "Para un aviso urgente, un problema o cualquier duda, esta dirección llega a una persona de verdad:",
- "fr": "Pour un signalement urgent, un problème ou n'importe quelle question, cette adresse atteint une personne réelle :",
- "de": "Für eine dringende Meldung, ein Problem oder irgendeine Frage erreicht diese Adresse einen echten Menschen:",
- "pt-BR": "Para um aviso urgente, um problema ou qualquer dúvida, este endereço chega a uma pessoa de verdade:",
- "ja": "緊急の報告、不具合、そのほかどんな質問でも、この宛先は実在の人間に届く。"},
-
 "A bottle, thrown well, can reach anyone.": {
  "it": "Una bottiglia, lanciata bene, può raggiungere chiunque.",
  "es": "Una botella, bien lanzada, puede llegar a cualquiera.",
@@ -445,12 +482,11 @@ SITO = {
 
 # Le frasi che non si traducono: nomi propri, indirizzi, la rosa dei venti.
 INVARIATE = [",",  # la virgola fra i due soprannomi: punteggiatura, non testo
-             "Bottlegram", "Cala Goloritzé", "N", "bottlegram@bulbmode.com",
-             # La spiaggia disegnata cambia da sola con i pulsanti: i suoi nomi
-             # li scrive app.js e sono nomi propri, tranne il paese — che è un
-             # difetto noto, segnato nel README.
-             "Haukland Beach", "Lofoten, Norway", "Bottles washed ashore: 2", "2",
-             "The beach, as the app draws it — Haukland Beach, Night"]
+             "Bottlegram", "N", "bottlegram@bulbmode.com",
+             # I nomi delle spiagge dell'approdo che ruota: endonimi, come
+             # nell'app. I LUOGHI invece si traducono (voci qui sopra).
+             "Cala Goloritzé", "Reynisfjara", "Anse Source d'Argent",
+             "Haukland Beach", "Praia da Ursa"]
 
 # ── Le frasi che vengono dall'app ──────────────────────────────────────────
 app = json.load(open(XCSTRINGS))
@@ -463,24 +499,13 @@ for chiave, v in app["strings"].items():
     da_app[en] = valori
 
 DAL_SITO = [
- # Le voci che l'app scrive DENTRO la schermata disegnata: la barra in basso,
- # i biomi e le ore. Sono parole dell'app, quindi vengono dall'app.
- "Map", "Journal", "Throw", "Emporium",
- "Mediterranean", "Tropical", "Arctic", "Volcanic", "Wild Atlantic",
- "Dawn", "Day", "Dusk", "Night",
+ # LE REGOLE DEL MARE NON STANNO PIÙ SULLA PAGINA (vivono nell'app, e un
+ # giorno in una pagina loro): qui restano solo i versi del naufragio e le
+ # parole dell'approdo, che sono dell'app e dall'app si rileggono.
  "The storm took the ship, the cargo, and every map you owned.",
  "The sea, in return, left you one thing: a beach at the end of the world.",
  "They say the tide brings words from other castaways. And that a bottle, thrown well, can reach anyone.",
- "Your new home", "A stranger", "The rules of the sea",
- "Here you write to strangers, and a stranger deserves the same courtesy as a neighbour. These are the few rules that keep this sea liveable.",
- "The sea tolerates none of this",
- "Harassment, insults, threats, hate or discrimination, sexual content, spam and scams. Zero tolerance: a letter like that is taken out of the sea, and whoever wrote it can be banished from their beach — even the first time.",
- "Any letter can be reported to the Sea",
- "Someone looks, within a day",
- "Every report is read by a person within 24 hours. The letter may be taken out of the sea and its author banished.",
- "Stay a stranger",
- "Nobody here knows who you are, and that is for the best: do not write your surname, your address, your number or your profiles. A letter sails and cannot be called back.",
- "Writing to whoever keeps the lighthouse",
+ "Your new home", "A stranger",
  ]
 
 # ── Il montaggio ───────────────────────────────────────────────────────────

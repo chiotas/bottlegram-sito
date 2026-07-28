@@ -119,250 +119,83 @@ const TAVOLOZZE = {
  }
 };
 
-/* Una riva vera per bioma, presa da Content/BeachCatalog.swift. */
-const RIVE = {
-  mediterranean: { nome: 'Cala Goloritzé',       luogo: 'Sardegna, Italy' },
-  tropical:      { nome: "Anse Source d'Argent", luogo: 'La Digue, Seychelles' },
-  arctic:        { nome: 'Haukland Beach',       luogo: 'Lofoten, Norway' },
-  volcanic:      { nome: 'Reynisfjara',          luogo: 'Vík, Iceland' },
-  atlantic:      { nome: 'Praia da Ursa',        luogo: 'Sintra, Portugal' }
-};
+/* ── Gli scenari in dissolvenza ──────────────────────────────────────────
+   IL SELETTORE NON C'È PIÙ. Quattro schermate vere (alba tropicale,
+   mezzogiorno mediterraneo, tramonto vulcanico, notte artica con l'aurora)
+   stanno una sopra l'altra dentro lo schermo e si passano la luce da sole.
+   Girano SOLO quando la sezione è in campo — un timer che sfuma immagini
+   fuori schermo è lavoro regalato — e chi chiede quiete vede il mezzogiorno,
+   fermo. Le quattro sono nel markup senza `lazy`: ~280 KB in tutto, e ferme
+   in cache prima che il dito arrivi qui. */
 
-/* Le sagome dell'app: pini sul Mediterraneo e sull'Atlantico, palme ai
-   tropici, montagne all'orizzonte dove la costa è alta. `lontana` le manda
-   dietro al mare, all'altezza della linea d'orizzonte. */
-const SAGOME = {
-  mediterranean: { glifo: 'pine',      x: 196, y: 352, s: 148 },
-  tropical:      { glifo: 'palm',      x: 166, y: 292, s: 196 },
-  arctic:        { glifo: 'mountains', x: 4,   y: 132, s: 190, lontana: true },
-  volcanic:      { glifo: 'mountains', x: 118, y: 108, s: 218, lontana: true },
-  atlantic:      { glifo: 'pine',      x: -20, y: 348, s: 156 }
-};
+const scenari = document.getElementById('scenari');
+if (scenari) {
+  const quadri = [...scenari.querySelectorAll('.scenario')];
+  const quiete = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const mostra = (i) => quadri.forEach((q, j) => q.classList.toggle('attiva', i === j));
+  let indice = 0;
+  let giro = null;
 
-/* Una banda d'acqua o di sabbia: cresta ondulata in cima, giù fino al fondo. */
-function banda(y, amp) {
-  return `M0 ${y} Q37.5 ${y - amp} 75 ${y} T150 ${y} T225 ${y} T300 ${y} L300 650 L0 650 Z`;
-}
-
-function stelline(n) {
-  let s = '';
-  for (let i = 0; i < n; i++) {
-    // Deterministiche: la stessa spiaggia ha sempre lo stesso cielo.
-    const x = ((i * 61.803) % 100) * 3;
-    const y = ((i * 37.77) % 100) * 3.1;
-    const r = 0.5 + ((i * 13) % 5) * 0.22;
-    const o = 0.35 + ((i * 7) % 6) * 0.1;
-    s += `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${r.toFixed(2)}" fill="#fff" opacity="${o.toFixed(2)}"/>`;
+  if (quiete.matches) {
+    mostra(1); // il mezzogiorno mediterraneo, fermo
+  } else {
+    const parti = () => { if (!giro) giro = setInterval(() => mostra(indice = (indice + 1) % quadri.length), 4200); };
+    const fermati = () => { if (giro) { clearInterval(giro); giro = null; } };
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(([v]) => (v.isIntersecting ? parti() : fermati()), { threshold: 0.25 })
+        .observe(scenari);
+    } else {
+      parti();
+    }
   }
-  return s;
 }
 
-function tondo(x, glifo, etichetta) {
-  return `<g transform="translate(${x} 566)">
-    <circle r="21" fill="#000" fill-opacity="0.30"/>
-    <circle r="21" fill="none" stroke="#fff" stroke-opacity="0.35" stroke-width="1"/>
-    <g transform="translate(-7.5 -7.5) scale(0.15)"><path d="${GLIFI[glifo]}" fill="#fff" fill-rule="evenodd"/></g>
-    <text y="34" text-anchor="middle" font-size="9.5" fill="#fff" opacity="0.95">${etichetta}</text>
-  </g>`;
-}
+/* ── L'approdo che cambia nome ───────────────────────────────────────────
+   La carta del benvenuto dice UNA spiaggia, ma deve capirsi che è un esempio:
+   il nome e il luogo ruotano piano, una costa per bioma, prese da
+   Content/BeachCatalog.swift. Il LUOGO si traduce al volo da LINGUE — il
+   cambio di lingua fotografa i nodi una volta sola e non può seguire un testo
+   che ruota, quindi qui si guarda `document.documentElement.lang` a ogni
+   giro. I NOMI sono nomi propri e restano endonimi, come nell'app. */
 
-function disegnaSpiaggia(bioma, fase, quante = 2) {
-  const p = TAVOLOZZE[bioma][fase];
-  const riva = RIVE[bioma];
-  const sag = SAGOME[bioma];
-  const notte = p.isNight;
-  const T = (k) => testo(k);
-  // Gli id dei gradienti sono globali nel documento: se due scene convivessero
-  // sulla stessa pagina, la seconda userebbe il cielo della prima.
-  const u = bioma + '-' + fase;
+const RIVE_APPRODO = [
+  { nome: 'Cala Goloritzé',        luogo: 'Sardegna, Italy' },
+  { nome: 'Reynisfjara',           luogo: 'Vík, Iceland' },
+  { nome: "Anse Source d'Argent",  luogo: 'La Digue, Seychelles' },
+  { nome: 'Haukland Beach',        luogo: 'Lofoten, Norway' },
+  { nome: 'Praia da Ursa',         luogo: 'Sintra, Portugal' },
+];
 
-  return `
-  <defs>
-    <linearGradient id="g-cielo-${u}" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="${p.skyTop}"/>
-      <stop offset="72%" stop-color="${p.skyMid}"/>
-      <stop offset="100%" stop-color="${p.skyHorizon}"/>
-    </linearGradient>
-    <radialGradient id="g-astro-${u}" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="${p.sunOrMoon}" stop-opacity="0.30"/>
-      <stop offset="100%" stop-color="${p.sunOrMoon}" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="g-aurora-${u}" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#2ED9A0" stop-opacity="0"/>
-      <stop offset="45%" stop-color="#2ED9A0" stop-opacity="0.42"/>
-      <stop offset="100%" stop-color="#7BE0D6" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="g-lancia-${u}" x1="0.2" y1="0.1" x2="0.8" y2="0.9">
-      <stop offset="0%" stop-color="#547EA8"/><stop offset="100%" stop-color="#21476B"/>
-    </linearGradient>
-    <linearGradient id="g-fondo-${u}" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#000" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#000" stop-opacity="0.28"/>
-    </linearGradient>
-  </defs>
-
-  <rect width="300" height="300" fill="url(#g-cielo-${u})"/>
-  ${notte ? stelline(34) : ''}
-  ${(bioma === 'arctic' && notte)
-      ? `<path d="M-20 96 C60 44 150 122 330 58 L330 106 C150 170 60 92 -20 144 Z" fill="url(#g-aurora-${u})"/>
-         <path d="M-20 138 C70 96 160 158 330 104 L330 138 C160 192 70 130 -20 176 Z" fill="url(#g-aurora-${u})" opacity="0.5"/>` : ''}
-  <circle cx="228" cy="86" r="58" fill="url(#g-astro-${u})"/>
-  <circle cx="228" cy="86" r="17" fill="${p.sunOrMoon}" opacity="0.95"/>
-
-  ${sag.lontana ? sagoma(sag, p.silhouette) : ''}
-
-  <path d="${banda(292, 6)}"  fill="${p.seaFar}"/>
-  <path d="${banda(336, 9)}"  fill="${p.seaMid}"/>
-  <path d="${banda(388, 12)}" fill="${p.seaNear}"/>
-  <path d="${banda(444, 9)}"  fill="${p.sandWet}"/>
-  <path d="${banda(486, 7)}"  fill="${p.sandDry}"/>
-
-  ${sag.lontana ? '' : sagoma(sag, p.silhouette)}
-
-  ${bottiglietta(66, 534, -24)}
-  ${bottiglietta(244, 518, 16)}
-  ${quante > 2 ? bottiglietta(150, 528, -8) : ''}
-
-  <rect y="470" width="300" height="180" fill="url(#g-fondo-${u})"/>
-
-  <g font-family="Iowan Old Style, Palatino, Georgia, serif" fill="#fff"
-     style="filter: drop-shadow(0 1px 3px rgba(0,0,0,.55))">
-    <text x="18" y="52" font-size="17" font-weight="600">${riva.nome}</text>
-    <text x="18" y="71" font-size="11.5" font-style="italic" opacity="0.85">${riva.luogo}</text>
-
-    <g transform="translate(240 40)">
-      <rect x="-32" y="-13" width="64" height="26" rx="13" fill="#000" fill-opacity="0.32"/>
-      <g transform="translate(-19 -11) rotate(-18 5.5 11)"><g transform="scale(0.11)"><path d="${GLIFI.bottle}" fill="#fff" fill-rule="evenodd"/></g></g>
-      <text x="8" y="5" font-size="14" font-weight="700">${quante}</text>
-    </g>
-
-    <g transform="translate(150 496)">
-      <rect x="-92" y="-13" width="184" height="26" rx="13" fill="#000" fill-opacity="0.35"/>
-      <text y="4.5" text-anchor="middle" font-size="11" font-style="italic">Bottles washed ashore: ${quante}</text>
-    </g>
-
-    ${tondo(40, 'compass', T('scena.mappa'))}
-    ${tondo(100, 'quill', T('scena.diario'))}
-    ${tondo(258, 'key', T('scena.emporio'))}
-
-    <g transform="translate(180 558)">
-      <circle r="31" fill="url(#g-lancia-${u})"/>
-      <circle r="31" fill="none" stroke="#142E4A" stroke-width="1.4"/>
-      <circle r="25" fill="none" stroke="#F5EBD1" stroke-opacity="0.5" stroke-width="1"/>
-      <g transform="rotate(-12)"><g transform="translate(-7.5 -16) scale(0.15 0.32)"><path d="${GLIFI.bottle}" fill="#F5EBD1" fill-rule="evenodd"/></g></g>
-      <text y="42" text-anchor="middle" font-size="9.5">${T('scena.lancia')}</text>
-    </g>
-  </g>`;
-}
-
-function sagoma(s, colore) {
-  return `<g transform="translate(${s.x} ${s.y}) scale(${s.s / 100})" opacity="0.95">
-    <path d="${GLIFI[s.glifo]}" fill="${colore}" fill-rule="evenodd"/></g>`;
-}
-
-/* Una bottiglia arenata: vetro di mare, tappo di sughero, etichetta di carta. */
-function bottiglietta(x, y, gradi) {
-  return `<g transform="translate(${x} ${y}) rotate(${gradi}) scale(1.05)">
-    <rect x="-4" y="-19" width="8" height="6" rx="1.6" fill="#C08A4E"/>
-    <path d="M-5.5 -13 h11 v6 q0 2.6 2.4 4.2 l1.7 1.2 q2 1.4 2 3.8 v15 q0 2.6 -2.6 2.6 h-15.6 q-2.6 0 -2.6 -2.6 v-15 q0 -2.4 2 -3.8 l1.7 -1.2 q2.4 -1.6 2.4 -4.2 z" fill="#C7DED4" fill-opacity="0.92"/>
-    <rect x="-6" y="2" width="12" height="9" rx="1" fill="#F5EBD1" fill-opacity="0.9"/>
-  </g>`;
-}
-
-/* ── Le parole della schermata ───────────────────────────────────────────
-   Le stesse voci dell'app, nella sua traduzione inglese vera
-   (Resources/Localizable.xcstrings). */
-
-const T = {
-  'scena.alt': 'The beach, as the app draws it',
-  'scena.mappa': 'Map', 'scena.diario': 'Journal', 'scena.emporio': 'Emporium', 'scena.lancia': 'Throw',
-  'scena.arenate': 'Bottles washed ashore: 2',
-  'bioma.mediterranean': 'Mediterranean', 'bioma.tropical': 'Tropical', 'bioma.arctic': 'Arctic',
-  'bioma.volcanic': 'Volcanic', 'bioma.atlantic': 'Wild Atlantic',
-  'fase.dawn': 'Dawn', 'fase.day': 'Day', 'fase.dusk': 'Dusk', 'fase.night': 'Night'
-};
-const testo = (k) => T[k] || k;
-
-/* ── I comandi della vetrina ─────────────────────────────────────────── */
-
-const BIOMI = ['mediterranean', 'tropical', 'arctic', 'volcanic', 'atlantic'];
-const FASI = ['dawn', 'day', 'dusk', 'night'];
-let biomaScelto = 'arctic';
-let faseScelta = 'night';
-
-/* Tira giù un'immagine con calma, una volta sola. Non tiene niente in mano:
-   quello che serve è che stia nella cache del browser quando si preme. */
-const prelevate = new Set();
-const pigro = window.requestIdleCallback || ((f) => setTimeout(f, 200));
-function preleva(nome) {
-  if (prelevate.has(nome)) return;
-  prelevate.add(nome);
-  pigro(() => { new Image().src = `assets/spiagge/${nome}.jpg`; });
-}
-
-function costruisciChip(contenitore, valori, prefisso, scelto, alClick) {
-  contenitore.innerHTML = valori.map(v =>
-    `<button type="button" class="chip" data-val="${v}" data-chiave="${prefisso}.${v}" aria-pressed="${v === scelto}"></button>`
-  ).join('');
-  contenitore.querySelectorAll('.chip').forEach(b => {
-    b.addEventListener('click', () => {
-      contenitore.querySelectorAll('.chip').forEach(o => o.setAttribute('aria-pressed', String(o === b)));
-      alClick(b.dataset.val);
-      rendi();
-      if (prefisso === 'bioma') for (const f of FASI) preleva(`${b.dataset.val}-${f}`);
-    });
-  });
-}
-
-function etichetteChip() {
-  document.querySelectorAll('.chip[data-chiave]').forEach(b => { b.textContent = testo(b.dataset.chiave); });
-}
-
-/* LA SPIAGGIA CHE SI PROVA È L'APP VERA, non più il disegno.
-   Venti fotografie, cinque coste per quattro ore, fatte con la bandiera
-   `--phase` su un naufrago che vive in una campana di vetro. Il disegno resta
-   nel file (`disegnaSpiaggia`) e continua a servire al fondale delle regole.
-
-   L'ALT NON È DINAMICO di proposito: lo scambio di lingua fotografa gli
-   attributi una volta sola, quindi un alt riscritto da qui resterebbe inglese
-   per sempre. Quale costa e quale ora si legge dai pulsanti accanto, che sono
-   tradotti. */
-const scena = document.getElementById('scena');
-function rendi() {
-  if (!scena) return;
-  scena.src = `assets/spiagge/${biomaScelto}-${faseScelta}.jpg`;
-}
-
-const contBiomi = document.getElementById('biomi');
-const contFasi = document.getElementById('fasi');
-if (contBiomi && contFasi) {
-  costruisciChip(contBiomi, BIOMI, 'bioma', biomaScelto, v => { biomaScelto = v; });
-  costruisciChip(contFasi, FASI, 'fase', faseScelta, v => { faseScelta = v; });
-  etichetteChip();
-  rendi();
-
-  /* Le altre diciannove si tirano giù quando la sezione si avvicina, non prima:
-     chi non arriva fin qui non paga un megabyte e mezzo per niente. E si
-     tirano giù PRIMA che qualcuno prema, perché una vetrina che sbianca a ogni
-     pulsante non è una vetrina. Prima le altre ore della costa che si sta
-     guardando — è lì che va il primo dito. */
-  const sezione = document.getElementById('spiagge');
-  if (sezione && 'IntersectionObserver' in window) {
-    const scorta = new IntersectionObserver(([v], oss) => {
-      if (!v.isIntersecting) return;
-      oss.disconnect();
-      /* SOLO LE ALTRE ORE DELLA COSTA CHE SI STA GUARDANDO — tre immagini, non
-         diciannove. Tirarle giù tutte e venti sembrava gentile e faceva il
-         danno peggiore della pagina: un telefono tiene in memoria le immagini
-         GIÀ DECODIFICATE, e venti da 603×1311 sono decine di megabyte. Quando
-         non ci stanno più, Safari butta via le più vecchie — comprese le
-         schermate che hai appena passato. Riscorrendo verso l'alto le deve
-         rifare da capo, ed è esattamente lì che si sentiva lo scatto:
-         scendendo liscio, risalendo no. Le altre si tirano giù quando si preme
-         il pulsante di quella costa. */
-      for (const f of FASI) preleva(`${biomaScelto}-${f}`);
-    }, { rootMargin: '600px 0px' });
-    scorta.observe(sezione);
+const nomeApprodo = document.getElementById('nome-approdo');
+const luogoApprodo = document.getElementById('luogo-approdo');
+if (nomeApprodo && luogoApprodo) {
+  const carta = nomeApprodo.closest('.carta-lettera');
+  const quiete = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const traduci = (en) => {
+    const lg = document.documentElement.lang;
+    if (lg === 'en' || typeof LINGUE === 'undefined') return en;
+    return (LINGUE[lg] && LINGUE[lg][en]) || en;
+  };
+  let quale = 0;
+  let filo = null;
+  const gira = () => {
+    carta.classList.add('sfuma');
+    setTimeout(() => {
+      quale = (quale + 1) % RIVE_APPRODO.length;
+      nomeApprodo.textContent = RIVE_APPRODO[quale].nome;
+      luogoApprodo.textContent = traduci(RIVE_APPRODO[quale].luogo);
+      carta.classList.remove('sfuma');
+    }, 750);
+  };
+  if (!quiete.matches) {
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(([v]) => {
+        if (v.isIntersecting && !filo) filo = setInterval(gira, 5200);
+        else if (!v.isIntersecting && filo) { clearInterval(filo); filo = null; }
+      }, { threshold: 0.4 }).observe(carta);
+    } else {
+      filo = setInterval(gira, 5200);
+    }
   }
 }
 
@@ -538,8 +371,18 @@ function disegnaSpiaggiaLarga(bioma, fase) {
   ${notte ? stellineLarghe(54) : ''}
   ${(bioma === 'arctic' && notte)
       ? `<path d="M-40 110 C260 40 640 150 1500 60 L1500 130 C640 220 260 110 -40 180 Z" fill="url(#aurora-${u})"/>` : ''}
-  <circle cx="1108" cy="126" r="128" fill="url(#astro-${u})"/>
-  <circle cx="1108" cy="126" r="38" fill="${p.sunOrMoon}" opacity="0.95"/>
+  ${bioma === 'arctic'
+      /* Sull'Artico l'astro sale nel cielo e rientra verso il centro: sul
+         telefono la scena è affettata ai lati (slice) e a destra in basso la
+         luna restava mezza, un uovo bianco tagliato sull'aurora. */
+      ? `<circle cx="1000" cy="-480" r="128" fill="url(#astro-${u})"/>
+         <circle cx="1000" cy="-480" r="34" fill="${p.sunOrMoon}" opacity="0.95"/>`
+      : `<circle cx="1108" cy="126" r="128" fill="url(#astro-${u})"/>
+         <circle cx="1108" cy="126" r="38" fill="${p.sunOrMoon}" opacity="0.95"/>`}
+
+  ${bioma === 'arctic'
+      ? sagoma('mountains', -60, 118, 310, p.silhouette) + sagoma('mountains', 1010, 174, 245, p.silhouette)
+      : ''}
 
   <path d="${bandaLarga(372, 10)}" fill="${p.seaFar}"/>
   <path d="${bandaLarga(432, 16)}" fill="${p.seaMid}"/>
@@ -547,9 +390,15 @@ function disegnaSpiaggiaLarga(bioma, fase) {
   <path d="${bandaLarga(580, 16)}" fill="${p.sandWet}"/>
   <path d="${bandaLarga(646, 12)}" fill="${p.sandDry}"/>
 
-  ${sagoma('pine', -30, 300, 280, p.silhouette)}
-  ${sagoma('pine', 150, 400, 190, p.silhouette)}
-  ${sagoma('palm', 1180, 250, 330, p.silhouette)}
+  ${bioma === 'arctic'
+      /* Niente palme sull'Artico: le montagne stanno all'orizzonte (qui sopra,
+         dietro il mare) e in riva restano solo due massi, disegnati qui —
+         GLIFI non ha una pietra, e non serve: un masso è tre curve. */
+      ? `<path d="M150 712 Q168 678 200 682 Q234 686 244 712 Q246 726 232 730 L166 730 Q148 726 150 712 Z" fill="${p.silhouette}"/>
+         <path d="M1218 738 Q1230 714 1256 717 Q1280 720 1286 740 Q1287 750 1276 753 L1230 753 Q1216 749 1218 738 Z" fill="${p.silhouette}"/>`
+      : sagoma('pine', -30, 300, 280, p.silhouette) +
+        sagoma('pine', 150, 400, 190, p.silhouette) +
+        sagoma('palm', 1180, 250, 330, p.silhouette)}
 
   <g transform="translate(430 660) rotate(-18) scale(1.7)">
     <rect x="-4" y="-19" width="8" height="6" rx="1.6" fill="#C08A4E"/>
@@ -563,14 +412,10 @@ function disegnaSpiaggiaLarga(bioma, fase) {
   </g>`;
 }
 
-/* La spiaggia di mezzogiorno, tre bottiglie sulla sabbia: sta accanto alle
-   quattro frasi dell'attesa, e non cambia. */
-const scenaAttesa = document.getElementById('scena-attesa');
-if (scenaAttesa) {
-  scenaAttesa.innerHTML = disegnaSpiaggia('mediterranean', 'day', 3);
-}
-
-const scenaRegole = document.getElementById('scena-regole');
-if (scenaRegole) {
-  scenaRegole.innerHTML = disegnaSpiaggiaLarga('atlantic', 'dusk');
+/* Il fondale del finale: la notte artica, con l'aurora dell'app che passa
+   sopra la testa. È la promessa che nessun'altra app può fare, e sta in
+   fondo apposta. */
+const scenaFinale = document.getElementById('scena-finale');
+if (scenaFinale) {
+  scenaFinale.innerHTML = disegnaSpiaggiaLarga('arctic', 'night');
 }

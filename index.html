@@ -202,14 +202,21 @@
   </div>
 </section>
 
-<!-- ═════════════════════════════ L'APPRODO ══════════════════════════════ -->
+<!-- ═════════════════════════════ L'APPRODO ══════════════════════════════
+     La carta dice UNA spiaggia, ma è un esempio: il nome e il luogo ruotano
+     piano (app.js, `girano`), una costa per bioma, e sotto una riga dice
+     quante ne conosce la tempesta. Il luogo ruotato si traduce da LINGUE al
+     volo — è l'unico testo dinamico tradotto della pagina. -->
 <section class="approdo notte" aria-label="Your new home">
-  <div class="carta-lettera affiora">
-    <p class="etichetta">Your new home</p>
-    <p class="nome-spiaggia">Cala Goloritzé</p>
-    <p class="luogo">Sardegna, Italy</p>
-    <hr>
-    <p class="corpo">Every day the tide will bring bottles from strangers across the sea. Speak kindly — words travel far.</p>
+  <div class="approdo-colonna">
+    <div class="carta-lettera affiora">
+      <p class="etichetta">Your new home</p>
+      <p class="nome-spiaggia" id="nome-approdo">Cala Goloritzé</p>
+      <p class="luogo" id="luogo-approdo">Sardegna, Italy</p>
+      <hr>
+      <p class="corpo">Every day the tide will bring bottles from strangers across the sea. Speak kindly — words travel far.</p>
+    </div>
+    <p class="approdo-nota affiora">One of the 126 shores the storm knows. Yours could be any of them.</p>
   </div>
   <svg class="riva" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
     <path d="M0,86 C240,50 480,110 720,78 C960,46 1200,96 1440,64 L1440,120 L0,120 Z" fill="#F5EBD1"/>
@@ -252,7 +259,11 @@
       <div class="telefono appiccicato">
         <div class="scocca">
           <div class="schermo">
-            <img class="schermata" src="assets/schermata-spiaggia.jpg" width="603" height="1311" loading="lazy" decoding="async"
+            <!-- Niente `loading="lazy"`: il caricatore pigro guarda solo in
+                 giù, e risalendo l'immagine scartata si ridecodifica sotto il
+                 dito — è metà dello scatto. Sette immagini in tutto: si
+                 caricano e si tengono. -->
+            <img class="schermata" src="assets/schermata-spiaggia.jpg" width="603" height="1311" decoding="async"
                  alt="The app at Cala Goloritzé at midday: turquoise sea, pale sand, and four bottles washed up on the shore.">
           </div>
         </div>
@@ -289,7 +300,7 @@
     <div class="telefono">
       <div class="scocca">
         <div class="schermo">
-          <img class="schermata" src="assets/schermata-diario.jpg" width="603" height="1311" loading="lazy" decoding="async"
+          <img class="schermata" src="assets/schermata-diario.jpg" width="603" height="1311" decoding="async"
                  alt="A correspondence in the journal: a letter from a stranger the reader has privately named Black sand, the reply underneath, and a note saying a bottle of theirs is still at sea.">
         </div>
       </div>
@@ -320,24 +331,26 @@
          giorno cambia il codice, cambia anche qui — non prima. -->
     <p class="guida">Cala Goloritzé. Reynisfjara. Anse Source d'Argent. True stretches of coast at their true coordinates — and yours is drawn by lot. The storm decides where it leaves you, and from that morning on it is home. The light on it is the light of your own hour: open it at midnight and your beach is dark, with the stars out over the water. Not one of these is a photograph. Every wave is drawn by the app, line by line.</p>
 
-    <div class="vetrina">
+    <!-- NIENTE PIÙ SELETTORE: quattro scenari in dissolvenza, da soli.
+         Le quattro schermate stanno tutte nel markup e si caricano subito
+         (sono ~280 KB in quattro): è la versione che non scatta. `app.js`
+         (`scenari`) le fa girare solo quando la sezione è in campo. -->
+    <div class="vetrina sola">
       <div class="telefono">
         <div class="scocca">
-          <div class="schermo"><img id="scena" class="schermata" width="603" height="1311" decoding="async"
-            alt="The beach, as the app draws it: the shore and the hour chosen with the buttons beside it."></div>
+          <div class="schermo scenari" id="scenari">
+            <img class="schermata scenario attiva" src="assets/spiagge/tropical-dawn.jpg" width="603" height="1311" decoding="async"
+                 alt="Dawn at Anse Source d'Argent, as the app draws it: a rose sky, calm water, a palm on the sand.">
+            <img class="schermata scenario" src="assets/spiagge/mediterranean-day.jpg" width="603" height="1311" decoding="async"
+                 alt="Midday at Cala Goloritzé, as the app draws it: blue sky, turquoise sea, bottles on the pale sand.">
+            <img class="schermata scenario" src="assets/spiagge/volcanic-dusk.jpg" width="603" height="1311" decoding="async"
+                 alt="Dusk at Reynisfjara, as the app draws it: an ember sky over black volcanic sand.">
+            <img class="schermata scenario" src="assets/spiagge/arctic-night.jpg" width="603" height="1311" decoding="async"
+                 alt="Night at Haukland Beach, as the app draws it: the aurora over a dark arctic sea.">
+          </div>
         </div>
       </div>
-      <div class="comandi">
-        <fieldset>
-          <legend>The shore</legend>
-          <div class="chip-fila" id="biomi"></div>
-        </fieldset>
-        <fieldset>
-          <legend>The hour</legend>
-          <div class="chip-fila" id="fasi"></div>
-        </fieldset>
-        <p class="nota">Here you can try them all. In the app you get one, and you do not choose it — which is the best thing about it. On arctic beaches, at night, the aurora passes overhead.</p>
-      </div>
+      <p class="didascalia">It turns by itself: dawn at La Digue, midday in Sardegna, dusk on the black sand of Reynisfjara, and an arctic night with the aurora overhead. In the app you get one shore, and you do not choose it — which is the best thing about it.</p>
     </div>
   </div>
 </section>
@@ -412,7 +425,7 @@
       <div class="telefono">
         <div class="scocca">
           <div class="schermo">
-            <img class="schermata" src="assets/schermata-carta.jpg" width="603" height="1311" loading="lazy" decoding="async"
+            <img class="schermata" src="assets/schermata-carta.jpg" width="603" height="1311" decoding="async"
                  alt="The nautical chart: a route drawn from Cala Goloritzé out of the Mediterranean and north across the Atlantic towards Iceland, with the bottle partway along it.">
           </div>
         </div>
@@ -421,50 +434,31 @@
   </div>
 </section>
 
-<!-- ════════════════════════════ LE REGOLE ═══════════════════════════════ -->
-<section class="sezione spiaggia-grande notte" id="regole">
-  <!-- Il fondale: la stessa spiaggia che disegna l'app, sdraiata. Nessuna
-       fotografia da nessuna parte, nemmeno qui. -->
+<!-- ═══════════════════════════ L'ULTIMA MAREA ═══════════════════════════
+     LE REGOLE NON STANNO PIÙ QUI: erano le regole d'ingaggio dell'app, e su
+     una pagina che deve far venire voglia mettevano paura. Vivono nell'app
+     (RegoleDelMareView) e un giorno in una pagina loro. Qui la pagina chiude
+     con la notte artica e l'aurora — l'unica cosa che nessun'altra app può
+     promettere — e con la sola cosa da fare. -->
+<section class="sezione spiaggia-grande notte finale" id="finale" aria-label="One last thing">
+  <!-- Il fondale: la spiaggia artica di notte, disegnata — nessuna fotografia
+       nemmeno qui. L'aurora è quella vera dell'app. -->
   <div class="fondale" aria-hidden="true">
-    <svg id="scena-regole" viewBox="0 -820 1440 1580" preserveAspectRatio="xMidYMax slice"></svg>
+    <svg id="scena-finale" viewBox="0 -820 1440 1580" preserveAspectRatio="xMidYMax slice"></svg>
     <div class="velatura"></div>
   </div>
   <svg class="riva-carta" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
     <path d="M0,0 L1440,0 L1440,58 C1200,92 960,42 720,72 C480,102 240,52 0,84 Z" fill="#F5EBD1"/>
   </svg>
 
-  <div class="dentro regolamento">
-   <div class="parole">
-    <p class="soprattitolo">Before you go</p>
-    <h2>The rules of the sea</h2>
-    <p class="guida corsivo">Here you write to strangers, and a stranger deserves the same courtesy as a neighbour. These are the few rules that keep this sea liveable.</p>
-
-    <dl class="regolario">
-      <div>
-        <dt>The sea tolerates none of this</dt>
-        <dd>Harassment, insults, threats, hate or discrimination, sexual content, spam and scams. Zero tolerance: a letter like that is taken out of the sea, and whoever wrote it can be banished from their beach — even the first time.</dd>
-      </div>
-      <div>
-        <dt>Any letter can be reported to the Sea</dt>
-        <dd>At the foot of every open letter there is “Report to the Sea”. The correspondence closes, and the letter does not come back to your sand. You can block its author in the same gesture: the tide will never bring you together again, in either direction.</dd>
-      </div>
-      <div>
-        <dt>Someone looks, within a day</dt>
-        <dd>Every report is read by a person within 24 hours. The letter may be taken out of the sea and its author banished.</dd>
-      </div>
-      <div>
-        <dt>Stay a stranger</dt>
-        <dd>Nobody here knows who you are, and that is for the best: do not write your surname, your address, your number or your profiles. A letter sails and cannot be called back.</dd>
-      </div>
-    </dl>
-
-    <div class="recapito">
-      <h3>Writing to whoever keeps the lighthouse</h3>
-      <p>For an urgent report, a problem, or any question at all, this address reaches a real person:</p>
-      <a class="indirizzo" href="mailto:bottlegram@bulbmode.com">bottlegram@bulbmode.com</a>
+  <div class="dentro chiamata">
+    <p class="soprattitolo">One last thing</p>
+    <h2 class="affiora">The tide is already on its way.</h2>
+    <p class="guida affiora">On a shore you have never seen, a stranger is pushing the cork into a bottle right now. The sea will decide whose sand it touches next. There is no reason it should not be yours.</p>
+    <div class="azioni affiora">
+      <span class="bollo">Coming to the App&nbsp;Store</span>
+      <p class="sottovoce">Not out yet. The sea is still being tested.</p>
     </div>
-   </div>
-
   </div>
 </section>
 
@@ -475,15 +469,9 @@
     <p class="marchione piccolo">Bottlegram</p>
     <p class="voce-mare piccola">A bottle, thrown well, can reach anyone.</p>
 
-    <!-- Lo stesso bollo dell'apertura, in fondo a tutto: chi ha letto la pagina
-         intera è la persona più convinta che passerà di qui, e senza questo
-         dovrebbe risalire fino in cima per trovare dove si va. Stesse parole di
-         proposito — è un ritornello, non una seconda frase da inventare. -->
-    <div class="azioni azioni-pie">
-      <span class="bollo">Coming to the App&nbsp;Store</span>
-      <p class="sottovoce">Not out yet. The sea is still being tested.</p>
-    </div>
-
+    <!-- IL BOLLO NON STA PIÙ QUI: adesso ce l'ha la sezione finale, un
+         viewport più su, ed era un doppione a distanza di uno scrollo. Il
+         piede torna a fare il piede: firma e recapito. -->
     <p class="crediti">
       <a href="mailto:bottlegram@bulbmode.com">bottlegram@bulbmode.com</a>
     </p>
