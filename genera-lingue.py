@@ -79,10 +79,10 @@ SITO = {
  "it": "La riva di qualcuno", "es": "La orilla de alguien", "fr": "La rive de quelqu'un",
  "de": "Jemandes Ufer", "pt-BR": "A praia de alguém", "ja": "だれかの岸"},
 
-"six to twenty-four hours": {
- "it": "da sei a ventiquattro ore", "es": "de seis a veinticuatro horas",
- "fr": "de six à vingt-quatre heures", "de": "sechs bis vierundzwanzig Stunden",
- "pt-BR": "de seis a vinte e quatro horas", "ja": "六時間から二十四時間"},
+"six to thirty-six hours": {
+ "it": "da sei a trentasei ore", "es": "de seis a treinta y seis horas",
+ "fr": "de six à trente-six heures", "de": "sechs bis sechsunddreißig Stunden",
+ "pt-BR": "de seis a trinta e seis horas", "ja": "六時間から三十六時間"},
 
 "You throw a bottle": {
  "it": "Lanci una bottiglia", "es": "Lanzas una botella", "fr": "Tu lances une bouteille",
@@ -100,13 +100,13 @@ SITO = {
  "it": "Qualcuno la trova", "es": "Alguien la encuentra", "fr": "Quelqu'un la trouve",
  "de": "Jemand findet sie", "pt-BR": "Alguém a encontra", "ja": "だれかが拾う"},
 
-"Hours later it washes up on another castaway's beach. In the same way, other people's bottles wash up on your sand.": {
- "it": "Qualche ora dopo approda sulla spiaggia di un altro naufrago. Allo stesso modo, sulla tua sabbia arrivano le bottiglie degli altri.",
- "es": "Unas horas después llega a la playa de otro náufrago. Del mismo modo, a tu arena llegan las botellas de los demás.",
- "fr": "Quelques heures plus tard, elle échoue sur la plage d'un autre naufragé. De la même façon, les bouteilles des autres échouent sur ton sable.",
- "de": "Stunden später strandet sie am Strand eines anderen Schiffbrüchigen. Genauso stranden fremde Flaschen an deinem Sand.",
- "pt-BR": "Horas depois ela encalha na praia de outro náufrago. Do mesmo modo, na sua areia chegam as garrafas dos outros.",
- "ja": "数時間ののち、べつの漂流者の浜へ流れ着きます。同じように、あなたの砂浜にも、ほかの人の瓶が届きます。"},
+"Six to thirty-six hours later it washes up on another castaway's beach. In the same way, other people's bottles wash up on your sand.": {
+ "it": "Da sei a trentasei ore dopo approda sulla spiaggia di un altro naufrago. Allo stesso modo, sulla tua sabbia arrivano le bottiglie degli altri.",
+ "es": "Entre seis y treinta y seis horas después llega a la playa de otro náufrago. Del mismo modo, a tu arena llegan las botellas de los demás.",
+ "fr": "Six à trente-six heures plus tard, elle échoue sur la plage d'un autre naufragé. De la même façon, les bouteilles des autres échouent sur ton sable.",
+ "de": "Sechs bis sechsunddreißig Stunden später strandet sie am Strand eines anderen Schiffbrüchigen. Genauso stranden fremde Flaschen an deinem Sand.",
+ "pt-BR": "De seis a trinta e seis horas depois, ela encalha na praia de outro náufrago. Do mesmo modo, na sua areia chegam as garrafas dos outros.",
+ "ja": "六時間から三十六時間ののち、べつの漂流者の浜へ流れ着きます。同じように、あなたの砂浜にも、ほかの人の瓶が届きます。"},
 
 "And answers, if they want to": {
  "it": "E se vuole, risponde", "es": "Y si quiere, responde", "fr": "Et s'il veut, il répond",
