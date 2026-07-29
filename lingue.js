@@ -21,6 +21,7 @@ const LINGUE = {
  "it": {
   "Bottlegram — a slow messaging app": "Bottlegram — un'app di messaggi lenti",
   "Skip to content": "Vai al contenuto",
+  "In a hurry? The sea is not.": "Sei di fretta? Il mare no.",
   "How it works": "Come funziona",
   "Three bottles a day,": "Tre bottiglie al giorno,",
   "and a whole sea in between.": "e un mare intero in mezzo.",
@@ -119,6 +120,7 @@ const LINGUE = {
  "es": {
   "Bottlegram — a slow messaging app": "Bottlegram — una app de mensajes lentos",
   "Skip to content": "Ir al contenido",
+  "In a hurry? The sea is not.": "¿Tienes prisa? El mar no.",
   "How it works": "Cómo funciona",
   "Three bottles a day,": "Tres botellas al día,",
   "and a whole sea in between.": "y un mar entero en medio.",
@@ -217,6 +219,7 @@ const LINGUE = {
  "fr": {
   "Bottlegram — a slow messaging app": "Bottlegram — une messagerie lente",
   "Skip to content": "Aller au contenu",
+  "In a hurry? The sea is not.": "Tu es pressé ? La mer, non.",
   "How it works": "Comment ça marche",
   "Three bottles a day,": "Trois bouteilles par jour,",
   "and a whole sea in between.": "et une mer entière entre les deux.",
@@ -315,6 +318,7 @@ const LINGUE = {
  "de": {
   "Bottlegram — a slow messaging app": "Bottlegram — langsame Nachrichten",
   "Skip to content": "Zum Inhalt springen",
+  "In a hurry? The sea is not.": "In Eile? Das Meer nicht.",
   "How it works": "Wie es funktioniert",
   "Three bottles a day,": "Drei Flaschen am Tag,",
   "and a whole sea in between.": "und dazwischen ein ganzes Meer.",
@@ -413,6 +417,7 @@ const LINGUE = {
  "pt-BR": {
   "Bottlegram — a slow messaging app": "Bottlegram — um app de mensagens lentas",
   "Skip to content": "Ir para o conteúdo",
+  "In a hurry? The sea is not.": "Com pressa? O mar não.",
   "How it works": "Como funciona",
   "Three bottles a day,": "Três garrafas por dia,",
   "and a whole sea in between.": "e um mar inteiro no meio.",
@@ -511,6 +516,7 @@ const LINGUE = {
  "ja": {
   "Bottlegram — a slow messaging app": "Bottlegram — ゆっくり届くメッセージ",
   "Skip to content": "本文へ",
+  "In a hurry? The sea is not.": "急いでいますか。海は急ぎません。",
   "How it works": "遊びかた",
   "Three bottles a day,": "一日に三本、",
   "and a whole sea in between.": "あいだには、ひとつの海。",

@@ -749,6 +749,16 @@ background-image:
   font-size: clamp(1.2rem, 2.7vw, 1.6rem); line-height: 1.7;
 }
 
+/* La cerniera fra «come funziona» e «il punto»: grande come una chiusa, ma
+   con meno aria sopra — non chiude una sezione, la cuce alla successiva. */
+.cerniera {
+  margin: clamp(3.5rem, 7vw, 6rem) auto 0;
+  max-width: 24ch; text-align: center;
+  font-family: var(--mare-serif); font-style: italic;
+  font-size: clamp(1.35rem, 3vw, 1.9rem); line-height: 1.55;
+  color: var(--inchiostro);
+}
+
 /* ── La traversata: come funziona ──────────────────────────────────────
    La carta sta in mezzo fra il titolo e i quattro passi, e prende tutta la
    larghezza della colonna: è l'immagine della sezione, non un'illustrazione

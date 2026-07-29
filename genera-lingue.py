@@ -41,6 +41,14 @@ SITO = {
 # Vanno tenute d'accordo nel contenuto, non nella lettera — se un giorno
 # cambiano le tre bottiglie o le ore, si cambiano tutte e due.
 
+"In a hurry? The sea is not.": {
+ "it": "Sei di fretta? Il mare no.",
+ "es": "¿Tienes prisa? El mar no.",
+ "fr": "Tu es pressé ? La mer, non.",
+ "de": "In Eile? Das Meer nicht.",
+ "pt-BR": "Com pressa? O mar não.",
+ "ja": "急いでいますか。海は急ぎません。"},
+
 "How it works": {
  "it": "Come funziona", "es": "Cómo funciona", "fr": "Comment ça marche",
  "de": "Wie es funktioniert", "pt-BR": "Como funciona", "ja": "遊びかた"},
