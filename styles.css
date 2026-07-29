@@ -749,16 +749,6 @@ background-image:
   font-size: clamp(1.2rem, 2.7vw, 1.6rem); line-height: 1.7;
 }
 
-/* La cerniera fra «come funziona» e «il punto»: grande come una chiusa, ma
-   con meno aria sopra — non chiude una sezione, la cuce alla successiva. */
-.cerniera {
-  margin: clamp(3.5rem, 7vw, 6rem) auto 0;
-  max-width: 24ch; text-align: center;
-  font-family: var(--mare-serif); font-style: italic;
-  font-size: clamp(1.35rem, 3vw, 1.9rem); line-height: 1.55;
-  color: var(--inchiostro);
-}
-
 /* ── La traversata: come funziona ──────────────────────────────────────
    La carta sta in mezzo fra il titolo e i quattro passi, e prende tutta la
    larghezza della colonna: è l'immagine della sezione, non un'illustrazione
@@ -1038,16 +1028,21 @@ background-image:
 .chiamata .azioni { margin-top: 3rem; }
 
 /* Un respiro fra due sezioni: una riga sola, molta aria. */
+/* IL RESPIRO FRA DUE SEZIONI, e la spaziatura è la metà del lavoro. Sopra e
+   sotto ci sono già i due `--respiro` delle sezioni che confina: se il
+   divisorio ne aggiunge un terzo, la frase non sta più IN MEZZO a un vuoto,
+   ne apre uno nuovo tutto suo e sembra la fine della pagina. Il suo padding
+   verticale vale poco più di un terzo di quello di una sezione, apposta. */
 .divisorio {
-  padding: clamp(3.5rem, 8vw, 7rem) 1.4rem;
+  padding: clamp(1.5rem, 3vw, 2.5rem) 1.4rem;
   text-align: center;
 }
 .divisorio p {
   position: relative; z-index: 1;
-  margin: 0 auto; max-width: 28ch;
+  margin: 0 auto; max-width: 24ch;
   font-family: var(--mare-serif); font-style: italic;
-  font-size: clamp(1.15rem, 2.5vw, 1.5rem); line-height: 1.7;
-  color: var(--inchiostro-lieve);
+  font-size: clamp(1.35rem, 3vw, 1.9rem); line-height: 1.55;
+  color: var(--inchiostro);
 }
 
 /* La colonna della carta, sotto la pergamena grande. */
