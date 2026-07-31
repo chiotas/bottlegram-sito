@@ -634,10 +634,14 @@
   </div>
 </footer>
 
-<script src="app.js"></script>
+<script src="app.js?v=2"></script>
 <!-- Le sette lingue. `lingue.js` è generato (vedi README); `lingua.js` scambia
      i nodi di testo. Vanno dopo app.js, che disegna dentro gli SVG. -->
-<script src="lingue.js"></script>
-<script src="lingua.js"></script>
+<!-- `?v=` è il rompighiaccio della cache: il 30/07 il tedesco e il francese
+     sono passati al tu, ma chi aveva `lingue.js` in cache continuava a leggere
+     il Lei — Francesco l'ha visto coi suoi occhi la notte stessa. A ogni
+     cambio di frasi si alza il numero, e la cache vecchia muore lì. -->
+<script src="lingue.js?v=2"></script>
+<script src="lingua.js?v=2"></script>
 </body>
 </html>
