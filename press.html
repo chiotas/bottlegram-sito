@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Press — Bottlegram</title>
-<meta name="description" content="Press kit for Bottlegram: a slow messaging app where letters travel by sea, and the current decides who reads them. Screenshots, video, fact sheet.">
+<meta name="description" content="Press kit for Bottlegram: a slow messaging app where letters travel by sea, and the current decides who reads them and when. Screenshots, video, fact sheet.">
 <meta name="theme-color" content="#F5EBD1">
 <link rel="icon" href="assets/icona.png" sizes="any">
 <link rel="apple-touch-icon" href="assets/icona.png">
@@ -12,8 +12,8 @@
 
 <meta property="og:type" content="article">
 <meta property="og:title" content="Bottlegram — press kit">
-<meta property="og:description" content="A slow messaging app where letters travel by sea, and the current decides who reads them.">
-<meta property="og:image" content="assets/press/attesa.png">
+<meta property="og:description" content="A slow messaging app where letters travel by sea, and the current decides who reads them and when.">
+<meta property="og:image" content="assets/press/attesa-en.png">
 <meta name="twitter:card" content="summary_large_image">
 
 <style>
@@ -24,9 +24,9 @@
      griglia delle schermate. */
 
   /* L'apertura esce dalla colonna del testo: è il pezzo che si guarda,
-     e in 46rem le quattordici ore non si leggevano. */
-  .apertura { margin: 0 0 clamp(2.6rem, 6vw, 3.8rem); }
-  .apertura img { display: block; width: 100%; height: auto; }
+     e in 46rem le diciassette ore non si leggevano. */
+  .apertura { margin: clamp(1.8rem, 4vw, 2.6rem) 0 clamp(2.6rem, 6vw, 3.8rem); }
+  .apertura img { display: block; width: 100%; height: auto; border-radius: 12px; }
   @media (min-width: 62rem) {
     .apertura { width: min(64rem, 92vw); margin-left: calc((46rem - min(64rem, 92vw)) / 2); }
   }
@@ -41,7 +41,6 @@
     border-radius: 10px;
   }
   .incollabile p { margin: 0; line-height: 1.75; }
-  .incollabile p + p { margin-top: 0.9rem; }
   .una-riga {
     font-family: var(--mare-serif, var(--serif, Georgia, serif));
     font-style: italic; font-size: 1.22rem; line-height: 1.55;
@@ -62,7 +61,8 @@
   .scheda dd { margin: 0; }
   @media (max-width: 34rem) { .scheda > div { grid-template-columns: 1fr; } }
 
-  /* I quattro numeri. Non è una tabella: sono quattro cose da ricordare. */
+  /* I quattro numeri. Non è una tabella: sono quattro cose da ricordare,
+     e in tre colonne l'ultima restava sola. */
   .cifre { list-style: none; padding: 0; margin: 1.4rem 0 0;
            display: grid; gap: 1.8rem 2.4rem; grid-template-columns: repeat(2, 1fr); }
   @media (max-width: 30rem) { .cifre { grid-template-columns: 1fr; } }
@@ -90,15 +90,15 @@
   }
   .scarico:hover { background: rgba(255, 253, 247, .7); }
   .peso { color: var(--inchiostro-lieve, #6b5c46); font-size: 0.85rem; }
-
-  .lingua-altra { margin-top: 0.9rem; font-size: 0.92rem; }
 </style>
 </head>
 <body>
 
 <a class="salta" href="#contenuto">Skip to content</a>
 
-<header class="barra posata">
+<!-- `id="barra"` non è decorativo: è l'aggancio a cui `lingua.js` attacca il
+     selettore delle sette lingue. Senza, la pagina resta muta in inglese. -->
+<header class="barra posata" id="barra">
   <a class="marchio" href="./" aria-label="Bottlegram">
     <svg class="marchio-glifo" viewBox="0 0 100 100" aria-hidden="true"><path d="M44 4L56 4A4 4 0 0 1 60 8L60 10A4 4 0 0 1 56 14L44 14A4 4 0 0 1 40 10L40 8A4 4 0 0 1 44 4ZM42 14L58 14L58 30L42 30ZM42 30L58 30A12 12 0 0 1 70 42L70 82A12 12 0 0 1 58 94L42 94A12 12 0 0 1 30 82L30 42A12 12 0 0 1 42 30ZM42 50L58 50L58 76L42 76Z" fill-rule="evenodd"/></svg>
     <span>Bottlegram</span>
@@ -113,63 +113,71 @@
 <article class="prosa">
 
   <h1>Press kit</h1>
-  <p class="lingua-altra"><a href="press-it.html" hreflang="it" lang="it">Questa pagina in italiano</a></p>
 
   <figure class="apertura">
-    <img src="assets/press/attesa.png" width="1800" height="1088"
-         alt="Two iPhone screens side by side. On the left, a night sea and the words «The sea has it now», at 23:41 on a Thursday. On the right, an open letter from a stranger, at 13:41 on the Friday. Between them, empty space and the words «fourteen hours».">
-    <figcaption class="didascalia" style="margin: 1rem auto 0;">The same bottle, fourteen hours apart. The times are the ones the phone recorded.</figcaption>
+    <img id="apertura" src="assets/press/attesa-en.png" width="1800" height="1088"
+         alt="Two iPhone screens against a blurred sunset. On the left, the beach of Luskentyre with a bottle washed up on the sand, at 20:41 on a Thursday. On the right, an open letter from a stranger, at 13:41 on the Friday. Between them, empty space and the words «seventeen hours».">
+    <figcaption class="didascalia" style="margin: 1rem auto 0;">Luskentyre at dusk, and the answer that came back the next day. The times are the ones the phone recorded.</figcaption>
   </figure>
 
   <!-- ══════════════════ LA FRASE ══════════════════ -->
-  <h2>In one line</h2>
+  <h2>What Bottlegram is, in one line</h2>
   <div class="incollabile">
-    <p class="una-riga">A slow messaging app where letters travel by sea, and the current decides who reads them.</p>
+    <p class="una-riga">A slow messaging app where letters travel by sea, and the current decides who reads them and when.</p>
   </div>
 
   <h2>In one paragraph</h2>
   <div class="incollabile">
-    <p>Bottlegram is a messaging app for strangers. You write a letter, seal it in a bottle and give it to the current. Six to thirty-six hours later it washes up on another castaway’s shore, somewhere in the world. Then it is their turn to wait. Free on iPhone.</p>
+    <p>Bottlegram is a messaging app for strangers. You write a letter, seal it in a bottle and give it to the current. Six to thirty-six hours later it washes up on another castaway’s beach, somewhere in the world. Then it is their turn to wait. Free on iPhone.</p>
   </div>
 
   <!-- ══════════════════ LA STORIA ══════════════════ -->
   <h2>The story</h2>
 
-  <p>I photograph the sea. Seascapes mostly, and long exposures above all — and a long exposure is a photograph you make by waiting. You hold the shutter open and stand still, and the water draws itself onto the frame while, to anyone watching, nothing at all is happening.</p>
+  <p>I photograph the sea. Seascapes mostly, and long exposures above all. A long exposure is a photograph you make by waiting: you hold the shutter open and stand still, and the water draws itself onto the frame while, to anyone watching, nothing at all is happening.</p>
 
-  <p>I have walked on beaches since I was a boy, and I still do it every chance I get. And since I was a boy I have been looking for the same thing in the sand: a bottle with a letter inside, written years earlier by someone I would never meet, telling me something true about their life.</p>
+  <p>I love walking on beaches, and I have done since I was a boy. Since I was a boy I have been looking for the same thing in the sand: a bottle with a letter inside, written years earlier by someone I would never meet, telling me something true about their life.</p>
 
   <p>I have never found one.</p>
 
-  <p>So this summer I built it. Six weeks, on my own: two hundred and fifty shores drawn by hand, and a tide that carries a bottle along the real sea route between two coasts, at a speed that makes the crossing take the better part of a day.</p>
+  <p>So I built it. Two hundred and fifty beaches drawn by hand, and a tide that carries a bottle along the real sea route between two coasts, taking the time that much water would take.</p>
 
-  <p>Somebody else’s bottle will wash up on your sand tomorrow. That is the whole app.</p>
+  <p>Tomorrow, a bottle from someone you do not know will wash up on your sand. That is the whole app.</p>
 
-  <p class="guida corsivo" style="margin-top:1.4rem;">— Francesco Gola, seascape photographer</p>
+  <p class="guida corsivo" style="margin-top:1.4rem;">Francesco Gola, seascape photographer</p>
+
+  <!-- ══════════════════ IL PERCHÉ ══════════════════ -->
+  <h2>Why slow</h2>
+
+  <p>Somewhere a phone is buzzing and someone is waiting for an answer. Not here.</p>
+
+  <p>Here your letter is at sea, and the sea can take more than a day to deliver a message. Nothing to check, nothing owed to anyone, nobody typing. It ends up on a beach you have never seen, and a stranger decides whether to write back.</p>
+
+  <p>A friend of mine said it better: in a world that runs at two thousand miles an hour and expects us to answer at the same speed, this feels like the best possible reply.</p>
 
   <!-- ══════════════════ COME FUNZIONA ══════════════════ -->
   <h2>How it works</h2>
 
   <h3>You write to nobody in particular</h3>
-  <p class="lieve">Every day the sea leaves you three bottles. You put a letter in one and hand it to the current. There is no address on it, and no way to choose who receives it.</p>
+  <p class="lieve">Every day the sea leaves you three bottles. You put a letter in one and hand it to the current. There is no address on it, and the sea chooses who receives it.</p>
 
-  <h3>The sea carries it, at the speed of water</h3>
-  <p class="lieve">Each of the 250 shores is a real place, at its real latitude and longitude, and the 31,125 routes between them were measured around the actual coastline — a bottle sails around Africa rather than through it. Six to thirty-six hours later it reaches another castaway’s beach. You can watch it move on a nautical chart while it travels.</p>
+  <h3>The sea takes its time</h3>
+  <p class="lieve">Every beach is a real place, at its real latitude and longitude, and the routes between them run around the coastlines instead of through them: a bottle bound for the far side of Africa goes around Africa. The further your letter has to travel, the longer the sea keeps it. Six hours sometimes, a day and a half other times. While it is out there you can follow it on a nautical chart, a little further along every time you look.</p>
 
   <h3>They can answer, and often they do</h3>
-  <p class="lieve">Whoever finds your letter can write back, and their reply takes its own tide to return. A correspondence alternates: you write, they answer, you write again. Everything you choose to keep goes into a journal that stays on your shore.</p>
+  <p class="lieve">Whoever finds your letter can write back, and the sea takes its own time to deliver the answer. A correspondence alternates: you write, they answer, you write again. Everything you choose to keep goes into a journal that stays on your beach.</p>
 
-  <h3>Some castaways are spirits</h3>
-  <p class="lieve">A few of the letters are written by an artificial intelligence, so that a new beach is not silent for days. They are always marked as such, in the app and on the letter, and the <a href="privacy.html">privacy page</a> says exactly what happens to the words you send them.</p>
+  <h3>And then there are the spirits</h3>
+  <p class="lieve">Twelve souls live in this sea. They are not castaways: they have been here far longer, each with a life of their own to tell, and every so often one of them picks up a bottle and writes to you. No two of them tell the same story. If a spirit writes to you, you were lucky. Their letters always carry their mark, and an artificial intelligence gives them their words.</p>
 
   <!-- ══════════════════ I FATTI ══════════════════ -->
   <h2>Fact sheet</h2>
   <dl class="scheda">
     <div><dt>Name</dt><dd>Bottlegram</dd></div>
-    <div><dt>Developer</dt><dd>Francesco Gola — seascape photographer, Italy</dd></div>
-    <div><dt>Platform</dt><dd>iPhone · iOS 17 and later</dd></div>
+    <div><dt>Developer</dt><dd>Francesco Gola, seascape photographer, Italy</dd></div>
+    <div><dt>Platform</dt><dd>iOS</dd></div>
     <div><dt>Category</dt><dd>Social Networking</dd></div>
-    <div><dt>Release</dt><dd>29 September 2026</dd></div>
+    <div><dt>Release</dt><dd>Coming soon</dd></div>
     <div><dt>Price</dt><dd>Free · optional in-app purchases, €0.99 – €4.99</dd></div>
     <div><dt>Languages</dt><dd>English, Italian, German, Spanish, French, Japanese, Brazilian Portuguese</dd></div>
     <div><dt>Website</dt><dd><a href="./">www.bottlegram.app</a></dd></div>
@@ -177,7 +185,7 @@
   </dl>
 
   <ul class="cifre">
-    <li><b>250</b><span>shores drawn by hand, each one different at dawn, at midday, at dusk and at night</span></li>
+    <li><b>250</b><span>beaches drawn by hand, each one different at dawn, at midday, at dusk and at night</span></li>
     <li><b>31,125</b><span>sea routes between them, every one measured around the real coastline</span></li>
     <li><b>3</b><span>bottles a day</span></li>
     <li><b>6&ndash;36</b><span>hours for a letter to cross the sea</span></li>
@@ -189,16 +197,16 @@
 
   <ul class="schermate">
     <li><a href="assets/press/schermata-1.jpg"><img src="assets/press/schermata-1.jpg" width="520" height="1130" loading="lazy" alt="A beach at the end of the world: a dark shore under stars."></a></li>
-    <li><a href="assets/press/schermata-2.jpg"><img src="assets/press/schermata-2.jpg" width="520" height="1130" loading="lazy" alt="Every tide brings a stranger: a shore at sunset with bottles on the sand."></a></li>
-    <li><a href="assets/press/schermata-3.jpg"><img src="assets/press/schermata-3.jpg" width="520" height="1130" loading="lazy" alt="Nobody here knows your name: a bright daytime shore."></a></li>
+    <li><a href="assets/press/schermata-2.jpg"><img src="assets/press/schermata-2.jpg" width="520" height="1130" loading="lazy" alt="Every tide brings a stranger: a beach at sunset with bottles on the sand."></a></li>
+    <li><a href="assets/press/schermata-3.jpg"><img src="assets/press/schermata-3.jpg" width="520" height="1130" loading="lazy" alt="Nobody here knows your name: a bright daytime beach."></a></li>
     <li><a href="assets/press/schermata-4.jpg"><img src="assets/press/schermata-4.jpg" width="520" height="1130" loading="lazy" alt="The nautical chart, with a bottle drifting between two coasts."></a></li>
     <li><a href="assets/press/schermata-5.jpg"><img src="assets/press/schermata-5.jpg" width="520" height="1130" loading="lazy" alt="An open correspondence: a letter written to a stranger and the stranger's reply."></a></li>
-    <li><a href="assets/press/schermata-6.jpg"><img src="assets/press/schermata-6.jpg" width="520" height="1130" loading="lazy" alt="The journal, keeping every letter that reached this shore."></a></li>
+    <li><a href="assets/press/schermata-6.jpg"><img src="assets/press/schermata-6.jpg" width="520" height="1130" loading="lazy" alt="The journal, keeping every letter that reached this beach."></a></li>
     <li><a href="assets/press/schermata-7.jpg"><img src="assets/press/schermata-7.jpg" width="520" height="1130" loading="lazy" alt="A bottle just thrown, drifting on a night sea."></a></li>
   </ul>
 
   <div class="scarichi">
-    <a class="scarico" href="assets/press/bottlegram-press-kit.zip" download>Everything, as a zip <span class="peso">8.8&nbsp;MB</span></a>
+    <a class="scarico" href="assets/press/bottlegram-press-kit.zip" download>Everything, as a zip <span class="peso">8.9&nbsp;MB</span></a>
     <a class="scarico" href="assets/press/bottlegram-preview.mp4">App preview <span class="peso">25 seconds</span></a>
   </div>
 
@@ -222,6 +230,31 @@
     <p class="crediti minute">No map service, no tracking, no cookies: this page does not know who you are, exactly like the sea.</p>
   </div>
 </footer>
+
+<!-- Le sette lingue, come sulla spiaggia: `lingue.js` è generato (vedi README),
+     `lingua.js` scambia i nodi di testo e sceglie da solo la lingua del
+     browser. L'inglese resta nell'HTML ed è quello che legge chi arriva senza
+     JavaScript. -->
+<script src="lingue.js?v=3"></script>
+<script src="lingua.js?v=3"></script>
+
+<!-- L'apertura ha le sue scritte dentro, quindi non basta tradurre la pagina:
+     ci sono sette file. Si ascolta il selettore che `lingua.js` ha appena
+     messo in barra, invece di insegnare a `lingua.js` a cambiare gli `src` —
+     quel file serve a tutto il sito, e questa è una faccenda di una pagina. -->
+<script>
+(() => {
+  const sel = document.getElementById('scegli-lingua');
+  const img = document.getElementById('apertura');
+  if (!sel || !img) return;
+  // Se il file di una lingua manca, si torna all'inglese invece di lasciare
+  // il riquadro rotto in cima alla pagina.
+  img.addEventListener('error', () => { img.src = 'assets/press/attesa-en.png'; }, { once: true });
+  const vesti = () => { img.src = `assets/press/attesa-${sel.value}.png`; };
+  vesti();
+  sel.addEventListener('change', vesti);
+})();
+</script>
 
 </body>
 </html>
