@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Press — Bottlegram</title>
+<meta name="description" content="Press kit for Bottlegram: a slow messaging app where letters travel by sea, and the current decides who reads them. Screenshots, video, fact sheet.">
+<meta name="theme-color" content="#F5EBD1">
+<link rel="icon" href="assets/icona.png" sizes="any">
+<link rel="apple-touch-icon" href="assets/icona.png">
+<link rel="stylesheet" href="styles.css">
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="Bottlegram — press kit">
+<meta property="og:description" content="A slow messaging app where letters travel by sea, and the current decides who reads them.">
+<meta property="og:image" content="assets/press/attesa.png">
+<meta name="twitter:card" content="summary_large_image">
+
+<style>
+  /* ── Il press kit ────────────────────────────────────────────────────
+     Le classi di `.prosa` fanno quasi tutto; qui sta solo ciò che una
+     pagina di sola prosa non aveva mai avuto: l'immagine d'apertura a
+     tutta larghezza, il blocco da copiare, la scheda dei fatti e la
+     griglia delle schermate. */
+
+  /* L'apertura esce dalla colonna del testo: è il pezzo che si guarda,
+     e in 46rem le quattordici ore non si leggevano. */
+  .apertura { margin: 0 0 clamp(2.6rem, 6vw, 3.8rem); }
+  .apertura img { display: block; width: 100%; height: auto; }
+  @media (min-width: 62rem) {
+    .apertura { width: min(64rem, 92vw); margin-left: calc((46rem - min(64rem, 92vw)) / 2); }
+  }
+
+  /* Il blocco che un giornalista incolla: si legge come una citazione e
+     si seleziona in un gesto solo. */
+  .incollabile {
+    margin-top: 1.2rem; padding: 1.5rem 1.7rem;
+    background: rgba(255, 253, 247, .62);
+    border: 1px solid var(--carta-bordo, rgba(90,74,52,.18));
+    border-left: 3px solid rgba(140, 116, 78, .5);
+    border-radius: 10px;
+  }
+  .incollabile p { margin: 0; line-height: 1.75; }
+  .incollabile p + p { margin-top: 0.9rem; }
+  .una-riga {
+    font-family: var(--mare-serif, var(--serif, Georgia, serif));
+    font-style: italic; font-size: 1.22rem; line-height: 1.55;
+  }
+
+  /* La scheda dei fatti: due colonne che a telefono diventano una. */
+  .scheda { margin-top: 1.4rem; border-top: 1px solid var(--carta-bordo, rgba(90,74,52,.18)); }
+  .scheda > div {
+    display: grid; grid-template-columns: 11rem minmax(0, 1fr);
+    gap: 0.4rem 1.6rem; padding: 0.85rem 0;
+    border-bottom: 1px solid var(--carta-bordo, rgba(90,74,52,.18));
+  }
+  .scheda dt {
+    font-size: 0.72rem; font-weight: 600; letter-spacing: 0.15em;
+    text-transform: uppercase; color: var(--inchiostro-lieve, #6b5c46);
+    padding-top: 0.22rem;
+  }
+  .scheda dd { margin: 0; }
+  @media (max-width: 34rem) { .scheda > div { grid-template-columns: 1fr; } }
+
+  /* I quattro numeri. Non è una tabella: sono quattro cose da ricordare. */
+  .cifre { list-style: none; padding: 0; margin: 1.4rem 0 0;
+           display: grid; gap: 1.8rem 2.4rem; grid-template-columns: repeat(2, 1fr); }
+  @media (max-width: 30rem) { .cifre { grid-template-columns: 1fr; } }
+  .cifre b {
+    display: block; font-family: var(--serif, Georgia, serif);
+    font-size: 2.15rem; font-weight: 400; line-height: 1.05;
+  }
+  .cifre span { display: block; margin-top: 0.4rem; font-size: 0.95rem;
+                color: var(--inchiostro-lieve, #6b5c46); line-height: 1.55; }
+
+  /* Le sette schermate: quattro per riga, che su sette fa 4+3. In tre
+     colonne l'ultima restava sola, e una riga con un solo elemento in fondo
+     a una griglia sembra un buco, non una scelta. */
+  .schermate { list-style: none; padding: 0; margin: 1.4rem 0 0;
+               display: grid; gap: 1rem; grid-template-columns: repeat(4, 1fr); }
+  @media (max-width: 44rem) { .schermate { grid-template-columns: repeat(2, 1fr); } }
+  .schermate img { display: block; width: 100%; height: auto; border-radius: 9px; }
+  .schermate a:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; border-radius: 11px; }
+
+  .scarichi { display: flex; flex-wrap: wrap; gap: 0.8rem; margin-top: 1.5rem; }
+  .scarico {
+    display: inline-block; padding: 0.72rem 1.25rem;
+    border: 1px solid rgba(140, 116, 78, .45); border-radius: 999px;
+    text-decoration: none; font-size: 0.95rem;
+  }
+  .scarico:hover { background: rgba(255, 253, 247, .7); }
+  .peso { color: var(--inchiostro-lieve, #6b5c46); font-size: 0.85rem; }
+
+  .lingua-altra { margin-top: 0.9rem; font-size: 0.92rem; }
+</style>
+</head>
+<body>
+
+<a class="salta" href="#contenuto">Skip to content</a>
+
+<header class="barra posata">
+  <a class="marchio" href="./" aria-label="Bottlegram">
+    <svg class="marchio-glifo" viewBox="0 0 100 100" aria-hidden="true"><path d="M44 4L56 4A4 4 0 0 1 60 8L60 10A4 4 0 0 1 56 14L44 14A4 4 0 0 1 40 10L40 8A4 4 0 0 1 44 4ZM42 14L58 14L58 30L42 30ZM42 30L58 30A12 12 0 0 1 70 42L70 82A12 12 0 0 1 58 94L42 94A12 12 0 0 1 30 82L30 42A12 12 0 0 1 42 30ZM42 50L58 50L58 76L42 76Z" fill-rule="evenodd"/></svg>
+    <span>Bottlegram</span>
+  </a>
+  <nav class="rotta" aria-label="Pages">
+    <a href="./">The beach</a>
+    <a href="support.html">Support</a>
+  </nav>
+</header>
+
+<main id="contenuto">
+<article class="prosa">
+
+  <h1>Press kit</h1>
+  <p class="lingua-altra"><a href="press-it.html" hreflang="it" lang="it">Questa pagina in italiano</a></p>
+
+  <figure class="apertura">
+    <img src="assets/press/attesa.png" width="1800" height="1088"
+         alt="Two iPhone screens side by side. On the left, a night sea and the words «The sea has it now», at 23:41 on a Thursday. On the right, an open letter from a stranger, at 13:41 on the Friday. Between them, empty space and the words «fourteen hours».">
+    <figcaption class="didascalia" style="margin: 1rem auto 0;">The same bottle, fourteen hours apart. The times are the ones the phone recorded.</figcaption>
+  </figure>
+
+  <!-- ══════════════════ LA FRASE ══════════════════ -->
+  <h2>In one line</h2>
+  <div class="incollabile">
+    <p class="una-riga">A slow messaging app where letters travel by sea, and the current decides who reads them.</p>
+  </div>
+
+  <h2>In one paragraph</h2>
+  <div class="incollabile">
+    <p>Bottlegram is a messaging app for strangers. You write a letter, seal it in a bottle and give it to the current. Six to thirty-six hours later it washes up on another castaway’s shore, somewhere in the world. Then it is their turn to wait. Free on iPhone.</p>
+  </div>
+
+  <!-- ══════════════════ LA STORIA ══════════════════ -->
+  <h2>The story</h2>
+
+  <p>I photograph the sea. Seascapes mostly, and long exposures above all — and a long exposure is a photograph you make by waiting. You hold the shutter open and stand still, and the water draws itself onto the frame while, to anyone watching, nothing at all is happening.</p>
+
+  <p>I have walked on beaches since I was a boy, and I still do it every chance I get. And since I was a boy I have been looking for the same thing in the sand: a bottle with a letter inside, written years earlier by someone I would never meet, telling me something true about their life.</p>
+
+  <p>I have never found one.</p>
+
+  <p>So this summer I built it. Six weeks, on my own: two hundred and fifty shores drawn by hand, and a tide that carries a bottle along the real sea route between two coasts, at a speed that makes the crossing take the better part of a day.</p>
+
+  <p>Somebody else’s bottle will wash up on your sand tomorrow. That is the whole app.</p>
+
+  <p class="guida corsivo" style="margin-top:1.4rem;">— Francesco Gola, seascape photographer</p>
+
+  <!-- ══════════════════ COME FUNZIONA ══════════════════ -->
+  <h2>How it works</h2>
+
+  <h3>You write to nobody in particular</h3>
+  <p class="lieve">Every day the sea leaves you three bottles. You put a letter in one and hand it to the current. There is no address on it, and no way to choose who receives it.</p>
+
+  <h3>The sea carries it, at the speed of water</h3>
+  <p class="lieve">Each of the 250 shores is a real place, at its real latitude and longitude, and the 31,125 routes between them were measured around the actual coastline — a bottle sails around Africa rather than through it. Six to thirty-six hours later it reaches another castaway’s beach. You can watch it move on a nautical chart while it travels.</p>
+
+  <h3>They can answer, and often they do</h3>
+  <p class="lieve">Whoever finds your letter can write back, and their reply takes its own tide to return. A correspondence alternates: you write, they answer, you write again. Everything you choose to keep goes into a journal that stays on your shore.</p>
+
+  <h3>Some castaways are spirits</h3>
+  <p class="lieve">A few of the letters are written by an artificial intelligence, so that a new beach is not silent for days. They are always marked as such, in the app and on the letter, and the <a href="privacy.html">privacy page</a> says exactly what happens to the words you send them.</p>
+
+  <!-- ══════════════════ I FATTI ══════════════════ -->
+  <h2>Fact sheet</h2>
+  <dl class="scheda">
+    <div><dt>Name</dt><dd>Bottlegram</dd></div>
+    <div><dt>Developer</dt><dd>Francesco Gola — seascape photographer, Italy</dd></div>
+    <div><dt>Platform</dt><dd>iPhone · iOS 17 and later</dd></div>
+    <div><dt>Category</dt><dd>Social Networking</dd></div>
+    <div><dt>Release</dt><dd>29 September 2026</dd></div>
+    <div><dt>Price</dt><dd>Free · optional in-app purchases, €0.99 – €4.99</dd></div>
+    <div><dt>Languages</dt><dd>English, Italian, German, Spanish, French, Japanese, Brazilian Portuguese</dd></div>
+    <div><dt>Website</dt><dd><a href="./">www.bottlegram.app</a></dd></div>
+    <div><dt>Contact</dt><dd><a href="mailto:bottlegram@bulbmode.com">bottlegram@bulbmode.com</a></dd></div>
+  </dl>
+
+  <ul class="cifre">
+    <li><b>250</b><span>shores drawn by hand, each one different at dawn, at midday, at dusk and at night</span></li>
+    <li><b>31,125</b><span>sea routes between them, every one measured around the real coastline</span></li>
+    <li><b>3</b><span>bottles a day</span></li>
+    <li><b>6&ndash;36</b><span>hours for a letter to cross the sea</span></li>
+  </ul>
+
+  <!-- ══════════════════ IL MATERIALE ══════════════════ -->
+  <h2>Images and video</h2>
+  <p class="lieve">Everything here may be reproduced freely in coverage of Bottlegram, in print or online, with or without credit.</p>
+
+  <ul class="schermate">
+    <li><a href="assets/press/schermata-1.jpg"><img src="assets/press/schermata-1.jpg" width="520" height="1130" loading="lazy" alt="A beach at the end of the world: a dark shore under stars."></a></li>
+    <li><a href="assets/press/schermata-2.jpg"><img src="assets/press/schermata-2.jpg" width="520" height="1130" loading="lazy" alt="Every tide brings a stranger: a shore at sunset with bottles on the sand."></a></li>
+    <li><a href="assets/press/schermata-3.jpg"><img src="assets/press/schermata-3.jpg" width="520" height="1130" loading="lazy" alt="Nobody here knows your name: a bright daytime shore."></a></li>
+    <li><a href="assets/press/schermata-4.jpg"><img src="assets/press/schermata-4.jpg" width="520" height="1130" loading="lazy" alt="The nautical chart, with a bottle drifting between two coasts."></a></li>
+    <li><a href="assets/press/schermata-5.jpg"><img src="assets/press/schermata-5.jpg" width="520" height="1130" loading="lazy" alt="An open correspondence: a letter written to a stranger and the stranger's reply."></a></li>
+    <li><a href="assets/press/schermata-6.jpg"><img src="assets/press/schermata-6.jpg" width="520" height="1130" loading="lazy" alt="The journal, keeping every letter that reached this shore."></a></li>
+    <li><a href="assets/press/schermata-7.jpg"><img src="assets/press/schermata-7.jpg" width="520" height="1130" loading="lazy" alt="A bottle just thrown, drifting on a night sea."></a></li>
+  </ul>
+
+  <div class="scarichi">
+    <a class="scarico" href="assets/press/bottlegram-press-kit.zip" download>Everything, as a zip <span class="peso">8.8&nbsp;MB</span></a>
+    <a class="scarico" href="assets/press/bottlegram-preview.mp4">App preview <span class="peso">25 seconds</span></a>
+  </div>
+
+  <!-- ══════════════════ PROVARLA ══════════════════ -->
+  <div class="recapito primo">
+    <h2 style="margin-top:0;">Trying it before it opens</h2>
+    <p>Bottlegram is not on the App&nbsp;Store yet. Write to this address and you get a TestFlight build, along with a beach of your own and enough bottles to see what comes back:</p>
+    <a class="indirizzo" href="mailto:bottlegram@bulbmode.com?subject=Press%20—%20TestFlight">bottlegram@bulbmode.com</a>
+    <p class="lieve" style="margin-top:1.1rem;">The same address reaches Francesco directly for an interview, a question, or a detail this page does not cover.</p>
+  </div>
+
+</article>
+</main>
+
+<footer class="pie notte pie-prosa">
+  <div class="dentro pie-dentro">
+    <p class="marchione piccolo">Bottlegram</p>
+    <p class="crediti">
+      <a href="./">The beach</a> · <a href="support.html">Support</a> · <a href="privacy.html">Privacy</a> · <a href="mailto:bottlegram@bulbmode.com">bottlegram@bulbmode.com</a>
+    </p>
+    <p class="crediti minute">No map service, no tracking, no cookies: this page does not know who you are, exactly like the sea.</p>
+  </div>
+</footer>
+
+</body>
+</html>

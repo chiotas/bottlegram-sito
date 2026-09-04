@@ -580,6 +580,14 @@ SITO = {
  "pt-BR": "Privacidade",
  "ja": "プライバシー"},
 
+"Press": {
+ "it": "Stampa",
+ "es": "Prensa",
+ "fr": "Presse",
+ "de": "Presse",
+ "pt-BR": "Imprensa",
+ "ja": "プレス"},
+
 "Support": {
  "it": "Supporto",
  "es": "Soporte",
