@@ -42,14 +42,25 @@
   <div class="stelle prima" aria-hidden="true"></div>
   <div class="stelle seconda" aria-hidden="true"></div>
 
-  <div class="eroe-testo">
-    <p class="occhiello">A slow messaging app</p>
-    <h1 id="titolo" class="marchione">Bottlegram</h1>
-    <p class="voce-mare">The sea has no use for hurry.</p>
-    <p class="eroe-corpo">Somewhere out there, a stranger is writing to you. No names. No noise. Only the tide, and whatever it decides to leave on your sand.</p>
-    <div class="azioni">
-      <span class="bollo">Coming to the App&nbsp;Store</span>
-      <p class="sottovoce">Not out yet. The sea is still being tested.</p>
+  <div class="eroe-scena">
+    <div class="eroe-testo">
+      <p class="occhiello">A slow messaging app</p>
+      <h1 id="titolo" class="marchione">Bottlegram</h1>
+      <p class="voce-mare">The sea has no use for hurry.</p>
+      <p class="eroe-corpo">Somewhere out there, a stranger is writing to you. No names. No noise. Only the tide, and whatever it decides to leave on your sand.</p>
+      <div class="azioni">
+        <span class="bollo">Coming to the App&nbsp;Store</span>
+        <p class="garanzie">Free · No ads · No accounts</p>
+        <p class="sottovoce">Not out yet. The sea is still being tested.</p>
+      </div>
+    </div>
+
+    <!-- L'app dentro la notte: lo schermo e basta, senza scocca. Un telefono
+         disegnato qui farebbe due cornici, la sua e quella della finestra, e
+         la notte della pagina e quella dell'app sono la stessa notte. -->
+    <div class="eroe-app">
+      <img class="schermata-nuda" src="assets/schermata-notte.jpg" width="603" height="1311" decoding="async"
+           alt="The app at Ficogrande, on Stromboli: the volcano smoking under a full moon, and two bottles washed up on the black sand.">
     </div>
   </div>
 
@@ -585,6 +596,44 @@
           </div>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ LE DOMANDE ══════════════════════════════
+     Cinque domande, quelle che si fanno davvero. `<details>` del browser:
+     niente JavaScript, si apre col tasto invio, e le risposte sono nel
+     documento anche da chiuse — che e' quello che legge Google. -->
+<section class="sezione carta stretta" id="domande" aria-labelledby="titolo-domande">
+  <div class="dentro">
+    <p class="soprattitolo">Before you ask</p>
+    <h2 id="titolo-domande">Five questions, answered plainly.</h2>
+
+    <div class="domande">
+      <details name="domande">
+        <summary>How long does a letter take?</summary>
+        <div class="risposta"><p>Between six and thirty-six hours, and it is the water that decides which: a shore across the same sea may answer by morning, the far side of the world will keep you waiting. Once the cork is in, it is out of your hands.</p></div>
+      </details>
+
+      <details name="domande">
+        <summary>Can I choose who I write to?</summary>
+        <div class="risposta"><p>Not the first time. You hand the bottle to the current and the current picks the beach. But once someone has written back, that correspondence is yours: you go on writing to them for as long as you both keep answering.</p></div>
+      </details>
+
+      <details name="domande">
+        <summary>And if nobody answers?</summary>
+        <div class="risposta"><p>Some bottles are never answered. The sea gives you three more the next day, and by then somebody else's may already be on your sand. A letter that comes back is worth something here precisely because it might not have.</p></div>
+      </details>
+
+      <details name="domande">
+        <summary>Who reads what I write?</summary>
+        <div class="risposta"><p>One castaway, on one beach, and nobody else: there is no feed, no profile, nothing to scroll and nothing to look up afterwards. There is one exception: when a letter is reported, a person reads that letter, and only that one, to decide whether the sea keeps its writer. <a href="privacy.html">It is written out in full on the privacy page.</a></p></div>
+      </details>
+
+      <details name="domande">
+        <summary>Is it free?</summary>
+        <div class="risposta"><p>Yes, free. There is a Wreck Emporium on your beach with a few things in it, and they are mostly a way to help with what this costs: the work on the app, the servers that keep the sea running. Nothing in there is needed to write a letter, or to receive one.</p></div>
+      </details>
     </div>
   </div>
 </section>

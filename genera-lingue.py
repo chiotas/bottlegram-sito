@@ -182,6 +182,26 @@ SITO = {
  "fr": "Bientôt sur l'App Store", "de": "Bald im App Store",
  "pt-BR": "Em breve na App Store", "ja": "App Store にまもなく登場"},
 
+"A stranger": {
+ "it": "Uno sconosciuto", "es": "Un desconocido", "fr": "Un inconnu",
+ "de": "Jemand Unbekanntes", "pt-BR": "Um desconhecido", "ja": "見知らぬ誰か"},
+
+"Free · No ads · No accounts": {
+ "it": "Gratis · Niente pubblicità · Nessun account",
+ "es": "Gratis · Sin anuncios · Sin cuentas",
+ "fr": "Gratuit · Sans publicité · Sans compte",
+ "de": "Kostenlos · Keine Werbung · Kein Konto",
+ "pt-BR": "Grátis · Sem anúncios · Sem contas",
+ "ja": "無料・広告なし・アカウントなし"},
+
+"The app at Ficogrande, on Stromboli: the volcano smoking under a full moon, and two bottles washed up on the black sand.": {
+ "it": "L'app a Ficogrande, a Stromboli: il vulcano che fuma sotto la luna piena, e due bottiglie arrivate sulla sabbia nera.",
+ "es": "La app en Ficogrande, en Stromboli: el volcán humeando bajo la luna llena y dos botellas varadas en la arena negra.",
+ "fr": "L'app à Ficogrande, sur Stromboli : le volcan qui fume sous la pleine lune, et deux bouteilles échouées sur le sable noir.",
+ "de": "Die App in Ficogrande auf Stromboli: der rauchende Vulkan unter dem Vollmond und zwei Flaschen, die am schwarzen Sand angespült sind.",
+ "pt-BR": "O app em Ficogrande, em Stromboli: o vulcão fumegando sob a lua cheia e duas garrafas na areia preta.",
+ "ja": "ストロンボリ島フィコグランデのアプリ画面。満月の下で煙を上げる火山と、黒い砂に流れ着いた二本の瓶。"},
+
 "Not out yet. The sea is still being tested.": {
  "it": "Non è ancora uscita. Il mare è ancora in collaudo.",
  "es": "Todavía no ha salido. El mar aún se está probando.",
@@ -1156,6 +1176,95 @@ SITO = {
  "pt-BR": "Uma garrafa, bem lançada, pode alcançar qualquer um.",
  "ja": "うまく投げた瓶は、誰のもとにも届きうる。"},
 
+# ── Le cinque domande (11/09) ─────────────────────────────────────────────
+# Sono del solo sito: nell'app le stesse cose si dicono a chi e' gia' dentro.
+# «The Wreck Emporium» invece porta i nomi dell'app (shop.title), perche' e' un
+# posto che chi legge poi trova aperto sul telefono con quel nome.
+
+"Before you ask": {
+ "it": "Prima di chiedere", "es": "Antes de preguntar", "fr": "Avant de demander",
+ "de": "Bevor du fragst", "pt-BR": "Antes de perguntar", "ja": "その前に"},
+
+"Five questions, answered plainly.": {
+ "it": "Cinque domande, con risposte chiare.",
+ "es": "Cinco preguntas, con respuestas claras.",
+ "fr": "Cinq questions, des réponses claires.",
+ "de": "Fünf Fragen, klar beantwortet.",
+ "pt-BR": "Cinco perguntas, com respostas claras.",
+ "ja": "五つの質問に、はっきり答えます。"},
+
+"How long does a letter take?": {
+ "it": "Quanto ci mette una lettera?", "es": "¿Cuánto tarda una carta?",
+ "fr": "Combien de temps met une lettre ?", "de": "Wie lange braucht ein Brief?",
+ "pt-BR": "Quanto tempo leva uma carta?", "ja": "手紙はどれくらいかかりますか。"},
+
+"Between six and thirty-six hours, and it is the water that decides which: a shore across the same sea may answer by morning, the far side of the world will keep you waiting. Once the cork is in, it is out of your hands.": {
+ "it": "Fra le sei e le trentasei ore, e quale delle due lo decide l'acqua: una costa sullo stesso mare può risponderti entro domattina, l'altra parte del mondo ti farà aspettare. Una volta messo il tappo, non è più cosa tua.",
+ "es": "Entre seis y treinta y seis horas, y cuál de las dos lo decide el agua: una costa del mismo mar puede responderte por la mañana, el otro lado del mundo te hará esperar. Una vez puesto el corcho, ya no está en tus manos.",
+ "fr": "Entre six et trente-six heures, et c'est l'eau qui décide : une côte sur la même mer peut répondre au matin, l'autre bout du monde te fera attendre. Une fois le bouchon mis, cela ne t'appartient plus.",
+ "de": "Zwischen sechs und sechsunddreißig Stunden, und welche davon, entscheidet das Wasser: eine Küste am selben Meer antwortet vielleicht bis zum Morgen, die andere Seite der Welt lässt dich warten. Ist der Korken drin, liegt es nicht mehr bei dir.",
+ "pt-BR": "Entre seis e trinta e seis horas, e qual delas quem decide é a água: uma costa do mesmo mar pode responder pela manhã, o outro lado do mundo vai te fazer esperar. Depois que a rolha entra, já não está nas suas mãos.",
+ "ja": "六時間から三十六時間。どちらになるかを決めるのは水です。同じ海の向こう岸なら朝には返事が来るかもしれませんし、地球の裏側ならずっと待つことになります。栓をしたら、もうあなたの手を離れます。"},
+
+"Can I choose who I write to?": {
+ "it": "Posso scegliere a chi scrivo?", "es": "¿Puedo elegir a quién escribo?",
+ "fr": "Puis-je choisir à qui j'écris ?", "de": "Kann ich wählen, wem ich schreibe?",
+ "pt-BR": "Posso escolher para quem escrevo?", "ja": "誰に書くかを選べますか。"},
+
+"Not the first time. You hand the bottle to the current and the current picks the beach. But once someone has written back, that correspondence is yours: you go on writing to them for as long as you both keep answering.": {
+ "it": "La prima volta no. La bottiglia la affidi alla corrente, e la spiaggia la sceglie lei. Ma quando qualcuno ti ha risposto, quel carteggio è tuo: continui a scrivere a quella persona finché tutti e due rispondete.",
+ "es": "La primera vez no. Le entregas la botella a la corriente, y la playa la elige ella. Pero cuando alguien te ha contestado, esa correspondencia es tuya: le sigues escribiendo mientras ambos sigan respondiendo.",
+ "fr": "Pas la première fois. Tu confies la bouteille au courant, et c'est lui qui choisit la plage. Mais dès que quelqu'un t'a répondu, cette correspondance est à toi : tu continues à lui écrire tant que vous vous répondez tous les deux.",
+ "de": "Beim ersten Mal nicht. Du gibst die Flasche der Strömung, und die Strömung sucht den Strand aus. Aber sobald jemand geantwortet hat, gehört dieser Briefwechsel dir: Du schreibst dieser Person weiter, solange ihr beide antwortet.",
+ "pt-BR": "Na primeira vez, não. Você entrega a garrafa à corrente, e é ela que escolhe a praia. Mas quando alguém responde, aquela correspondência é sua: você continua escrevendo para essa pessoa enquanto os dois continuarem respondendo.",
+ "ja": "最初の一通は選べません。瓶は海流に託し、どの浜に着くかは海流が決めます。けれど誰かが返事をくれたら、その文通はあなたのものです。二人が返しつづけるかぎり、その相手に書きつづけられます。"},
+
+"And if nobody answers?": {
+ "it": "E se non risponde nessuno?", "es": "¿Y si no responde nadie?",
+ "fr": "Et si personne ne répond ?", "de": "Und wenn niemand antwortet?",
+ "pt-BR": "E se ninguém responder?", "ja": "誰も返事をくれなかったら。"},
+
+"Some bottles are never answered. The sea gives you three more the next day, and by then somebody else's may already be on your sand. A letter that comes back is worth something here precisely because it might not have.": {
+ "it": "Certe bottiglie non ricevono risposta. Il giorno dopo il mare te ne dà altre tre, e intanto sulla tua sabbia può esserci già quella di qualcun altro. Qui una lettera che torna vale qualcosa proprio perché poteva non tornare.",
+ "es": "Algunas botellas nunca reciben respuesta. Al día siguiente el mar te da otras tres, y para entonces en tu arena puede haber ya la de otra persona. Aquí una carta que vuelve vale algo precisamente porque podía no volver.",
+ "fr": "Certaines bouteilles ne reçoivent jamais de réponse. Le lendemain la mer t'en donne trois autres, et d'ici là celle de quelqu'un d'autre est peut-être déjà sur ton sable. Ici, une lettre qui revient vaut quelque chose justement parce qu'elle aurait pu ne pas revenir.",
+ "de": "Manche Flaschen bekommen nie eine Antwort. Am nächsten Tag gibt dir das Meer drei neue, und bis dahin liegt vielleicht schon die von jemand anderem in deinem Sand. Ein Brief, der zurückkommt, ist hier genau deshalb etwas wert, weil er auch hätte ausbleiben können.",
+ "pt-BR": "Algumas garrafas nunca são respondidas. No dia seguinte o mar te dá outras três, e até lá a de outra pessoa já pode estar na sua areia. Aqui uma carta que volta vale alguma coisa justamente porque podia não voltar.",
+ "ja": "返事の来ない瓶もあります。翌日には海がまた三本くれますし、そのころには誰かの瓶があなたの砂に届いているかもしれません。ここでは、返ってきた手紙は、返らないこともありえたからこそ値打ちがあります。"},
+
+"Who reads what I write?": {
+ "it": "Chi legge quello che scrivo?", "es": "¿Quién lee lo que escribo?",
+ "fr": "Qui lit ce que j'écris ?", "de": "Wer liest, was ich schreibe?",
+ "pt-BR": "Quem lê o que eu escrevo?", "ja": "書いたものは誰が読みますか。"},
+
+"One castaway, on one beach, and nobody else: there is no feed, no profile, nothing to scroll and nothing to look up afterwards. There is one exception: when a letter is reported, a person reads that letter, and only that one, to decide whether the sea keeps its writer.": {
+ "it": "Un naufrago, su una spiaggia, e nessun altro: non c'è un feed, non c'è un profilo, non c'è niente da scorrere e niente da cercare dopo. C'è un'eccezione sola: quando una lettera viene segnalata, una persona legge quella lettera, e soltanto quella, per decidere se il mare tiene chi l'ha scritta.",
+ "es": "Un náufrago, en una playa, y nadie más: no hay feed, no hay perfil, no hay nada que deslizar ni nada que buscar después. Hay una sola excepción: cuando una carta se denuncia, una persona lee esa carta, y solo esa, para decidir si el mar se queda con quien la escribió.",
+ "fr": "Un naufragé, sur une plage, et personne d'autre : pas de fil, pas de profil, rien à faire défiler et rien à retrouver ensuite. Il y a une seule exception : quand une lettre est signalée, une personne lit cette lettre, et elle seule, pour décider si la mer garde celui qui l'a écrite.",
+ "de": "Ein Schiffbrüchiger, an einem Strand, und sonst niemand: kein Feed, kein Profil, nichts zum Scrollen und nichts, das man später nachschlagen könnte. Es gibt eine einzige Ausnahme: Wird ein Brief gemeldet, liest ein Mensch diesen Brief, und nur diesen, um zu entscheiden, ob das Meer seinen Verfasser behält.",
+ "pt-BR": "Um náufrago, em uma praia, e mais ninguém: não há feed, não há perfil, não há nada para rolar nem nada para procurar depois. Há uma única exceção: quando uma carta é denunciada, uma pessoa lê aquela carta, e só aquela, para decidir se o mar fica com quem a escreveu.",
+ "ja": "一つの浜にいる一人の漂着者、それだけです。フィードもプロフィールもなく、スクロールするものも、あとから調べられるものもありません。例外は一つだけ。手紙が通報されたとき、人がその手紙だけを読み、書いた人を海が置いておくかどうかを決めます。"},
+
+"It is written out in full on the privacy page.": {
+ "it": "È scritto per esteso nella pagina della privacy.",
+ "es": "Está escrito por completo en la página de privacidad.",
+ "fr": "C'est écrit en toutes lettres sur la page de confidentialité.",
+ "de": "Es steht vollständig auf der Datenschutzseite.",
+ "pt-BR": "Está escrito por inteiro na página de privacidade.",
+ "ja": "詳しくはプライバシーのページに書いてあります。"},
+
+"Is it free?": {
+ "it": "È gratis?", "es": "¿Es gratis?", "fr": "C'est gratuit ?",
+ "de": "Ist es kostenlos?", "pt-BR": "É grátis?", "ja": "無料ですか。"},
+
+"Yes, free. There is a Wreck Emporium on your beach with a few things in it, and they are mostly a way to help with what this costs: the work on the app, the servers that keep the sea running. Nothing in there is needed to write a letter, or to receive one.": {
+ "it": "Sì, è gratis. Sulla tua spiaggia c'è l'Emporio del Relitto con dentro qualche cosa, e servono soprattutto ad aiutare con quello che tutto questo costa: il lavoro sull'app, i server che tengono in piedi il mare. Niente di quello che c'è là dentro serve per scrivere una lettera, o per riceverne una.",
+ "es": "Sí, es gratis. En tu playa está el Emporio del Naufragio con unas cuantas cosas dentro, y sirven sobre todo para ayudar con lo que todo esto cuesta: el trabajo en la app, los servidores que mantienen el mar en pie. Nada de lo que hay ahí hace falta para escribir una carta, ni para recibirla.",
+ "fr": "Oui, c'est gratuit. Sur ta plage il y a l'Emporium de l'Épave, avec quelques objets dedans, et ils servent surtout à aider avec ce que tout cela coûte : le travail sur l'app, les serveurs qui tiennent la mer debout. Rien de ce qui s'y trouve n'est nécessaire pour écrire une lettre, ni pour en recevoir une.",
+ "de": "Ja, kostenlos. An deinem Strand steht das Kontor des Wracks mit ein paar Dingen darin, und die sind vor allem eine Art zu helfen, was das hier kostet: die Arbeit an der App, die Server, die das Meer am Laufen halten. Nichts davon braucht man, um einen Brief zu schreiben oder einen zu bekommen.",
+ "pt-BR": "Sim, é grátis. Na sua praia fica o Empório do Naufrágio com algumas coisas dentro, e elas servem sobretudo para ajudar com o que tudo isso custa: o trabalho no app, os servidores que mantêm o mar de pé. Nada do que há ali é preciso para escrever uma carta, nem para receber uma.",
+ "ja": "はい、無料です。あなたの浜には難破商館があり、いくつか品物が置いてあります。それらは主に、これにかかるもの、つまりアプリの制作と、海を動かしつづけるサーバーを支えるためのものです。手紙を書くのにも、受け取るのにも、あの中のものは要りません。"},
+
 "Coastlines from Natural Earth (public domain). Sounds from freesound.org (CC0). No map service, no tracking, no cookies: this page does not know who you are, exactly like the sea.": {
  "it": "Coste da Natural Earth (pubblico dominio). Suoni da freesound.org (CC0). Nessun servizio di mappe, nessun tracciamento, nessun cookie: questa pagina non sa chi sei, esattamente come il mare.",
  "es": "Costas de Natural Earth (dominio público). Sonidos de freesound.org (CC0). Sin servicio de mapas, sin rastreo, sin cookies: esta página no sabe quién eres, igual que el mar.",
@@ -1171,7 +1280,11 @@ INVARIATE = [",",  # la virgola fra i due soprannomi: punteggiatura, non testo
              # Numeri, sigle e indirizzi del press kit: si scrivono uguale in
              # tutte e sette, e senza questa riga la console li denuncia
              # ogni volta come frasi senza traduzione.
-             "iOS", "www.bottlegram.app", "250", "31,125", "3", "6–36", "8.9 MB",
+             # 1, 2, 4: i numeri delle tappe della traversata. C'era solo il
+             # "3" delle bottiglie, e gli altri tre finivano nell'elenco delle
+             # frasi senza traduzione a ogni giro, dove coprivano le vere.
+             "iOS", "www.bottlegram.app", "250", "31,125", "1", "2", "3", "4",
+             "6–36", "8.9 MB",
              # I nomi delle spiagge dell'approdo che ruota: endonimi, come
              # nell'app. I LUOGHI invece si traducono (voci qui sopra).
              "Cala Goloritzé", "Reynisfjara", "Anse Source d'Argent",
@@ -1194,7 +1307,11 @@ DAL_SITO = [
  "The storm took the ship, the cargo, and every map you owned.",
  "The sea, in return, left you one thing: a beach at the end of the world.",
  "They say the tide brings words from other castaways. And that a bottle, thrown well, can reach anyone.",
- "Your new home", "A stranger",
+ "Your new home",
+ # LA FIRMA DELLA LETTERA NON SI RILEGGE PIU DALL'APP: dentro l'app gli
+ # sconosciuti sono diventati naufraghi, e quella stringa li non c'e' piu.
+ # Sul sito resta, ed e' vera — quindi la voce e' passata a mano in SITO,
+ # invece di sparire in silenzio a ogni rigenerazione.
  ]
 
 # ── Il montaggio ───────────────────────────────────────────────────────────
