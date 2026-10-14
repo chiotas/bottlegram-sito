@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Notes for App Review — Bottlegram</title>
+<meta name="description" content="Guideline 1.2, point by point: where each precaution lives in Bottlegram, with screenshots from build 6.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#F5EBD1">
+<link rel="icon" href="assets/icona.png" sizes="any">
+<link rel="apple-touch-icon" href="assets/icona.png">
+<link rel="stylesheet" href="styles.css">
+<style>
+  /* Pagina per App Review: un punto per requisito, ciascuno con le sue
+     schermate. La griglia è quella della pagina press, ma a due colonne: a
+     tre il testo dentro le schermate non si leggeva, e il revisore deve
+     poterlo leggere senza aprirle. */
+  .indice { width: 100%; border-collapse: collapse; margin: 1.4rem 0 0; font-size: 0.95rem; }
+  .indice th, .indice td { text-align: left; vertical-align: top; padding: 0.55rem 0.6rem;
+                           border-bottom: 1px solid rgba(140, 116, 78, .3); }
+  .indice th { font-weight: 600; }
+  .indice td:first-child { white-space: nowrap; }
+  .schermate { list-style: none; padding: 0; margin: 1.2rem 0 0;
+               display: grid; gap: 1.2rem; grid-template-columns: repeat(2, 1fr); }
+  @media (max-width: 26rem) { .schermate { grid-template-columns: 1fr; } }
+  .schermate figure { margin: 0; }
+  .schermate img { display: block; width: 100%; height: auto; border-radius: 9px; }
+  .schermate figcaption { margin-top: 0.45rem; font-size: 0.85rem; line-height: 1.45;
+                          color: var(--inchiostro-lieve, #6b5c46); }
+  .schermate a:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; border-radius: 11px; }
+  .istruzioni { margin: 0.8rem 0 0; padding-left: 1.2rem; }
+  .istruzioni li { margin: 0.25rem 0; }
+  .punto { margin-top: 3rem; }
+  /* Il PDF allegato in App Store Connect nasce da questa pagina: la barra
+     appiccicata si ripeteva su ogni foglio e copriva la testa delle schermate,
+     e una schermata spezzata fra due fogli non si legge. */
+  @media print {
+    html, body { background: #F5EBD1 !important; }
+    .barra { position: static; }
+    .schermate li, .indice tr { break-inside: avoid; }
+    .punto h2 { break-after: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<a class="salta" href="#contenuto">Skip to content</a>
+
+<header class="barra posata">
+  <a class="marchio" href="./" aria-label="Bottlegram">
+    <svg class="marchio-glifo" viewBox="0 0 100 100" aria-hidden="true"><path d="M44 4L56 4A4 4 0 0 1 60 8L60 10A4 4 0 0 1 56 14L44 14A4 4 0 0 1 40 10L40 8A4 4 0 0 1 44 4ZM42 14L58 14L58 30L42 30ZM42 30L58 30A12 12 0 0 1 70 42L70 82A12 12 0 0 1 58 94L42 94A12 12 0 0 1 30 82L30 42A12 12 0 0 1 42 30ZM42 50L58 50L58 76L42 76Z" fill-rule="evenodd"/></svg>
+    <span>Bottlegram</span>
+  </a>
+  <nav class="rotta" aria-label="Pages">
+    <a href="./">The beach</a>
+    <a href="support.html">Support</a>
+  </nav>
+</header>
+
+<main id="contenuto">
+<article class="prosa">
+  <h1>Notes for App Review</h1>
+  <p class="guida corsivo">Guideline 1.2, point by point, for Bottlegram 1.0 (6). The review message lists eight precautions for apps where people post anonymously. Below, for each one: where it is in the app, how to reach it, and screenshots of build 6 taken on a clean install, iPhone 18 Pro Max, iOS 27.</p>
+
+  <table class="indice">
+    <thead><tr><th>Precaution</th><th>Where it is</th><th>Screens</th></tr></thead>
+    <tbody>
+      <tr><td><a href="#age">1. Age 18+</a></td><td>Age rating 18+. Date of birth asked before anything else; under 18 the app does not open.</td><td>1.1–1.2</td></tr>
+      <tr><td><a href="#terms">2. Terms (EULA)</a></td><td>Unticked checkbox before the beach; the rules state zero tolerance.</td><td>2.1–2.3</td></tr>
+      <tr><td><a href="#filter">3. Filtering</a></td><td>Every letter is screened on our server before anyone receives it.</td><td>3.1–3.2</td></tr>
+      <tr><td><a href="#flag">4. Flagging</a></td><td>“Report or block” under every open letter.</td><td>4.1–4.2</td></tr>
+      <tr><td><a href="#block">5. Blocking</a></td><td>“Block them” in the report, pre-ticked; Emporium › Blocked castaways.</td><td>5.1–5.2</td></tr>
+      <tr><td><a href="#remove">6. Removal</a></td><td>A reported letter leaves the beach at once; any new bottle can be set adrift unread.</td><td>6.1–6.3</td></tr>
+      <tr><td><a href="#act">7. Action in 24 hours</a></td><td>A person reviews every report within 24 hours; content removed, writer banished.</td><td>2.2</td></tr>
+      <tr><td><a href="#contact">8. Contact in the app</a></td><td>Emporium › Write to us, and bottlegram@bulbmode.com in the rules.</td><td>8.1–8.2</td></tr>
+    </tbody>
+  </table>
+
+  <section class="punto" id="age">
+    <h2>1. Age rating 18+</h2>
+    <p>The age rating in App Store Connect is 18+. On first launch the app asks for the date of birth before anything else: no account and no identity exist yet. Under 18 the app does not open, and the answer is remembered on the device. The rules signed at the next step say that Bottlegram is for people aged eighteen and over (screen 2.3).</p>
+    <ul class="schermate">
+      <li><figure><a href="assets/review/age-gate.jpg"><img src="assets/review/age-gate.jpg" width="600" height="1303" loading="lazy" alt="Date of birth wheel before the app opens."></a><figcaption>1.1 First launch: the date of birth, before anything else.</figcaption></figure></li>
+      <li><figure><a href="assets/review/age-gate-under-18.jpg"><img src="assets/review/age-gate-under-18.jpg" width="600" height="1304" loading="lazy" alt="Closed screen shown to someone under 18."></a><figcaption>1.2 Under 18: the app stays closed.</figcaption></figure></li>
+    </ul>
+  </section>
+
+  <section class="punto" id="terms">
+    <h2>2. Users agree to terms with zero tolerance</h2>
+    <p>Before reaching the beach, the card “Your new home” shows the checkbox “I have read and accept the rules of the sea”, unticked, and “Begin” stays disabled until it is ticked. The acceptance is stored on our server with the version of the rules and a server timestamp, and the card returns whenever the rules change. The first rule is zero tolerance: harassment, insults, threats, hate or discrimination, sexual content, spam and scams. Apple’s standard EULA applies alongside the rules. The rules are also in Emporium › The rules of the sea.</p>
+    <ul class="schermate">
+      <li><figure><a href="assets/review/terms-checkbox.jpg"><img src="assets/review/terms-checkbox.jpg" width="600" height="1303" loading="lazy" alt="Terms card with an unticked checkbox and a disabled Begin button."></a><figcaption>2.1 Unticked checkbox; “Begin” disabled.</figcaption></figure></li>
+      <li><figure><a href="assets/review/rules-top.jpg"><img src="assets/review/rules-top.jpg" width="600" height="1303" loading="lazy" alt="The rules of the sea: zero tolerance, report or block, review within a day."></a><figcaption>2.2 Zero tolerance; “Report or block”; a person looks within a day.</figcaption></figure></li>
+      <li><figure><a href="assets/review/rules-bottom.jpg"><img src="assets/review/rules-bottom.jpg" width="600" height="1303" loading="lazy" alt="The rules: contact address and 18 and over."></a><figcaption>2.3 Contact address; eighteen and over; the publisher.</figcaption></figure></li>
+    </ul>
+  </section>
+
+  <section class="punto" id="filter">
+    <h2>3. A method for filtering objectionable content</h2>
+    <p>Every letter is screened on our server before anyone can receive it. The letters table accepts no writes from the app: a single server function decides, in this order, whether the writer is banished, whether the letter contains contact details (phone numbers, emails, links, @handles), and what a moderation model says, with thresholds we set and measured in twelve languages. It fails closed: if the check cannot run, the letter is not sent. Insults directed at the reader are stopped as well as threats, hate, sexual content and self-harm instructions.</p>
+    <ol class="istruzioni">
+      <li>On the beach, tap “Throw”.</li>
+      <li>Write “fuck you” and tap “Throw it to the sea”.</li>
+      <li>The sea refuses it, and the bottle is not counted.</li>
+    </ol>
+    <ul class="schermate">
+      <li><figure><a href="assets/review/filter-typed.jpg"><img src="assets/review/filter-typed.jpg" width="600" height="1303" loading="lazy" alt="A new bottle with an insult typed in it."></a><figcaption>3.1 An insult, ready to throw.</figcaption></figure></li>
+      <li><figure><a href="assets/review/filter-stopped.jpg"><img src="assets/review/filter-stopped.jpg" width="600" height="1303" loading="lazy" alt="The sea didn't take it: the letter was stopped."></a><figcaption>3.2 Stopped before anyone receives it.</figcaption></figure></li>
+    </ul>
+  </section>
+
+  <section class="punto" id="flag">
+    <h2>4. A mechanism to flag objectionable content</h2>
+    <p>Under every open letter, and under every correspondence in the Journal, there is “Report or block”. It asks what the letter contains, one of six reasons, and then asks for confirmation.</p>
+    <ul class="schermate">
+      <li><figure><a href="assets/review/open-letter.jpg"><img src="assets/review/open-letter.jpg" width="600" height="1303" loading="lazy" alt="An open letter with Report or block under the buttons."></a><figcaption>4.1 “Report or block” under the letter.</figcaption></figure></li>
+      <li><figure><a href="assets/review/report-reasons.jpg"><img src="assets/review/report-reasons.jpg" width="600" height="1303" loading="lazy" alt="Six reasons to report a letter."></a><figcaption>4.2 Six reasons.</figcaption></figure></li>
+    </ul>
+  </section>
+
+  <section class="punto" id="block">
+    <h2>5. A mechanism to block abusive users</h2>
+    <p>In the report, “Block them: receive no more of their letters” comes already ticked. The block is enforced on our server in both directions: no letter can travel between the two again. Blocked writers are listed in Emporium › Blocked castaways, where each can be unblocked.</p>
+    <ul class="schermate">
+      <li><figure><a href="assets/review/report-block.jpg"><img src="assets/review/report-block.jpg" width="600" height="1303" loading="lazy" alt="Report confirmation with Block them ticked."></a><figcaption>5.1 “Block them”, ticked by default.</figcaption></figure></li>
+      <li><figure><a href="assets/review/blocked-list.jpg"><img src="assets/review/blocked-list.jpg" width="600" height="1303" loading="lazy" alt="Blocked castaways list with Unblock."></a><figcaption>5.2 Emporium › Blocked castaways, with “Unblock”.</figcaption></figure></li>
+    </ul>
+  </section>
+
+  <section class="punto" id="remove">
+    <h2>6. Users can immediately remove posts from their feed</h2>
+    <p>Bottlegram has no public feed: each letter reaches one person’s beach. A reported letter leaves that beach at once and the correspondence closes; our server hides it in the same transaction as the report. Any new bottle can also be given back to the sea without being opened (“Set it adrift”), so nobody has to read a letter to get rid of it.</p>
+    <ul class="schermate">
+      <li><figure><a href="assets/review/report-done.jpg"><img src="assets/review/report-done.jpg" width="600" height="1303" loading="lazy" alt="Report sent."></a><figcaption>6.1 Report sent.</figcaption></figure></li>
+      <li><figure><a href="assets/review/beach-after.jpg"><img src="assets/review/beach-after.jpg" width="600" height="1303" loading="lazy" alt="The beach after the report: the bottle is gone."></a><figcaption>6.2 The letter has left the beach.</figcaption></figure></li>
+      <li><figure><a href="assets/review/closed-bottle.jpg"><img src="assets/review/closed-bottle.jpg" width="600" height="1303" loading="lazy" alt="A closed bottle with Set it adrift."></a><figcaption>6.3 “Set it adrift”: removed unread.</figcaption></figure></li>
+    </ul>
+  </section>
+
+  <section class="punto" id="act">
+    <h2>7. We act on reports within 24 hours</h2>
+    <p>Every report emails our moderator within fifteen minutes and enters our moderation queue. A person reviews it within 24 hours. A letter that breaks the rules is removed from the sea and its writer is banished: a banished user cannot write, and deleting the account does not lift the ban. The rules tell users this in plain words (screen 2.2).</p>
+  </section>
+
+  <section class="punto" id="contact">
+    <h2>8. Contact information in the app</h2>
+    <p>Emporium › Write to us sends a message to a person from inside the app and shows bottlegram@bulbmode.com, which opens Mail. The same address is in the rules of the sea (screen 2.3) and on the screen shown to anyone under 18.</p>
+    <ul class="schermate">
+      <li><figure><a href="assets/review/emporium.jpg"><img src="assets/review/emporium.jpg" width="600" height="727" loading="lazy" alt="Emporium: The rules of the sea, Blocked castaways, Write to us."></a><figcaption>8.1 Emporium: rules, blocked castaways, write to us.</figcaption></figure></li>
+      <li><figure><a href="assets/review/write-to-us.jpg"><img src="assets/review/write-to-us.jpg" width="600" height="1303" loading="lazy" alt="Write to us form with the contact address."></a><figcaption>8.2 Write to us, and the address.</figcaption></figure></li>
+    </ul>
+  </section>
+
+  <section class="punto">
+    <h2>Questions</h2>
+    <p>If anything here is unclear or missing, write to <a href="mailto:bottlegram@bulbmode.com">bottlegram@bulbmode.com</a> or reply in App Store Connect, and we will change the app.</p>
+  </section>
+</article>
+</main>
+
+</body>
+</html>
