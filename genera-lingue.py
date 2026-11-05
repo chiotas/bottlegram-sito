@@ -356,37 +356,37 @@ SITO = {
  "pt-BR": "A carta náutica: uma rota de Vai, em Creta, para oeste pelo Mediterrâneo e depois para o norte pelo Atlântico até Luskentyre, na Escócia, com a garrafa acabando de partir.",
  "ja": "海図。クレタ島のヴァイから西へ地中海を抜け、大西洋を北上してスコットランドのラスケンタイアへ向かう航路。瓶は出発したばかり。"},
 
-"Dawn at Diamond Beach, as the app draws it: a lilac sky, a pale sun and an iceberg on the water.": {
- "it": "L'alba a Diamond Beach come la disegna l'app: un cielo lilla, un sole pallido e un iceberg sull'acqua.",
- "es": "El alba en Diamond Beach tal como la dibuja la app: un cielo lila, un sol pálido y un iceberg en el agua.",
- "fr": "L'aube à Diamond Beach telle que l'application la dessine : un ciel lilas, un soleil pâle et un iceberg sur l'eau.",
- "de": "Morgengrauen am Diamond Beach, wie die App es zeichnet: ein fliederfarbener Himmel, eine blasse Sonne und ein Eisberg auf dem Wasser.",
- "pt-BR": "O amanhecer em Diamond Beach como o app o desenha: um céu lilás, um sol pálido e um iceberg na água.",
- "ja": "アプリが描くダイヤモンド・ビーチの夜明け。薄紫の空、淡い太陽、水に浮かぶ氷山。"},
+"Dawn at Diamond Beach in the app: a lilac sky, a pale sun and an iceberg on the water.": {
+ "it": "L'alba a Diamond Beach nell'app: un cielo lilla, un sole pallido e un iceberg sull'acqua.",
+ "es": "El alba en Diamond Beach en la app: un cielo lila, un sol pálido y un iceberg en el agua.",
+ "fr": "L'aube à Diamond Beach dans l'application : un ciel lilas, un soleil pâle et un iceberg sur l'eau.",
+ "de": "Morgengrauen am Diamond Beach in der App: ein fliederfarbener Himmel, eine blasse Sonne und ein Eisberg auf dem Wasser.",
+ "pt-BR": "O amanhecer em Diamond Beach no app: um céu lilás, um sol pálido e um iceberg na água.",
+ "ja": "アプリの中のダイヤモンド・ビーチの夜明け。薄紫の空、淡い太陽、水に浮かぶ氷山。"},
 
-"Midday at Matira Beach, as the app draws it: blue sky, turquoise water and a palm on the white sand.": {
- "it": "Mezzogiorno a Matira Beach come lo disegna l'app: cielo azzurro, acqua turchese e una palma sulla sabbia bianca.",
- "es": "El mediodía en Matira Beach tal como lo dibuja la app: cielo azul, agua turquesa y una palmera en la arena blanca.",
- "fr": "Midi à Matira Beach tel que l'application le dessine : un ciel bleu, une eau turquoise et un palmier sur le sable blanc.",
- "de": "Mittag am Matira Beach, wie die App ihn zeichnet: blauer Himmel, türkises Wasser und eine Palme auf dem weißen Sand.",
- "pt-BR": "O meio-dia em Matira Beach como o app o desenha: céu azul, água turquesa e uma palmeira na areia branca.",
- "ja": "アプリが描くマティラ・ビーチの正午。青い空、ターコイズの海、白い砂の上のヤシ。"},
+"Midday at Matira Beach in the app: blue sky, turquoise water and a palm on the white sand.": {
+ "it": "Mezzogiorno a Matira Beach nell'app: cielo azzurro, acqua turchese e una palma sulla sabbia bianca.",
+ "es": "El mediodía en Matira Beach en la app: cielo azul, agua turquesa y una palmera en la arena blanca.",
+ "fr": "Midi à Matira Beach dans l'application : un ciel bleu, une eau turquoise et un palmier sur le sable blanc.",
+ "de": "Mittag am Matira Beach in der App: blauer Himmel, türkises Wasser und eine Palme auf dem weißen Sand.",
+ "pt-BR": "O meio-dia em Matira Beach no app: céu azul, água turquesa e uma palmeira na areia branca.",
+ "ja": "アプリの中のマティラ・ビーチの正午。青い空、ターコイズの海、白い砂の上のヤシ。"},
 
-"Dusk at Reynisfjara, as the app draws it: a red sky, the sea stacks and black volcanic sand.": {
- "it": "Il tramonto a Reynisfjara come lo disegna l'app: un cielo rosso, i faraglioni e la sabbia nera vulcanica.",
- "es": "El atardecer en Reynisfjara tal como lo dibuja la app: un cielo rojo, los farallones y la arena negra volcánica.",
- "fr": "Le crépuscule à Reynisfjara tel que l'application le dessine : un ciel rouge, les aiguilles de roche et le sable noir volcanique.",
- "de": "Dämmerung in Reynisfjara, wie die App sie zeichnet: ein roter Himmel, die Felsnadeln und schwarzer Vulkansand.",
- "pt-BR": "O entardecer em Reynisfjara como o app o desenha: um céu vermelho, os rochedos no mar e a areia preta vulcânica.",
- "ja": "アプリが描くレイニスフィヤラの夕暮れ。赤い空、海に立つ岩柱、黒い火山の砂。"},
+"Dusk at Reynisfjara in the app: a red sky, the sea stacks and black volcanic sand.": {
+ "it": "Il tramonto a Reynisfjara nell'app: un cielo rosso, i faraglioni e la sabbia nera vulcanica.",
+ "es": "El atardecer en Reynisfjara en la app: un cielo rojo, los farallones y la arena negra volcánica.",
+ "fr": "Le crépuscule à Reynisfjara dans l'application : un ciel rouge, les aiguilles de roche et le sable noir volcanique.",
+ "de": "Dämmerung in Reynisfjara in der App: ein roter Himmel, die Felsnadeln und schwarzer Vulkansand.",
+ "pt-BR": "O entardecer em Reynisfjara no app: um céu vermelho, os rochedos no mar e a areia preta vulcânica.",
+ "ja": "アプリの中のレイニスフィヤラの夕暮れ。赤い空、海に立つ岩柱、黒い火山の砂。"},
 
-"Night at Unstad, as the app draws it: the aurora over a dark arctic sea.": {
- "it": "La notte a Unstad come la disegna l'app: l'aurora sopra un mare artico scuro.",
- "es": "La noche en Unstad tal como la dibuja la app: la aurora sobre un mar ártico oscuro.",
- "fr": "La nuit à Unstad telle que l'application la dessine : l'aurore au-dessus d'une mer arctique sombre.",
- "de": "Nacht in Unstad, wie die App sie zeichnet: das Polarlicht über einem dunklen arktischen Meer.",
- "pt-BR": "A noite em Unstad como o app a desenha: a aurora sobre um mar ártico escuro.",
- "ja": "アプリが描くウンスタッドの夜。暗い北極の海の上を渡るオーロラ。"},
+"Night at Unstad in the app: the aurora over a dark arctic sea.": {
+ "it": "La notte a Unstad nell'app: l'aurora sopra un mare artico scuro.",
+ "es": "La noche en Unstad en la app: la aurora sobre un mar ártico oscuro.",
+ "fr": "La nuit à Unstad dans l'application : l'aurore au-dessus d'une mer arctique sombre.",
+ "de": "Nacht in Unstad in der App: das Polarlicht über einem dunklen arktischen Meer.",
+ "pt-BR": "A noite em Unstad no app: a aurora sobre um mar ártico escuro.",
+ "ja": "アプリの中のウンスタッドの夜。暗い北極の海の上を渡るオーロラ。"},
 
 "Four of the 250: dawn at Diamond Beach in Iceland, midday on Bora Bora, dusk on the black sand of Reynisfjara, and an arctic night in the Lofoten with the aurora overhead.": {
  "it": "Quattro delle 250: l'alba a Diamond Beach in Islanda, mezzogiorno a Bora Bora, il tramonto sulla sabbia nera di Reynisfjara, e una notte artica alle Lofoten con l'aurora sopra la testa.",
@@ -545,13 +545,13 @@ SITO = {
  "de": "an einem wirklichen Strand ab.",
  "pt-BR": "numa praia de verdade.",
  "ja": "本物の浜辺。"},
-"Cala Goloritzé. Reynisfjara. Anse Source d'Argent. Real stretches of coast at their real coordinates, and yours is drawn by lot. From that first morning on, it is home. The light on it is the light of your own hour: open it at midnight and your beach is dark, with the stars out over the water. Every wave is drawn by the app, line by line.": {
- "it": "Cala Goloritzé. Reynisfjara. Anse Source d'Argent. Tratti di costa veri alle loro coordinate vere, e la tua te la dà la sorte. Da quella prima mattina è casa. La luce che ci sta sopra è quella della tua ora: aprila a mezzanotte e la tua spiaggia è buia, con le stelle sull'acqua. Ogni onda la disegna l'app, linea per linea.",
- "es": "Cala Goloritzé. Reynisfjara. Anse Source d'Argent. Tramos de costa reales en sus coordenadas reales, y la tuya te toca en suerte. Desde esa primera mañana es tu casa. La luz que la baña es la de tu propia hora: ábrela a medianoche y tu playa está a oscuras, con las estrellas sobre el agua. Cada ola la dibuja la app, línea a línea.",
- "fr": "Cala Goloritzé. Reynisfjara. Anse Source d'Argent. De vraies portions de côte à leurs vraies coordonnées, et la tienne t'échoit au hasard. Dès ce premier matin, c'est chez toi. La lumière qui la baigne est celle de ta propre heure : ouvre à minuit et ta plage est sombre, les étoiles au-dessus de l'eau. Chaque vague est dessinée par l'application, trait par trait.",
- "de": "Cala Goloritzé. Reynisfjara. Anse Source d'Argent. Echte Küstenstücke an ihren echten Koordinaten, und deines fällt dir durch Los zu. Von jenem ersten Morgen an ist es dein Zuhause. Das Licht darauf ist das deiner eigenen Stunde: öffne sie um Mitternacht, und dein Strand ist dunkel, die Sterne über dem Wasser. Jede Welle zeichnet die App, Strich für Strich.",
- "pt-BR": "Cala Goloritzé. Reynisfjara. Anse Source d'Argent. Trechos de costa reais nas coordenadas reais, e a sua vem por sorteio. Desde aquela primeira manhã, é casa. A luz sobre ela é a da sua própria hora: abra à meia-noite e a sua praia está escura, com as estrelas sobre a água. Cada onda é desenhada pelo app, linha por linha.",
- "ja": "カーラ・ゴロリッツェ。レイニスフィヤラ。アンス・スルス・ダルジャン。実在する海岸を、実在する座標のままに。そして自分の浜は、くじで決まる。最初の朝から、そこが家になる。射す光はあなたのいまの時刻の光だ。真夜中に開けば浜は暗く、水の上に星が出ている。波の一本一本を、アプリが線で描いている。"},
+"Cala Goloritzé. Reynisfjara. Anse Source d'Argent. Real stretches of coast at their real coordinates, and yours is chosen by lot. From that first morning on, it is home. The light on it is the light of your own hour: open it at midnight and your beach is dark, with the stars out over the water. Every beach is drawn by hand, and the app lays that light over it, live.": {
+ "it": "Cala Goloritzé. Reynisfjara. Anse Source d'Argent. Tratti di costa veri alle loro coordinate vere, e la tua te la dà la sorte. Da quella prima mattina è casa. La luce che ci sta sopra è quella della tua ora: aprila a mezzanotte e la tua spiaggia è buia, con le stelle sull'acqua. Ogni spiaggia è disegnata a mano, e quella luce l'app gliela stende sopra, dal vivo.",
+ "es": "Cala Goloritzé. Reynisfjara. Anse Source d'Argent. Tramos de costa reales en sus coordenadas reales, y la tuya te toca en suerte. Desde esa primera mañana es tu casa. La luz que la baña es la de tu propia hora: ábrela a medianoche y tu playa está a oscuras, con las estrellas sobre el agua. Cada playa está dibujada a mano, y la app le pone esa luz encima, en directo.",
+ "fr": "Cala Goloritzé. Reynisfjara. Anse Source d'Argent. De vraies portions de côte à leurs vraies coordonnées, et la tienne t'échoit au hasard. Dès ce premier matin, c'est chez toi. La lumière qui la baigne est celle de ta propre heure : ouvre à minuit et ta plage est sombre, les étoiles au-dessus de l'eau. Chaque plage est dessinée à la main, et l'application y pose cette lumière, en direct.",
+ "de": "Cala Goloritzé. Reynisfjara. Anse Source d'Argent. Echte Küstenstücke an ihren echten Koordinaten, und deines fällt dir durch Los zu. Von jenem ersten Morgen an ist es dein Zuhause. Das Licht darauf ist das deiner eigenen Stunde: öffne sie um Mitternacht, und dein Strand ist dunkel, die Sterne über dem Wasser. Jeder Strand ist von Hand gezeichnet, und die App legt dieses Licht live darüber.",
+ "pt-BR": "Cala Goloritzé. Reynisfjara. Anse Source d'Argent. Trechos de costa reais nas coordenadas reais, e a sua vem por sorteio. Desde aquela primeira manhã, é casa. A luz sobre ela é a da sua própria hora: abra à meia-noite e a sua praia está escura, com as estrelas sobre a água. Cada praia é desenhada à mão, e o app coloca essa luz sobre ela, ao vivo.",
+ "ja": "カーラ・ゴロリッツェ。レイニスフィヤラ。アンス・スルス・ダルジャン。実在する海岸を、実在する座標のままに。そして自分の浜は、くじで決まる。最初の朝から、そこが家になる。射す光はあなたのいまの時刻の光だ。真夜中に開けば浜は暗く、水の上に星が出ている。浜はどれも手描きで、その光をアプリがいま、その上に重ねている。"},
 
 
 "The crossing": {
@@ -662,13 +662,13 @@ SITO = {
  "pt-BR": "Em um parágrafo",
  "ja": "一段落で"},
 
-"Bottlegram is a slow messaging app for people who will never meet. You write a letter, seal it in a bottle and give it to the current. Six to thirty-six hours later it washes up on one of 250 illustrated beaches, each at its real coordinates, and another castaway finds it. If they write back, you take turns, one letter each. Bottlegram is free and coming soon to iPhone and Android.": {
- "it": "Bottlegram è un'app di messaggi lenti fra persone che non si incontreranno mai. Scrivi una lettera, la chiudi in una bottiglia e la affidi alla corrente. Da sei a trentasei ore dopo approda su una di 250 spiagge illustrate, ognuna alle sue coordinate vere, e un altro naufrago la trova. Se risponde, vi date il turno, una lettera a testa. Bottlegram è gratis e arriva presto su iPhone e Android.",
- "es": "Bottlegram es una app de mensajes lentos entre personas que nunca se conocerán. Escribes una carta, la cierras en una botella y la entregas a la corriente. Entre seis y treinta y seis horas después llega a una de 250 playas ilustradas, cada una en sus coordenadas reales, y otro náufrago la encuentra. Si contesta, os turnáis, una carta cada uno. Bottlegram es gratis y llega pronto a iPhone y Android.",
- "fr": "Bottlegram est une messagerie lente entre des personnes qui ne se rencontreront jamais. Vous écrivez une lettre, vous la scellez dans une bouteille et vous la confiez au courant. Six à trente-six heures plus tard, elle échoue sur l'une de 250 plages illustrées, chacune à ses vraies coordonnées, et un autre naufragé la trouve. S'il répond, vous écrivez chacun à votre tour, une lettre chacun. Bottlegram est gratuit et arrive bientôt sur iPhone et Android.",
- "de": "Bottlegram ist eine App für langsame Nachrichten zwischen Menschen, die sich nie begegnen werden. Sie schreiben einen Brief, verschließen ihn in einer Flasche und übergeben ihn der Strömung. Sechs bis sechsunddreißig Stunden später wird er an einen von 250 illustrierten Stränden gespült, jeder an seinen echten Koordinaten, und ein anderer Schiffbrüchiger findet ihn. Antwortet er, schreiben Sie abwechselnd, ein Brief nach dem anderen. Bottlegram ist kostenlos und kommt bald auf iPhone und Android.",
- "pt-BR": "Bottlegram é um app de mensagens lentas entre pessoas que nunca vão se conhecer. Você escreve uma carta, fecha numa garrafa e entrega à correnteza. De seis a trinta e seis horas depois ela chega a uma de 250 praias ilustradas, cada uma nas suas coordenadas reais, e outro náufrago a encontra. Se ele responder, vocês se revezam, uma carta de cada vez. Bottlegram é grátis e chega em breve ao iPhone e ao Android.",
- "ja": "Bottlegram は、一生会うことのない人どうしの、ゆっくり届くメッセージアプリです。手紙を書き、瓶に封じ、潮に託します。六時間から三十六時間後、それは実在の座標にある 250 の描かれた浜のどれかに流れ着き、別の漂着者が見つけます。返事が来れば、一通ずつ交互に書いていきます。Bottlegram は無料で、まもなく iPhone と Android に登場します。"},
+"Bottlegram is a slow messaging app for people who will never meet. You write a letter, seal it in a bottle and give it to the current. Six to thirty-six hours later it washes up on one of 250 beaches drawn by hand, each at its real coordinates, and another castaway finds it. If they write back, you take turns, one letter each. Bottlegram is free and coming soon to iPhone and Android.": {
+ "it": "Bottlegram è un'app di messaggi lenti fra persone che non si incontreranno mai. Scrivi una lettera, la chiudi in una bottiglia e la affidi alla corrente. Da sei a trentasei ore dopo approda su una di 250 spiagge disegnate a mano, ognuna alle sue coordinate vere, e un altro naufrago la trova. Se risponde, vi date il turno, una lettera a testa. Bottlegram è gratis e arriva presto su iPhone e Android.",
+ "es": "Bottlegram es una app de mensajes lentos entre personas que nunca se conocerán. Escribes una carta, la cierras en una botella y la entregas a la corriente. Entre seis y treinta y seis horas después llega a una de 250 playas dibujadas a mano, cada una en sus coordenadas reales, y otro náufrago la encuentra. Si contesta, os turnáis, una carta cada uno. Bottlegram es gratis y llega pronto a iPhone y Android.",
+ "fr": "Bottlegram est une messagerie lente entre des personnes qui ne se rencontreront jamais. Vous écrivez une lettre, vous la scellez dans une bouteille et vous la confiez au courant. Six à trente-six heures plus tard, elle échoue sur l'une de 250 plages dessinées à la main, chacune à ses vraies coordonnées, et un autre naufragé la trouve. S'il répond, vous écrivez chacun à votre tour, une lettre chacun. Bottlegram est gratuit et arrive bientôt sur iPhone et Android.",
+ "de": "Bottlegram ist eine App für langsame Nachrichten zwischen Menschen, die sich nie begegnen werden. Sie schreiben einen Brief, verschließen ihn in einer Flasche und übergeben ihn der Strömung. Sechs bis sechsunddreißig Stunden später wird er an einen von 250 von Hand gezeichneten Stränden gespült, jeder an seinen echten Koordinaten, und ein anderer Schiffbrüchiger findet ihn. Antwortet er, schreiben Sie abwechselnd, ein Brief nach dem anderen. Bottlegram ist kostenlos und kommt bald auf iPhone und Android.",
+ "pt-BR": "Bottlegram é um app de mensagens lentas entre pessoas que nunca vão se conhecer. Você escreve uma carta, fecha numa garrafa e entrega à correnteza. De seis a trinta e seis horas depois ela chega a uma de 250 praias desenhadas à mão, cada uma nas suas coordenadas reais, e outro náufrago a encontra. Se ele responder, vocês se revezam, uma carta de cada vez. Bottlegram é grátis e chega em breve ao iPhone e ao Android.",
+ "ja": "Bottlegram は、一生会うことのない人どうしの、ゆっくり届くメッセージアプリです。手紙を書き、瓶に封じ、潮に託します。六時間から三十六時間後、それは実在の座標にある 250 の手描きの浜のどれかに流れ着き、別の漂着者が見つけます。返事が来れば、一通ずつ交互に書いていきます。Bottlegram は無料で、まもなく iPhone と Android に登場します。"},
 
 "The story": {
  "it": "La storia",
@@ -702,13 +702,13 @@ SITO = {
  "pt-BR": "Nunca encontrei nenhuma.",
  "ja": "一度も見つかりませんでした。"},
 
-"So I built it. Two hundred and fifty beaches, each at its real coordinates, and a tide that carries a bottle along the real sea route between two coasts, taking the time that much water would take.": {
- "it": "Così me la sono costruita. Duecentocinquanta spiagge, ognuna alle sue coordinate vere, e una marea che porta una bottiglia lungo la rotta di mare vera fra due coste, prendendosi il tempo che ci vorrebbe per tutta quell'acqua.",
- "es": "Así que me la construí. Doscientas cincuenta playas, cada una en sus coordenadas reales, y una marea que lleva una botella por la ruta marina real entre dos costas, tomándose el tiempo que haría falta para toda esa agua.",
- "fr": "Alors je l'ai construite. Deux cent cinquante plages, chacune à ses vraies coordonnées, et une marée qui porte une bouteille le long de la vraie route maritime entre deux côtes, en prenant le temps qu'il faudrait pour toute cette eau.",
- "de": "Also habe ich sie gebaut. Zweihundertfünfzig Strände, jeder an seinen echten Koordinaten, und eine Tide, die eine Flasche entlang der echten Seeroute zwischen zwei Küsten trägt und sich dafür die Zeit nimmt, die all dieses Wasser brauchen würde.",
- "pt-BR": "Então eu a construí. Duzentas e cinquenta praias, cada uma nas suas coordenadas reais, e uma maré que leva uma garrafa pela rota marítima real entre duas costas, levando o tempo que toda aquela água levaria.",
- "ja": "だから自分で作りました。それぞれが実在の座標にある二百五十の浜と、二つの海岸のあいだの実際の航路に沿って瓶を運ぶ潮。それだけの海を渡るのにかかるはずの時間を、そのままかけて。"},
+"So I built it. Two hundred and fifty beaches drawn by hand, and a tide that carries a bottle along the real sea route between two coasts, taking the time that much water would take.": {
+ "it": "Così me la sono costruita. Duecentocinquanta spiagge disegnate a mano, e una marea che porta una bottiglia lungo la rotta di mare vera fra due coste, prendendosi il tempo che ci vorrebbe per tutta quell'acqua.",
+ "es": "Así que me la construí. Doscientas cincuenta playas dibujadas a mano, y una marea que lleva una botella por la ruta marina real entre dos costas, tomándose el tiempo que haría falta para toda esa agua.",
+ "fr": "Alors je l'ai construite. Deux cent cinquante plages dessinées à la main, et une marée qui porte une bouteille le long de la vraie route maritime entre deux côtes, en prenant le temps qu'il faudrait pour toute cette eau.",
+ "de": "Also habe ich sie gebaut. Zweihundertfünfzig von Hand gezeichnete Strände und eine Tide, die eine Flasche entlang der echten Seeroute zwischen zwei Küsten trägt und sich dafür die Zeit nimmt, die all dieses Wasser brauchen würde.",
+ "pt-BR": "Então eu a construí. Duzentas e cinquenta praias desenhadas à mão, e uma maré que leva uma garrafa pela rota marítima real entre duas costas, levando o tempo que toda aquela água levaria.",
+ "ja": "だから自分で作りました。手で描いた二百五十の浜と、二つの海岸のあいだの実際の航路に沿って瓶を運ぶ潮。それだけの海を渡るのにかかるはずの時間を、そのままかけて。"},
 
 "Tomorrow, a bottle from someone you do not know will wash up on your sand. That is the whole app.": {
  "it": "Domani sulla tua sabbia arriverà la bottiglia di qualcuno che non conosci. L'app è tutta qui.",
@@ -914,13 +914,13 @@ SITO = {
  "pt-BR": "Inglês, italiano, alemão, espanhol, francês, japonês, português do Brasil",
  "ja": "英語、イタリア語、ドイツ語、スペイン語、フランス語、日本語、ブラジルポルトガル語"},
 
-"illustrated beaches, each one different at dawn, at midday, at dusk and at night": {
- "it": "spiagge illustrate, ognuna diversa all'alba, a mezzogiorno, al tramonto e di notte",
- "es": "playas ilustradas, cada una distinta al alba, al mediodía, al atardecer y de noche",
- "fr": "plages illustrées, chacune différente à l'aube, à midi, au crépuscule et la nuit",
- "de": "illustrierte Strände, jeder anders im Morgengrauen, mittags, in der Dämmerung und nachts",
- "pt-BR": "praias ilustradas, cada uma diferente ao amanhecer, ao meio-dia, ao entardecer e à noite",
- "ja": "描かれた浜。夜明け、正午、夕暮れ、夜でそれぞれ違う表情になる"},
+"beaches drawn by hand, each one different at dawn, at midday, at dusk and at night": {
+ "it": "spiagge disegnate a mano, ognuna diversa all'alba, a mezzogiorno, al tramonto e di notte",
+ "es": "playas dibujadas a mano, cada una distinta al alba, al mediodía, al atardecer y de noche",
+ "fr": "plages dessinées à la main, chacune différente à l'aube, à midi, au crépuscule et la nuit",
+ "de": "von Hand gezeichnete Strände, jeder anders im Morgengrauen, mittags, in der Dämmerung und nachts",
+ "pt-BR": "praias desenhadas à mão, cada uma diferente ao amanhecer, ao meio-dia, ao entardecer e à noite",
+ "ja": "手描きの浜。夜明け、正午、夕暮れ、夜でそれぞれ違う表情になる"},
 
 "sea routes between them, every one measured around the real coastline": {
  "it": "rotte di mare fra loro, ognuna misurata attorno alla costa vera",
@@ -1777,13 +1777,13 @@ SITO = {
  "pt-BR": "Contato de imprensa",
  "ja": "報道関係のお問い合わせ"},
 
-"250 illustrated beaches · 31,125 sea routes · three bottles a day · six to thirty-six hours a crossing": {
- "it": "250 spiagge illustrate · 31.125 rotte di mare · tre bottiglie al giorno · da sei a trentasei ore per una traversata",
- "es": "250 playas ilustradas · 31.125 rutas marinas · tres botellas al día · de seis a treinta y seis horas por travesía",
- "fr": "250 plages illustrées · 31 125 routes maritimes · trois bouteilles par jour · six à trente-six heures par traversée",
- "de": "250 illustrierte Strände · 31.125 Seerouten · drei Flaschen am Tag · sechs bis sechsunddreißig Stunden pro Überfahrt",
- "pt-BR": "250 praias ilustradas · 31.125 rotas marítimas · três garrafas por dia · de seis a trinta e seis horas por travessia",
- "ja": "描かれた浜 250・海の航路 31,125・一日に瓶 3 本・一度の航海に 6〜36 時間"},
+"250 beaches drawn by hand · 31,125 sea routes · three bottles a day · six to thirty-six hours a crossing": {
+ "it": "250 spiagge disegnate a mano · 31.125 rotte di mare · tre bottiglie al giorno · da sei a trentasei ore per una traversata",
+ "es": "250 playas dibujadas a mano · 31.125 rutas marinas · tres botellas al día · de seis a treinta y seis horas por travesía",
+ "fr": "250 plages dessinées à la main · 31 125 routes maritimes · trois bouteilles par jour · six à trente-six heures par traversée",
+ "de": "250 von Hand gezeichnete Strände · 31.125 Seerouten · drei Flaschen am Tag · sechs bis sechsunddreißig Stunden pro Überfahrt",
+ "pt-BR": "250 praias desenhadas à mão · 31.125 rotas marítimas · três garrafas por dia · de seis a trinta e seis horas por travessia",
+ "ja": "手描きの浜 250・海の航路 31,125・一日に瓶 3 本・一度の航海に 6〜36 時間"},
 
 "Download the press kit": {
  "it": "Scarica il press kit",
@@ -1817,13 +1817,13 @@ SITO = {
  "pt-BR": "Sobre o Bottlegram",
  "ja": "Bottlegram について"},
 
-"Bottlegram is a slow messaging app made by Francesco Gola, an Italian seascape photographer. Each castaway writes a letter, seals it in a bottle, and the current carries it to another castaway's beach somewhere in the world, six to thirty-six hours later. The sea has 250 illustrated beaches at real coordinates, joined by 31,125 routes measured around real coastlines. Bottlegram is free, with optional purchases in the Wreck Emporium, and is coming soon to iPhone and Android.": {
- "it": "Bottlegram è un'app di messaggi lenti creata da Francesco Gola, fotografo italiano di paesaggio marino. Ogni naufrago scrive una lettera, la chiude in una bottiglia, e la corrente la porta sulla spiaggia di un altro naufrago da qualche parte nel mondo, da sei a trentasei ore dopo. Il mare ha 250 spiagge illustrate alle loro coordinate vere, unite da 31.125 rotte misurate attorno alle coste vere. Bottlegram è gratis, con acquisti facoltativi nell'Emporio del Relitto, e arriva presto su iPhone e Android.",
- "es": "Bottlegram es una app de mensajes lentos creada por Francesco Gola, fotógrafo italiano de paisaje marino. Cada náufrago escribe una carta, la cierra en una botella, y la corriente la lleva a la playa de otro náufrago en algún lugar del mundo, entre seis y treinta y seis horas después. El mar tiene 250 playas ilustradas en sus coordenadas reales, unidas por 31.125 rutas medidas alrededor de las costas reales. Bottlegram es gratis, con compras opcionales en el Emporio del Naufragio, y llega pronto a iPhone y Android.",
- "fr": "Bottlegram est une messagerie lente créée par Francesco Gola, photographe italien de paysages marins. Chaque naufragé écrit une lettre, la scelle dans une bouteille, et le courant la porte sur la plage d'un autre naufragé, quelque part dans le monde, six à trente-six heures plus tard. La mer compte 250 plages illustrées à leurs vraies coordonnées, reliées par 31 125 routes mesurées autour des vraies côtes. Bottlegram est gratuit, avec des achats facultatifs dans l'Emporium de l'Épave, et arrive bientôt sur iPhone et Android.",
- "de": "Bottlegram ist eine App für langsame Nachrichten von Francesco Gola, einem italienischen Seelandschaftsfotografen. Jeder Schiffbrüchige schreibt einen Brief, verschließt ihn in einer Flasche, und die Strömung trägt ihn sechs bis sechsunddreißig Stunden später an den Strand eines anderen Schiffbrüchigen, irgendwo auf der Welt. Das Meer hat 250 illustrierte Strände an ihren echten Koordinaten, verbunden durch 31.125 Routen, die entlang der echten Küsten gemessen sind. Bottlegram ist kostenlos, mit optionalen Käufen im Kontor des Wracks, und kommt bald auf iPhone und Android.",
- "pt-BR": "Bottlegram é um app de mensagens lentas criado por Francesco Gola, fotógrafo italiano de paisagem marinha. Cada náufrago escreve uma carta, fecha numa garrafa, e a correnteza a leva até a praia de outro náufrago em algum lugar do mundo, de seis a trinta e seis horas depois. O mar tem 250 praias ilustradas nas suas coordenadas reais, ligadas por 31.125 rotas medidas ao redor das costas reais. Bottlegram é grátis, com compras opcionais no Empório do Naufrágio, e chega em breve ao iPhone e ao Android.",
- "ja": "Bottlegram は、イタリアの海景写真家フランチェスコ・ゴーラが作った、ゆっくり届くメッセージアプリです。漂着者はそれぞれ手紙を書いて瓶に封じ、潮がそれを六時間から三十六時間かけて、世界のどこかにいる別の漂着者の浜へ運びます。海には実在の座標にある 250 の描かれた浜があり、実際の海岸線に沿って測った 31,125 の航路で結ばれています。Bottlegram は無料で、難破商館での購入は任意です。まもなく iPhone と Android に登場します。"},
+"Bottlegram is a slow messaging app made by Francesco Gola, an Italian seascape photographer. Each castaway writes a letter, seals it in a bottle, and the current carries it to another castaway's beach somewhere in the world, six to thirty-six hours later. The sea has 250 beaches drawn by hand, at real coordinates, joined by 31,125 routes measured around real coastlines. Bottlegram is free, with optional purchases in the Wreck Emporium, and is coming soon to iPhone and Android.": {
+ "it": "Bottlegram è un'app di messaggi lenti creata da Francesco Gola, fotografo italiano di paesaggio marino. Ogni naufrago scrive una lettera, la chiude in una bottiglia, e la corrente la porta sulla spiaggia di un altro naufrago da qualche parte nel mondo, da sei a trentasei ore dopo. Il mare ha 250 spiagge disegnate a mano, alle loro coordinate vere, unite da 31.125 rotte misurate attorno alle coste vere. Bottlegram è gratis, con acquisti facoltativi nell'Emporio del Relitto, e arriva presto su iPhone e Android.",
+ "es": "Bottlegram es una app de mensajes lentos creada por Francesco Gola, fotógrafo italiano de paisaje marino. Cada náufrago escribe una carta, la cierra en una botella, y la corriente la lleva a la playa de otro náufrago en algún lugar del mundo, entre seis y treinta y seis horas después. El mar tiene 250 playas dibujadas a mano, en sus coordenadas reales, unidas por 31.125 rutas medidas alrededor de las costas reales. Bottlegram es gratis, con compras opcionales en el Emporio del Naufragio, y llega pronto a iPhone y Android.",
+ "fr": "Bottlegram est une messagerie lente créée par Francesco Gola, photographe italien de paysages marins. Chaque naufragé écrit une lettre, la scelle dans une bouteille, et le courant la porte sur la plage d'un autre naufragé, quelque part dans le monde, six à trente-six heures plus tard. La mer compte 250 plages dessinées à la main, à leurs vraies coordonnées, reliées par 31 125 routes mesurées autour des vraies côtes. Bottlegram est gratuit, avec des achats facultatifs dans l'Emporium de l'Épave, et arrive bientôt sur iPhone et Android.",
+ "de": "Bottlegram ist eine App für langsame Nachrichten von Francesco Gola, einem italienischen Seelandschaftsfotografen. Jeder Schiffbrüchige schreibt einen Brief, verschließt ihn in einer Flasche, und die Strömung trägt ihn sechs bis sechsunddreißig Stunden später an den Strand eines anderen Schiffbrüchigen, irgendwo auf der Welt. Das Meer hat 250 von Hand gezeichnete Strände an ihren echten Koordinaten, verbunden durch 31.125 Routen, die entlang der echten Küsten gemessen sind. Bottlegram ist kostenlos, mit optionalen Käufen im Kontor des Wracks, und kommt bald auf iPhone und Android.",
+ "pt-BR": "Bottlegram é um app de mensagens lentas criado por Francesco Gola, fotógrafo italiano de paisagem marinha. Cada náufrago escreve uma carta, fecha numa garrafa, e a correnteza a leva até a praia de outro náufrago em algum lugar do mundo, de seis a trinta e seis horas depois. O mar tem 250 praias desenhadas à mão, nas suas coordenadas reais, ligadas por 31.125 rotas medidas ao redor das costas reais. Bottlegram é grátis, com compras opcionais no Empório do Naufrágio, e chega em breve ao iPhone e ao Android.",
+ "ja": "Bottlegram は、イタリアの海景写真家フランチェスコ・ゴーラが作った、ゆっくり届くメッセージアプリです。漂着者はそれぞれ手紙を書いて瓶に封じ、潮がそれを六時間から三十六時間かけて、世界のどこかにいる別の漂着者の浜へ運びます。海には実在の座標にある 250 の手描きの浜があり、実際の海岸線に沿って測った 31,125 の航路で結ばれています。Bottlegram は無料で、難破商館での購入は任意です。まもなく iPhone と Android に登場します。"},
 
 "About Francesco Gola": {
  "it": "Francesco Gola, in breve",
