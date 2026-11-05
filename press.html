@@ -37,7 +37,6 @@
     margin-top: 1.2rem; padding: 1.5rem 1.7rem;
     background: rgba(255, 253, 247, .62);
     border: 1px solid var(--carta-bordo, rgba(90,74,52,.18));
-    border-left: 3px solid rgba(140, 116, 78, .5);
     border-radius: 10px;
   }
   .incollabile p { margin: 0; line-height: 1.75; }
@@ -94,6 +93,53 @@
   }
   .scarico:hover { background: rgba(255, 253, 247, .7); }
   .peso { color: var(--inchiostro-lieve, #6b5c46); font-size: 0.85rem; }
+
+  /* I titoli separano: a 22 px su un testo di 18 le sezioni non si
+     staccavano (rapporto 1,19). Solo qui: privacy e support restano come sono. */
+  .prosa h2 { font-size: clamp(1.55rem, 3.2vw, 1.95rem); margin-top: clamp(3.2rem, 7vw, 4.4rem); }
+
+  /* A colpo d'occhio: la frase, tre fatti, i numeri in una riga, lo zip. */
+  .a-colpo {
+    margin: clamp(1.6rem, 4vw, 2.2rem) 0 0; padding: clamp(1.4rem, 3.5vw, 2rem);
+    background: rgba(255, 253, 247, .62);
+    border: 1px solid var(--carta-bordo); border-radius: 14px;
+  }
+  .a-colpo .una-riga { font-size: clamp(1.25rem, 2.6vw, 1.5rem); max-width: 30ch; margin: 0; }
+  .a-colpo .fatti { margin: 1.3rem 0 0; }
+  .a-colpo .fatti > div { display: grid; grid-template-columns: 9.5rem minmax(0, 1fr); gap: 0.2rem 1.4rem; padding: 0.3rem 0; }
+  .a-colpo .fatti dt {
+    font-size: 0.72rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase;
+    color: var(--inchiostro-lieve); padding-top: 0.25rem;
+  }
+  .a-colpo .fatti dd { margin: 0; }
+  .a-colpo .numeri {
+    margin: 1.2rem 0 0; padding-top: 1rem; border-top: 1px solid var(--carta-bordo);
+    color: var(--inchiostro); max-width: none;
+  }
+  .a-colpo .scarichi { margin-top: 1.3rem; }
+  .scarico.primario { background: var(--inchiostro); color: var(--carta); border-color: var(--inchiostro); }
+  .scarico.primario .peso { color: rgba(245, 235, 209, .75); }
+  .scarico.primario:hover { background: #2c241c; }
+  @media (max-width: 34rem) {
+    .a-colpo .fatti > div { grid-template-columns: 1fr; gap: 0; padding: 0.35rem 0; }
+  }
+
+  /* «I have never found one.» da sola, in grande: è la riga che tiene la storia. */
+  .prosa p.tirata {
+    font-family: var(--mare-serif); font-style: italic;
+    font-size: clamp(1.6rem, 4vw, 2.3rem); line-height: 1.25;
+    margin: clamp(1.6rem, 4vw, 2.2rem) 0;
+  }
+
+  /* Le citazioni: frasi sue, alla lettera, una per riga. */
+  /* `.prosa ul` metterebbe il rientro dell'elenco puntato: qui non ci sono punti. */
+  .prosa .citazioni { list-style: none; padding: 0; margin: 1.4rem 0 0; display: grid; gap: 1.1rem; }
+  .prosa .citazioni li {
+    margin: 0;
+    font-family: var(--mare-serif); font-style: italic;
+    font-size: clamp(1.12rem, 2.2vw, 1.3rem); line-height: 1.5;
+    padding-bottom: 1.1rem; border-bottom: 1px solid var(--carta-bordo);
+  }
 </style>
 </head>
 <body>
@@ -118,42 +164,81 @@
 
   <h1>Press kit</h1>
 
+  <!-- A COLPO D'OCCHIO (revisione del 05/11/2026). Prima la scheda dei fatti
+       stava a quattro schermate dal titolo e il contatto a quasi sei: chi
+       apre la pagina da una mail di nomination deve trovare cos'è, quando
+       esce, quanto costa e a chi scrivere prima dell'immagine. I numeri sono
+       una riga di testo, non un blocco di statistiche. -->
+  <section class="a-colpo" aria-label="At a glance">
+    <p class="una-riga">A slow messaging app where letters travel by sea, and the current decides who reads them and when.</p>
+    <dl class="fatti">
+      <div><dt>Status</dt><dd>Coming soon on iPhone and Android</dd></div>
+      <div><dt>Price</dt><dd>Free, with optional purchases in the Wreck Emporium</dd></div>
+      <div><dt>Press contact</dt><dd>Francesco Gola · <a href="mailto:bottlegram@bulbmode.com">bottlegram@bulbmode.com</a></dd></div>
+    </dl>
+    <p class="numeri">250 illustrated beaches · 31,125 sea routes · three bottles a day · six to thirty-six hours a crossing</p>
+    <div class="scarichi">
+      <a class="scarico primario" href="assets/press/bottlegram-press-kit.zip" download>Download the press kit <span class="peso">8.6&nbsp;MB</span></a>
+      <a class="scarico" href="#storia">Read the story</a>
+    </div>
+  </section>
+
   <figure class="apertura">
-    <img id="apertura" src="assets/press/attesa-en.png" width="1800" height="1088"
+    <!-- JPG per la pagina (120 KB, 40 KB sul telefono, contro i 500 del PNG);
+         i PNG restano per lo zip e per l'anteprima dei link. -->
+    <img id="apertura" src="assets/press/attesa-en.jpg" width="1800" height="1088"
+         srcset="assets/press/attesa-en-900.jpg 900w, assets/press/attesa-en.jpg 1800w"
+         sizes="(min-width: 62rem) min(64rem, 92vw), calc(100vw - 2.8rem)"
          alt="Two iPhone screens against a blurred sunset. On the left, the beach of Luskentyre with a bottle washed up on the sand, at 20:41 on a Thursday. On the right, the answer that came back, at 13:41 on the Friday. Between them, empty space and the words «seventeen hours».">
     <figcaption class="didascalia" style="margin: 1rem auto 0;">Luskentyre at dusk, and the answer that came back the next day. The times are the ones the phone recorded.</figcaption>
   </figure>
 
-  <!-- ══════════════════ LA FRASE ══════════════════ -->
-  <h2>What Bottlegram is, in one line</h2>
-  <div class="incollabile">
-    <p class="una-riga">A slow messaging app where letters travel by sea, and the current decides who reads them and when.</p>
-  </div>
-
+  <!-- ══════════════════ DA INCOLLARE ══════════════════ -->
   <h2>In one paragraph</h2>
   <div class="incollabile">
-    <p>Bottlegram is a messaging app for people who will never meet. You write a letter, seal it in a bottle and give it to the current. Six to thirty-six hours later it washes up on another castaway’s beach, somewhere in the world. Then it is their turn to wait. Free on iPhone and Android.</p>
+    <p>Bottlegram is a slow messaging app for people who will never meet. You write a letter, seal it in a bottle and give it to the current. Six to thirty-six hours later it washes up on one of 250 illustrated beaches, each at its real coordinates, and another castaway finds it. If they write back, you take turns, one letter each. Bottlegram is free and coming soon to iPhone and Android.</p>
+  </div>
+
+  <h2>About Bottlegram</h2>
+  <div class="incollabile">
+    <p>Bottlegram is a slow messaging app made by Francesco Gola, an Italian seascape photographer. Each castaway writes a letter, seals it in a bottle, and the current carries it to another castaway's beach somewhere in the world, six to thirty-six hours later. The sea has 250 illustrated beaches at real coordinates, joined by 31,125 routes measured around real coastlines. Bottlegram is free, with optional purchases in the Wreck Emporium, and is coming soon to iPhone and Android.</p>
+  </div>
+
+  <h2>About Francesco Gola</h2>
+  <div class="incollabile">
+    <p>Francesco Gola photographs the sea, most of it in long exposures. As a boy he searched beaches for a bottle with a letter inside. He never found one, so he built Bottlegram.</p>
   </div>
 
   <!-- ══════════════════ LA STORIA ══════════════════ -->
-  <h2>The story</h2>
+  <h2 id="storia">The story</h2>
 
   <p>I photograph the sea. Seascapes mostly, and long exposures above all. A long exposure is a photograph you make by waiting: you hold the shutter open and stand still, and the water draws itself onto the frame while, to anyone watching, nothing at all is happening.</p>
 
-  <p>I love walking on beaches, and I have done since I was a boy. Since I was a boy I have been looking for the same thing in the sand: a bottle with a letter inside, written years earlier by someone I would never meet, telling me something true about their life.</p>
+  <p>I love walking on beaches, and I have done since I was a boy, always looking for the same thing in the sand: a bottle with a letter inside, written years earlier by someone I would never meet, telling me something true about their life.</p>
 
-  <p>I have never found one.</p>
+  <p class="tirata">I have never found one.</p>
 
-  <p>So I built it. Two hundred and fifty beaches drawn by hand, and a tide that carries a bottle along the real sea route between two coasts, taking the time that much water would take.</p>
+  <p>So I built it. Two hundred and fifty beaches, each at its real coordinates, and a tide that carries a bottle along the real sea route between two coasts, taking the time that much water would take.</p>
 
   <p>Tomorrow, a bottle from someone you do not know will wash up on your sand. That is the whole app.</p>
 
   <p class="guida corsivo" style="margin-top:1.4rem;">Francesco Gola, seascape photographer</p>
 
+  <!-- Le citazioni sono frasi della storia qui sopra, parola per parola: un
+       giornalista le può attribuire senza chiedere. La frase dell'amico in
+       «Why slow» resta fuori, perché non è sua. -->
+  <h2>In Francesco's words</h2>
+  <ul class="citazioni">
+    <li>“A long exposure is a photograph you make by waiting.”</li>
+    <li>“I have never found one. So I built it.”</li>
+    <li>“Tomorrow, a bottle from someone you do not know will wash up on your sand. That is the whole app.”</li>
+  </ul>
+  <p class="lieve">All three may be quoted as Francesco Gola, the maker of Bottlegram.</p>
+
   <!-- ══════════════════ IL PERCHÉ ══════════════════ -->
   <h2>Why slow</h2>
 
-  <p>Somewhere a phone is buzzing and someone is waiting for an answer. Not here.</p>
+  <p>Somewhere a phone is buzzing and someone is waiting for an answer. Here, the sea is carrying yours.</p>
 
   <p>Here your letter is at sea, and the sea can take more than a day to deliver it. While it travels you can watch it cross the chart, or forget about it until the tide comes back. It ends up on a beach you have never seen, and someone you will never meet decides whether to write back.</p>
 
@@ -168,8 +253,8 @@
   <h3>The sea takes its time</h3>
   <p class="lieve">Every beach is a real place, at its real latitude and longitude, and the routes between them run around the coastlines instead of through them: a bottle bound for the far side of Africa goes around Africa. The further your letter has to travel, the longer the sea keeps it. Six hours sometimes, a day and a half other times. While it is out there you can follow it on a nautical chart, a little further along every time you look.</p>
 
-  <h3>They can answer, and often they do</h3>
-  <p class="lieve">Whoever finds your letter can write back, and the sea takes its own time to deliver the answer. A correspondence alternates: you write, they answer, you write again. Everything you choose to keep goes into a journal that stays on your beach.</p>
+  <h3>They can answer, and then it is your turn</h3>
+  <p class="lieve">Whoever finds your letter can write back, and the sea takes its own time to deliver the answer. A correspondence alternates: you write, they answer, you write again. Once the cork is in, the letter belongs to the sea. Everything you choose to keep goes into a journal that stays on your beach.</p>
 
   <h3>And then there are the spirits</h3>
   <p class="lieve">The sea has its spirits. They were here long before any castaway, each with a life of their own to tell, and every so often one of them picks up a bottle and writes to you. If a spirit writes to you, you were lucky. Their letters always carry their mark.</p>
@@ -189,7 +274,7 @@
   </dl>
 
   <ul class="cifre">
-    <li><b>250</b><span>beaches drawn by hand, each one different at dawn, at midday, at dusk and at night</span></li>
+    <li><b>250</b><span>illustrated beaches, each one different at dawn, at midday, at dusk and at night</span></li>
     <li><b>31,125</b><span>sea routes between them, every one measured around the real coastline</span></li>
     <li><b>3</b><span>bottles a day</span></li>
     <li><b>6&ndash;36</b><span>hours for a letter to cross the sea</span></li>
@@ -216,7 +301,7 @@
     <h2 style="margin-top:0;">Trying it before it opens</h2>
     <p>Bottlegram opens soon on iPhone and&nbsp;Android. Until then, write to this address and you get a build to try, along with a beach of your own and enough bottles to see what comes back:</p>
     <a class="indirizzo" href="mailto:bottlegram@bulbmode.com?subject=Press%20—%20test%20build">bottlegram@bulbmode.com</a>
-    <p class="lieve" style="margin-top:1.1rem;">The same address reaches Francesco directly for an interview, a question, or a detail this page does not cover.</p>
+    <p class="lieve" style="margin-top:1.1rem;">The same address reaches Francesco directly for an interview, a question, or any detail beyond this page.</p>
   </div>
 
 </article>
@@ -228,7 +313,7 @@
     <p class="crediti">
       <a href="./">The beach</a> · <a href="support.html">Support</a> · <a href="privacy.html">Privacy</a> · <a href="mailto:bottlegram@bulbmode.com">bottlegram@bulbmode.com</a>
     </p>
-    <p class="crediti minute">No map service, no tracking, no cookies: this page does not know who you are, exactly like the sea.</p>
+    <p class="crediti minute">This page knows you only as a visitor, the way the sea knows you only as a castaway.</p>
   </div>
 </footer>
 
@@ -236,8 +321,8 @@
      `lingua.js` scambia i nodi di testo e sceglie da solo la lingua del
      browser. L'inglese resta nell'HTML ed è quello che legge chi arriva senza
      JavaScript. -->
-<script src="lingue.js?v=8"></script>
-<script src="lingua.js?v=8"></script>
+<script src="lingue.js?v=9"></script>
+<script src="lingua.js?v=9"></script>
 
 <!-- L'apertura ha le sue scritte dentro, quindi non basta tradurre la pagina:
      ci sono sette file. Si ascolta il selettore che `lingua.js` ha appena
@@ -250,8 +335,12 @@
   if (!sel || !img) return;
   // Se il file di una lingua manca, si torna all'inglese invece di lasciare
   // il riquadro rotto in cima alla pagina.
-  img.addEventListener('error', () => { img.src = 'assets/press/attesa-en.png'; }, { once: true });
-  const vesti = () => { img.src = `assets/press/attesa-${sel.value}.png`; };
+  const metti = (lg) => {
+    img.srcset = `assets/press/attesa-${lg}-900.jpg 900w, assets/press/attesa-${lg}.jpg 1800w`;
+    img.src = `assets/press/attesa-${lg}.jpg`;
+  };
+  img.addEventListener('error', () => metti('en'), { once: true });
+  const vesti = () => metti(sel.value);
   vesti();
   sel.addEventListener('change', vesti);
 })();

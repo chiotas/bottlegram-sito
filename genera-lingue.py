@@ -662,13 +662,13 @@ SITO = {
  "pt-BR": "Em um parágrafo",
  "ja": "一段落で"},
 
-"Bottlegram is a messaging app for people who will never meet. You write a letter, seal it in a bottle and give it to the current. Six to thirty-six hours later it washes up on another castaway’s beach, somewhere in the world. Then it is their turn to wait. Free on iPhone and Android.": {
- "it": "Bottlegram è un'app di messaggi fra persone che non si incontreranno mai. Scrivi una lettera, la chiudi in una bottiglia e la affidi alla corrente. Da sei a trentasei ore dopo approda sulla spiaggia di un altro naufrago, da qualche parte nel mondo. E poi tocca a lui aspettare. Gratis su iPhone e Android.",
- "es": "Bottlegram es una app de mensajes entre personas que nunca se conocerán. Escribes una carta, la cierras en una botella y la entregas a la corriente. Entre seis y treinta y seis horas después llega a la playa de otro náufrago, en algún lugar del mundo. Y entonces le toca esperar a él. Gratis en iPhone y Android.",
- "fr": "Bottlegram est une application de messages entre des personnes qui ne se rencontreront jamais. Vous écrivez une lettre, vous la scellez dans une bouteille et vous la confiez au courant. Six à trente-six heures plus tard, elle échoue sur la plage d'un autre naufragé, quelque part dans le monde. Et c'est à lui d'attendre. Gratuit sur iPhone et Android.",
- "de": "Bottlegram ist eine Nachrichten-App für Menschen, die sich nie begegnen werden. Sie schreiben einen Brief, verschließen ihn in einer Flasche und übergeben ihn der Strömung. Sechs bis sechsunddreißig Stunden später wird er an den Strand eines anderen Schiffbrüchigen gespült, irgendwo auf der Welt. Und dann ist das Warten an ihm. Kostenlos für iPhone und Android.",
- "pt-BR": "Bottlegram é um app de mensagens entre pessoas que nunca vão se conhecer. Você escreve uma carta, fecha numa garrafa e entrega à correnteza. De seis a trinta e seis horas depois ela chega à praia de outro náufrago, em algum lugar do mundo. E então é a vez dele esperar. Grátis no iPhone e no Android.",
- "ja": "Bottlegram は、一生会うことのない人どうしのメッセージアプリです。手紙を書き、瓶に封じ、潮に託します。六時間から三十六時間後、世界のどこかで別の漂流者の浜に流れ着きます。そして今度はその人が待つ番です。iPhone と Android で無料。"},
+"Bottlegram is a slow messaging app for people who will never meet. You write a letter, seal it in a bottle and give it to the current. Six to thirty-six hours later it washes up on one of 250 illustrated beaches, each at its real coordinates, and another castaway finds it. If they write back, you take turns, one letter each. Bottlegram is free and coming soon to iPhone and Android.": {
+ "it": "Bottlegram è un'app di messaggi lenti fra persone che non si incontreranno mai. Scrivi una lettera, la chiudi in una bottiglia e la affidi alla corrente. Da sei a trentasei ore dopo approda su una di 250 spiagge illustrate, ognuna alle sue coordinate vere, e un altro naufrago la trova. Se risponde, vi date il turno, una lettera a testa. Bottlegram è gratis e arriva presto su iPhone e Android.",
+ "es": "Bottlegram es una app de mensajes lentos entre personas que nunca se conocerán. Escribes una carta, la cierras en una botella y la entregas a la corriente. Entre seis y treinta y seis horas después llega a una de 250 playas ilustradas, cada una en sus coordenadas reales, y otro náufrago la encuentra. Si contesta, os turnáis, una carta cada uno. Bottlegram es gratis y llega pronto a iPhone y Android.",
+ "fr": "Bottlegram est une messagerie lente entre des personnes qui ne se rencontreront jamais. Vous écrivez une lettre, vous la scellez dans une bouteille et vous la confiez au courant. Six à trente-six heures plus tard, elle échoue sur l'une de 250 plages illustrées, chacune à ses vraies coordonnées, et un autre naufragé la trouve. S'il répond, vous écrivez chacun à votre tour, une lettre chacun. Bottlegram est gratuit et arrive bientôt sur iPhone et Android.",
+ "de": "Bottlegram ist eine App für langsame Nachrichten zwischen Menschen, die sich nie begegnen werden. Sie schreiben einen Brief, verschließen ihn in einer Flasche und übergeben ihn der Strömung. Sechs bis sechsunddreißig Stunden später wird er an einen von 250 illustrierten Stränden gespült, jeder an seinen echten Koordinaten, und ein anderer Schiffbrüchiger findet ihn. Antwortet er, schreiben Sie abwechselnd, ein Brief nach dem anderen. Bottlegram ist kostenlos und kommt bald auf iPhone und Android.",
+ "pt-BR": "Bottlegram é um app de mensagens lentas entre pessoas que nunca vão se conhecer. Você escreve uma carta, fecha numa garrafa e entrega à correnteza. De seis a trinta e seis horas depois ela chega a uma de 250 praias ilustradas, cada uma nas suas coordenadas reais, e outro náufrago a encontra. Se ele responder, vocês se revezam, uma carta de cada vez. Bottlegram é grátis e chega em breve ao iPhone e ao Android.",
+ "ja": "Bottlegram は、一生会うことのない人どうしの、ゆっくり届くメッセージアプリです。手紙を書き、瓶に封じ、潮に託します。六時間から三十六時間後、それは実在の座標にある 250 の描かれた浜のどれかに流れ着き、別の漂着者が見つけます。返事が来れば、一通ずつ交互に書いていきます。Bottlegram は無料で、まもなく iPhone と Android に登場します。"},
 
 "The story": {
  "it": "La storia",
@@ -686,13 +686,13 @@ SITO = {
  "pt-BR": "Eu fotografo o mar. Paisagens marinhas sobretudo, e longas exposições mais do que tudo. Uma longa exposição é uma fotografia que se faz esperando: você mantém o obturador aberto e fica parado, e a água se desenha sozinha no quadro enquanto, para quem olha, não está acontecendo nada.",
  "ja": "私は海を撮る写真家です。海景が中心で、なかでも長時間露光を好みます。長時間露光とは、待つことで撮る写真です。シャッターを開いたまま動かずにいると、傍から見れば何も起きていないあいだに、水がひとりでに像を描いていきます。"},
 
-"I love walking on beaches, and I have done since I was a boy. Since I was a boy I have been looking for the same thing in the sand: a bottle with a letter inside, written years earlier by someone I would never meet, telling me something true about their life.": {
- "it": "Amo camminare sulle spiagge, e lo faccio da quando ero bambino. E da quando ero bambino cerco nella sabbia sempre la stessa cosa: una bottiglia con dentro una lettera, scritta anni prima da qualcuno che non incontrerò mai, che mi racconta qualcosa di vero della sua vita.",
- "es": "Me encanta caminar por las playas, y lo hago desde niño. Y desde niño busco en la arena siempre lo mismo: una botella con una carta dentro, escrita años antes por alguien a quien nunca conoceré, que me cuenta algo verdadero de su vida.",
- "fr": "J'aime marcher sur les plages, et je le fais depuis l'enfance. Et depuis l'enfance je cherche dans le sable toujours la même chose : une bouteille avec une lettre dedans, écrite des années plus tôt par quelqu'un que je ne rencontrerai jamais, et qui me raconte quelque chose de vrai sur sa vie.",
- "de": "Ich liebe es, an Stränden zu gehen, und tue es, seit ich ein Junge war. Und seit ich ein Junge war, suche ich im Sand immer dasselbe: eine Flasche mit einem Brief darin, Jahre zuvor geschrieben von jemandem, dem ich nie begegnen werde, und der mir etwas Wahres aus seinem Leben erzählt.",
- "pt-BR": "Amo caminhar pelas praias, e faço isso desde menino. E desde menino procuro na areia sempre a mesma coisa: uma garrafa com uma carta dentro, escrita anos antes por alguém que nunca vou encontrar, contando algo verdadeiro da sua vida.",
- "ja": "浜を歩くのが好きで、子どもの頃からずっと歩いています。そして子どもの頃からずっと、砂の中に同じものを探しています。中に手紙の入った瓶。何年も前に、二度と会うことのない誰かが書いた、その人の人生の本当のことが記された手紙です。"},
+"I love walking on beaches, and I have done since I was a boy, always looking for the same thing in the sand: a bottle with a letter inside, written years earlier by someone I would never meet, telling me something true about their life.": {
+ "it": "Amo camminare sulle spiagge, e lo faccio da quando ero bambino, cercando nella sabbia sempre la stessa cosa: una bottiglia con dentro una lettera, scritta anni prima da qualcuno che non incontrerò mai, che mi racconta qualcosa di vero della sua vita.",
+ "es": "Me encanta caminar por las playas, y lo hago desde niño, buscando en la arena siempre lo mismo: una botella con una carta dentro, escrita años antes por alguien a quien nunca conoceré, que me cuenta algo verdadero de su vida.",
+ "fr": "J'aime marcher sur les plages, et je le fais depuis l'enfance, en cherchant dans le sable toujours la même chose : une bouteille avec une lettre dedans, écrite des années plus tôt par quelqu'un que je ne rencontrerai jamais, et qui me raconte quelque chose de vrai sur sa vie.",
+ "de": "Ich liebe es, an Stränden zu gehen, und tue es, seit ich ein Junge war, immer auf der Suche nach demselben im Sand: einer Flasche mit einem Brief darin, Jahre zuvor geschrieben von jemandem, dem ich nie begegnen werde, und der mir etwas Wahres aus seinem Leben erzählt.",
+ "pt-BR": "Amo caminhar pelas praias, e faço isso desde menino, procurando na areia sempre a mesma coisa: uma garrafa com uma carta dentro, escrita anos antes por alguém que nunca vou encontrar, contando algo verdadeiro da sua vida.",
+ "ja": "浜を歩くのが好きで、子どもの頃からずっと、砂の中に同じものを探しながら歩いています。中に手紙の入った瓶。何年も前に、二度と会うことのない誰かが書いた、その人の人生の本当のことが記された手紙です。"},
 
 "I have never found one.": {
  "it": "Non l'ho mai trovata.",
@@ -702,13 +702,13 @@ SITO = {
  "pt-BR": "Nunca encontrei nenhuma.",
  "ja": "一度も見つかりませんでした。"},
 
-"So I built it. Two hundred and fifty beaches drawn by hand, and a tide that carries a bottle along the real sea route between two coasts, taking the time that much water would take.": {
- "it": "Così me la sono costruita. Duecentocinquanta spiagge disegnate a mano, e una marea che porta una bottiglia lungo la rotta di mare vera fra due coste, prendendosi il tempo che ci vorrebbe per tutta quell'acqua.",
- "es": "Así que me la construí. Doscientas cincuenta playas dibujadas a mano, y una marea que lleva una botella por la ruta marina real entre dos costas, tomándose el tiempo que haría falta para toda esa agua.",
- "fr": "Alors je l'ai construite. Deux cent cinquante plages dessinées à la main, et une marée qui porte une bouteille le long de la vraie route maritime entre deux côtes, en prenant le temps qu'il faudrait pour toute cette eau.",
- "de": "Also habe ich sie gebaut. Zweihundertfünfzig von Hand gezeichnete Strände und eine Tide, die eine Flasche entlang der echten Seeroute zwischen zwei Küsten trägt und sich dafür die Zeit nimmt, die all dieses Wasser brauchen würde.",
- "pt-BR": "Então eu a construí. Duzentas e cinquenta praias desenhadas à mão, e uma maré que leva uma garrafa pela rota marítima real entre duas costas, levando o tempo que toda aquela água levaria.",
- "ja": "だから自分で作りました。手で描いた二百五十の浜と、二つの海岸のあいだの実際の航路に沿って瓶を運ぶ潮。それだけの海を渡るのにかかるはずの時間を、そのままかけて。"},
+"So I built it. Two hundred and fifty beaches, each at its real coordinates, and a tide that carries a bottle along the real sea route between two coasts, taking the time that much water would take.": {
+ "it": "Così me la sono costruita. Duecentocinquanta spiagge, ognuna alle sue coordinate vere, e una marea che porta una bottiglia lungo la rotta di mare vera fra due coste, prendendosi il tempo che ci vorrebbe per tutta quell'acqua.",
+ "es": "Así que me la construí. Doscientas cincuenta playas, cada una en sus coordenadas reales, y una marea que lleva una botella por la ruta marina real entre dos costas, tomándose el tiempo que haría falta para toda esa agua.",
+ "fr": "Alors je l'ai construite. Deux cent cinquante plages, chacune à ses vraies coordonnées, et une marée qui porte une bouteille le long de la vraie route maritime entre deux côtes, en prenant le temps qu'il faudrait pour toute cette eau.",
+ "de": "Also habe ich sie gebaut. Zweihundertfünfzig Strände, jeder an seinen echten Koordinaten, und eine Tide, die eine Flasche entlang der echten Seeroute zwischen zwei Küsten trägt und sich dafür die Zeit nimmt, die all dieses Wasser brauchen würde.",
+ "pt-BR": "Então eu a construí. Duzentas e cinquenta praias, cada uma nas suas coordenadas reais, e uma maré que leva uma garrafa pela rota marítima real entre duas costas, levando o tempo que toda aquela água levaria.",
+ "ja": "だから自分で作りました。それぞれが実在の座標にある二百五十の浜と、二つの海岸のあいだの実際の航路に沿って瓶を運ぶ潮。それだけの海を渡るのにかかるはずの時間を、そのままかけて。"},
 
 "Tomorrow, a bottle from someone you do not know will wash up on your sand. That is the whole app.": {
  "it": "Domani sulla tua sabbia arriverà la bottiglia di qualcuno che non conosci. L'app è tutta qui.",
@@ -758,21 +758,21 @@ SITO = {
  "pt-BR": "Cada praia é um lugar real, na sua latitude e na sua longitude, e as rotas entre elas contornam as costas em vez de atravessá-las: uma garrafa que vai para o outro lado da África dá a volta na África. Quanto mais longe sua carta tiver que ir, mais tempo o mar a segura. Às vezes seis horas, às vezes um dia e meio. Enquanto ela está lá fora você a segue numa carta náutica, um pouco mais adiante a cada vez que olha.",
  "ja": "どの浜も実在の場所で、実際の緯度と経度を持っています。浜と浜を結ぶ航路は陸を突っ切らず、海岸線を回り込みます。アフリカの向こう側へ向かう瓶は、アフリカをぐるりと回るのです。遠くへ運ぶ手紙ほど、海は長く手元に置きます。六時間のこともあれば、一日半のこともあります。航海中は海図の上で追うことができ、見るたびに少しずつ進んでいます。"},
 
-"They can answer, and often they do": {
- "it": "Può rispondere, e spesso lo fa",
- "es": "Puede responder, y a menudo lo hace",
- "fr": "Il peut répondre, et souvent il le fait",
- "de": "Sie können antworten, und oft tun sie es",
- "pt-BR": "Pode responder, e muitas vezes responde",
- "ja": "返事が来ることもある"},
+"They can answer, and then it is your turn": {
+ "it": "Può rispondere, e poi tocca a te",
+ "es": "Puede responder, y luego te toca a ti",
+ "fr": "Il peut répondre, et c'est ensuite votre tour",
+ "de": "Sie können antworten, und dann sind Sie dran",
+ "pt-BR": "Pode responder, e depois é a sua vez",
+ "ja": "返事が来たら、次はあなたの番"},
 
-"Whoever finds your letter can write back, and the sea takes its own time to deliver the answer. A correspondence alternates: you write, they answer, you write again. Everything you choose to keep goes into a journal that stays on your beach.": {
- "it": "Chi trova la tua lettera può risponderti, e il mare si prende il suo tempo per consegnarti la risposta. Una corrispondenza si alterna: scrivi tu, risponde lui, scrivi di nuovo. Tutto quello che decidi di tenere finisce in un diario che resta sulla tua spiaggia.",
- "es": "Quien encuentre tu carta puede responderte, y el mar se toma su tiempo para entregarte la respuesta. Una correspondencia se alterna: escribes tú, responde él, vuelves a escribir. Todo lo que decides guardar va a un diario que se queda en tu playa.",
- "fr": "Celui qui trouve votre lettre peut vous répondre, et la mer prend son temps pour vous livrer la réponse. Une correspondance alterne : vous écrivez, il répond, vous écrivez de nouveau. Tout ce que vous choisissez de garder va dans un journal qui reste sur votre plage.",
- "de": "Wer Ihren Brief findet, kann zurückschreiben, und das Meer lässt sich Zeit, Ihnen die Antwort zu bringen. Ein Briefwechsel wechselt sich ab: Sie schreiben, die andere Person antwortet, Sie schreiben wieder. Alles, was Sie behalten wollen, kommt in ein Tagebuch, das an Ihrem Strand bleibt.",
- "pt-BR": "Quem encontrar sua carta pode responder, e o mar leva o tempo dele para entregar a resposta. Uma correspondência se alterna: você escreve, a pessoa responde, você escreve de novo. Tudo o que você decidir guardar vai para um diário que fica na sua praia.",
- "ja": "手紙を見つけた人は返事を書くことができ、それを届けるのに海はまた時間をかけます。文通は交互に進みます。あなたが書き、相手が答え、またあなたが書く。残したいと思ったものはすべて、あなたの浜にとどまる日誌に収められます。"},
+"Whoever finds your letter can write back, and the sea takes its own time to deliver the answer. A correspondence alternates: you write, they answer, you write again. Once the cork is in, the letter belongs to the sea. Everything you choose to keep goes into a journal that stays on your beach.": {
+ "it": "Chi trova la tua lettera può risponderti, e il mare si prende il suo tempo per consegnarti la risposta. Una corrispondenza si alterna: scrivi tu, risponde lui, scrivi di nuovo. Quando il tappo è dentro, la lettera appartiene al mare. Tutto quello che decidi di tenere finisce in un diario che resta sulla tua spiaggia.",
+ "es": "Quien encuentre tu carta puede responderte, y el mar se toma su tiempo para entregarte la respuesta. Una correspondencia se alterna: escribes tú, responde él, vuelves a escribir. Una vez puesto el corcho, la carta pertenece al mar. Todo lo que decides guardar va a un diario que se queda en tu playa.",
+ "fr": "Celui qui trouve votre lettre peut vous répondre, et la mer prend son temps pour vous livrer la réponse. Une correspondance alterne : vous écrivez, il répond, vous écrivez de nouveau. Une fois le bouchon enfoncé, la lettre appartient à la mer. Tout ce que vous choisissez de garder va dans un journal qui reste sur votre plage.",
+ "de": "Wer Ihren Brief findet, kann zurückschreiben, und das Meer lässt sich Zeit, Ihnen die Antwort zu bringen. Ein Briefwechsel wechselt sich ab: Sie schreiben, die andere Person antwortet, Sie schreiben wieder. Sobald der Korken sitzt, gehört der Brief dem Meer. Alles, was Sie behalten wollen, kommt in ein Tagebuch, das an Ihrem Strand bleibt.",
+ "pt-BR": "Quem encontrar sua carta pode responder, e o mar leva o tempo dele para entregar a resposta. Uma correspondência se alterna: você escreve, a pessoa responde, você escreve de novo. Depois que a rolha entra, a carta pertence ao mar. Tudo o que você decidir guardar vai para um diário que fica na sua praia.",
+ "ja": "手紙を見つけた人は返事を書くことができ、それを届けるのに海はまた時間をかけます。文通は交互に進みます。あなたが書き、相手が答え、またあなたが書く。栓をした手紙は、もう海のものです。残したいと思ったものはすべて、あなたの浜にとどまる日誌に収められます。"},
 
 "And then there are the spirits": {
  "it": "E poi ci sono gli spiriti",
@@ -922,13 +922,13 @@ SITO = {
  "pt-BR": "Inglês, italiano, alemão, espanhol, francês, japonês, português do Brasil",
  "ja": "英語、イタリア語、ドイツ語、スペイン語、フランス語、日本語、ブラジルポルトガル語"},
 
-"beaches drawn by hand, each one different at dawn, at midday, at dusk and at night": {
- "it": "spiagge disegnate a mano, ognuna diversa all'alba, a mezzogiorno, al tramonto e di notte",
- "es": "playas dibujadas a mano, cada una distinta al alba, al mediodía, al atardecer y de noche",
- "fr": "plages dessinées à la main, chacune différente à l'aube, à midi, au crépuscule et la nuit",
- "de": "von Hand gezeichnete Strände, jeder anders im Morgengrauen, mittags, in der Dämmerung und nachts",
- "pt-BR": "praias desenhadas à mão, cada uma diferente ao amanhecer, ao meio-dia, ao entardecer e à noite",
- "ja": "手描きの浜。夜明け、正午、夕暮れ、夜でそれぞれ違う表情になる"},
+"illustrated beaches, each one different at dawn, at midday, at dusk and at night": {
+ "it": "spiagge illustrate, ognuna diversa all'alba, a mezzogiorno, al tramonto e di notte",
+ "es": "playas ilustradas, cada una distinta al alba, al mediodía, al atardecer y de noche",
+ "fr": "plages illustrées, chacune différente à l'aube, à midi, au crépuscule et la nuit",
+ "de": "illustrierte Strände, jeder anders im Morgengrauen, mittags, in der Dämmerung und nachts",
+ "pt-BR": "praias ilustradas, cada uma diferente ao amanhecer, ao meio-dia, ao entardecer e à noite",
+ "ja": "描かれた浜。夜明け、正午、夕暮れ、夜でそれぞれ違う表情になる"},
 
 "sea routes between them, every one measured around the real coastline": {
  "it": "rotte di mare fra loro, ognuna misurata attorno alla costa vera",
@@ -1066,13 +1066,13 @@ SITO = {
  "pt-BR": "O Bottlegram abre em breve no iPhone e no Android. Até lá, escreva para este endereço e você recebe uma build para testar, com uma praia sua e garrafas suficientes para ver o que volta:",
  "ja": "Bottlegram はまもなく iPhone と Android で公開されます。それまでのあいだ、このアドレスに連絡いただければ試用ビルドをお送りします。あなた専用の浜と、何が返ってくるかを確かめるのに十分な数の瓶つきで。"},
 
-"The same address reaches Francesco directly for an interview, a question, or a detail this page does not cover.": {
- "it": "Lo stesso indirizzo arriva direttamente a Francesco per un'intervista, una domanda, o un dettaglio che questa pagina non copre.",
- "es": "La misma dirección llega directamente a Francesco para una entrevista, una pregunta o un detalle que esta página no cubre.",
- "fr": "La même adresse joint directement Francesco pour une interview, une question, ou un détail que cette page ne couvre pas.",
- "de": "Dieselbe Adresse erreicht Francesco direkt, für ein Interview, eine Frage oder ein Detail, das diese Seite nicht abdeckt.",
- "pt-BR": "O mesmo endereço chega diretamente ao Francesco para uma entrevista, uma pergunta ou um detalhe que esta página não cobre.",
- "ja": "同じアドレスはフランチェスコ本人に直接届きます。取材のご依頼、ご質問、このページにない詳細などはこちらへ。"},
+"The same address reaches Francesco directly for an interview, a question, or any detail beyond this page.": {
+ "it": "Lo stesso indirizzo arriva direttamente a Francesco per un'intervista, una domanda, o qualunque dettaglio oltre questa pagina.",
+ "es": "La misma dirección llega directamente a Francesco para una entrevista, una pregunta o cualquier detalle más allá de esta página.",
+ "fr": "La même adresse joint directement Francesco pour une interview, une question, ou tout détail au-delà de cette page.",
+ "de": "Dieselbe Adresse erreicht Francesco direkt, für ein Interview, eine Frage oder jedes Detail über diese Seite hinaus.",
+ "pt-BR": "O mesmo endereço chega diretamente ao Francesco para uma entrevista, uma pergunta ou qualquer detalhe além desta página.",
+ "ja": "同じアドレスはフランチェスコ本人に直接届きます。取材のご依頼、ご質問、このページの先の詳細などはこちらへ。"},
 
 "The beach": {
  "it": "La spiaggia",
@@ -1106,13 +1106,13 @@ SITO = {
  "pt-BR": "O mar tem seus espíritos. Estavam aqui muito antes de qualquer náufrago, cada um com uma vida própria para contar, e de vez em quando um deles pega uma garrafa e escreve para você. Se um espírito escrever para você, você teve sorte. As cartas deles trazem sempre a sua marca.",
  "ja": "この海には魂たちがいます。どの漂着者よりもずっと前からここにいて、それぞれに語るべき生涯を持ち、ときおりそのうちの一人が瓶を手に取り、あなたに手紙を書きます。魂から手紙が届いたなら、あなたは幸運でした。その手紙には必ず彼らの印があります。"},
 
-"Somewhere a phone is buzzing and someone is waiting for an answer. Not here.": {
- "it": "Da qualche parte un telefono sta vibrando e qualcuno aspetta una risposta. Qui no.",
- "es": "En algún sitio un teléfono está vibrando y alguien espera una respuesta. Aquí no.",
- "fr": "Quelque part un téléphone vibre et quelqu'un attend une réponse. Ici, non.",
- "de": "Irgendwo vibriert ein Telefon und jemand wartet auf eine Antwort. Hier nicht.",
- "pt-BR": "Em algum lugar um telefone está vibrando e alguém espera uma resposta. Aqui não.",
- "ja": "どこかで電話が震え、誰かが返事を待っています。ここでは違います。"},
+"Somewhere a phone is buzzing and someone is waiting for an answer. Here, the sea is carrying yours.": {
+ "it": "Da qualche parte un telefono sta vibrando e qualcuno aspetta una risposta. Qui, la tua la sta portando il mare.",
+ "es": "En algún sitio un teléfono está vibrando y alguien espera una respuesta. Aquí, la tuya la lleva el mar.",
+ "fr": "Quelque part un téléphone vibre et quelqu'un attend une réponse. Ici, c'est la mer qui porte la vôtre.",
+ "de": "Irgendwo vibriert ein Telefon und jemand wartet auf eine Antwort. Hier trägt das Meer Ihre.",
+ "pt-BR": "Em algum lugar um telefone está vibrando e alguém espera uma resposta. Aqui, a sua está sendo levada pelo mar.",
+ "ja": "どこかで電話が震え、誰かが返事を待っています。ここでは、あなたの返事を海が運んでいます。"},
 
 "Here your letter is at sea, and the sea can take more than a day to deliver it. While it travels you can watch it cross the chart, or forget about it until the tide comes back. It ends up on a beach you have never seen, and someone you will never meet decides whether to write back.": {
  "it": "Qui la tua lettera è in mare, e il mare ci può mettere più di un giorno per consegnarla. Mentre viaggia puoi guardarla attraversare la carta, o dimenticartene finché la marea non torna. Finisce su una spiaggia che non hai mai visto, e qualcuno che non incontrerai mai decide se risponderti.",
@@ -1129,14 +1129,6 @@ SITO = {
  "de": "Ein Freund hat es besser gesagt: In einer Welt, die zweitausend Sachen fährt und erwartet, dass wir genauso schnell antworten, scheint mir das die beste aller Antworten.",
  "pt-BR": "Um amigo meu disse melhor: num mundo que corre a dois mil por hora e exige que a gente responda na mesma velocidade, essa me parece a melhor das respostas.",
  "ja": "友人が、もっとうまく言ってくれました。時速二千キロで走り、同じ速さで返事をすることを求めてくる世界にあって、これは考えうる最良の返事に思える、と。"},
-
-"What Bottlegram is, in one line": {
- "it": "Cos'è Bottlegram in una riga",
- "es": "Qué es Bottlegram, en una línea",
- "fr": "Ce qu'est Bottlegram, en une ligne",
- "de": "Was Bottlegram ist, in einer Zeile",
- "pt-BR": "O que é o Bottlegram, em uma linha",
- "ja": "Bottlegram とは何か、一行で"},
 
 "A slow messaging app where letters travel by sea, and the current decides who reads them and when.": {
  "it": "Un'app di messaggi lenti dove le lettere viaggiano via mare, ed è la corrente a decidere chi le legge e dopo quanto.",
@@ -1789,6 +1781,161 @@ SITO = {
  "de": "Für jede Frage zu deinen Daten, oder zu irgendetwas anderem, erreicht diese Adresse einen echten Menschen:",
  "pt-BR": "Para qualquer pergunta sobre seus dados, ou sobre qualquer outra coisa, este endereço chega a uma pessoa de verdade:",
  "ja": "あなたのデータについての質問も、そのほかのことも、このアドレスに送れば本物の人に届きます。"},
+
+
+# ── La press, fase 2 della revisione (05/11/2026) ─────────────────────────
+
+"At a glance": {
+ "it": "A colpo d'occhio",
+ "es": "De un vistazo",
+ "fr": "En un coup d'œil",
+ "de": "Auf einen Blick",
+ "pt-BR": "De relance",
+ "ja": "ひと目で"},
+
+"Status": {
+ "it": "Stato",
+ "es": "Estado",
+ "fr": "Statut",
+ "de": "Status",
+ "pt-BR": "Situação",
+ "ja": "状況"},
+
+"Coming soon on iPhone and Android": {
+ "it": "In arrivo su iPhone e Android",
+ "es": "Muy pronto en iPhone y Android",
+ "fr": "Bientôt sur iPhone et Android",
+ "de": "Bald auf iPhone und Android",
+ "pt-BR": "Em breve no iPhone e no Android",
+ "ja": "まもなく iPhone と Android で"},
+
+"Free, with optional purchases in the Wreck Emporium": {
+ "it": "Gratis, con acquisti facoltativi nell'Emporio del Relitto",
+ "es": "Gratis, con compras opcionales en el Emporio del Naufragio",
+ "fr": "Gratuit, avec des achats facultatifs dans l'Emporium de l'Épave",
+ "de": "Kostenlos, mit optionalen Käufen im Kontor des Wracks",
+ "pt-BR": "Grátis, com compras opcionais no Empório do Naufrágio",
+ "ja": "無料。難破商館での購入は任意です"},
+
+"Press contact": {
+ "it": "Contatto stampa",
+ "es": "Contacto de prensa",
+ "fr": "Contact presse",
+ "de": "Pressekontakt",
+ "pt-BR": "Contato de imprensa",
+ "ja": "報道関係のお問い合わせ"},
+
+"250 illustrated beaches · 31,125 sea routes · three bottles a day · six to thirty-six hours a crossing": {
+ "it": "250 spiagge illustrate · 31.125 rotte di mare · tre bottiglie al giorno · da sei a trentasei ore per una traversata",
+ "es": "250 playas ilustradas · 31.125 rutas marinas · tres botellas al día · de seis a treinta y seis horas por travesía",
+ "fr": "250 plages illustrées · 31 125 routes maritimes · trois bouteilles par jour · six à trente-six heures par traversée",
+ "de": "250 illustrierte Strände · 31.125 Seerouten · drei Flaschen am Tag · sechs bis sechsunddreißig Stunden pro Überfahrt",
+ "pt-BR": "250 praias ilustradas · 31.125 rotas marítimas · três garrafas por dia · de seis a trinta e seis horas por travessia",
+ "ja": "描かれた浜 250・海の航路 31,125・一日に瓶 3 本・一度の航海に 6〜36 時間"},
+
+"Download the press kit": {
+ "it": "Scarica il press kit",
+ "es": "Descargar el kit de prensa",
+ "fr": "Télécharger le dossier de presse",
+ "de": "Pressemappe herunterladen",
+ "pt-BR": "Baixar o kit de imprensa",
+ "ja": "プレスキットをダウンロード"},
+
+"Read the story": {
+ "it": "Leggi la storia",
+ "es": "Leer la historia",
+ "fr": "Lire l'histoire",
+ "de": "Die Geschichte lesen",
+ "pt-BR": "Ler a história",
+ "ja": "物語を読む"},
+
+"Francesco Gola ·": {
+ "it": "Francesco Gola ·",
+ "es": "Francesco Gola ·",
+ "fr": "Francesco Gola ·",
+ "de": "Francesco Gola ·",
+ "pt-BR": "Francesco Gola ·",
+ "ja": "Francesco Gola ·"},
+
+"About Bottlegram": {
+ "it": "Bottlegram, in breve",
+ "es": "Sobre Bottlegram",
+ "fr": "À propos de Bottlegram",
+ "de": "Über Bottlegram",
+ "pt-BR": "Sobre o Bottlegram",
+ "ja": "Bottlegram について"},
+
+"Bottlegram is a slow messaging app made by Francesco Gola, an Italian seascape photographer. Each castaway writes a letter, seals it in a bottle, and the current carries it to another castaway's beach somewhere in the world, six to thirty-six hours later. The sea has 250 illustrated beaches at real coordinates, joined by 31,125 routes measured around real coastlines. Bottlegram is free, with optional purchases in the Wreck Emporium, and is coming soon to iPhone and Android.": {
+ "it": "Bottlegram è un'app di messaggi lenti creata da Francesco Gola, fotografo italiano di paesaggio marino. Ogni naufrago scrive una lettera, la chiude in una bottiglia, e la corrente la porta sulla spiaggia di un altro naufrago da qualche parte nel mondo, da sei a trentasei ore dopo. Il mare ha 250 spiagge illustrate alle loro coordinate vere, unite da 31.125 rotte misurate attorno alle coste vere. Bottlegram è gratis, con acquisti facoltativi nell'Emporio del Relitto, e arriva presto su iPhone e Android.",
+ "es": "Bottlegram es una app de mensajes lentos creada por Francesco Gola, fotógrafo italiano de paisaje marino. Cada náufrago escribe una carta, la cierra en una botella, y la corriente la lleva a la playa de otro náufrago en algún lugar del mundo, entre seis y treinta y seis horas después. El mar tiene 250 playas ilustradas en sus coordenadas reales, unidas por 31.125 rutas medidas alrededor de las costas reales. Bottlegram es gratis, con compras opcionales en el Emporio del Naufragio, y llega pronto a iPhone y Android.",
+ "fr": "Bottlegram est une messagerie lente créée par Francesco Gola, photographe italien de paysages marins. Chaque naufragé écrit une lettre, la scelle dans une bouteille, et le courant la porte sur la plage d'un autre naufragé, quelque part dans le monde, six à trente-six heures plus tard. La mer compte 250 plages illustrées à leurs vraies coordonnées, reliées par 31 125 routes mesurées autour des vraies côtes. Bottlegram est gratuit, avec des achats facultatifs dans l'Emporium de l'Épave, et arrive bientôt sur iPhone et Android.",
+ "de": "Bottlegram ist eine App für langsame Nachrichten von Francesco Gola, einem italienischen Seelandschaftsfotografen. Jeder Schiffbrüchige schreibt einen Brief, verschließt ihn in einer Flasche, und die Strömung trägt ihn sechs bis sechsunddreißig Stunden später an den Strand eines anderen Schiffbrüchigen, irgendwo auf der Welt. Das Meer hat 250 illustrierte Strände an ihren echten Koordinaten, verbunden durch 31.125 Routen, die entlang der echten Küsten gemessen sind. Bottlegram ist kostenlos, mit optionalen Käufen im Kontor des Wracks, und kommt bald auf iPhone und Android.",
+ "pt-BR": "Bottlegram é um app de mensagens lentas criado por Francesco Gola, fotógrafo italiano de paisagem marinha. Cada náufrago escreve uma carta, fecha numa garrafa, e a correnteza a leva até a praia de outro náufrago em algum lugar do mundo, de seis a trinta e seis horas depois. O mar tem 250 praias ilustradas nas suas coordenadas reais, ligadas por 31.125 rotas medidas ao redor das costas reais. Bottlegram é grátis, com compras opcionais no Empório do Naufrágio, e chega em breve ao iPhone e ao Android.",
+ "ja": "Bottlegram は、イタリアの海景写真家フランチェスコ・ゴーラが作った、ゆっくり届くメッセージアプリです。漂着者はそれぞれ手紙を書いて瓶に封じ、潮がそれを六時間から三十六時間かけて、世界のどこかにいる別の漂着者の浜へ運びます。海には実在の座標にある 250 の描かれた浜があり、実際の海岸線に沿って測った 31,125 の航路で結ばれています。Bottlegram は無料で、難破商館での購入は任意です。まもなく iPhone と Android に登場します。"},
+
+"About Francesco Gola": {
+ "it": "Francesco Gola, in breve",
+ "es": "Sobre Francesco Gola",
+ "fr": "À propos de Francesco Gola",
+ "de": "Über Francesco Gola",
+ "pt-BR": "Sobre Francesco Gola",
+ "ja": "フランチェスコ・ゴーラについて"},
+
+"Francesco Gola photographs the sea, most of it in long exposures. As a boy he searched beaches for a bottle with a letter inside. He never found one, so he built Bottlegram.": {
+ "it": "Francesco Gola fotografa il mare, quasi sempre in lunga esposizione. Da bambino cercava sulle spiagge una bottiglia con dentro una lettera. Non l'ha mai trovata, così ha costruito Bottlegram.",
+ "es": "Francesco Gola fotografía el mar, casi siempre en larga exposición. De niño buscaba en las playas una botella con una carta dentro. Nunca la encontró, así que construyó Bottlegram.",
+ "fr": "Francesco Gola photographie la mer, presque toujours en pose longue. Enfant, il cherchait sur les plages une bouteille avec une lettre dedans. Il n'en a jamais trouvé, alors il a construit Bottlegram.",
+ "de": "Francesco Gola fotografiert das Meer, meist mit Langzeitbelichtung. Als Junge suchte er an Stränden nach einer Flasche mit einem Brief darin. Er fand nie eine, also baute er Bottlegram.",
+ "pt-BR": "Francesco Gola fotografa o mar, quase sempre em longa exposição. Quando menino, procurava nas praias uma garrafa com uma carta dentro. Nunca encontrou, então construiu o Bottlegram.",
+ "ja": "フランチェスコ・ゴーラは海を撮る写真家で、その多くは長時間露光です。子どもの頃、手紙の入った瓶を探して浜を歩きました。一度も見つからなかったので、Bottlegram を作りました。"},
+
+"In Francesco's words": {
+ "it": "Con le parole di Francesco",
+ "es": "En palabras de Francesco",
+ "fr": "Dans les mots de Francesco",
+ "de": "In Francescos Worten",
+ "pt-BR": "Nas palavras de Francesco",
+ "ja": "フランチェスコの言葉"},
+
+"“A long exposure is a photograph you make by waiting.”": {
+ "it": "«Una lunga esposizione è una fotografia che si fa aspettando.»",
+ "es": "«Una larga exposición es una fotografía que se hace esperando.»",
+ "fr": "« Une pose longue est une photographie que l'on fait en attendant. »",
+ "de": "„Eine Langzeitbelichtung ist eine Fotografie, die man durch Warten macht.“",
+ "pt-BR": "“Uma longa exposição é uma fotografia que se faz esperando.”",
+ "ja": "「長時間露光とは、待つことで撮る写真です。」"},
+
+"“I have never found one. So I built it.”": {
+ "it": "«Non l'ho mai trovata. Così me la sono costruita.»",
+ "es": "«Nunca la he encontrado. Así que me la construí.»",
+ "fr": "« Je n'en ai jamais trouvé. Alors je l'ai construite. »",
+ "de": "„Gefunden habe ich nie eine. Also habe ich sie gebaut.“",
+ "pt-BR": "“Nunca encontrei nenhuma. Então eu a construí.”",
+ "ja": "「一度も見つかりませんでした。だから自分で作りました。」"},
+
+"“Tomorrow, a bottle from someone you do not know will wash up on your sand. That is the whole app.”": {
+ "it": "«Domani sulla tua sabbia arriverà la bottiglia di qualcuno che non conosci. L'app è tutta qui.»",
+ "es": "«Mañana llegará a tu arena la botella de alguien a quien no conoces. La app es toda esto.»",
+ "fr": "« Demain, sur votre sable, arrivera la bouteille de quelqu'un que vous ne connaissez pas. L'application, c'est tout entière cela. »",
+ "de": "„Morgen wird an Ihrem Sand die Flasche von jemandem anspülen, den Sie nicht kennen. Das ist die ganze App.“",
+ "pt-BR": "“Amanhã chegará à sua areia a garrafa de alguém que você não conhece. O app é só isso.”",
+ "ja": "「明日、あなたの砂浜に、知らない誰かの瓶が流れ着きます。このアプリはそれだけです。」"},
+
+"All three may be quoted as Francesco Gola, the maker of Bottlegram.": {
+ "it": "Tutte e tre si possono citare come Francesco Gola, l'autore di Bottlegram.",
+ "es": "Las tres pueden citarse como Francesco Gola, el creador de Bottlegram.",
+ "fr": "Les trois peuvent être citées au nom de Francesco Gola, le créateur de Bottlegram.",
+ "de": "Alle drei dürfen als Zitat von Francesco Gola, dem Macher von Bottlegram, verwendet werden.",
+ "pt-BR": "As três podem ser citadas como de Francesco Gola, o criador do Bottlegram.",
+ "ja": "三つとも、Bottlegram の作者フランチェスコ・ゴーラの言葉として引用できます。"},
+
+"This page knows you only as a visitor, the way the sea knows you only as a castaway.": {
+ "it": "Questa pagina ti conosce solo come visitatore, come il mare ti conosce solo come naufrago.",
+ "es": "Esta página te conoce solo como visitante, igual que el mar te conoce solo como náufrago.",
+ "fr": "Cette page vous connaît seulement comme visiteur, comme la mer vous connaît seulement comme naufragé.",
+ "de": "Diese Seite kennt Sie nur als Besucher, so wie das Meer Sie nur als Schiffbrüchigen kennt.",
+ "pt-BR": "Esta página conhece você só como visitante, do jeito que o mar conhece você só como náufrago.",
+ "ja": "このページにとってあなたはただの訪問者で、海にとってあなたがただの漂着者であるのと同じです。"},
 
 }
 
