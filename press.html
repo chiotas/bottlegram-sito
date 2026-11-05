@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Press — Bottlegram</title>
-<meta name="description" content="Press kit for Bottlegram: a slow messaging app where letters travel by sea, and the current decides who reads them and when. Screenshots, video, fact sheet.">
+<meta name="description" content="Press kit for Bottlegram: a slow messaging app where letters travel by sea, and the current decides who reads them and when. Screenshots, fact sheet.">
 <meta name="theme-color" content="#F5EBD1">
 <link rel="icon" href="assets/icona.png" sizes="any">
 <link rel="apple-touch-icon" href="assets/icona.png">
@@ -73,12 +73,16 @@
   .cifre span { display: block; margin-top: 0.4rem; font-size: 0.95rem;
                 color: var(--inchiostro-lieve, #6b5c46); line-height: 1.55; }
 
-  /* Le sette schermate: quattro per riga, che su sette fa 4+3. In tre
-     colonne l'ultima restava sola, e una riga con un solo elemento in fondo
-     a una griglia sembra un buco, non una scelta. */
+  /* Le schermate: dal 05/11 sono cinque (la 2 e la 5 erano della build
+     vecchia, tornano con quelle nuove), quindi cinque in una riga. A
+     telefono due per riga, e la quinta va al centro: sola a sinistra in
+     fondo alla griglia sembrerebbe un buco, non una scelta. */
   .schermate { list-style: none; padding: 0; margin: 1.4rem 0 0;
-               display: grid; gap: 1rem; grid-template-columns: repeat(4, 1fr); }
-  @media (max-width: 44rem) { .schermate { grid-template-columns: repeat(2, 1fr); } }
+               display: grid; gap: 1rem; grid-template-columns: repeat(5, 1fr); }
+  @media (max-width: 44rem) {
+    .schermate { grid-template-columns: repeat(2, 1fr); }
+    .schermate li:last-child:nth-child(odd) { grid-column: 1 / -1; justify-self: center; width: calc(50% - 0.5rem); }
+  }
   .schermate img { display: block; width: 100%; height: auto; border-radius: 9px; }
   .schermate a:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; border-radius: 11px; }
 
@@ -192,22 +196,19 @@
   </ul>
 
   <!-- ══════════════════ IL MATERIALE ══════════════════ -->
-  <h2>Images and video</h2>
+  <h2>Images</h2>
   <p class="lieve">Everything here may be reproduced freely in coverage of Bottlegram, in print or online, with or without credit.</p>
 
   <ul class="schermate">
     <li><a href="assets/press/schermata-1.jpg"><img src="assets/press/schermata-1.jpg" width="520" height="1130" loading="lazy" alt="A beach at the end of the world: a dark shore under stars."></a></li>
-    <li><a href="assets/press/schermata-2.jpg"><img src="assets/press/schermata-2.jpg" width="520" height="1130" loading="lazy" alt="Luskentyre at sunset, with bottles on the sand."></a></li>
     <li><a href="assets/press/schermata-3.jpg"><img src="assets/press/schermata-3.jpg" width="520" height="1130" loading="lazy" alt="Nobody here knows your name: a bright daytime beach."></a></li>
     <li><a href="assets/press/schermata-4.jpg"><img src="assets/press/schermata-4.jpg" width="520" height="1130" loading="lazy" alt="The nautical chart, with a bottle drifting between two coasts."></a></li>
-    <li><a href="assets/press/schermata-5.jpg"><img src="assets/press/schermata-5.jpg" width="520" height="1130" loading="lazy" alt="An open correspondence: a letter, and the reply that came back."></a></li>
     <li><a href="assets/press/schermata-6.jpg"><img src="assets/press/schermata-6.jpg" width="520" height="1130" loading="lazy" alt="The journal, keeping every letter that reached this beach."></a></li>
     <li><a href="assets/press/schermata-7.jpg"><img src="assets/press/schermata-7.jpg" width="520" height="1130" loading="lazy" alt="A bottle just thrown, drifting on a night sea."></a></li>
   </ul>
 
   <div class="scarichi">
-    <a class="scarico" href="assets/press/bottlegram-press-kit.zip" download>Everything, as a zip <span class="peso">8.9&nbsp;MB</span></a>
-    <a class="scarico" href="assets/press/bottlegram-preview.mp4">App preview <span class="peso">25 seconds</span></a>
+    <a class="scarico" href="assets/press/bottlegram-press-kit.zip" download>Everything, as a zip <span class="peso">8.6&nbsp;MB</span></a>
   </div>
 
   <!-- ══════════════════ PROVARLA ══════════════════ -->
@@ -235,8 +236,8 @@
      `lingua.js` scambia i nodi di testo e sceglie da solo la lingua del
      browser. L'inglese resta nell'HTML ed è quello che legge chi arriva senza
      JavaScript. -->
-<script src="lingue.js?v=6"></script>
-<script src="lingua.js?v=6"></script>
+<script src="lingue.js?v=7"></script>
+<script src="lingua.js?v=7"></script>
 
 <!-- L'apertura ha le sue scritte dentro, quindi non basta tradurre la pagina:
      ci sono sette file. Si ascolta il selettore che `lingua.js` ha appena

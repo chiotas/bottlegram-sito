@@ -939,13 +939,13 @@ SITO = {
  "pt-BR": "horas para uma carta atravessar o mar",
  "ja": "時間で手紙は海を渡る"},
 
-"Images and video": {
- "it": "Immagini e video",
- "es": "Imágenes y vídeo",
- "fr": "Images et vidéo",
- "de": "Bilder und Video",
- "pt-BR": "Imagens e vídeo",
- "ja": "画像と動画"},
+"Images": {
+ "it": "Immagini",
+ "es": "Imágenes",
+ "fr": "Images",
+ "de": "Bilder",
+ "pt-BR": "Imagens",
+ "ja": "画像"},
 
 "Everything here may be reproduced freely in coverage of Bottlegram, in print or online, with or without credit.": {
  "it": "Tutto quello che c'è qui si può riprodurre liberamente parlando di Bottlegram, su carta o online, con o senza credito.",
@@ -1131,13 +1131,13 @@ SITO = {
  "pt-BR": "Um app de mensagens lentas onde as cartas viajam pelo mar e a correnteza decide quem as lê e quando.",
  "ja": "手紙が海を渡り、誰がいつ読むかは潮が決める、ゆっくりとしたメッセージアプリ。"},
 
-"Press kit for Bottlegram: a slow messaging app where letters travel by sea, and the current decides who reads them and when. Screenshots, video, fact sheet.": {
- "it": "Press kit di Bottlegram: un'app di messaggi lenti dove le lettere viaggiano via mare, ed è la corrente a decidere chi le legge e dopo quanto. Schermate, video, scheda.",
- "es": "Press kit de Bottlegram: una app de mensajes lentos donde las cartas viajan por mar y la corriente decide quién las lee y cuándo. Capturas, vídeo, ficha.",
- "fr": "Dossier de presse de Bottlegram : une application de messages lents où les lettres voyagent par la mer, et où le courant décide qui les lira et quand. Captures, vidéo, fiche.",
- "de": "Pressemappe zu Bottlegram: eine App für langsame Nachrichten, in der Briefe über das Meer reisen und die Strömung entscheidet, wer sie liest und wann. Screenshots, Video, Steckbrief.",
- "pt-BR": "Kit de imprensa do Bottlegram: um app de mensagens lentas onde as cartas viajam pelo mar e a correnteza decide quem as lê e quando. Capturas, vídeo, ficha.",
- "ja": "Bottlegram のプレスキット。手紙が海を渡り、誰がいつ読むかは潮が決める、ゆっくりとしたメッセージアプリ。スクリーンショット、動画、ファクトシート。"},
+"Press kit for Bottlegram: a slow messaging app where letters travel by sea, and the current decides who reads them and when. Screenshots, fact sheet.": {
+ "it": "Press kit di Bottlegram: un'app di messaggi lenti dove le lettere viaggiano via mare, ed è la corrente a decidere chi le legge e dopo quanto. Schermate, scheda.",
+ "es": "Press kit de Bottlegram: una app de mensajes lentos donde las cartas viajan por mar y la corriente decide quién las lee y cuándo. Capturas, ficha.",
+ "fr": "Dossier de presse de Bottlegram : une application de messages lents où les lettres voyagent par la mer, et où le courant décide qui les lira et quand. Captures, fiche.",
+ "de": "Pressemappe zu Bottlegram: eine App für langsame Nachrichten, in der Briefe über das Meer reisen und die Strömung entscheidet, wer sie liest und wann. Screenshots, Steckbrief.",
+ "pt-BR": "Kit de imprensa do Bottlegram: um app de mensagens lentas onde as cartas viajam pelo mar e a correnteza decide quem as lê e quando. Capturas, ficha.",
+ "ja": "Bottlegram のプレスキット。手紙が海を渡り、誰がいつ読むかは潮が決める、ゆっくりとしたメッセージアプリ。スクリーンショット、ファクトシート。"},
 
 "Press": {
  "it": "Stampa",
@@ -1271,7 +1271,7 @@ INVARIATE = [",",  # la virgola fra i due soprannomi: punteggiatura, non testo
              # "3" delle bottiglie, e gli altri tre finivano nell'elenco delle
              # frasi senza traduzione a ogni giro, dove coprivano le vere.
              "iOS", "www.bottlegram.app", "250", "31,125", "1", "2", "3", "4",
-             "6–36", "8.9 MB",
+             "6–36", "8.6 MB",
              # I nomi delle spiagge dell'approdo che ruota: endonimi, come
              # nell'app. I LUOGHI invece si traducono (voci qui sopra).
              "Cala Goloritzé", "Reynisfjara", "Anse Source d'Argent",
