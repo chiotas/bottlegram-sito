@@ -898,21 +898,13 @@ SITO = {
  "pt-BR": "Em breve",
  "ja": "近日公開"},
 
-"Francesco Gola, seascape photographer, Italy": {
- "it": "Francesco Gola, fotografo di paesaggio marino, Italia",
- "es": "Francesco Gola, fotógrafo de paisaje marino, Italia",
- "fr": "Francesco Gola, photographe de paysages marins, Italie",
- "de": "Francesco Gola, Seelandschaftsfotograf, Italien",
- "pt-BR": "Francesco Gola, fotógrafo de paisagem marinha, Itália",
- "ja": "フランチェスコ・ゴーラ（海景写真家、イタリア）"},
-
-"Free · optional in-app purchases, €0.99 – €4.99": {
- "it": "Gratis · acquisti in-app facoltativi, 0,99 € – 4,99 €",
- "es": "Gratis · compras dentro de la app opcionales, 0,99 € – 4,99 €",
- "fr": "Gratuit · achats intégrés facultatifs, 0,99 € – 4,99 €",
- "de": "Kostenlos · optionale In-App-Käufe, 0,99 € – 4,99 €",
- "pt-BR": "Grátis · compras no app opcionais, € 0,99 – € 4,99",
- "ja": "無料 · 任意のアプリ内課金 0.99 € – 4.99 €"},
+"Free, with optional purchases": {
+ "it": "Gratis, con acquisti facoltativi",
+ "es": "Gratis, con compras opcionales",
+ "fr": "Gratuit, avec des achats facultatifs",
+ "de": "Kostenlos, mit optionalen Käufen",
+ "pt-BR": "Grátis, com compras opcionais",
+ "ja": "無料（購入は任意）"},
 
 "English, Italian, German, Spanish, French, Japanese, Brazilian Portuguese": {
  "it": "Inglese, italiano, tedesco, spagnolo, francese, giapponese, portoghese brasiliano",
@@ -962,21 +954,13 @@ SITO = {
  "pt-BR": "Imagens",
  "ja": "画像"},
 
-"Everything here may be reproduced freely in coverage of Bottlegram, in print or online, with or without credit.": {
- "it": "Tutto quello che c'è qui si può riprodurre liberamente parlando di Bottlegram, su carta o online, con o senza credito.",
- "es": "Todo lo que hay aquí puede reproducirse libremente al hablar de Bottlegram, en papel o en línea, con o sin crédito.",
- "fr": "Tout ce qui se trouve ici peut être reproduit librement dans un article sur Bottlegram, sur papier ou en ligne, avec ou sans crédit.",
- "de": "Alles hier darf in der Berichterstattung über Bottlegram frei verwendet werden, gedruckt oder online, mit oder ohne Quellenangabe.",
- "pt-BR": "Tudo o que está aqui pode ser reproduzido livremente ao falar do Bottlegram, no papel ou online, com ou sem crédito.",
- "ja": "ここにあるものはすべて、Bottlegram を紹介する記事で自由に使えます。紙でもオンラインでも、クレジットの有無を問いません。"},
-
-"A beach at the end of the world: a dark shore under stars.": {
- "it": "Una spiaggia alla fine del mondo: una riva scura sotto le stelle.",
- "es": "Una playa en el fin del mundo: una orilla oscura bajo las estrellas.",
- "fr": "Une plage au bout du monde : un rivage sombre sous les étoiles.",
- "de": "Ein Strand am Ende der Welt: ein dunkles Ufer unter Sternen.",
- "pt-BR": "Uma praia no fim do mundo: uma orla escura sob as estrelas.",
- "ja": "世界の果ての浜。星の下の暗い岸辺。"},
+"Everything here may be reproduced freely in coverage of Bottlegram, in print or online, with or without credit. Each screenshot opens at full size; the zip holds all ten as PNG, with and without captions, along with the app icon and a feature graphic.": {
+ "it": "Tutto quello che c'è qui si può riprodurre liberamente per parlare di Bottlegram, su carta o in rete, con o senza credito. Ogni schermata si apre a piena grandezza; lo zip le ha tutte e dieci in PNG, con e senza didascalia, insieme all'icona dell'app e a una grafica in evidenza.",
+ "es": "Todo lo que hay aquí puede reproducirse libremente para hablar de Bottlegram, en papel o en línea, con o sin crédito. Cada captura se abre a tamaño completo; el zip tiene las diez en PNG, con y sin pie, junto con el icono de la app y una imagen destacada.",
+ "fr": "Tout ce qui se trouve ici peut être reproduit librement pour parler de Bottlegram, sur papier ou en ligne, avec ou sans crédit. Chaque capture s'ouvre en taille réelle ; le zip contient les dix en PNG, avec et sans légende, avec l'icône de l'application et un visuel de présentation.",
+ "de": "Alles hier darf in Berichten über Bottlegram frei verwendet werden, gedruckt oder online, mit oder ohne Nennung. Jeder Screenshot öffnet sich in voller Größe; das Zip enthält alle zehn als PNG, mit und ohne Bildunterschrift, dazu das App-Icon und eine Vorstellungsgrafik.",
+ "pt-BR": "Tudo o que está aqui pode ser reproduzido livremente para falar do Bottlegram, impresso ou on-line, com ou sem crédito. Cada captura abre em tamanho real; o zip traz as dez em PNG, com e sem legenda, junto com o ícone do app e uma imagem de destaque.",
+ "ja": "ここにあるものはすべて、Bottlegram を紹介する記事に、紙でもウェブでも、クレジットの有無を問わず自由に使えます。スクリーンショットはそれぞれ原寸で開きます。zip には十枚すべてが PNG で、キャプションありとなしの両方、さらにアプリのアイコンとフィーチャーグラフィックが入っています。"},
 
 "Luskentyre at sunset, with bottles on the sand.": {
  "it": "Luskentyre al tramonto, con bottiglie sulla sabbia.",
@@ -986,22 +970,6 @@ SITO = {
  "pt-BR": "Luskentyre ao pôr do sol, com garrafas na areia.",
  "ja": "夕暮れのラスケンタイア、砂の上の瓶。"},
 
-"Nobody here knows your name: a bright daytime beach.": {
- "it": "Qui nessuno sa il tuo nome: una spiaggia luminosa di giorno.",
- "es": "Aquí nadie sabe tu nombre: una playa luminosa de día.",
- "fr": "Ici personne ne connaît votre nom : une plage lumineuse en plein jour.",
- "de": "Hier kennt niemand Ihren Namen: ein heller Strand bei Tag.",
- "pt-BR": "Aqui ninguém sabe seu nome: uma praia luminosa de dia.",
- "ja": "ここでは誰もあなたの名を知らない。明るい昼の浜。"},
-
-"The nautical chart, with a bottle drifting between two coasts.": {
- "it": "La carta nautica, con una bottiglia che va da una costa all'altra.",
- "es": "La carta náutica, con una botella que va de una costa a otra.",
- "fr": "La carte marine, avec une bouteille qui dérive d'une côte à l'autre.",
- "de": "Die Seekarte, mit einer Flasche, die zwischen zwei Küsten treibt.",
- "pt-BR": "A carta náutica, com uma garrafa indo de uma costa a outra.",
- "ja": "海図。二つの海岸のあいだを漂う瓶。"},
-
 "An open correspondence: a letter, and the reply that came back.": {
  "it": "Una corrispondenza aperta: una lettera, e la risposta che è tornata.",
  "es": "Una correspondencia abierta: una carta, y la respuesta que volvió.",
@@ -1009,22 +977,6 @@ SITO = {
  "de": "Ein offener Briefwechsel: ein Brief und die Antwort, die zurückkam.",
  "pt-BR": "Uma correspondência aberta: uma carta, e a resposta que voltou.",
  "ja": "開かれた文通。一通の手紙と、返ってきた返事。"},
-
-"The journal, keeping every letter that reached this beach.": {
- "it": "Il diario, che conserva ogni lettera arrivata su questa spiaggia.",
- "es": "El diario, que guarda cada carta que llegó a esta playa.",
- "fr": "Le journal, qui garde chaque lettre arrivée sur cette plage.",
- "de": "Das Tagebuch, das jeden Brief bewahrt, der diesen Strand erreicht hat.",
- "pt-BR": "O diário, que guarda cada carta que chegou a esta praia.",
- "ja": "この浜に届いたすべての手紙を残す日誌。"},
-
-"A bottle just thrown, drifting on a night sea.": {
- "it": "Una bottiglia appena lanciata, alla deriva su un mare notturno.",
- "es": "Una botella recién lanzada, a la deriva en un mar nocturno.",
- "fr": "Une bouteille tout juste jetée, à la dérive sur une mer nocturne.",
- "de": "Eine gerade geworfene Flasche, treibend auf nächtlichem Meer.",
- "pt-BR": "Uma garrafa recém-lançada, à deriva num mar noturno.",
- "ja": "投げたばかりの瓶が、夜の海を漂う。"},
 
 "Everything, as a zip": {
  "it": "Tutto quanto, in uno zip",
@@ -1937,6 +1889,89 @@ SITO = {
  "pt-BR": "Esta página conhece você só como visitante, do jeito que o mar conhece você só como náufrago.",
  "ja": "このページにとってあなたはただの訪問者で、海にとってあなたがただの漂着者であるのと同じです。"},
 
+
+# ── Le didascalie della scheda store, alt della galleria press (05/11/2026) ──
+
+"A beach at the end of the world": {
+ "it": "Una spiaggia in capo al mondo",
+ "es": "Una playa en el fin del mundo",
+ "fr": "Une plage au bout du monde",
+ "de": "Ein Strand am Ende der Welt",
+ "pt-BR": "Uma praia no fim do mundo",
+ "ja": "世界の果ての浜"},
+
+"The tide brings you a bottle": {
+ "it": "La marea ti porta una bottiglia",
+ "es": "La marea te trae una botella",
+ "fr": "La marée t’apporte une bouteille",
+ "de": "Die Flut bringt dir eine Flasche",
+ "pt-BR": "A maré te traz uma garrafa",
+ "ja": "潮が瓶を運んでくる"},
+
+"Write to whoever the sea chooses": {
+ "it": "Scrivi a chi sceglie il mare",
+ "es": "Escribe a quien elija el mar",
+ "fr": "Écris à qui la mer choisira",
+ "de": "Das Meer wählt, wer dich liest",
+ "pt-BR": "Escreva para quem o mar escolher",
+ "ja": "海が選ぶ誰かに手紙を書く"},
+
+"Uncork a letter from far away": {
+ "it": "Stappa una lettera da lontano",
+ "es": "Descorcha una carta de lejos",
+ "fr": "Débouche une lettre lointaine",
+ "de": "Entkorke Post von weit her",
+ "pt-BR": "Abra uma carta vinda de longe",
+ "ja": "遠い岸からの手紙をひらく"},
+
+"Follow it around the coastlines": {
+ "it": "Seguila attorno alle coste",
+ "es": "Síguela rodeando las costas",
+ "fr": "Suis-la le long des côtes",
+ "de": "Folge ihr die Küsten entlang",
+ "pt-BR": "Siga sua garrafa costa afora",
+ "ja": "海岸線をめぐる瓶を追いかける"},
+
+"Answer, then wait for the tide": {
+ "it": "Rispondi, poi aspetta la marea",
+ "es": "Responde y espera a la marea",
+ "fr": "Réponds, puis attends la marée",
+ "de": "Antworte und warte auf die Flut",
+ "pt-BR": "Responda e espere a maré",
+ "ja": "返事を書いて、潮を待つ"},
+
+"250 real beaches, drawn by hand": {
+ "it": "250 spiagge vere, disegnate a mano",
+ "es": "250 playas dibujadas a mano",
+ "fr": "250 vraies plages, faites main",
+ "de": "250 echte Orte, handgezeichnet",
+ "pt-BR": "250 praias reais, feitas à mão",
+ "ja": "実在の浜、250か所を手描きで"},
+
+"From Lofoten to Bora Bora": {
+ "it": "Dalle Lofoten a Bora Bora",
+ "es": "De las Lofoten a Bora Bora",
+ "fr": "Des Lofoten à Bora Bora",
+ "de": "Von den Lofoten bis Bora Bora",
+ "pt-BR": "Das Lofoten a Bora Bora",
+ "ja": "ロフォーテンからボラボラまで"},
+
+"Each one changes with the hour": {
+ "it": "Ognuna cambia con l’ora",
+ "es": "Cada una cambia con la hora",
+ "fr": "Chacune change avec l’heure",
+ "de": "Zu jeder Tageszeit ein anderer",
+ "pt-BR": "Cada uma muda com as horas",
+ "ja": "どの浜も、刻々と姿を変える"},
+
+"Sign it with your wax seal": {
+ "it": "Firmala con il tuo sigillo",
+ "es": "Fírmala con tu sello de lacre",
+ "fr": "Signe-la de ton sceau de cire",
+ "de": "Unterschreib mit deinem Siegel",
+ "pt-BR": "Assine com seu selo de lacre",
+ "ja": "あなたの印で封をする"},
+
 }
 
 # Le frasi che non si traducono: nomi propri, indirizzi, la rosa dei venti.
@@ -1949,13 +1984,13 @@ INVARIATE = [",",  # la virgola fra i due soprannomi: punteggiatura, non testo
              # "3" delle bottiglie, e gli altri tre finivano nell'elenco delle
              # frasi senza traduzione a ogni giro, dove coprivano le vere.
              "iOS", "www.bottlegram.app", "250", "31,125", "1", "2", "3", "4",
-             "6–36", "8.6 MB",
+             "6–36", "32 MB",
              # I nomi delle spiagge dell'approdo che ruota: endonimi, come
              # nell'app. I LUOGHI invece si traducono (voci qui sopra).
              "Cala Goloritzé", "Reynisfjara", "Anse Source d'Argent",
              "Haukland Beach", "Praia da Ursa",
              # I servizi nominati dalla privacy: nomi propri, uguali in tutte e sette.
-             "Supabase", "OpenAI", "Google Cloud Translation", "Anthropic", "Apple", "Google Play", "Resend", "www.garanteprivacy.it"]
+             "Bulb Mode SRL Semplificata", "Supabase", "OpenAI", "Google Cloud Translation", "Anthropic", "Apple", "Google Play", "Resend", "www.garanteprivacy.it"]
 
 # ── Le frasi che vengono dall'app ──────────────────────────────────────────
 app = json.load(open(XCSTRINGS))
