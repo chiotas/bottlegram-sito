@@ -193,13 +193,13 @@ SITO = {
  "pt-BR": "Grátis para escrever, grátis para receber",
  "ja": "書くのも、受け取るのも無料"},
 
-"The app at Ficogrande, on Stromboli: the volcano smoking under a full moon, and two bottles washed up on the black sand.": {
- "it": "L'app a Ficogrande, a Stromboli: il vulcano che fuma sotto la luna piena, e due bottiglie arrivate sulla sabbia nera.",
- "es": "La app en Ficogrande, en Stromboli: el volcán humeando bajo la luna llena y dos botellas varadas en la arena negra.",
- "fr": "L'app à Ficogrande, sur Stromboli : le volcan qui fume sous la pleine lune, et deux bouteilles échouées sur le sable noir.",
- "de": "Die App in Ficogrande auf Stromboli: der rauchende Vulkan unter dem Vollmond und zwei Flaschen, die am schwarzen Sand angespült sind.",
- "pt-BR": "O app em Ficogrande, em Stromboli: o vulcão fumegando sob a lua cheia e duas garrafas na areia preta.",
- "ja": "ストロンボリ島フィコグランデのアプリ画面。満月の下で煙を上げる火山と、黒い砂に流れ着いた二本の瓶。"},
+"The app at Diamond Beach, in Iceland, at night: the aurora and a full moon over a dark sea, an iceberg offshore and ice on the sand.": {
+ "it": "L'app a Diamond Beach, in Islanda, di notte: l'aurora e la luna piena su un mare scuro, un iceberg al largo e il ghiaccio sulla sabbia.",
+ "es": "La app en Diamond Beach, en Islandia, de noche: la aurora y la luna llena sobre un mar oscuro, un iceberg mar adentro y hielo sobre la arena.",
+ "fr": "L'application à Diamond Beach, en Islande, la nuit : l'aurore et la pleine lune sur une mer sombre, un iceberg au large et de la glace sur le sable.",
+ "de": "Die App am Diamond Beach in Island, nachts: das Polarlicht und der Vollmond über einem dunklen Meer, ein Eisberg draußen und Eis auf dem Sand.",
+ "pt-BR": "O app em Diamond Beach, na Islândia, à noite: a aurora e a lua cheia sobre um mar escuro, um iceberg ao longe e gelo na areia.",
+ "ja": "夜のダイヤモンド・ビーチ（アイスランド）を映すアプリ。暗い海の上にオーロラと満月、沖には氷山、砂の上には氷。"},
 
 "The sea opens soon.": {
  "it": "Il mare apre presto.",
@@ -332,53 +332,53 @@ SITO = {
  "pt-BR": "Uma carta náutica com a rota de uma garrafa pelo mar aberto",
  "ja": "外洋を渡る瓶の航路を記した海図"},
 
-"The app at Cala Goloritzé at midday: turquoise sea, pale sand, and four bottles washed up on the shore.": {
- "it": "L'app a Cala Goloritzé a mezzogiorno: mare turchese, sabbia chiara e quattro bottiglie approdate sulla riva.",
- "es": "La app en Cala Goloritzé a mediodía: mar turquesa, arena clara y cuatro botellas llegadas a la orilla.",
- "fr": "L'application à Cala Goloritzé à midi : mer turquoise, sable clair et quatre bouteilles échouées sur le rivage.",
- "de": "Die App an der Cala Goloritzé zur Mittagszeit: türkisfarbenes Meer, heller Sand und vier angespülte Flaschen.",
- "pt-BR": "O app em Cala Goloritzé ao meio-dia: mar turquesa, areia clara e quatro garrafas na praia.",
- "ja": "正午のカーラ・ゴロリッツェのアプリ画面。ターコイズの海、明るい砂、岸に打ち上げられた四本の瓶。"},
+"The app at Spiaggia dei Conigli, on Lampedusa, at dusk: a red sky, the sun going down and an umbrella pine on the sand.": {
+ "it": "L'app alla Spiaggia dei Conigli, a Lampedusa, al tramonto: un cielo rosso, il sole che scende e un pino a ombrello sulla sabbia.",
+ "es": "La app en la Spiaggia dei Conigli, en Lampedusa, al atardecer: un cielo rojo, el sol que baja y un pino piñonero en la arena.",
+ "fr": "L'application à la Spiaggia dei Conigli, à Lampedusa, au coucher du soleil : un ciel rouge, le soleil qui descend et un pin parasol sur le sable.",
+ "de": "Die App an der Spiaggia dei Conigli auf Lampedusa, in der Abenddämmerung: ein roter Himmel, die sinkende Sonne und eine Schirmpinie im Sand.",
+ "pt-BR": "O app na Spiaggia dei Conigli, em Lampedusa, ao entardecer: um céu vermelho, o sol se pondo e um pinheiro-manso na areia.",
+ "ja": "夕暮れのコニッリ海岸（ランペドゥーザ島）を映すアプリ。赤い空、沈んでいく太陽、砂の上のカサマツ。"},
 
-"A correspondence in the journal: a letter from a castaway the reader has privately named Black sand, the reply underneath, and a note saying a bottle of theirs is still at sea.": {
- "it": "Un carteggio nel diario: la lettera di un naufrago a cui chi legge ha dato in privato il nome «Black sand», sotto la risposta, e un avviso che dice che una loro bottiglia è ancora in mare.",
- "es": "Una correspondencia en el diario: la carta de un náufrago a quien quien lee ha llamado en privado «Black sand», debajo la respuesta, y un aviso de que una botella suya sigue en el mar.",
- "fr": "Une correspondance dans le journal : la lettre d'un naufragé que le lecteur a nommé en privé « Black sand », la réponse en dessous, et une note indiquant qu'une de leurs bouteilles est encore en mer.",
- "de": "Ein Briefwechsel im Tagebuch: der Brief eines Schiffbrüchigen, den die lesende Person im Stillen „Black sand“ genannt hat, darunter die Antwort und ein Hinweis, dass eine Flasche von ihnen noch auf See ist.",
- "pt-BR": "Uma correspondência no diário: a carta de um náufrago a quem quem lê deu em particular o nome «Black sand», a resposta abaixo, e um aviso de que uma garrafa dele ainda está no mar.",
- "ja": "日誌のなかの文通。読み手が心のなかで「Black sand」と名づけた相手からの手紙、その下に返信、そして相手の瓶がまだ海の上にあることを告げる一行。"},
+"A correspondence in the journal: a letter from Glory, a Spirit of the Sea, the reply underneath, and a note that the reply is already sailing.": {
+ "it": "Un carteggio nel diario: una lettera di Glory, uno Spirito del Mare, sotto la risposta, e una riga che dice che la risposta è già in viaggio.",
+ "es": "Una correspondencia en el diario: una carta de Glory, un Espíritu del Mar, debajo la respuesta, y una nota que dice que la respuesta ya navega.",
+ "fr": "Une correspondance dans le journal : une lettre de Glory, un Esprit de la Mer, la réponse en dessous, et une note disant que la réponse est déjà en mer.",
+ "de": "Ein Briefwechsel im Tagebuch: ein Brief von Glory, einem Geist des Meeres, darunter die Antwort und ein Hinweis, dass die Antwort schon unterwegs ist.",
+ "pt-BR": "Uma correspondência no diário: uma carta de Glory, um Espírito do Mar, a resposta embaixo, e uma nota dizendo que a resposta já está navegando.",
+ "ja": "日誌の中の文通。海の精グローリーからの手紙、その下に返事、そして返事がもう海を渡っているという一文。"},
 
-"The nautical chart: a route drawn from Cala Goloritzé out of the Mediterranean and north across the Atlantic towards Iceland, with the bottle partway along it.": {
- "it": "La carta nautica: una rotta disegnata da Cala Goloritzé fuori dal Mediterraneo e su per l'Atlantico verso l'Islanda, con la bottiglia a metà strada.",
- "es": "La carta náutica: una ruta trazada desde Cala Goloritzé fuera del Mediterráneo y hacia el norte por el Atlántico rumbo a Islandia, con la botella a medio camino.",
- "fr": "La carte marine : une route tracée depuis Cala Goloritzé, hors de la Méditerranée et vers le nord à travers l'Atlantique en direction de l'Islande, la bouteille à mi-parcours.",
- "de": "Die Seekarte: eine Route von der Cala Goloritzé aus dem Mittelmeer hinaus und nordwärts über den Atlantik Richtung Island, die Flasche auf halbem Weg.",
- "pt-BR": "A carta náutica: uma rota traçada de Cala Goloritzé para fora do Mediterrâneo e ao norte pelo Atlântico rumo à Islândia, com a garrafa no meio do caminho.",
- "ja": "海図。カーラ・ゴロリッツェから地中海を出て、大西洋を北上しアイスランドへ向かう航路。瓶はその途中にいる。"},
+"The nautical chart: a route from Vai, on Crete, west across the Mediterranean and north up the Atlantic to Luskentyre, in Scotland, with the bottle just setting out.": {
+ "it": "La carta nautica: una rotta da Vai, a Creta, verso ovest per il Mediterraneo e poi a nord su per l'Atlantico fino a Luskentyre, in Scozia, con la bottiglia appena partita.",
+ "es": "La carta náutica: una ruta desde Vai, en Creta, hacia el oeste por el Mediterráneo y luego al norte por el Atlántico hasta Luskentyre, en Escocia, con la botella recién salida.",
+ "fr": "La carte marine : une route depuis Vai, en Crète, vers l'ouest à travers la Méditerranée puis vers le nord le long de l'Atlantique jusqu'à Luskentyre, en Écosse, avec la bouteille tout juste partie.",
+ "de": "Die Seekarte: eine Route von Vai auf Kreta nach Westen durchs Mittelmeer und dann nach Norden den Atlantik hinauf bis Luskentyre in Schottland, die Flasche gerade erst aufgebrochen.",
+ "pt-BR": "A carta náutica: uma rota de Vai, em Creta, para oeste pelo Mediterrâneo e depois para o norte pelo Atlântico até Luskentyre, na Escócia, com a garrafa acabando de partir.",
+ "ja": "海図。クレタ島のヴァイから西へ地中海を抜け、大西洋を北上してスコットランドのラスケンタイアへ向かう航路。瓶は出発したばかり。"},
 
-"Dawn at Anse Source d'Argent, as the app draws it: a rose sky, calm water, a palm on the sand.": {
- "it": "L'alba ad Anse Source d'Argent come la disegna l'app: un cielo rosa, l'acqua calma, una palma sulla sabbia.",
- "es": "El alba en Anse Source d'Argent tal como la dibuja la app: un cielo rosado, agua en calma, una palmera en la arena.",
- "fr": "L'aube à Anse Source d'Argent telle que l'application la dessine : un ciel rose, une eau calme, un palmier sur le sable.",
- "de": "Morgengrauen an der Anse Source d'Argent, wie die App es zeichnet: ein rosa Himmel, stilles Wasser, eine Palme im Sand.",
- "pt-BR": "O amanhecer em Anse Source d'Argent como o app o desenha: um céu rosado, água calma, uma palmeira na areia.",
- "ja": "アプリが描くアンス・スルス・ダルジャンの夜明け。薔薇色の空、静かな水、砂の上の一本のやし。"},
+"Dawn at Diamond Beach, as the app draws it: a lilac sky, a pale sun and an iceberg on the water.": {
+ "it": "L'alba a Diamond Beach come la disegna l'app: un cielo lilla, un sole pallido e un iceberg sull'acqua.",
+ "es": "El alba en Diamond Beach tal como la dibuja la app: un cielo lila, un sol pálido y un iceberg en el agua.",
+ "fr": "L'aube à Diamond Beach telle que l'application la dessine : un ciel lilas, un soleil pâle et un iceberg sur l'eau.",
+ "de": "Morgengrauen am Diamond Beach, wie die App es zeichnet: ein fliederfarbener Himmel, eine blasse Sonne und ein Eisberg auf dem Wasser.",
+ "pt-BR": "O amanhecer em Diamond Beach como o app o desenha: um céu lilás, um sol pálido e um iceberg na água.",
+ "ja": "アプリが描くダイヤモンド・ビーチの夜明け。薄紫の空、淡い太陽、水に浮かぶ氷山。"},
 
-"Midday at Cala Goloritzé, as the app draws it: blue sky, turquoise sea, bottles on the pale sand.": {
- "it": "Mezzogiorno a Cala Goloritzé come lo disegna l'app: cielo azzurro, mare turchese, bottiglie sulla sabbia chiara.",
- "es": "El mediodía en Cala Goloritzé tal como lo dibuja la app: cielo azul, mar turquesa, botellas en la arena clara.",
- "fr": "Midi à Cala Goloritzé tel que l'application le dessine : ciel bleu, mer turquoise, des bouteilles sur le sable clair.",
- "de": "Mittag an der Cala Goloritzé, wie die App ihn zeichnet: blauer Himmel, türkisfarbenes Meer, Flaschen im hellen Sand.",
- "pt-BR": "O meio-dia em Cala Goloritzé como o app o desenha: céu azul, mar turquesa, garrafas na areia clara.",
- "ja": "アプリが描くカーラ・ゴロリッツェの正午。青い空、ターコイズの海、明るい砂の上の瓶。"},
+"Midday at Matira Beach, as the app draws it: blue sky, turquoise water and a palm on the white sand.": {
+ "it": "Mezzogiorno a Matira Beach come lo disegna l'app: cielo azzurro, acqua turchese e una palma sulla sabbia bianca.",
+ "es": "El mediodía en Matira Beach tal como lo dibuja la app: cielo azul, agua turquesa y una palmera en la arena blanca.",
+ "fr": "Midi à Matira Beach tel que l'application le dessine : un ciel bleu, une eau turquoise et un palmier sur le sable blanc.",
+ "de": "Mittag am Matira Beach, wie die App ihn zeichnet: blauer Himmel, türkises Wasser und eine Palme auf dem weißen Sand.",
+ "pt-BR": "O meio-dia em Matira Beach como o app o desenha: céu azul, água turquesa e uma palmeira na areia branca.",
+ "ja": "アプリが描くマティラ・ビーチの正午。青い空、ターコイズの海、白い砂の上のヤシ。"},
 
-"Dusk at Reynisfjara, as the app draws it: an ember sky over black volcanic sand.": {
- "it": "Il tramonto a Reynisfjara come lo disegna l'app: un cielo di brace sopra la sabbia vulcanica nera.",
- "es": "El atardecer en Reynisfjara tal como lo dibuja la app: un cielo de brasas sobre la arena volcánica negra.",
- "fr": "Le crépuscule à Reynisfjara tel que l'application le dessine : un ciel de braise sur le sable volcanique noir.",
- "de": "Dämmerung in Reynisfjara, wie die App sie zeichnet: ein glutroter Himmel über schwarzem Vulkansand.",
- "pt-BR": "O entardecer em Reynisfjara como o app o desenha: um céu de brasas sobre a areia vulcânica preta.",
- "ja": "アプリが描くレイニスフィヤラの夕暮れ。黒い火山砂の上に、燠火のような空。"},
+"Dusk at Reynisfjara, as the app draws it: a red sky, the sea stacks and black volcanic sand.": {
+ "it": "Il tramonto a Reynisfjara come lo disegna l'app: un cielo rosso, i faraglioni e la sabbia nera vulcanica.",
+ "es": "El atardecer en Reynisfjara tal como lo dibuja la app: un cielo rojo, los farallones y la arena negra volcánica.",
+ "fr": "Le crépuscule à Reynisfjara tel que l'application le dessine : un ciel rouge, les aiguilles de roche et le sable noir volcanique.",
+ "de": "Dämmerung in Reynisfjara, wie die App sie zeichnet: ein roter Himmel, die Felsnadeln und schwarzer Vulkansand.",
+ "pt-BR": "O entardecer em Reynisfjara como o app o desenha: um céu vermelho, os rochedos no mar e a areia preta vulcânica.",
+ "ja": "アプリが描くレイニスフィヤラの夕暮れ。赤い空、海に立つ岩柱、黒い火山の砂。"},
 
 "Night at Unstad, as the app draws it: the aurora over a dark arctic sea.": {
  "it": "La notte a Unstad come la disegna l'app: l'aurora sopra un mare artico scuro.",
@@ -388,13 +388,13 @@ SITO = {
  "pt-BR": "A noite em Unstad como o app a desenha: a aurora sobre um mar ártico escuro.",
  "ja": "アプリが描くウンスタッドの夜。暗い北極の海の上を渡るオーロラ。"},
 
-"Four of the 250: dawn at La Digue, midday in Sardegna, dusk on the black sand of Reynisfjara, and an arctic night in the Lofoten with the aurora overhead.": {
- "it": "Quattro delle 250: l'alba a La Digue, mezzogiorno in Sardegna, il tramonto sulla sabbia nera di Reynisfjara, e una notte artica alle Lofoten con l'aurora sopra la testa.",
- "es": "Cuatro de las 250: el alba en La Digue, el mediodía en Cerdeña, el atardecer en la arena negra de Reynisfjara y una noche ártica en las Lofoten con la aurora por encima.",
- "fr": "Quatre des 250 : l'aube à La Digue, midi en Sardaigne, le crépuscule sur le sable noir de Reynisfjara, et une nuit arctique aux Lofoten avec l'aurore au-dessus.",
- "de": "Vier von 250: Morgengrauen auf La Digue, Mittag auf Sardinien, Dämmerung auf dem schwarzen Sand von Reynisfjara und eine arktische Nacht auf den Lofoten mit dem Polarlicht darüber.",
- "pt-BR": "Quatro das 250: o amanhecer em La Digue, o meio-dia na Sardenha, o entardecer na areia preta de Reynisfjara e uma noite ártica nas Lofoten com a aurora lá em cima.",
- "ja": "250 のうちの四つ。ラ・ディーグの夜明け、サルデーニャの正午、レイニスフィヤラの黒い砂の夕暮れ、そして頭上をオーロラが渡るロフォーテンの夜。"},
+"Four of the 250: dawn at Diamond Beach in Iceland, midday on Bora Bora, dusk on the black sand of Reynisfjara, and an arctic night in the Lofoten with the aurora overhead.": {
+ "it": "Quattro delle 250: l'alba a Diamond Beach in Islanda, mezzogiorno a Bora Bora, il tramonto sulla sabbia nera di Reynisfjara, e una notte artica alle Lofoten con l'aurora sopra la testa.",
+ "es": "Cuatro de las 250: el alba en Diamond Beach, en Islandia, el mediodía en Bora Bora, el atardecer en la arena negra de Reynisfjara y una noche ártica en las Lofoten con la aurora por encima.",
+ "fr": "Quatre des 250 : l'aube à Diamond Beach en Islande, midi à Bora Bora, le crépuscule sur le sable noir de Reynisfjara, et une nuit arctique aux Lofoten avec l'aurore au-dessus.",
+ "de": "Vier von 250: Morgengrauen am Diamond Beach in Island, Mittag auf Bora Bora, Dämmerung auf dem schwarzen Sand von Reynisfjara und eine arktische Nacht auf den Lofoten mit dem Polarlicht darüber.",
+ "pt-BR": "Quatro das 250: o amanhecer em Diamond Beach, na Islândia, o meio-dia em Bora Bora, o entardecer na areia preta de Reynisfjara e uma noite ártica nas Lofoten com a aurora lá em cima.",
+ "ja": "250 のうちの四つ。アイスランドのダイヤモンド・ビーチの夜明け、ボラボラ島の正午、レイニスフィヤラの黒い砂の夕暮れ、そして頭上をオーロラが渡るロフォーテンの夜。"},
 
 "One of the 250 shores the storm knows. Yours could be any of them.": {
  "it": "Una delle 250 rive che la tempesta conosce. La tua potrebbe essere una qualsiasi.",

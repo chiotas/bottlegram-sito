@@ -1002,7 +1002,7 @@ background-image:
   position: relative;
   width: min(332px, 80vw);
   /* NIENTE `aspect-ratio` QUI: l'altezza la detta lo schermo, che ha il
-     rapporto ESATTO delle schermate (603×1311). Prima la scocca imponeva
+     rapporto ESATTO delle schermate (660×1434, build 6). Prima la scocca imponeva
      300×650, lo schermo ereditava un rapporto sbagliato del 3,6% e `cover` si
      mangiava i bordi — le schermate sembravano tagliate, perché lo erano. */
   padding: 10px;
@@ -1028,7 +1028,7 @@ background-image:
 .schermo {
   width: 100%;
   /* Il rapporto vero delle schermate: niente da tagliare, niente da inventare. */
-  aspect-ratio: 603 / 1311;
+  aspect-ratio: 660 / 1434;
   /* La cornice nera fra vetro e schermo: è lei che fa sembrare acceso un
      telefono. Dentro, la Dynamic Island è già nella schermata vera. */
   border: 6px solid #06070C;
@@ -1047,8 +1047,8 @@ background-image:
    aspettano sotto. Solo `opacity`: niente layout, niente filtri — è la
    transizione che non si sente sotto il dito. */
 /* ── Le quattro spiagge ─────────────────────────────────────────────────
-   Affiancate a tutta larghezza, schermo nudo come nell'eroe. 290 px è il
-   massimo che le schermate da 603 px reggono nitide su uno schermo retina.
+   Affiancate a tutta larghezza, schermo nudo come nell'eroe, 290 px l'una:
+   le schermate da 660 px restano nitide su uno schermo retina.
    Sotto i 760 px diventano una fila che scorre col dito, e la prossima si
    affaccia dal bordo: dice da sola che ce n'è un'altra. */
 .quattro-spiagge {
