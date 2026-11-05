@@ -193,13 +193,13 @@ SITO = {
  "pt-BR": "Grátis para escrever, grátis para receber",
  "ja": "書くのも、受け取るのも無料"},
 
-"The app at Unstad, in the Lofoten, at night: the aurora and a full moon over a dark arctic sea, with a peak on the horizon.": {
- "it": "L'app a Unstad, alle Lofoten, di notte: l'aurora e la luna piena su un mare artico scuro, con una vetta all'orizzonte.",
- "es": "La app en Unstad, en las Lofoten, de noche: la aurora y la luna llena sobre un mar ártico oscuro, con un pico en el horizonte.",
- "fr": "L'application à Unstad, aux Lofoten, la nuit : l'aurore et la pleine lune sur une mer arctique sombre, avec un pic à l'horizon.",
- "de": "Die App in Unstad auf den Lofoten, nachts: das Polarlicht und der Vollmond über einem dunklen arktischen Meer, ein Gipfel am Horizont.",
- "pt-BR": "O app em Unstad, nas Lofoten, à noite: a aurora e a lua cheia sobre um mar ártico escuro, com um pico no horizonte.",
- "ja": "夜のウンスタッド（ロフォーテン）を映すアプリ。暗い北極の海の上にオーロラと満月、水平線には山の頂。"},
+"The app at Unstad, in the Lofoten, at night: the aurora and a full moon over a dark arctic sea, and a bottle washed up on the sand.": {
+ "it": "L'app a Unstad, alle Lofoten, di notte: l'aurora e la luna piena su un mare artico scuro, e una bottiglia approdata sulla sabbia.",
+ "es": "La app en Unstad, en las Lofoten, de noche: la aurora y la luna llena sobre un mar ártico oscuro, y una botella llegada a la arena.",
+ "fr": "L'application à Unstad, aux Lofoten, la nuit : l'aurore et la pleine lune sur une mer arctique sombre, et une bouteille échouée sur le sable.",
+ "de": "Die App in Unstad auf den Lofoten, nachts: das Polarlicht und der Vollmond über einem dunklen arktischen Meer, und eine angespülte Flasche im Sand.",
+ "pt-BR": "O app em Unstad, nas Lofoten, à noite: a aurora e a lua cheia sobre um mar ártico escuro, e uma garrafa que chegou à areia.",
+ "ja": "夜のウンスタッド（ロフォーテン）を映すアプリ。暗い北極の海の上にオーロラと満月、砂には流れ着いた瓶。"},
 
 "The sea opens soon.": {
  "it": "Il mare apre presto.",
@@ -356,37 +356,37 @@ SITO = {
  "pt-BR": "A carta náutica: uma rota de Vai, em Creta, para oeste pelo Mediterrâneo e depois para o norte pelo Atlântico até Luskentyre, na Escócia, com a garrafa acabando de partir.",
  "ja": "海図。クレタ島のヴァイから西へ地中海を抜け、大西洋を北上してスコットランドのラスケンタイアへ向かう航路。瓶は出発したばかり。"},
 
-"Dawn at Diamond Beach in the app: a lilac sky, a pale sun and an iceberg on the water.": {
- "it": "L'alba a Diamond Beach nell'app: un cielo lilla, un sole pallido e un iceberg sull'acqua.",
- "es": "El alba en Diamond Beach en la app: un cielo lila, un sol pálido y un iceberg en el agua.",
- "fr": "L'aube à Diamond Beach dans l'application : un ciel lilas, un soleil pâle et un iceberg sur l'eau.",
- "de": "Morgengrauen am Diamond Beach in der App: ein fliederfarbener Himmel, eine blasse Sonne und ein Eisberg auf dem Wasser.",
- "pt-BR": "O amanhecer em Diamond Beach no app: um céu lilás, um sol pálido e um iceberg na água.",
- "ja": "アプリの中のダイヤモンド・ビーチの夜明け。薄紫の空、淡い太陽、水に浮かぶ氷山。"},
+"Dawn at Diamond Beach in the app: a lilac sky, a pale sun, an iceberg on the water and a bottle on the sand.": {
+ "it": "L'alba a Diamond Beach nell'app: un cielo lilla, un sole pallido, un iceberg sull'acqua e una bottiglia sulla sabbia.",
+ "es": "El alba en Diamond Beach en la app: un cielo lila, un sol pálido, un iceberg en el agua y una botella en la arena.",
+ "fr": "L'aube à Diamond Beach dans l'application : un ciel lilas, un soleil pâle, un iceberg sur l'eau et une bouteille sur le sable.",
+ "de": "Morgengrauen am Diamond Beach in der App: ein fliederfarbener Himmel, eine blasse Sonne, ein Eisberg auf dem Wasser und eine Flasche im Sand.",
+ "pt-BR": "O amanhecer em Diamond Beach no app: um céu lilás, um sol pálido, um iceberg na água e uma garrafa na areia.",
+ "ja": "アプリの中のダイヤモンド・ビーチの夜明け。薄紫の空、淡い太陽、水に浮かぶ氷山、砂の上の瓶。"},
 
-"Midday at Matira Beach in the app: blue sky, turquoise water and a palm on the white sand.": {
- "it": "Mezzogiorno a Matira Beach nell'app: cielo azzurro, acqua turchese e una palma sulla sabbia bianca.",
- "es": "El mediodía en Matira Beach en la app: cielo azul, agua turquesa y una palmera en la arena blanca.",
- "fr": "Midi à Matira Beach dans l'application : un ciel bleu, une eau turquoise et un palmier sur le sable blanc.",
- "de": "Mittag am Matira Beach in der App: blauer Himmel, türkises Wasser und eine Palme auf dem weißen Sand.",
- "pt-BR": "O meio-dia em Matira Beach no app: céu azul, água turquesa e uma palmeira na areia branca.",
- "ja": "アプリの中のマティラ・ビーチの正午。青い空、ターコイズの海、白い砂の上のヤシ。"},
+"Midday at Matira Beach in the app: blue sky, turquoise water, a palm and a bottle on the white sand.": {
+ "it": "Mezzogiorno a Matira Beach nell'app: cielo azzurro, acqua turchese, una palma e una bottiglia sulla sabbia bianca.",
+ "es": "El mediodía en Matira Beach en la app: cielo azul, agua turquesa, una palmera y una botella en la arena blanca.",
+ "fr": "Midi à Matira Beach dans l'application : un ciel bleu, une eau turquoise, un palmier et une bouteille sur le sable blanc.",
+ "de": "Mittag am Matira Beach in der App: blauer Himmel, türkises Wasser, eine Palme und eine Flasche auf dem weißen Sand.",
+ "pt-BR": "O meio-dia em Matira Beach no app: céu azul, água turquesa, uma palmeira e uma garrafa na areia branca.",
+ "ja": "アプリの中のマティラ・ビーチの正午。青い空、ターコイズの海、白い砂の上のヤシと瓶。"},
 
-"Dusk at Reynisfjara in the app: a red sky, the sea stacks and black volcanic sand.": {
- "it": "Il tramonto a Reynisfjara nell'app: un cielo rosso, i faraglioni e la sabbia nera vulcanica.",
- "es": "El atardecer en Reynisfjara en la app: un cielo rojo, los farallones y la arena negra volcánica.",
- "fr": "Le crépuscule à Reynisfjara dans l'application : un ciel rouge, les aiguilles de roche et le sable noir volcanique.",
- "de": "Dämmerung in Reynisfjara in der App: ein roter Himmel, die Felsnadeln und schwarzer Vulkansand.",
- "pt-BR": "O entardecer em Reynisfjara no app: um céu vermelho, os rochedos no mar e a areia preta vulcânica.",
- "ja": "アプリの中のレイニスフィヤラの夕暮れ。赤い空、海に立つ岩柱、黒い火山の砂。"},
+"Dusk at Reynisfjara in the app: a red sky, the sea stacks and a bottle on the black volcanic sand.": {
+ "it": "Il tramonto a Reynisfjara nell'app: un cielo rosso, i faraglioni e una bottiglia sulla sabbia nera vulcanica.",
+ "es": "El atardecer en Reynisfjara en la app: un cielo rojo, los farallones y una botella en la arena negra volcánica.",
+ "fr": "Le crépuscule à Reynisfjara dans l'application : un ciel rouge, les aiguilles de roche et une bouteille sur le sable noir volcanique.",
+ "de": "Dämmerung in Reynisfjara in der App: ein roter Himmel, die Felsnadeln und eine Flasche auf schwarzem Vulkansand.",
+ "pt-BR": "O entardecer em Reynisfjara no app: um céu vermelho, os rochedos no mar e uma garrafa na areia preta vulcânica.",
+ "ja": "アプリの中のレイニスフィヤラの夕暮れ。赤い空、海に立つ岩柱、黒い火山の砂の上の瓶。"},
 
-"Night at Unstad in the app: the aurora over a dark arctic sea.": {
- "it": "La notte a Unstad nell'app: l'aurora sopra un mare artico scuro.",
- "es": "La noche en Unstad en la app: la aurora sobre un mar ártico oscuro.",
- "fr": "La nuit à Unstad dans l'application : l'aurore au-dessus d'une mer arctique sombre.",
- "de": "Nacht in Unstad in der App: das Polarlicht über einem dunklen arktischen Meer.",
- "pt-BR": "A noite em Unstad no app: a aurora sobre um mar ártico escuro.",
- "ja": "アプリの中のウンスタッドの夜。暗い北極の海の上を渡るオーロラ。"},
+"Night at Eggum, in the Lofoten, in the app: the aurora over a dark arctic sea and a bottle on the sand.": {
+ "it": "La notte a Eggum, alle Lofoten, nell'app: l'aurora sopra un mare artico scuro e una bottiglia sulla sabbia.",
+ "es": "La noche en Eggum, en las Lofoten, en la app: la aurora sobre un mar ártico oscuro y una botella en la arena.",
+ "fr": "La nuit à Eggum, aux Lofoten, dans l'application : l'aurore au-dessus d'une mer arctique sombre et une bouteille sur le sable.",
+ "de": "Nacht in Eggum auf den Lofoten, in der App: das Polarlicht über einem dunklen arktischen Meer und eine Flasche im Sand.",
+ "pt-BR": "A noite em Eggum, nas Lofoten, no app: a aurora sobre um mar ártico escuro e uma garrafa na areia.",
+ "ja": "アプリの中のエッゲム（ロフォーテン）の夜。暗い北極の海の上のオーロラと、砂の上の瓶。"},
 
 "Four of the 250: dawn at Diamond Beach in Iceland, midday on Bora Bora, dusk on the black sand of Reynisfjara, and an arctic night in the Lofoten with the aurora overhead.": {
  "it": "Quattro delle 250: l'alba a Diamond Beach in Islanda, mezzogiorno a Bora Bora, il tramonto sulla sabbia nera di Reynisfjara, e una notte artica alle Lofoten con l'aurora sopra la testa.",
