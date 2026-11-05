@@ -193,13 +193,13 @@ SITO = {
  "pt-BR": "Grátis para escrever, grátis para receber",
  "ja": "書くのも、受け取るのも無料"},
 
-"The app at Diamond Beach, in Iceland, at night: the aurora and a full moon over a dark sea, an iceberg offshore and ice on the sand.": {
- "it": "L'app a Diamond Beach, in Islanda, di notte: l'aurora e la luna piena su un mare scuro, un iceberg al largo e il ghiaccio sulla sabbia.",
- "es": "La app en Diamond Beach, en Islandia, de noche: la aurora y la luna llena sobre un mar oscuro, un iceberg mar adentro y hielo sobre la arena.",
- "fr": "L'application à Diamond Beach, en Islande, la nuit : l'aurore et la pleine lune sur une mer sombre, un iceberg au large et de la glace sur le sable.",
- "de": "Die App am Diamond Beach in Island, nachts: das Polarlicht und der Vollmond über einem dunklen Meer, ein Eisberg draußen und Eis auf dem Sand.",
- "pt-BR": "O app em Diamond Beach, na Islândia, à noite: a aurora e a lua cheia sobre um mar escuro, um iceberg ao longe e gelo na areia.",
- "ja": "夜のダイヤモンド・ビーチ（アイスランド）を映すアプリ。暗い海の上にオーロラと満月、沖には氷山、砂の上には氷。"},
+"The app at Unstad, in the Lofoten, at night: the aurora and a full moon over a dark arctic sea, with a peak on the horizon.": {
+ "it": "L'app a Unstad, alle Lofoten, di notte: l'aurora e la luna piena su un mare artico scuro, con una vetta all'orizzonte.",
+ "es": "La app en Unstad, en las Lofoten, de noche: la aurora y la luna llena sobre un mar ártico oscuro, con un pico en el horizonte.",
+ "fr": "L'application à Unstad, aux Lofoten, la nuit : l'aurore et la pleine lune sur une mer arctique sombre, avec un pic à l'horizon.",
+ "de": "Die App in Unstad auf den Lofoten, nachts: das Polarlicht und der Vollmond über einem dunklen arktischen Meer, ein Gipfel am Horizont.",
+ "pt-BR": "O app em Unstad, nas Lofoten, à noite: a aurora e a lua cheia sobre um mar ártico escuro, com um pico no horizonte.",
+ "ja": "夜のウンスタッド（ロフォーテン）を映すアプリ。暗い北極の海の上にオーロラと満月、水平線には山の頂。"},
 
 "The sea opens soon.": {
  "it": "Il mare apre presto.",
@@ -332,13 +332,13 @@ SITO = {
  "pt-BR": "Uma carta náutica com a rota de uma garrafa pelo mar aberto",
  "ja": "外洋を渡る瓶の航路を記した海図"},
 
-"The app at Spiaggia dei Conigli, on Lampedusa, at dusk: a red sky, the sun going down and an umbrella pine on the sand.": {
- "it": "L'app alla Spiaggia dei Conigli, a Lampedusa, al tramonto: un cielo rosso, il sole che scende e un pino a ombrello sulla sabbia.",
- "es": "La app en la Spiaggia dei Conigli, en Lampedusa, al atardecer: un cielo rojo, el sol que baja y un pino piñonero en la arena.",
- "fr": "L'application à la Spiaggia dei Conigli, à Lampedusa, au coucher du soleil : un ciel rouge, le soleil qui descend et un pin parasol sur le sable.",
- "de": "Die App an der Spiaggia dei Conigli auf Lampedusa, in der Abenddämmerung: ein roter Himmel, die sinkende Sonne und eine Schirmpinie im Sand.",
- "pt-BR": "O app na Spiaggia dei Conigli, em Lampedusa, ao entardecer: um céu vermelho, o sol se pondo e um pinheiro-manso na areia.",
- "ja": "夕暮れのコニッリ海岸（ランペドゥーザ島）を映すアプリ。赤い空、沈んでいく太陽、砂の上のカサマツ。"},
+"A bottle washed ashore, in the app: sealed with wax, from Glory, a Spirit of the Sea, washed in from Luskentyre.": {
+ "it": "Una bottiglia approdata, nell'app: sigillata con la ceralacca, da Glory, uno Spirito del Mare, arrivata da Luskentyre.",
+ "es": "Una botella llegada a la orilla, en la app: sellada con lacre, de Glory, un Espíritu del Mar, llegada desde Luskentyre.",
+ "fr": "Une bouteille échouée, dans l'application : scellée à la cire, de Glory, un Esprit de la Mer, venue de Luskentyre.",
+ "de": "Eine angespülte Flasche in der App: mit Wachs versiegelt, von Glory, einem Geist des Meeres, angetrieben von Luskentyre.",
+ "pt-BR": "Uma garrafa que chegou à praia, no app: selada com lacre, de Glory, um Espírito do Mar, vinda de Luskentyre.",
+ "ja": "アプリの中の、流れ着いた瓶。封蝋で閉じられ、海の精グローリーからラスケンタイアを経て届いたもの。"},
 
 "A correspondence in the journal: a letter from Glory, a Spirit of the Sea, the reply underneath, and a note that the reply is already sailing.": {
  "it": "Un carteggio nel diario: una lettera di Glory, uno Spirito del Mare, sotto la risposta, e una riga che dice che la risposta è già in viaggio.",
