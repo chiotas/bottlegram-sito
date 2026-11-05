@@ -119,39 +119,6 @@ const TAVOLOZZE = {
  }
 };
 
-/* ── Gli scenari in dissolvenza ──────────────────────────────────────────
-   IL SELETTORE NON C'È PIÙ. Quattro schermate vere (alba tropicale,
-   mezzogiorno mediterraneo, tramonto vulcanico, notte artica con l'aurora)
-   stanno una sopra l'altra dentro lo schermo e si passano la luce da sole.
-   Girano SOLO quando la sezione è in campo — un timer che sfuma immagini
-   fuori schermo è lavoro regalato — e chi chiede quiete vede il mezzogiorno,
-   fermo. Le quattro sono nel markup senza `lazy`: ~280 KB in tutto, e ferme
-   in cache prima che il dito arrivi qui. */
-
-const scenari = document.getElementById('scenari');
-if (scenari) {
-  const quadri = [...scenari.querySelectorAll('.scenario')];
-  const quiete = window.matchMedia('(prefers-reduced-motion: reduce)');
-  const mostra = (i) => quadri.forEach((q, j) => q.classList.toggle('attiva', i === j));
-  let indice = 0;
-  let giro = null;
-
-  if (quiete.matches) {
-    mostra(1); // il mezzogiorno mediterraneo, fermo
-  } else {
-    /* Un quadro al secondo circa: l'ha chiesto Francesco — più marea, meno
-       diapositive. La dissolvenza scende a .65s (styles) o si impasterebbe. */
-    const parti = () => { if (!giro) giro = setInterval(() => mostra(indice = (indice + 1) % quadri.length), 1300); };
-    const fermati = () => { if (giro) { clearInterval(giro); giro = null; } };
-    if ('IntersectionObserver' in window) {
-      new IntersectionObserver(([v]) => (v.isIntersecting ? parti() : fermati()), { threshold: 0.25 })
-        .observe(scenari);
-    } else {
-      parti();
-    }
-  }
-}
-
 /* ── L'approdo che cambia nome ───────────────────────────────────────────
    La carta del benvenuto dice UNA spiaggia, ma deve capirsi che è un esempio:
    il nome e il luogo ruotano piano, una costa per bioma, prese da

@@ -6,6 +6,24 @@
    anche questa pagina, e i due valori devono restare uguali.
    ───────────────────────────────────────────────────────────────────────── */
 
+/* CHI NON HA IOWAN (Android, Linux) legge Lora, e la voce del mare in Gelasio:
+   sono i caratteri dell'app Android (android/…/support/Testo.kt), scelti
+   misurando i pixel sull'app iOS e approvati da Francesco il 05/11/2026. Licenza
+   OFL, accanto ai file in assets/caratteri. Ridotti al latino: il giapponese
+   resta al carattere di sistema. Il browser scarica un carattere solo se ne ha
+   bisogno, e `unicode-range` gli dice che qui c'è solo il latino: senza, il
+   «日本語» del selettore delle lingue, che Iowan non ha, li faceva scaricare
+   anche su Mac per controllare. Così su iPhone, Mac e Windows non partono. */
+@font-face { font-family: "Lora"; src: url("assets/caratteri/lora.woff2") format("woff2");
+             font-weight: 400 700; font-style: normal; font-display: swap;
+             unicode-range: U+0000-017F, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2190-2193, U+2212, U+2215; }
+@font-face { font-family: "Lora"; src: url("assets/caratteri/lora-italic.woff2") format("woff2");
+             font-weight: 400 700; font-style: italic; font-display: swap;
+             unicode-range: U+0000-017F, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2190-2193, U+2212, U+2215; }
+@font-face { font-family: "Gelasio"; src: url("assets/caratteri/gelasio-italic.woff2") format("woff2");
+             font-weight: 400 700; font-style: italic; font-display: swap;
+             unicode-range: U+0000-017F, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2190-2193, U+2212, U+2215; }
+
 :root {
   /* Carta e inchiostro — Theme.paper / paperEdge / ink / inkFaded */
   --carta:          #F5EBD1;
@@ -32,10 +50,11 @@
   --ink-blu:        #294F6E;
 
   /* Iowan Old Style c'è su ogni iPhone e su ogni Mac: chi legge da lì vede
-     esattamente il carattere dell'app. Altrove Palatino è il parente più
-     stretto — stessa origine veneziana, stesso passo. */
-  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
-  --mare-serif: Georgia, "Times New Roman", serif;
+     esattamente il carattere dell'app. Su Windows Palatino è il parente più
+     stretto — stessa origine veneziana, stesso passo. Su Android Lora, come
+     nell'app Android (vedi @font-face qui sopra). */
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", "Lora", Georgia, serif;
+  --mare-serif: Georgia, "Gelasio", "Times New Roman", serif;
 
   --colonna: 1140px;
   --respiro: clamp(4.5rem, 11vw, 9rem);
@@ -306,12 +325,32 @@ background-image:
   font-family: var(--mare-serif); font-style: italic;
   font-size: 0.88rem; opacity: 0.5;
 }
-.bollo {
-  display: inline-block;
-  background: var(--carta); color: var(--inchiostro);
-  padding: 0.78rem 2rem; border-radius: 999px;
-  font-weight: 600; font-size: 0.98rem;
-  box-shadow: 0 10px 30px rgba(0,0,0,.35);
+/* IL TIMBRO dice quando, e non si preme. Prima era una pillola crema con
+   l'ombra, 50 px, l'unico oggetto della pagina che sembrava da toccare, e non
+   faceva niente. Un timbro non ha fondo né ombra: doppio filetto, maiuscole
+   spaziate, storto di un grado e mezzo, e sopra il bordo la ceralacca dell'app
+   (`data-sigillo`, la disegna app.js come i sigilli della lettera). */
+.timbro {
+  position: relative;
+  display: inline-flex; align-items: center;
+  margin: 0 0 0 1.5rem;
+  padding: 0.6rem 1.2rem 0.6rem 2.3rem;
+  border: 3px double rgba(245, 235, 209, .46);
+  border-radius: 3px;
+  font-size: 0.76rem; font-weight: 600; letter-spacing: 0.17em; text-transform: uppercase;
+  color: rgba(245, 235, 209, .9);
+  white-space: nowrap;
+  transform: rotate(-1.5deg);
+}
+/* A 390 px in maiuscole spaziate non ci stava: andava a capo in due righe. */
+@media (max-width: 440px) {
+  .timbro { font-size: 0.68rem; letter-spacing: 0.1em; padding: 0.55rem 0.9rem 0.55rem 2rem; }
+  .timbro .cera { width: 2.6rem; height: 2.6rem; left: -1.3rem; }
+}
+.timbro .cera {
+  position: absolute; left: -1.5rem; top: 50%;
+  width: 3rem; height: 3rem;
+  transform: translateY(-50%) rotate(-9deg);
 }
 .filo {
   font-family: var(--mare-serif); font-style: italic;
@@ -667,7 +706,7 @@ background-image:
 
 .etichetta {
   font-size: 0.72rem; font-weight: 600; letter-spacing: 0.15em;
-  text-transform: uppercase; color: var(--inchiostro-lieve);
+  text-transform: uppercase; color: color-mix(in srgb, var(--inchiostro) 70%, var(--inchiostro-lieve));
 }
 .nome-spiaggia { font-size: 1.72rem; font-weight: 600; margin-top: 0.55rem; }
 .luogo { font-style: italic; color: var(--inchiostro-lieve); font-size: 0.98rem; }
@@ -709,13 +748,11 @@ background-image:
 .sezione { padding: var(--respiro) 1.4rem; }
 .dentro { position: relative; z-index: 1; max-width: var(--colonna); margin: 0 auto; }
 
-.soprattitolo {
-  font-size: 0.72rem; letter-spacing: 0.22em; text-transform: uppercase;
-  color: var(--inchiostro-lieve); margin-bottom: 1rem;
-}
 .sezione h2 {
   font-size: clamp(1.9rem, 4.4vw, 2.9rem);
   max-width: 20ch; margin-bottom: 1.2rem;
+  /* A 390 px «slow,» restava da solo su una riga. */
+  text-wrap: balance;
 }
 .guida {
   max-width: 46ch; color: var(--inchiostro-lieve);
@@ -760,6 +797,9 @@ background-image:
    regola base la scavalca. */
 @media (max-width: 900px) {
   .appiccicato { position: static; }
+  /* E sale sopra i salmi: era la prima schermata dell'app dopo l'eroe, e
+     sotto quattro paragrafi arrivava a nove schermate di distanza. */
+  .attesa-corpo .telefono { order: -1; }
 }
 
 .salmi {
@@ -915,7 +955,7 @@ background-image:
 .testo-lettera { font-size: 1.02rem; line-height: 1.82; }
 .firma-lettera {
   margin-top: 1.4rem; text-align: right; font-style: italic;
-  color: var(--inchiostro-lieve); font-size: 0.94rem;
+  color: color-mix(in srgb, var(--inchiostro) 80%, var(--inchiostro-lieve)); font-size: 0.94rem;
 }
 .ceralacca {
   position: absolute; right: 1.6rem; bottom: -1.5rem;
@@ -941,7 +981,7 @@ background-image:
   grid-template-columns: minmax(0, auto) minmax(0, 1fr);
   align-items: center;
 }
-/* La vetrina del diario: schermo a sinistra, parole a destra. */
+/* Parole a sinistra, schermo a destra: il diario e la carta. */
 .vetrina.rovescia { grid-template-columns: auto minmax(0, 34rem); }
 
 @media (max-width: 880px) {
@@ -960,7 +1000,7 @@ background-image:
   touch-action: pan-y;
   -webkit-touch-callout: none;
   position: relative;
-  width: min(310px, 78vw);
+  width: min(332px, 80vw);
   /* NIENTE `aspect-ratio` QUI: l'altezza la detta lo schermo, che ha il
      rapporto ESATTO delle schermate (603×1311). Prima la scocca imponeva
      300×650, lo schermo ereditava un rapporto sbagliato del 3,6% e `cover` si
@@ -1006,16 +1046,41 @@ background-image:
    Quattro schermate una sopra l'altra; `.attiva` sta in piena luce, le altre
    aspettano sotto. Solo `opacity`: niente layout, niente filtri — è la
    transizione che non si sente sotto il dito. */
-.scenari .scenario {
-  position: absolute; inset: 0;
-  opacity: 0;
-  transition: opacity .65s ease;
+/* ── Le quattro spiagge ─────────────────────────────────────────────────
+   Affiancate a tutta larghezza, schermo nudo come nell'eroe. 290 px è il
+   massimo che le schermate da 603 px reggono nitide su uno schermo retina.
+   Sotto i 760 px diventano una fila che scorre col dito, e la prossima si
+   affaccia dal bordo: dice da sola che ce n'è un'altra. */
+.quattro-spiagge {
+  position: relative; z-index: 1;
+  margin: clamp(3rem, 6vw, 4.6rem) auto 0;
+  max-width: 1240px;
 }
-.scenari .scenario.attiva { opacity: 1; }
-.vetrina.sola {
-  grid-template-columns: 1fr;
-  justify-items: center;
-  gap: 1.6rem;
+.fila-spiagge {
+  list-style: none; margin: 0; padding: 0;
+  display: grid; grid-template-columns: repeat(4, minmax(0, 290px));
+  justify-content: center; gap: clamp(1rem, 2vw, 1.6rem);
+}
+.fila-spiagge .schermata-nuda {
+  width: 100%; border-radius: 13.7cqw;
+  box-shadow: 0 26px 50px rgba(61,51,41,.30), 0 0 0 1px rgba(61,51,41,.08);
+}
+.fila-spiagge li { container-type: inline-size; }
+.fila-spiagge li:nth-child(even) { margin-top: clamp(1.5rem, 4vw, 3.5rem); }
+.quattro-spiagge .didascalia { margin: 2.2rem auto 0; }
+@media (max-width: 760px) {
+  .quattro-spiagge { margin-inline: -1.4rem; }
+  .fila-spiagge {
+    /* `justify-content: start`: centrata, la prima spiaggia uscirebbe a
+       sinistra, fuori dalla parte che si può scorrere. */
+    display: flex; justify-content: start; overflow-x: auto; scroll-snap-type: x mandatory;
+    padding: 0.5rem 1.4rem 2.4rem; gap: 1rem; scroll-padding-inline: 1.4rem;
+    scrollbar-width: none;
+  }
+  .fila-spiagge::-webkit-scrollbar { display: none; }
+  .fila-spiagge li { flex: 0 0 min(70vw, 290px); scroll-snap-align: start; }
+  .fila-spiagge li:nth-child(even) { margin-top: 0; }
+  .quattro-spiagge .didascalia { margin-top: 0.6rem; padding: 0 1.4rem; }
 }
 .didascalia {
   max-width: 44ch; text-align: center;
@@ -1081,7 +1146,6 @@ background-image:
 }
 .riva-carta { position: absolute; inset: -1px 0 auto 0; width: 100%; height: clamp(48px, 6vw, 100px); z-index: 1; }
 
-.spiaggia-grande .soprattitolo { color: rgba(245, 235, 209, .6); }
 .spiaggia-grande .guida { color: rgba(245, 235, 209, .82); }
 
 /* ── La sezione finale: la notte artica, e la sola cosa da fare ────────── */
@@ -1109,7 +1173,6 @@ background-image:
   font-size: clamp(1.04rem, 2vw, 1.18rem);
   text-shadow: 0 1px 18px rgba(0, 0, 0, .55);
 }
-.chiamata .soprattitolo { margin-bottom: 1.3rem; }
 .chiamata .azioni { margin-top: 3rem; }
 
 /* Un respiro fra due sezioni: una riga sola, molta aria. */
@@ -1133,7 +1196,7 @@ background-image:
 /* La colonna della carta, sotto la pergamena grande. */
 .sottocarta { margin-top: clamp(2.5rem, 5vw, 4rem); align-items: center; }
 .sottocarta .parole p { max-width: 46ch; }
-.minuta { font-size: 0.9rem; font-style: italic; opacity: .8; }
+.minuta { font-size: 0.9rem; font-style: italic; }
 
 /* ── Il piede ──────────────────────────────────────────────────────────── */
 
@@ -1148,8 +1211,9 @@ background-image:
 .pie-dentro { max-width: 34rem; }
 
 .crediti { margin-top: 1.8rem; font-size: 0.92rem; opacity: 0.6; }
-.crediti a { text-decoration: underline; text-underline-offset: 3px; }
-.crediti.minute { font-size: 0.8rem; opacity: 0.42; line-height: 1.7; margin-top: 1.4rem; }
+.crediti a { text-decoration: underline; text-underline-offset: 3px;
+             display: inline-block; padding: 0.7rem 0.15rem; }
+.crediti.minute { font-size: 0.8rem; opacity: 0.62; line-height: 1.7; margin-top: 1.4rem; }
 
 /* ── Chi non vuole il movimento ────────────────────────────────────────── */
 
@@ -1188,6 +1252,7 @@ background-image:
   border: 1px solid currentColor; border-color: color-mix(in srgb, currentColor 32%, transparent);
   border-radius: 999px;
   padding: 0.3rem 1.7rem 0.3rem 0.8rem; cursor: pointer;
+  min-height: 44px;
   appearance: none;
   /* La punta della freccia, disegnata con lo stesso inchiostro del testo:
      un'immagine esterna qui sarebbe la sola richiesta di rete della pagina. */
