@@ -20,6 +20,8 @@
                            border-bottom: 1px solid rgba(140, 116, 78, .3); }
   .indice th { font-weight: 600; }
   .indice td:first-child { white-space: nowrap; }
+  /* A 390 px la tabella sforava di 80 px: si va a capo anche nell'indirizzo. */
+  @media (max-width: 34rem) { .indice td:first-child { white-space: normal; } .indice td { overflow-wrap: anywhere; } }
   .schermate { list-style: none; padding: 0; margin: 1.2rem 0 0;
                display: grid; gap: 1.2rem; grid-template-columns: repeat(2, 1fr); }
   @media (max-width: 26rem) { .schermate { grid-template-columns: 1fr; } }
