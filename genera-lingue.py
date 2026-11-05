@@ -112,7 +112,7 @@ SITO = {
  "it": "Da sei a trentasei ore dopo approda sulla spiaggia di un altro naufrago. Allo stesso modo, sulla tua sabbia arrivano le bottiglie degli altri.",
  "es": "Entre seis y treinta y seis horas después llega a la playa de otro náufrago. Del mismo modo, a tu arena llegan las botellas de los demás.",
  "fr": "Six à trente-six heures plus tard, elle échoue sur la plage d'un autre naufragé. De la même façon, les bouteilles des autres échouent sur ton sable.",
- "de": "Sechs bis sechsunddreißig Stunden später strandet sie am Strand eines anderen Schiffbrüchigen. Genauso stranden fremde Flaschen an deinem Sand.",
+ "de": "Sechs bis sechsunddreißig Stunden später strandet sie am Strand eines anderen Schiffbrüchigen. Genauso stranden die Flaschen anderer an deinem Sand.",
  "pt-BR": "De seis a trinta e seis horas depois, ela encalha na praia de outro náufrago. Do mesmo modo, na sua areia chegam as garrafas dos outros.",
  "ja": "六時間から三十六時間ののち、べつの漂流者の浜へ流れ着きます。同じように、あなたの砂浜にも、ほかの人の瓶が届きます。"},
 
@@ -169,22 +169,21 @@ SITO = {
  "pt-BR": "O mar não tem uso para a pressa.",
  "ja": "海に急ぎは要らない。"},
 
-"Somewhere out there, a stranger is writing to you. No names. No noise. Only the tide, and whatever it decides to leave on your sand.": {
- "it": "Da qualche parte, uno sconosciuto ti sta scrivendo. Nessun nome. Nessun rumore. Solo la marea, e quello che decide di lasciarti sulla sabbia.",
- "es": "En algún lugar, un desconocido te está escribiendo. Sin nombres. Sin ruido. Solo la marea, y lo que decida dejarte en la arena.",
- "fr": "Quelque part, un inconnu t'écrit. Aucun nom. Aucun bruit. Rien que la marée, et ce qu'elle décide de laisser sur ton sable.",
- "de": "Irgendwo da draußen schreibt dir ein Fremder. Keine Namen. Kein Lärm. Nur die Gezeiten und das, was sie in deinem Sand zurücklassen.",
- "pt-BR": "Em algum lugar, um desconhecido está escrevendo para você. Sem nomes. Sem barulho. Só a maré, e o que ela decidir deixar na sua areia.",
- "ja": "どこかで、見知らぬ誰かがあなたに手紙を書いている。名前もなく、騒がしさもなく。あるのは潮と、それが砂に残していくものだけ。"},
+"Somewhere out there, someone you will never meet is writing to you. No names. No noise. Only the tide, and whatever it decides to leave on your sand.": {
+ "it": "Da qualche parte, qualcuno che non incontrerai mai ti sta scrivendo. Nessun nome. Nessun rumore. Solo la marea, e quello che decide di lasciarti sulla sabbia.",
+ "es": "En algún lugar, alguien a quien nunca conocerás te está escribiendo. Sin nombres. Sin ruido. Solo la marea, y lo que decida dejarte en la arena.",
+ "fr": "Quelque part, quelqu'un que tu ne rencontreras jamais t'écrit. Aucun nom. Aucun bruit. Rien que la marée, et ce qu'elle décide de laisser sur ton sable.",
+ "de": "Irgendwo da draußen schreibt dir jemand, dem du nie begegnen wirst. Keine Namen. Kein Lärm. Nur die Gezeiten und das, was sie in deinem Sand zurücklassen.",
+ "pt-BR": "Em algum lugar, alguém que você nunca vai conhecer está escrevendo para você. Sem nomes. Sem barulho. Só a maré, e o que ela decidir deixar na sua areia.",
+ "ja": "どこかで、一生会うことのない誰かがあなたに手紙を書いている。名前もなく、騒がしさもなく。あるのは潮と、それが砂に残していくものだけ。"},
 
-"Coming to the App Store": {
- "it": "Presto sull'App Store", "es": "Pronto en la App Store",
- "fr": "Bientôt sur l'App Store", "de": "Bald im App Store",
- "pt-BR": "Em breve na App Store", "ja": "App Store にまもなく登場"},
-
-"A stranger": {
- "it": "Uno sconosciuto", "es": "Un desconocido", "fr": "Un inconnu",
- "de": "Jemand Unbekanntes", "pt-BR": "Um desconhecido", "ja": "見知らぬ誰か"},
+"Coming to iPhone and Android": {
+ "it": "Presto su iPhone e Android",
+ "es": "Pronto en iPhone y Android",
+ "fr": "Bientôt sur iPhone et Android",
+ "de": "Bald für iPhone und Android",
+ "pt-BR": "Em breve para iPhone e Android",
+ "ja": "iPhone と Android にまもなく登場"},
 
 "Free · No ads · No accounts": {
  "it": "Gratis · Niente pubblicità · Nessun account",
@@ -282,13 +281,13 @@ SITO = {
  "pt-BR": "E a espera acaba sendo a melhor parte.",
  "ja": "そして待つ時間こそが、いちばんいいところだと分かる。"},
 
-"Days pass. You do other things. Then the tide leaves something on your sand that nobody scheduled, nobody promoted and nobody could have sold you — a stranger's handwriting, from a coast you have never seen.": {
- "it": "Passano i giorni. Fai altro. Poi la marea ti lascia sulla sabbia una cosa che nessuno aveva programmato, nessuno aveva sponsorizzato e nessuno avrebbe potuto venderti — la calligrafia di uno sconosciuto, da una costa che non hai mai visto.",
- "es": "Pasan los días. Haces otras cosas. Entonces la marea deja en tu arena algo que nadie programó, nadie promocionó y nadie podría haberte vendido: la letra de un desconocido, desde una costa que nunca has visto.",
- "fr": "Les jours passent. Tu fais autre chose. Puis la marée laisse sur ton sable quelque chose que personne n'avait programmé, que personne n'avait promu et que personne n'aurait pu te vendre — l'écriture d'un inconnu, venue d'une côte que tu n'as jamais vue.",
- "de": "Tage vergehen. Du tust anderes. Dann lässt die Flut etwas in deinem Sand zurück, das niemand geplant, niemand beworben und niemand dir hätte verkaufen können — die Handschrift eines Fremden, von einer Küste, die du nie gesehen hast.",
- "pt-BR": "Os dias passam. Você faz outras coisas. Então a maré deixa na sua areia algo que ninguém programou, ninguém promoveu e ninguém poderia ter vendido para você — a letra de um desconhecido, de uma costa que você nunca viu.",
- "ja": "日が過ぎる。ほかのことをして暮らす。するとある日、潮が砂に何かを置いていく。誰も予定せず、誰も宣伝せず、誰にも売ることのできなかったもの——見たこともない海岸から届いた、知らない誰かの手書きの文字だ。"},
+"Days pass. You do other things. Then the tide leaves something on your sand that nobody scheduled, nobody promoted and nobody could have sold you — a castaway's handwriting, from a coast you have never seen.": {
+ "it": "Passano i giorni. Fai altro. Poi la marea ti lascia sulla sabbia una cosa che nessuno aveva programmato, nessuno aveva sponsorizzato e nessuno avrebbe potuto venderti — la calligrafia di un naufrago, da una costa che non hai mai visto.",
+ "es": "Pasan los días. Haces otras cosas. Entonces la marea deja en tu arena algo que nadie programó, nadie promocionó y nadie podría haberte vendido: la letra de un náufrago, desde una costa que nunca has visto.",
+ "fr": "Les jours passent. Tu fais autre chose. Puis la marée laisse sur ton sable quelque chose que personne n'avait programmé, que personne n'avait promu et que personne n'aurait pu te vendre — l'écriture d'un naufragé, venue d'une côte que tu n'as jamais vue.",
+ "de": "Tage vergehen. Du tust anderes. Dann lässt die Flut etwas in deinem Sand zurück, das niemand geplant, niemand beworben und niemand dir hätte verkaufen können — die Handschrift eines Schiffbrüchigen, von einer Küste, die du nie gesehen hast.",
+ "pt-BR": "Os dias passam. Você faz outras coisas. Então a maré deixa na sua areia algo que ninguém programou, ninguém promoveu e ninguém poderia ter vendido para você — a letra de um náufrago, de uma costa que você nunca viu.",
+ "ja": "日が過ぎる。ほかのことをして暮らす。するとある日、潮が砂に何かを置いていく。誰も予定せず、誰も宣伝せず、誰にも売ることのできなかったもの——見たこともない海岸から届いた、ある漂着者の手書きの文字だ。"},
 
 "Somewhere to savour the quiet, while everything else is racing.": {
  "it": "Un posto dove godersi la quiete, mentre tutto il resto corre.",
@@ -306,30 +305,22 @@ SITO = {
  "pt-BR": "Aqui é manhã e o vento vem da terra. Não vou dizer meu nome, mas vou dizer que plantei três figueiras atrás de casa e uma pegou. Se esta garrafa chegar a algum lugar, escreva e me conte que tempo faz aí.",
  "ja": "こちらは朝で、風は陸から吹いてくる。名前は明かさないけれど、家の裏にいちじくを三本植えて、そのうち一本が根づいたことは伝えておく。この瓶がどこかに着いたら、そちらの天気を書いて送ってほしい。"},
 
-"Every day the tide will bring bottles from strangers across the sea. Speak kindly — words travel far.": {
- "it": "Ogni giorno la marea porterà bottiglie di sconosciuti da tutto il mare. Parla con gentilezza — le parole vanno lontano.",
- "es": "Cada día la marea traerá botellas de desconocidos de todo el mar. Habla con amabilidad: las palabras llegan lejos.",
- "fr": "Chaque jour, la marée apportera des bouteilles d'inconnus de toute la mer. Parle avec douceur — les mots vont loin.",
- "de": "Jeden Tag bringt die Flut Flaschen von Fremden aus dem ganzen Meer. Sprich freundlich — Worte reisen weit.",
- "pt-BR": "Todo dia a maré vai trazer garrafas de desconhecidos de todo o mar. Fale com gentileza — as palavras vão longe.",
- "ja": "毎日、潮が海じゅうの見知らぬ人たちの瓶を運んでくる。やさしい言葉を。言葉は遠くまで行く。"},
 
+"The sea has no use for hurry. Write to a castaway on a real beach and let the tide take its time — no names, no feeds: an app for iPhone and Android, for people who want the waiting back.": {
+ "it": "Il mare non sa che farsene della fretta. Scrivi a un naufrago su una spiaggia vera e lascia che la marea si prenda il suo tempo — niente nomi, niente feed: un'app per iPhone e Android, per chi si rivuole indietro l'attesa.",
+ "es": "Al mar no le sirve de nada la prisa. Escribe a un náufrago en una playa de verdad y deja que la marea se tome su tiempo: sin nombres, sin feeds; una app para iPhone y Android, para quien quiere recuperar la espera.",
+ "fr": "La mer n'a que faire de la hâte. Écris à un naufragé sur une vraie plage et laisse la marée prendre son temps — aucun nom, aucun fil : une application pour iPhone et Android, pour qui veut retrouver l'attente.",
+ "de": "Das Meer weiß mit Eile nichts anzufangen. Schreib einem Schiffbrüchigen an einem wirklichen Strand und lass der Flut ihre Zeit — keine Namen, keine Feeds: eine App für iPhone und Android, für alle, die das Warten zurückwollen.",
+ "pt-BR": "O mar não tem uso para a pressa. Escreva para um náufrago numa praia de verdade e deixe a maré levar o tempo dela — sem nomes, sem feeds: um app para iPhone e Android, para quem quer a espera de volta.",
+ "ja": "海に急ぎは要らない。実在する浜辺にいる漂着者へ手紙を書き、あとは潮の歩みにまかせる。名前もフィードもない、待つ時間を取り戻したい人のための iPhone・Android アプリ。"},
 
-"The sea has no use for hurry. Write to a stranger on a real beach and let the tide take days to carry it — no names, no feeds, an iPhone app for people who want the waiting back.": {
- "it": "Il mare non sa che farsene della fretta. Scrivi a uno sconosciuto su una spiaggia vera e lascia che la marea ci metta giorni a portarla — niente nomi, niente feed, un'app per iPhone per chi si rivuole indietro l'attesa.",
- "es": "Al mar no le sirve de nada la prisa. Escribe a un desconocido en una playa de verdad y deja que la marea tarde días en llevarla: sin nombres, sin feeds, una app de iPhone para quien quiere recuperar la espera.",
- "fr": "La mer n'a que faire de la hâte. Écris à un inconnu sur une vraie plage et laisse la marée mettre des jours à l'emporter — aucun nom, aucun fil, une application iPhone pour qui veut retrouver l'attente.",
- "de": "Das Meer weiß mit Eile nichts anzufangen. Schreib einem Fremden an einem wirklichen Strand und lass die Flut Tage dafür brauchen — keine Namen, keine Feeds, eine iPhone-App für alle, die das Warten zurückwollen.",
- "pt-BR": "O mar não tem uso para a pressa. Escreva para um desconhecido numa praia de verdade e deixe a maré levar dias para entregar — sem nomes, sem feeds, um app de iPhone para quem quer a espera de volta.",
- "ja": "海に急ぎは要らない。実在する浜辺にいる見知らぬ誰かへ手紙を書き、潮が何日もかけて運ぶのにまかせる。名前もフィードもない、待つ時間を取り戻したい人のための iPhone アプリ。"},
-
-"The sea has no use for hurry. Write to a stranger on a real beach and let the tide take days to carry it.": {
- "it": "Il mare non sa che farsene della fretta. Scrivi a uno sconosciuto su una spiaggia vera e lascia che la marea ci metta giorni a portarla.",
- "es": "Al mar no le sirve de nada la prisa. Escribe a un desconocido en una playa de verdad y deja que la marea tarde días en llevarla.",
- "fr": "La mer n'a que faire de la hâte. Écris à un inconnu sur une vraie plage et laisse la marée mettre des jours à l'emporter.",
- "de": "Das Meer weiß mit Eile nichts anzufangen. Schreib einem Fremden an einem wirklichen Strand und lass die Flut Tage dafür brauchen.",
- "pt-BR": "O mar não tem uso para a pressa. Escreva para um desconhecido numa praia de verdade e deixe a maré levar dias para entregar.",
- "ja": "海に急ぎは要らない。実在する浜辺にいる見知らぬ誰かへ手紙を書き、潮が何日もかけて運ぶのにまかせる。"},
+"The sea has no use for hurry. Write to a castaway on a real beach and let the tide take its time.": {
+ "it": "Il mare non sa che farsene della fretta. Scrivi a un naufrago su una spiaggia vera e lascia che la marea si prenda il suo tempo.",
+ "es": "Al mar no le sirve de nada la prisa. Escribe a un náufrago en una playa de verdad y deja que la marea se tome su tiempo.",
+ "fr": "La mer n'a que faire de la hâte. Écris à un naufragé sur une vraie plage et laisse la marée prendre son temps.",
+ "de": "Das Meer weiß mit Eile nichts anzufangen. Schreib einem Schiffbrüchigen an einem wirklichen Strand und lass der Flut ihre Zeit.",
+ "pt-BR": "O mar não tem uso para a pressa. Escreva para um náufrago numa praia de verdade e deixe a maré levar o tempo dela.",
+ "ja": "海に急ぎは要らない。実在する浜辺にいる漂着者へ手紙を書き、あとは潮の歩みにまかせる。"},
 
 "Sections": {
  "it": "Sezioni", "es": "Secciones", "fr": "Sections",
@@ -351,12 +342,12 @@ SITO = {
  "pt-BR": "O app em Cala Goloritzé ao meio-dia: mar turquesa, areia clara e quatro garrafas na praia.",
  "ja": "正午のカーラ・ゴロリッツェのアプリ画面。ターコイズの海、明るい砂、岸に打ち上げられた四本の瓶。"},
 
-"A correspondence in the journal: a letter from a stranger the reader has privately named Black sand, the reply underneath, and a note saying a bottle of theirs is still at sea.": {
- "it": "Un carteggio nel diario: la lettera di uno sconosciuto a cui chi legge ha dato in privato il nome «Black sand», sotto la risposta, e un avviso che dice che una loro bottiglia è ancora in mare.",
- "es": "Una correspondencia en el diario: la carta de un desconocido a quien quien lee ha llamado en privado «Black sand», debajo la respuesta, y un aviso de que una botella suya sigue en el mar.",
- "fr": "Une correspondance dans le journal : la lettre d'un inconnu que le lecteur a nommé en privé « Black sand », la réponse en dessous, et une note indiquant qu'une de leurs bouteilles est encore en mer.",
- "de": "Ein Briefwechsel im Tagebuch: der Brief eines Fremden, den die lesende Person im Stillen „Black sand“ genannt hat, darunter die Antwort und ein Hinweis, dass eine Flasche von ihnen noch auf See ist.",
- "pt-BR": "Uma correspondência no diário: a carta de um desconhecido a quem quem lê deu em particular o nome «Black sand», a resposta abaixo, e um aviso de que uma garrafa dele ainda está no mar.",
+"A correspondence in the journal: a letter from a castaway the reader has privately named Black sand, the reply underneath, and a note saying a bottle of theirs is still at sea.": {
+ "it": "Un carteggio nel diario: la lettera di un naufrago a cui chi legge ha dato in privato il nome «Black sand», sotto la risposta, e un avviso che dice che una loro bottiglia è ancora in mare.",
+ "es": "Una correspondencia en el diario: la carta de un náufrago a quien quien lee ha llamado en privado «Black sand», debajo la respuesta, y un aviso de que una botella suya sigue en el mar.",
+ "fr": "Une correspondance dans le journal : la lettre d'un naufragé que le lecteur a nommé en privé « Black sand », la réponse en dessous, et une note indiquant qu'une de leurs bouteilles est encore en mer.",
+ "de": "Ein Briefwechsel im Tagebuch: der Brief eines Schiffbrüchigen, den die lesende Person im Stillen „Black sand“ genannt hat, darunter die Antwort und ein Hinweis, dass eine Flasche von ihnen noch auf See ist.",
+ "pt-BR": "Uma correspondência no diário: a carta de um náufrago a quem quem lê deu em particular o nome «Black sand», a resposta abaixo, e um aviso de que uma garrafa dele ainda está no mar.",
  "ja": "日誌のなかの文通。読み手が心のなかで「Black sand」と名づけた相手からの手紙、その下に返信、そして相手の瓶がまだ海の上にあることを告げる一行。"},
 
 "The nautical chart: a route drawn from Cala Goloritzé out of the Mediterranean and north across the Atlantic towards Iceland, with the bottle partway along it.": {
@@ -440,13 +431,13 @@ SITO = {
  "fr": "La marée est déjà en route.", "de": "Die Flut ist schon unterwegs.",
  "pt-BR": "A maré já está a caminho.", "ja": "潮はもう動きはじめている。"},
 
-"On a shore you have never seen, a stranger is pushing the cork into a bottle right now. The sea will decide whose sand it touches next. Maybe yours.": {
- "it": "Su una riva che non hai mai visto, uno sconosciuto sta spingendo il tappo in una bottiglia proprio adesso. Il mare deciderà su quale sabbia farla approdare. Magari proprio sulla tua.",
- "es": "En una orilla que nunca has visto, un desconocido está apretando el corcho de una botella ahora mismo. El mar decidirá qué arena toca después. Quizá justo la tuya.",
- "fr": "Sur un rivage que tu n'as jamais vu, un inconnu enfonce le bouchon d'une bouteille en ce moment même. La mer décidera quel sable elle touchera ensuite. Peut-être le tien.",
- "de": "An einem Ufer, das du nie gesehen hast, drückt gerade ein Fremder den Korken in eine Flasche. Das Meer entscheidet, wessen Sand sie als Nächstes berührt. Vielleicht deinen.",
- "pt-BR": "Numa praia que você nunca viu, um desconhecido está apertando a rolha de uma garrafa agora mesmo. O mar vai decidir em qual areia ela chega. Quem sabe na sua.",
- "ja": "見たこともない岸辺で、いままさに見知らぬ誰かが瓶にコルクを押し込んでいる。次にどの砂に届くかは海が決める。もしかしたら、あなたの砂に。"},
+"On a shore you have never seen, a castaway is pushing the cork into a bottle right now. The sea will decide whose sand it touches next. Maybe yours.": {
+ "it": "Su una riva che non hai mai visto, un naufrago sta spingendo il tappo in una bottiglia proprio adesso. Il mare deciderà su quale sabbia farla approdare. Magari proprio sulla tua.",
+ "es": "En una orilla que nunca has visto, un náufrago está apretando el corcho de una botella ahora mismo. El mar decidirá qué arena toca después. Quizá justo la tuya.",
+ "fr": "Sur un rivage que tu n'as jamais vu, un naufragé enfonce le bouchon d'une bouteille en ce moment même. La mer décidera quel sable elle touchera ensuite. Peut-être le tien.",
+ "de": "An einem Ufer, das du nie gesehen hast, drückt gerade ein Schiffbrüchiger den Korken in eine Flasche. Das Meer entscheidet, wessen Sand sie als Nächstes berührt. Vielleicht deinen.",
+ "pt-BR": "Numa praia que você nunca viu, um náufrago está apertando a rolha de uma garrafa agora mesmo. O mar vai decidir em qual areia ela chega. Quem sabe na sua.",
+ "ja": "見たこともない岸辺で、いままさにひとりの漂着者が瓶にコルクを押し込んでいる。次にどの砂に届くかは海が決める。もしかしたら、あなたの砂に。"},
 
 "Who you are here": {
  "it": "Chi sei, qui", "es": "Quién eres aquí", "fr": "Qui tu es ici",
@@ -462,13 +453,13 @@ SITO = {
  "fr": "Un sceau de cire.", "de": "Ein Siegel in Wachs.",
  "pt-BR": "Um selo de lacre.", "ja": "あるのは蝋の封印だけ。"},
 
-"Every castaway presses the same emblem into the wax, always — and on this sea that is the whole of a person: no profile, no photograph, no history, nothing to look up afterwards. A stranger, a shore, and their handwriting.": {
- "it": "Ogni naufrago imprime sempre lo stesso emblema nella cera — e su questo mare quello è tutto di una persona: nessun profilo, nessuna fotografia, nessuno storico, niente da andare a cercare dopo. Uno sconosciuto, una riva, e la sua calligrafia.",
- "es": "Cada náufrago imprime siempre el mismo emblema en el lacre, y en este mar eso es toda una persona: sin perfil, sin fotografía, sin historial, sin nada que buscar después. Un desconocido, una orilla y su letra.",
- "fr": "Chaque naufragé imprime toujours le même emblème dans la cire — et sur cette mer, c'est là tout un être : pas de profil, pas de photographie, pas d'historique, rien à aller chercher ensuite. Un inconnu, un rivage, et son écriture.",
- "de": "Jeder Schiffbrüchige drückt stets dasselbe Emblem ins Wachs — und auf diesem Meer ist das ein ganzer Mensch: kein Profil, kein Foto, keine Chronik, nichts zum Nachschlagen. Ein Fremder, ein Ufer und seine Handschrift.",
- "pt-BR": "Cada náufrago imprime sempre o mesmo emblema no lacre — e neste mar isso é uma pessoa inteira: sem perfil, sem fotografia, sem histórico, nada para procurar depois. Um desconhecido, uma praia e a letra dele.",
- "ja": "どの漂流者も、いつも同じ紋章を蝋に押す。この海では、それが人のすべてだ。プロフィールも、写真も、履歴もなく、あとから調べられるものは何もない。見知らぬ誰かと、ひとつの岸と、その手書きの文字だけ。"},
+"Every castaway presses the same emblem into the wax, always — and on this sea that is the whole of a person: no profile, no photograph, no history, nothing to look up afterwards. A castaway, a shore, and their handwriting.": {
+ "it": "Ogni naufrago imprime sempre lo stesso emblema nella cera — e su questo mare quello è tutto di una persona: nessun profilo, nessuna fotografia, nessuno storico, niente da andare a cercare dopo. Un naufrago, una riva, e la sua calligrafia.",
+ "es": "Cada náufrago imprime siempre el mismo emblema en el lacre, y en este mar eso es toda una persona: sin perfil, sin fotografía, sin historial, sin nada que buscar después. Un náufrago, una orilla y su letra.",
+ "fr": "Chaque naufragé imprime toujours le même emblème dans la cire — et sur cette mer, c'est là tout un être : pas de profil, pas de photographie, pas d'historique, rien à aller chercher ensuite. Un naufragé, un rivage, et son écriture.",
+ "de": "Jeder Schiffbrüchige drückt stets dasselbe Emblem ins Wachs — und auf diesem Meer ist das ein ganzer Mensch: kein Profil, kein Foto, keine Chronik, nichts zum Nachschlagen. Ein Schiffbrüchiger, ein Ufer und seine Handschrift.",
+ "pt-BR": "Cada náufrago imprime sempre o mesmo emblema no lacre — e neste mar isso é uma pessoa inteira: sem perfil, sem fotografia, sem histórico, nada para procurar depois. Um náufrago, uma praia e a letra dele.",
+ "ja": "どの漂流者も、いつも同じ紋章を蝋に押す。この海では、それが人のすべてだ。プロフィールも、写真も、履歴もなく、あとから調べられるものは何もない。ひとりの漂着者と、ひとつの岸と、その手書きの文字だけ。"},
 
 "They may be writing to you in a language you have never read. One tap turns it into yours; another puts their own words back, exactly as they wrote them.": {
  "it": "Può darsi che ti scrivano in una lingua che non hai mai letto. Un tocco la porta nella tua; un altro rimette le loro parole com'erano, esattamente come le hanno scritte.",
@@ -495,13 +486,13 @@ SITO = {
  "pt-BR": "Aqui as cartas não somem com a rolagem. Elas ficam num diário de papel, na ordem em que o mar as entregou — as suas de um lado, as dele do outro, cada uma com o dia em que chegou escrito embaixo.",
  "ja": "ここでは手紙が流れて消えたりしない。紙の日誌に、海が届けた順のまま残る。自分のものは片側に、相手のものは反対側に、それぞれの下に岸へ着いた日が書かれている。"},
 
-"You may give a stranger a private name, only for your own pages:": {
- "it": "A uno sconosciuto puoi dare un nome privato, solo per le tue pagine:",
- "es": "A un desconocido puedes darle un nombre privado, solo para tus páginas:",
- "fr": "Tu peux donner à un inconnu un nom privé, rien que pour tes pages :",
- "de": "Einem Fremden darfst du einen eigenen Namen geben, nur für deine Seiten:",
- "pt-BR": "Você pode dar a um desconhecido um nome particular, só para as suas páginas:",
- "ja": "見知らぬ相手には、自分の日誌のなかだけで通じる名前をつけられる。"},
+"You may give a correspondent a private name, only for your own pages:": {
+ "it": "A chi ti scrive puoi dare un nome privato, solo per le tue pagine:",
+ "es": "A quien te escribe puedes darle un nombre privado, solo para tus páginas:",
+ "fr": "Tu peux donner à un correspondant un nom privé, rien que pour tes pages :",
+ "de": "Einem Briefpartner darfst du einen eigenen Namen geben, nur für deine Seiten:",
+ "pt-BR": "Você pode dar a quem escreve para você um nome particular, só para as suas páginas:",
+ "ja": "文通の相手には、自分の日誌のなかだけで通じる名前をつけられる。"},
 
 "the lighthouse keeper": {
  "it": "il guardiano del faro", "es": "el farero", "fr": "le gardien du phare",
@@ -573,12 +564,12 @@ SITO = {
  "pt-BR": "Uma garrafa que você lançou deixa uma linha na carta, e a linha cresce enquanto você dorme. O traço cheio é a distância já navegada; os tracejados à frente só aparecem quando você sabe quem espera do outro lado.",
  "ja": "投げた瓶は海図に一本の線を残し、その線は眠っているあいだも伸びていく。実線はすでに渡った距離。その先の破線は、向こう岸で誰が待っているかを知ってからでないと現れない。"},
 
-"The islands of strangers whose letters you have read stay marked there for good — a private map of everyone the sea has introduced you to.": {
- "it": "Le isole degli sconosciuti di cui hai letto le lettere restano segnate per sempre — una mappa privata di tutti quelli che il mare ti ha presentato.",
- "es": "Las islas de los desconocidos cuyas cartas has leído quedan marcadas para siempre: un mapa privado de todos los que el mar te ha presentado.",
- "fr": "Les îles des inconnus dont tu as lu les lettres restent marquées pour de bon — une carte privée de tous ceux que la mer t'a présentés.",
- "de": "Die Inseln der Fremden, deren Briefe du gelesen hast, bleiben für immer eingezeichnet — eine private Karte all jener, die das Meer dir vorgestellt hat.",
- "pt-BR": "As ilhas dos desconhecidos cujas cartas você leu ficam marcadas para sempre — um mapa particular de todos que o mar apresentou a você.",
+"The islands of castaways whose letters you have read stay marked there for good — a private map of everyone the sea has introduced you to.": {
+ "it": "Le isole dei naufraghi di cui hai letto le lettere restano segnate per sempre — una mappa privata di tutti quelli che il mare ti ha presentato.",
+ "es": "Las islas de los náufragos cuyas cartas has leído quedan marcadas para siempre: un mapa privado de todos los que el mar te ha presentado.",
+ "fr": "Les îles des naufragés dont tu as lu les lettres restent marquées pour de bon — une carte privée de tous ceux que la mer t'a présentés.",
+ "de": "Die Inseln der Schiffbrüchigen, deren Briefe du gelesen hast, bleiben für immer eingezeichnet — eine private Karte all jener, die das Meer dir vorgestellt hat.",
+ "pt-BR": "As ilhas dos náufragos cujas cartas você leu ficam marcadas para sempre — um mapa particular de todos que o mar apresentou a você.",
  "ja": "手紙を読んだ相手の島は、そのまま海図に残りつづける。海が引き合わせてくれた人たちだけの、自分だけの地図になる。"},
 
 "The chart is the app's own: coastlines from Natural Earth, public domain, carried inside it. No map service is ever called, and nothing about where you are leaves your hands.": {
@@ -632,13 +623,13 @@ SITO = {
  "pt-BR": "Kit de imprensa",
  "ja": "プレスキット"},
 
-"Two iPhone screens against a blurred sunset. On the left, the beach of Luskentyre with a bottle washed up on the sand, at 20:41 on a Thursday. On the right, an open letter from a stranger, at 13:41 on the Friday. Between them, empty space and the words «seventeen hours».": {
- "it": "Due schermi di iPhone su un tramonto sfocato. A sinistra la spiaggia di Luskentyre con una bottiglia approdata sulla sabbia, alle 20:41 di giovedì. A destra la lettera aperta di uno sconosciuto, alle 13:41 di venerdì. In mezzo, spazio vuoto e le parole «seventeen hours».",
- "es": "Dos pantallas de iPhone sobre un atardecer desenfocado. A la izquierda, la playa de Luskentyre con una botella varada en la arena, a las 20:41 de un jueves. A la derecha, la carta abierta de un desconocido, a las 13:41 del viernes. Entre ambas, espacio vacío y las palabras «seventeen hours».",
- "fr": "Deux écrans d'iPhone sur un coucher de soleil flou. À gauche, la plage de Luskentyre avec une bouteille échouée sur le sable, à 20h41 un jeudi. À droite, la lettre ouverte d'un inconnu, à 13h41 le vendredi. Entre les deux, du vide et les mots « seventeen hours ».",
- "de": "Zwei iPhone-Bildschirme vor einem unscharfen Sonnenuntergang. Links der Strand von Luskentyre mit einer angespülten Flasche im Sand, donnerstags um 20:41 Uhr. Rechts der offene Brief einer fremden Person, freitags um 13:41 Uhr. Dazwischen leerer Raum und die Worte «seventeen hours».",
- "pt-BR": "Duas telas de iPhone sobre um pôr do sol desfocado. À esquerda, a praia de Luskentyre com uma garrafa encalhada na areia, às 20h41 de uma quinta-feira. À direita, a carta aberta de um desconhecido, às 13h41 da sexta. Entre elas, espaço vazio e as palavras «seventeen hours».",
- "ja": "ぼかした夕焼けを背にした二つの iPhone の画面。左は木曜日の20時41分、砂に打ち上げられた瓶のあるラスケンタイアの浜。右は金曜日の13時41分、見知らぬ誰かからの開いた手紙。その間には余白と「seventeen hours」の文字。"},
+"Two iPhone screens against a blurred sunset. On the left, the beach of Luskentyre with a bottle washed up on the sand, at 20:41 on a Thursday. On the right, the answer that came back, at 13:41 on the Friday. Between them, empty space and the words «seventeen hours».": {
+ "it": "Due schermi di iPhone su un tramonto sfocato. A sinistra la spiaggia di Luskentyre con una bottiglia approdata sulla sabbia, alle 20:41 di giovedì. A destra la risposta che è tornata, alle 13:41 di venerdì. In mezzo, spazio vuoto e le parole «seventeen hours».",
+ "es": "Dos pantallas de iPhone sobre un atardecer desenfocado. A la izquierda, la playa de Luskentyre con una botella varada en la arena, a las 20:41 de un jueves. A la derecha, la respuesta que volvió, a las 13:41 del viernes. Entre ambas, espacio vacío y las palabras «seventeen hours».",
+ "fr": "Deux écrans d'iPhone sur un coucher de soleil flou. À gauche, la plage de Luskentyre avec une bouteille échouée sur le sable, à 20h41 un jeudi. À droite, la réponse qui est revenue, à 13h41 le vendredi. Entre les deux, du vide et les mots « seventeen hours ».",
+ "de": "Zwei iPhone-Bildschirme vor einem unscharfen Sonnenuntergang. Links der Strand von Luskentyre mit einer angespülten Flasche im Sand, donnerstags um 20:41 Uhr. Rechts die Antwort, die zurückkam, freitags um 13:41 Uhr. Dazwischen leerer Raum und die Worte «seventeen hours».",
+ "pt-BR": "Duas telas de iPhone sobre um pôr do sol desfocado. À esquerda, a praia de Luskentyre com uma garrafa encalhada na areia, às 20h41 de uma quinta-feira. À direita, a resposta que voltou, às 13h41 da sexta. Entre elas, espaço vazio e as palavras «seventeen hours».",
+ "ja": "ぼかした夕焼けを背にした二つの iPhone の画面。左は木曜日の20時41分、砂に打ち上げられた瓶のあるラスケンタイアの浜。右は金曜日の13時41分、返ってきた返事。その間には余白と「seventeen hours」の文字。"},
 
 "Luskentyre at dusk, and the answer that came back the next day. The times are the ones the phone recorded.": {
  "it": "Luskentyre al tramonto, e la risposta tornata il giorno dopo. Gli orari sono quelli che ha segnato il telefono.",
@@ -656,13 +647,13 @@ SITO = {
  "pt-BR": "Em um parágrafo",
  "ja": "一段落で"},
 
-"Bottlegram is a messaging app for strangers. You write a letter, seal it in a bottle and give it to the current. Six to thirty-six hours later it washes up on another castaway’s beach, somewhere in the world. Then it is their turn to wait. Free on iPhone.": {
- "it": "Bottlegram è un'app di messaggi fra sconosciuti. Scrivi una lettera, la chiudi in una bottiglia e la affidi alla corrente. Da sei a trentasei ore dopo approda sulla spiaggia di un altro naufrago, da qualche parte nel mondo. E poi tocca a lui aspettare. Gratis su iPhone.",
- "es": "Bottlegram es una app de mensajes entre desconocidos. Escribes una carta, la cierras en una botella y la entregas a la corriente. Entre seis y treinta y seis horas después llega a la playa de otro náufrago, en algún lugar del mundo. Y entonces le toca esperar a él. Gratis en iPhone.",
- "fr": "Bottlegram est une application de messages entre inconnus. Vous écrivez une lettre, vous la scellez dans une bouteille et vous la confiez au courant. Six à trente-six heures plus tard, elle échoue sur la plage d'un autre naufragé, quelque part dans le monde. Et c'est à lui d'attendre. Gratuit sur iPhone.",
- "de": "Bottlegram ist eine Nachrichten-App für Fremde. Sie schreiben einen Brief, verschließen ihn in einer Flasche und übergeben ihn der Strömung. Sechs bis sechsunddreißig Stunden später wird er an den Strand eines anderen Gestrandeten gespült, irgendwo auf der Welt. Und dann ist das Warten an ihm. Kostenlos für iPhone.",
- "pt-BR": "Bottlegram é um app de mensagens entre desconhecidos. Você escreve uma carta, fecha numa garrafa e entrega à correnteza. De seis a trinta e seis horas depois ela chega à praia de outro náufrago, em algum lugar do mundo. E então é a vez dele esperar. Grátis no iPhone.",
- "ja": "Bottlegram は見知らぬ人どうしのメッセージアプリです。手紙を書き、瓶に封じ、潮に託します。六時間から三十六時間後、世界のどこかで別の漂流者の浜に流れ着きます。そして今度はその人が待つ番です。iPhone で無料。"},
+"Bottlegram is a messaging app for people who will never meet. You write a letter, seal it in a bottle and give it to the current. Six to thirty-six hours later it washes up on another castaway’s beach, somewhere in the world. Then it is their turn to wait. Free on iPhone and Android.": {
+ "it": "Bottlegram è un'app di messaggi fra persone che non si incontreranno mai. Scrivi una lettera, la chiudi in una bottiglia e la affidi alla corrente. Da sei a trentasei ore dopo approda sulla spiaggia di un altro naufrago, da qualche parte nel mondo. E poi tocca a lui aspettare. Gratis su iPhone e Android.",
+ "es": "Bottlegram es una app de mensajes entre personas que nunca se conocerán. Escribes una carta, la cierras en una botella y la entregas a la corriente. Entre seis y treinta y seis horas después llega a la playa de otro náufrago, en algún lugar del mundo. Y entonces le toca esperar a él. Gratis en iPhone y Android.",
+ "fr": "Bottlegram est une application de messages entre des personnes qui ne se rencontreront jamais. Vous écrivez une lettre, vous la scellez dans une bouteille et vous la confiez au courant. Six à trente-six heures plus tard, elle échoue sur la plage d'un autre naufragé, quelque part dans le monde. Et c'est à lui d'attendre. Gratuit sur iPhone et Android.",
+ "de": "Bottlegram ist eine Nachrichten-App für Menschen, die sich nie begegnen werden. Sie schreiben einen Brief, verschließen ihn in einer Flasche und übergeben ihn der Strömung. Sechs bis sechsunddreißig Stunden später wird er an den Strand eines anderen Schiffbrüchigen gespült, irgendwo auf der Welt. Und dann ist das Warten an ihm. Kostenlos für iPhone und Android.",
+ "pt-BR": "Bottlegram é um app de mensagens entre pessoas que nunca vão se conhecer. Você escreve uma carta, fecha numa garrafa e entrega à correnteza. De seis a trinta e seis horas depois ela chega à praia de outro náufrago, em algum lugar do mundo. E então é a vez dele esperar. Grátis no iPhone e no Android.",
+ "ja": "Bottlegram は、一生会うことのない人どうしのメッセージアプリです。手紙を書き、瓶に封じ、潮に託します。六時間から三十六時間後、世界のどこかで別の漂流者の浜に流れ着きます。そして今度はその人が待つ番です。iPhone と Android で無料。"},
 
 "The story": {
  "it": "La storia",
@@ -720,21 +711,21 @@ SITO = {
  "pt-BR": "Francesco Gola, fotógrafo de paisagem marinha",
  "ja": "フランチェスコ・ゴーラ（海景写真家）"},
 
-"You write to nobody in particular": {
- "it": "Scrivi a nessuno in particolare",
- "es": "Escribes a nadie en particular",
- "fr": "Vous écrivez à personne en particulier",
- "de": "Sie schreiben an niemanden bestimmten",
- "pt-BR": "Você escreve para ninguém em particular",
- "ja": "宛先のない手紙を書く"},
+"The sea chooses who reads it": {
+ "it": "Chi la legge, lo sceglie il mare",
+ "es": "Quién la lee lo elige el mar",
+ "fr": "La mer choisit qui la lit",
+ "de": "Wer ihn liest, entscheidet das Meer",
+ "pt-BR": "Quem lê é o mar que escolhe",
+ "ja": "誰が読むかは、海が決める"},
 
-"Every day the sea leaves you three bottles. You put a letter in one and hand it to the current. There is no address on it, and the sea chooses who receives it.": {
- "it": "Ogni giorno il mare ti lascia tre bottiglie. Ci metti dentro una lettera e la affidi alla corrente. Sopra non c'è un indirizzo, e chi la riceve lo sceglie il mare.",
- "es": "Cada día el mar te deja tres botellas. Metes dentro una carta y la entregas a la corriente. No lleva dirección, y quién la recibe lo elige el mar.",
- "fr": "Chaque jour la mer vous laisse trois bouteilles. Vous glissez une lettre dans l'une d'elles et vous la confiez au courant. Il n'y a pas d'adresse dessus, et c'est la mer qui choisit qui la reçoit.",
- "de": "Jeden Tag lässt Ihnen das Meer drei Flaschen. Sie legen einen Brief hinein und geben ihn der Strömung. Eine Adresse steht nicht darauf, und wer ihn bekommt, entscheidet das Meer.",
- "pt-BR": "Todo dia o mar deixa três garrafas para você. Você põe uma carta dentro e a entrega à correnteza. Não há endereço nela, e quem a recebe é o mar que escolhe.",
- "ja": "海は毎日、三本の瓶をあなたに残します。その一本に手紙を入れ、潮に託します。宛名はなく、誰の手に渡るかは海が決めます。"},
+"Every day the sea leaves you three bottles. You put a letter in one and hand it to the current, and the current carries it to a beach of its own choosing.": {
+ "it": "Ogni giorno il mare ti lascia tre bottiglie. Ci metti dentro una lettera e la affidi alla corrente, e la corrente la porta su una spiaggia che sceglie lei.",
+ "es": "Cada día el mar te deja tres botellas. Metes dentro una carta y la entregas a la corriente, y la corriente la lleva a una playa que elige ella.",
+ "fr": "Chaque jour la mer vous laisse trois bouteilles. Vous glissez une lettre dans l'une d'elles et vous la confiez au courant, et le courant la porte vers une plage de son choix.",
+ "de": "Jeden Tag lässt Ihnen das Meer drei Flaschen. Sie legen einen Brief hinein und geben ihn der Strömung, und die Strömung trägt ihn an einen Strand ihrer Wahl.",
+ "pt-BR": "Todo dia o mar deixa três garrafas para você. Você põe uma carta dentro e a entrega à correnteza, e a correnteza a leva para uma praia que ela mesma escolhe.",
+ "ja": "海は毎日、三本の瓶をあなたに残します。その一本に手紙を入れて潮に託すと、潮はそれを自分の選んだ浜へ運んでいきます。"},
 
 "The sea takes its time": {
  "it": "Il mare si prende il suo tempo",
@@ -880,6 +871,10 @@ SITO = {
  "pt-BR": "Redes sociais",
  "ja": "ソーシャルネットワーキング"},
 
+"iOS and Android": {
+ "it": "iOS e Android", "es": "iOS y Android", "fr": "iOS et Android",
+ "de": "iOS und Android", "pt-BR": "iOS e Android", "ja": "iOS・Android"},
+
 "Coming soon": {
  "it": "Prossimamente",
  "es": "Próximamente",
@@ -968,13 +963,13 @@ SITO = {
  "pt-BR": "Uma praia no fim do mundo: uma orla escura sob as estrelas.",
  "ja": "世界の果ての浜。星の下の暗い岸辺。"},
 
-"Every tide brings a stranger: a beach at sunset with bottles on the sand.": {
- "it": "Ogni marea porta uno sconosciuto: una spiaggia al tramonto con bottiglie sulla sabbia.",
- "es": "Cada marea trae a un desconocido: una playa al atardecer con botellas en la arena.",
- "fr": "Chaque marée amène un inconnu : une plage au coucher du soleil avec des bouteilles sur le sable.",
- "de": "Jede Tide bringt eine fremde Person: ein Strand bei Sonnenuntergang mit Flaschen im Sand.",
- "pt-BR": "Cada maré traz um desconhecido: uma praia ao pôr do sol com garrafas na areia.",
- "ja": "潮が満ちるたび見知らぬ誰かが来る。夕暮れの浜、砂の上の瓶。"},
+"Luskentyre at sunset, with bottles on the sand.": {
+ "it": "Luskentyre al tramonto, con bottiglie sulla sabbia.",
+ "es": "Luskentyre al atardecer, con botellas en la arena.",
+ "fr": "Luskentyre au coucher du soleil, avec des bouteilles sur le sable.",
+ "de": "Luskentyre bei Sonnenuntergang, mit Flaschen im Sand.",
+ "pt-BR": "Luskentyre ao pôr do sol, com garrafas na areia.",
+ "ja": "夕暮れのラスケンタイア、砂の上の瓶。"},
 
 "Nobody here knows your name: a bright daytime beach.": {
  "it": "Qui nessuno sa il tuo nome: una spiaggia luminosa di giorno.",
@@ -992,13 +987,13 @@ SITO = {
  "pt-BR": "A carta náutica, com uma garrafa indo de uma costa a outra.",
  "ja": "海図。二つの海岸のあいだを漂う瓶。"},
 
-"An open correspondence: a letter written to a stranger and the stranger's reply.": {
- "it": "Una corrispondenza aperta: una lettera scritta a uno sconosciuto e la sua risposta.",
- "es": "Una correspondencia abierta: una carta escrita a un desconocido y su respuesta.",
- "fr": "Une correspondance ouverte : une lettre écrite à un inconnu et sa réponse.",
- "de": "Ein offener Briefwechsel: ein Brief an eine fremde Person und deren Antwort.",
- "pt-BR": "Uma correspondência aberta: uma carta escrita a um desconhecido e a resposta dele.",
- "ja": "開かれた文通。見知らぬ人へ書いた手紙と、その返事。"},
+"An open correspondence: a letter, and the reply that came back.": {
+ "it": "Una corrispondenza aperta: una lettera, e la risposta che è tornata.",
+ "es": "Una correspondencia abierta: una carta, y la respuesta que volvió.",
+ "fr": "Une correspondance ouverte : une lettre, et la réponse qui est revenue.",
+ "de": "Ein offener Briefwechsel: ein Brief und die Antwort, die zurückkam.",
+ "pt-BR": "Uma correspondência aberta: uma carta, e a resposta que voltou.",
+ "ja": "開かれた文通。一通の手紙と、返ってきた返事。"},
 
 "The journal, keeping every letter that reached this beach.": {
  "it": "Il diario, che conserva ogni lettera arrivata su questa spiaggia.",
@@ -1048,13 +1043,13 @@ SITO = {
  "pt-BR": "Experimentar antes de abrir",
  "ja": "公開前に試す"},
 
-"Bottlegram is not on the App Store yet. Write to this address and you get a TestFlight build, along with a beach of your own and enough bottles to see what comes back:": {
- "it": "Bottlegram non è ancora sull'App Store. Scrivi a questo indirizzo e ricevi una build TestFlight, con una spiaggia tua e bottiglie a sufficienza per vedere cosa torna indietro:",
- "es": "Bottlegram todavía no está en la App Store. Escribe a esta dirección y recibirás una build de TestFlight, con una playa propia y botellas suficientes para ver qué vuelve:",
- "fr": "Bottlegram n'est pas encore sur l'App Store. Écrivez à cette adresse et vous recevrez une version TestFlight, avec une plage à vous et assez de bouteilles pour voir ce qui revient :",
- "de": "Bottlegram ist noch nicht im App Store. Schreiben Sie an diese Adresse und Sie erhalten einen TestFlight-Build, dazu einen eigenen Strand und genug Flaschen, um zu sehen, was zurückkommt:",
- "pt-BR": "O Bottlegram ainda não está na App Store. Escreva para este endereço e você recebe uma build do TestFlight, com uma praia sua e garrafas suficientes para ver o que volta:",
- "ja": "Bottlegram はまだ App Store にありません。このアドレスに連絡いただければ TestFlight のビルドをお送りします。あなた専用の浜と、何が返ってくるかを確かめるのに十分な数の瓶つきで。"},
+"Bottlegram opens soon on iPhone and Android. Until then, write to this address and you get a build to try, along with a beach of your own and enough bottles to see what comes back:": {
+ "it": "Bottlegram apre presto su iPhone e Android. Fino ad allora, scrivi a questo indirizzo e ricevi una build da provare, con una spiaggia tua e bottiglie a sufficienza per vedere cosa torna indietro:",
+ "es": "Bottlegram abre pronto en iPhone y Android. Hasta entonces, escribe a esta dirección y recibirás una build para probar, con una playa propia y botellas suficientes para ver qué vuelve:",
+ "fr": "Bottlegram ouvre bientôt sur iPhone et Android. D'ici là, écrivez à cette adresse et vous recevrez une version à essayer, avec une plage à vous et assez de bouteilles pour voir ce qui revient :",
+ "de": "Bottlegram öffnet bald auf iPhone und Android. Bis dahin schreiben Sie an diese Adresse und Sie erhalten einen Build zum Ausprobieren, dazu einen eigenen Strand und genug Flaschen, um zu sehen, was zurückkommt:",
+ "pt-BR": "O Bottlegram abre em breve no iPhone e no Android. Até lá, escreva para este endereço e você recebe uma build para testar, com uma praia sua e garrafas suficientes para ver o que volta:",
+ "ja": "Bottlegram はまもなく iPhone と Android で公開されます。それまでのあいだ、このアドレスに連絡いただければ試用ビルドをお送りします。あなた専用の浜と、何が返ってくるかを確かめるのに十分な数の瓶つきで。"},
 
 "The same address reaches Francesco directly for an interview, a question, or a detail this page does not cover.": {
  "it": "Lo stesso indirizzo arriva direttamente a Francesco per un'intervista, una domanda, o un dettaglio che questa pagina non copre.",
@@ -1088,13 +1083,13 @@ SITO = {
  "pt-BR": "Por que lenta",
  "ja": "なぜ、ゆっくりなのか"},
 
-"Twelve souls live in this sea. They are not castaways: they have been here far longer, each with a life of their own to tell, and every so often one of them picks up a bottle and writes to you. No two of them tell the same story. If a spirit writes to you, you were lucky. Their letters always carry their mark.": {
- "it": "In questo mare vivono dodici anime. Non sono naufraghi: stanno qui da molto più tempo, ognuna con una vita sua da raccontare, e ogni tanto una di loro prende una bottiglia e scrive a te. Non ce ne sono due che raccontino la stessa storia. Se ti scrive uno spirito, sei stato fortunato. Le loro lettere portano sempre il loro segno.",
- "es": "En este mar viven doce almas. No son náufragos: llevan aquí mucho más tiempo, cada una con una vida propia que contar, y de vez en cuando una de ellas coge una botella y te escribe. No hay dos que cuenten la misma historia. Si te escribe un espíritu, has tenido suerte. Sus cartas llevan siempre su marca.",
- "fr": "Douze âmes vivent dans cette mer. Ce ne sont pas des naufragés : elles sont ici depuis bien plus longtemps, chacune avec sa propre vie à raconter, et de temps en temps l'une d'elles prend une bouteille et vous écrit. Il n'y en a pas deux qui racontent la même histoire. Si un esprit vous écrit, vous avez eu de la chance. Leurs lettres portent toujours leur marque.",
- "de": "In diesem Meer leben zwölf Seelen. Sie sind keine Gestrandeten: Sie sind weit länger hier, jede mit einem eigenen Leben zu erzählen, und hin und wieder nimmt eine von ihnen eine Flasche und schreibt Ihnen. Keine zwei erzählen dieselbe Geschichte. Wenn ein Geist Ihnen schreibt, hatten Sie Glück. Ihre Briefe tragen immer ihr Zeichen.",
- "pt-BR": "Neste mar vivem doze almas. Não são náufragos: estão aqui há muito mais tempo, cada uma com uma vida própria para contar, e de vez em quando uma delas pega uma garrafa e escreve para você. Não há duas que contem a mesma história. Se um espírito escrever para você, você teve sorte. As cartas deles trazem sempre a sua marca.",
- "ja": "この海には十二の魂が暮らしています。彼らは漂流者ではありません。ずっと前からここにいて、それぞれに語るべき生涯を持ち、ときおりそのうちの一人が瓶を手に取り、あなたに手紙を書きます。同じ物語を語る者は二人といません。魂から手紙が届いたなら、あなたは幸運でした。その手紙には必ず彼らの印があります。"},
+"The sea has its spirits. They were here long before any castaway, each with a life of their own to tell, and every so often one of them picks up a bottle and writes to you. If a spirit writes to you, you were lucky. Their letters always carry their mark.": {
+ "it": "Il mare ha i suoi spiriti. Erano qui molto prima di qualunque naufrago, ognuno con una vita sua da raccontare, e ogni tanto uno di loro prende una bottiglia e scrive a te. Se ti scrive uno spirito, sei stato fortunato. Le loro lettere portano sempre il loro segno.",
+ "es": "El mar tiene sus espíritus. Estaban aquí mucho antes que cualquier náufrago, cada uno con una vida propia que contar, y de vez en cuando uno de ellos coge una botella y te escribe. Si te escribe un espíritu, has tenido suerte. Sus cartas llevan siempre su marca.",
+ "fr": "La mer a ses esprits. Ils étaient là bien avant le premier naufragé, chacun avec sa propre vie à raconter, et de temps en temps l'un d'eux prend une bouteille et vous écrit. Si un esprit vous écrit, vous avez eu de la chance. Leurs lettres portent toujours leur marque.",
+ "de": "Das Meer hat seine Geister. Sie waren lange vor jedem Schiffbrüchigen hier, jeder mit einem eigenen Leben zu erzählen, und hin und wieder nimmt einer von ihnen eine Flasche und schreibt Ihnen. Wenn ein Geist Ihnen schreibt, hatten Sie Glück. Ihre Briefe tragen immer ihr Zeichen.",
+ "pt-BR": "O mar tem seus espíritos. Estavam aqui muito antes de qualquer náufrago, cada um com uma vida própria para contar, e de vez em quando um deles pega uma garrafa e escreve para você. Se um espírito escrever para você, você teve sorte. As cartas deles trazem sempre a sua marca.",
+ "ja": "この海には魂たちがいます。どの漂着者よりもずっと前からここにいて、それぞれに語るべき生涯を持ち、ときおりそのうちの一人が瓶を手に取り、あなたに手紙を書きます。魂から手紙が届いたなら、あなたは幸運でした。その手紙には必ず彼らの印があります。"},
 
 "Somewhere a phone is buzzing and someone is waiting for an answer. Not here.": {
  "it": "Da qualche parte un telefono sta vibrando e qualcuno aspetta una risposta. Qui no.",
@@ -1104,13 +1099,13 @@ SITO = {
  "pt-BR": "Em algum lugar um telefone está vibrando e alguém espera uma resposta. Aqui não.",
  "ja": "どこかで電話が震え、誰かが返事を待っています。ここでは違います。"},
 
-"Here your letter is at sea, and the sea can take more than a day to deliver a message. Nothing to check, nothing owed to anyone, nobody typing. It ends up on a beach you have never seen, and a stranger decides whether to write back.": {
- "it": "Qui la tua lettera è in mare, e il mare ci può mettere più di un giorno per consegnare un messaggio. Niente da controllare, niente che devi a nessuno, nessuno che sta scrivendo. Finisce su una spiaggia che non hai mai visto, e uno sconosciuto decide se risponderti.",
- "es": "Aquí tu carta está en el mar, y el mar puede tardar más de un día en entregar un mensaje. Nada que comprobar, nada que le debas a nadie, nadie escribiendo. Acaba en una playa que nunca has visto, y un desconocido decide si te responde.",
- "fr": "Ici votre lettre est en mer, et la mer peut mettre plus d'une journée à livrer un message. Rien à vérifier, rien que vous deviez à personne, personne en train d'écrire. Elle finit sur une plage que vous n'avez jamais vue, et un inconnu décide s'il vous répond.",
- "de": "Hier ist Ihr Brief auf See, und das Meer kann länger als einen Tag brauchen, um eine Nachricht zuzustellen. Nichts nachzusehen, niemandem etwas schuldig, niemand tippt. Er landet an einem Strand, den Sie nie gesehen haben, und eine fremde Person entscheidet, ob sie zurückschreibt.",
- "pt-BR": "Aqui sua carta está no mar, e o mar pode levar mais de um dia para entregar uma mensagem. Nada para conferir, nada devido a ninguém, ninguém digitando. Ela vai parar numa praia que você nunca viu, e um desconhecido decide se responde.",
- "ja": "ここでは、あなたの手紙は海の上にあり、海はひとつのメッセージを届けるのに一日以上かけることもあります。確認するものはなく、誰に対する義務もなく、入力中の人もいません。手紙は見たこともない浜に流れ着き、見知らぬ誰かが返事を書くかどうかを決めます。"},
+"Here your letter is at sea, and the sea can take more than a day to deliver it. While it travels you can watch it cross the chart, or forget about it until the tide comes back. It ends up on a beach you have never seen, and someone you will never meet decides whether to write back.": {
+ "it": "Qui la tua lettera è in mare, e il mare ci può mettere più di un giorno per consegnarla. Mentre viaggia puoi guardarla attraversare la carta, o dimenticartene finché la marea non torna. Finisce su una spiaggia che non hai mai visto, e qualcuno che non incontrerai mai decide se risponderti.",
+ "es": "Aquí tu carta está en el mar, y el mar puede tardar más de un día en entregarla. Mientras viaja puedes verla cruzar la carta náutica, u olvidarte de ella hasta que vuelva la marea. Acaba en una playa que nunca has visto, y alguien a quien nunca conocerás decide si te responde.",
+ "fr": "Ici votre lettre est en mer, et la mer peut mettre plus d'une journée à la livrer. Pendant qu'elle voyage, vous pouvez la regarder traverser la carte, ou l'oublier jusqu'au retour de la marée. Elle finit sur une plage que vous n'avez jamais vue, et quelqu'un que vous ne rencontrerez jamais décide s'il vous répond.",
+ "de": "Hier ist Ihr Brief auf See, und das Meer kann länger als einen Tag brauchen, um ihn zuzustellen. Während er reist, können Sie ihm auf der Karte zusehen oder ihn vergessen, bis die Flut zurückkommt. Er landet an einem Strand, den Sie nie gesehen haben, und jemand, dem Sie nie begegnen werden, entscheidet, ob er zurückschreibt.",
+ "pt-BR": "Aqui sua carta está no mar, e o mar pode levar mais de um dia para entregá-la. Enquanto ela viaja, você pode vê-la atravessar a carta náutica, ou esquecê-la até a maré voltar. Ela vai parar numa praia que você nunca viu, e alguém que você nunca vai conhecer decide se responde.",
+ "ja": "ここでは、あなたの手紙は海の上にあり、海はそれを届けるのに一日以上かけることもあります。旅のあいだは海図の上を進むのを眺めてもいいし、潮が戻るまで忘れていてもいい。手紙は見たこともない浜に流れ着き、一生会うことのない誰かが返事を書くかどうかを決めます。"},
 
 "A friend of mine said it better: in a world that runs at two thousand miles an hour and expects us to answer at the same speed, this feels like the best possible reply.": {
  "it": "Un mio amico l'ha detta meglio: in un mondo che va a duemila all'ora e pretende che rispondiamo alla stessa velocità, questa mi sembra la migliore delle risposte.",
@@ -1300,6 +1295,10 @@ DAL_SITO = [
  "The sea, in return, left you one thing: a beach at the end of the world.",
  "They say the tide brings words from other castaways. And that a bottle, thrown well, can reach anyone.",
  "Your new home",
+ "Every day the tide will bring bottles from other shores. You can throw three of your own each day. Speak kindly — words travel far.",
+ # La firma della lettera: dal 09/09 nell'app gli sconosciuti sono naufraghi,
+ # e dal 05/11 il sito usa la stessa parola, letta dall'app.
+ "A castaway",
  # LA FIRMA DELLA LETTERA NON SI RILEGGE PIU DALL'APP: dentro l'app gli
  # sconosciuti sono diventati naufraghi, e quella stringa li non c'e' piu.
  # Sul sito resta, ed e' vera — quindi la voce e' passata a mano in SITO,
