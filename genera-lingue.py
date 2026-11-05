@@ -1259,6 +1259,522 @@ SITO = {
  "de": "Küstenlinien von Natural Earth (gemeinfrei). Klänge von freesound.org (CC0). Kein Kartendienst, kein Tracking, keine Cookies: Diese Seite weiß nicht, wer du bist — genau wie das Meer.",
  "pt-BR": "Costas do Natural Earth (domínio público). Sons do freesound.org (CC0). Sem serviço de mapas, sem rastreamento, sem cookies: esta página não sabe quem você é, exatamente como o mar.",
  "ja": "海岸線は Natural Earth（パブリックドメイン）。音は freesound.org（CC0）。地図サービスも、追跡も、Cookie もない。このページはあなたが誰かを知らない——海とまったく同じように。"},
+
+# ── La privacy (05/11/2026) ───────────────────────────────────────────────
+# La pagina entra nelle sette lingue. I nomi dei servizi sono in INVARIATE.
+
+"Privacy — Bottlegram": {
+ "it": "Privacy — Bottlegram",
+ "es": "Privacidad — Bottlegram",
+ "fr": "Confidentialité — Bottlegram",
+ "de": "Datenschutz — Bottlegram",
+ "pt-BR": "Privacidade — Bottlegram",
+ "ja": "プライバシー — Bottlegram"},
+
+"Bottlegram never asks who you are. What little the sea keeps, who else touches a letter, and how to take it all back.": {
+ "it": "Bottlegram non ti chiede mai chi sei. Quel poco che il mare tiene, chi altro tocca una lettera, e come riprenderti tutto.",
+ "es": "Bottlegram nunca te pregunta quién eres. Lo poco que guarda el mar, quién más toca una carta y cómo recuperarlo todo.",
+ "fr": "Bottlegram ne te demande jamais qui tu es. Le peu que la mer garde, qui d'autre touche une lettre, et comment tout reprendre.",
+ "de": "Bottlegram fragt nie, wer du bist. Das Wenige, das das Meer behält, wer sonst einen Brief berührt, und wie du alles zurücknimmst.",
+ "pt-BR": "O Bottlegram nunca pergunta quem você é. O pouco que o mar guarda, quem mais toca uma carta e como pegar tudo de volta.",
+ "ja": "Bottlegram はあなたが誰なのかを決して尋ねません。海が覚えておくわずかなこと、手紙に触れるほかの誰か、そしてすべてを取り戻す方法。"},
+
+"In effect since 5 November 2026 · Bottlegram is published by Bulb Mode SRL Semplificata, Via Ancona 15, 60035 Jesi (AN), Italy · VAT IT02730980428": {
+ "it": "In vigore dal 5 novembre 2026 · Bottlegram è pubblicata da Bulb Mode SRL Semplificata, Via Ancona 15, 60035 Jesi (AN), Italia · P. IVA IT02730980428",
+ "es": "En vigor desde el 5 de noviembre de 2026 · Bottlegram está publicada por Bulb Mode SRL Semplificata, Via Ancona 15, 60035 Jesi (AN), Italia · IVA IT02730980428",
+ "fr": "En vigueur depuis le 5 novembre 2026 · Bottlegram est publiée par Bulb Mode SRL Semplificata, Via Ancona 15, 60035 Jesi (AN), Italie · TVA IT02730980428",
+ "de": "Gültig seit dem 5. November 2026 · Bottlegram wird herausgegeben von Bulb Mode SRL Semplificata, Via Ancona 15, 60035 Jesi (AN), Italien · USt-IdNr. IT02730980428",
+ "pt-BR": "Em vigor desde 5 de novembro de 2026 · O Bottlegram é publicado por Bulb Mode SRL Semplificata, Via Ancona 15, 60035 Jesi (AN), Itália · IVA IT02730980428",
+ "ja": "2026年11月5日施行 · Bottlegram の提供者：Bulb Mode SRL Semplificata、Via Ancona 15, 60035 Jesi (AN), イタリア · VAT IT02730980428"},
+
+"This page does not know who you are. Neither does the sea. What follows is the whole of it, written to be read.": {
+ "it": "Questa pagina non sa chi sei. E nemmeno il mare. Quello che segue è tutto, scritto per essere letto.",
+ "es": "Esta página no sabe quién eres. Tampoco el mar. Lo que sigue es todo, escrito para ser leído.",
+ "fr": "Cette page ne sait pas qui tu es. La mer non plus. Ce qui suit, c'est tout, écrit pour être lu.",
+ "de": "Diese Seite weiß nicht, wer du bist. Das Meer auch nicht. Was folgt, ist alles, und es ist zum Lesen geschrieben.",
+ "pt-BR": "Esta página não sabe quem você é. O mar também não. O que vem a seguir é tudo, escrito para ser lido.",
+ "ja": "このページは、あなたが誰なのかを知りません。海も知りません。ここに書いたことがすべてで、読まれるために書いてあります。"},
+
+"The short version": {
+ "it": "In breve",
+ "es": "En pocas palabras",
+ "fr": "En bref",
+ "de": "Kurz gesagt",
+ "pt-BR": "Em poucas palavras",
+ "ja": "かんたんに言えば"},
+
+"Bottlegram never asks your name, your email address, your phone number, your contacts or your location in order to use it. There is no signup form. When you first open the app, an anonymous account is created for you: a random identifier, and nothing attached to it. There is no advertising, no analytics, no tracking of any kind, in the app or on this site.": {
+ "it": "Per usare Bottlegram non ti chiediamo mai il nome, l'indirizzo email, il numero di telefono, i contatti o la posizione. Non c'è un modulo di registrazione. La prima volta che apri l'app ti viene creato un account anonimo: un identificativo casuale, e niente attaccato. Non c'è pubblicità, non ci sono statistiche, non c'è tracciamento di alcun tipo, né nell'app né su questo sito.",
+ "es": "Bottlegram nunca te pide tu nombre, tu correo, tu número de teléfono, tus contactos ni tu ubicación para usarla. No hay formulario de registro. La primera vez que abres la app se crea para ti una cuenta anónima: un identificador aleatorio, sin nada más. No hay publicidad, ni estadísticas, ni seguimiento de ningún tipo, ni en la app ni en este sitio.",
+ "fr": "Pour utiliser Bottlegram, on ne te demande jamais ton nom, ton adresse e-mail, ton numéro de téléphone, tes contacts ni ta position. Il n'y a pas de formulaire d'inscription. La première fois que tu ouvres l'app, un compte anonyme est créé pour toi : un identifiant aléatoire, et rien d'autre. Il n'y a ni publicité, ni statistiques, ni pistage d'aucune sorte, ni dans l'app ni sur ce site.",
+ "de": "Bottlegram fragt nie nach deinem Namen, deiner E-Mail-Adresse, deiner Telefonnummer, deinen Kontakten oder deinem Standort, um es zu benutzen. Es gibt kein Anmeldeformular. Wenn du die App zum ersten Mal öffnest, wird ein anonymes Konto für dich angelegt: eine zufällige Kennung, und nichts daran. Es gibt keine Werbung, keine Statistik und kein Tracking jeglicher Art, weder in der App noch auf dieser Seite.",
+ "pt-BR": "O Bottlegram nunca pede seu nome, seu e-mail, seu telefone, seus contatos ou sua localização para ser usado. Não há formulário de cadastro. Na primeira vez que você abre o app, uma conta anônima é criada para você: um identificador aleatório, e nada mais. Não há publicidade, nem estatísticas, nem rastreamento de nenhum tipo, nem no app nem neste site.",
+ "ja": "Bottlegram を使うために、名前、メールアドレス、電話番号、連絡先、位置情報を求めることはありません。登録フォームもありません。はじめてアプリを開くと、匿名のアカウントがひとつ作られます。ランダムな識別子だけで、ほかには何も結びついていません。広告も、アクセス解析も、どんな種類の追跡も、アプリにもこのサイトにもありません。"},
+
+"There is exactly one place where you may choose to give a name and an email address: the “Write to us” form in the Wreck Emporium, and only so that we can write back. Both fields are optional, and the message is sent whether you fill them or not. It is stored with your anonymous account, so that a problem can be looked into on the right beach, and it never travels with your letters.": {
+ "it": "C'è un solo posto dove puoi scegliere di lasciare un nome e un indirizzo email: il modulo «Scrivici» nell'Emporio del Relitto, e solo perché possiamo risponderti. Tutti e due i campi sono facoltativi, e il messaggio parte comunque, che tu li riempia o no. Viene conservato insieme al tuo account anonimo, perché un problema si possa cercare sulla spiaggia giusta, e non viaggia mai con le tue lettere.",
+ "es": "Hay un solo lugar donde puedes elegir dejar un nombre y un correo: el formulario «Escríbenos» del Emporio del Naufragio, y solo para que podamos responderte. Los dos campos son opcionales, y el mensaje se envía los rellenes o no. Se guarda junto a tu cuenta anónima, para que un problema pueda buscarse en la playa correcta, y nunca viaja con tus cartas.",
+ "fr": "Il existe un seul endroit où tu peux choisir de laisser un nom et une adresse e-mail : le formulaire « Écris-nous » de l'Emporium de l'Épave, et seulement pour qu'on puisse te répondre. Les deux champs sont facultatifs, et le message part que tu les remplisses ou non. Il est conservé avec ton compte anonyme, pour qu'un problème puisse être cherché sur la bonne plage, et il ne voyage jamais avec tes lettres.",
+ "de": "Es gibt genau einen Ort, an dem du einen Namen und eine E-Mail-Adresse hinterlassen kannst: das Formular „Schreib uns“ im Kontor des Wracks, und nur, damit wir dir antworten können. Beide Felder sind freiwillig, und die Nachricht geht ab, ob du sie ausfüllst oder nicht. Sie wird zusammen mit deinem anonymen Konto gespeichert, damit ein Problem am richtigen Strand gesucht werden kann, und sie reist nie mit deinen Briefen.",
+ "pt-BR": "Existe um único lugar onde você pode escolher deixar um nome e um e-mail: o formulário «Fale conosco» no Empório do Naufrágio, e só para que a gente possa responder. Os dois campos são opcionais, e a mensagem é enviada mesmo que você não os preencha. Ela fica guardada junto da sua conta anônima, para que um problema possa ser procurado na praia certa, e nunca viaja com as suas cartas.",
+ "ja": "名前とメールアドレスを残せる場所は、ひとつだけです。難破商館の「たよりを送る」フォームで、返事を書くためだけのものです。どちらの欄も任意で、書いても書かなくてもメッセージは送られます。メッセージはあなたの匿名アカウントと一緒に保存されます。問題を正しい浜で調べるためで、あなたの手紙と一緒に旅することはありません。"},
+
+"What the sea keeps": {
+ "it": "Cosa tiene il mare",
+ "es": "Lo que guarda el mar",
+ "fr": "Ce que la mer garde",
+ "de": "Was das Meer behält",
+ "pt-BR": "O que o mar guarda",
+ "ja": "海が覚えておくこと"},
+
+"To carry letters between castaways, the sea has to remember a few things:": {
+ "it": "Per portare lettere fra naufraghi, il mare deve ricordare poche cose:",
+ "es": "Para llevar cartas entre náufragos, el mar tiene que recordar unas pocas cosas:",
+ "fr": "Pour porter des lettres entre naufragés, la mer doit se souvenir de quelques choses :",
+ "de": "Um Briefe zwischen Schiffbrüchigen zu tragen, muss sich das Meer ein paar Dinge merken:",
+ "pt-BR": "Para levar cartas entre náufragos, o mar precisa lembrar algumas coisas:",
+ "ja": "漂流者のあいだで手紙を運ぶために、海はいくつかのことを覚えておく必要があります。"},
+
+"An anonymous account": {
+ "it": "Un account anonimo",
+ "es": "Una cuenta anónima",
+ "fr": "Un compte anonyme",
+ "de": "Ein anonymes Konto",
+ "pt-BR": "Uma conta anônima",
+ "ja": "匿名のアカウント"},
+
+": a random identifier created on your first launch. It is not linked to your name, email, or any identity, because none was ever asked.": {
+ "it": ": un identificativo casuale creato al primo avvio. Non è legato al tuo nome, alla tua email o a qualunque identità, perché nessuna è mai stata chiesta.",
+ "es": ": un identificador aleatorio creado la primera vez que abres la app. No está ligado a tu nombre, a tu correo ni a ninguna identidad, porque nunca se pidió ninguna.",
+ "fr": " : un identifiant aléatoire créé au premier lancement. Il n'est lié ni à ton nom, ni à ton e-mail, ni à aucune identité, puisqu'aucune n'a jamais été demandée.",
+ "de": ": eine zufällige Kennung, beim ersten Start erzeugt. Sie ist nicht mit deinem Namen, deiner E-Mail oder irgendeiner Identität verbunden, denn danach wurde nie gefragt.",
+ "pt-BR": ": um identificador aleatório criado na primeira vez que você abre o app. Ele não está ligado ao seu nome, ao seu e-mail nem a nenhuma identidade, porque nenhuma foi pedida.",
+ "ja": "：最初の起動時に作られるランダムな識別子です。名前やメールアドレス、どんな身元とも結びついていません。そもそも尋ねていないからです。"},
+
+"Your beach and your language": {
+ "it": "La tua spiaggia e la tua lingua",
+ "es": "Tu playa y tu idioma",
+ "fr": "Ta plage et ta langue",
+ "de": "Dein Strand und deine Sprache",
+ "pt-BR": "Sua praia e seu idioma",
+ "ja": "あなたの浜と言語"},
+
+": the stretch of coast you were cast on, and the language you write in, so the tide can favour letters you will understand.": {
+ "it": ": il tratto di costa su cui sei naufragato, e la lingua in cui scrivi, perché la marea possa preferire lettere che capirai.",
+ "es": ": el trozo de costa donde naufragaste y el idioma en que escribes, para que la marea pueda preferir cartas que entiendas.",
+ "fr": " : le bout de côte où tu as échoué, et la langue dans laquelle tu écris, pour que la marée puisse préférer des lettres que tu comprendras.",
+ "de": ": das Stück Küste, an dem du gestrandet bist, und die Sprache, in der du schreibst, damit die Flut Briefe bevorzugen kann, die du verstehst.",
+ "pt-BR": ": o trecho de costa onde você naufragou e o idioma em que escreve, para que a maré possa preferir cartas que você vai entender.",
+ "ja": "：あなたが流れ着いた海岸と、あなたが書く言語です。潮が、あなたに読める手紙を選べるようにするためです。"},
+
+"Your letters": {
+ "it": "Le tue lettere",
+ "es": "Tus cartas",
+ "fr": "Tes lettres",
+ "de": "Deine Briefe",
+ "pt-BR": "Suas cartas",
+ "ja": "あなたの手紙"},
+
+": what you write and what you receive, with the times of throwing, landfall and reading, and the translations you asked for. Letters are the app; without them there is nothing to deliver.": {
+ "it": ": quello che scrivi e quello che ricevi, con gli orari del lancio, dell'approdo e della lettura, e le traduzioni che hai chiesto. Le lettere sono l'app; senza di loro non c'è niente da consegnare.",
+ "es": ": lo que escribes y lo que recibes, con las horas del lanzamiento, de la llegada y de la lectura, y las traducciones que pediste. Las cartas son la app; sin ellas no hay nada que entregar.",
+ "fr": " : ce que tu écris et ce que tu reçois, avec les heures du lancer, de l'arrivée et de la lecture, et les traductions que tu as demandées. Les lettres sont l'app ; sans elles, il n'y a rien à livrer.",
+ "de": ": was du schreibst und was du bekommst, mit den Zeiten von Wurf, Landung und Lesen, und den Übersetzungen, um die du gebeten hast. Die Briefe sind die App; ohne sie gibt es nichts zuzustellen.",
+ "pt-BR": ": o que você escreve e o que recebe, com os horários do lançamento, da chegada e da leitura, e as traduções que você pediu. As cartas são o app; sem elas não há nada para entregar.",
+ "ja": "：あなたが書いたものと受け取ったもの、投げた時刻、流れ着いた時刻、読んだ時刻、そして頼んだ翻訳です。手紙こそがアプリで、手紙がなければ届けるものがありません。"},
+
+"The rules you accepted": {
+ "it": "Le regole che hai accettato",
+ "es": "Las reglas que aceptaste",
+ "fr": "Les règles que tu as acceptées",
+ "de": "Die Regeln, denen du zugestimmt hast",
+ "pt-BR": "As regras que você aceitou",
+ "ja": "同意した掟"},
+
+": which version of the rules of the sea you agreed to, and when.": {
+ "it": ": quale versione delle regole del mare hai accettato, e quando.",
+ "es": ": qué versión de las reglas del mar aceptaste, y cuándo.",
+ "fr": " : quelle version des règles de la mer tu as acceptée, et quand.",
+ "de": ": welcher Fassung der Regeln des Meeres du zugestimmt hast, und wann.",
+ "pt-BR": ": qual versão das regras do mar você aceitou, e quando.",
+ "ja": "：どの版の「海の掟」に、いつ同意したか。"},
+
+"Reports and blocks": {
+ "it": "Segnalazioni e blocchi",
+ "es": "Denuncias y bloqueos",
+ "fr": "Signalements et blocages",
+ "de": "Meldungen und Blockierungen",
+ "pt-BR": "Denúncias e bloqueios",
+ "ja": "報告とブロック"},
+
+": if you report a letter to the Sea or block a correspondent, that is remembered, so the tide never brings you together again.": {
+ "it": ": se segnali una lettera al Mare o blocchi chi ti scrive, il mare se lo ricorda, perché la marea non vi faccia mai più incontrare.",
+ "es": ": si denuncias una carta al Mar o bloqueas a quien te escribe, el mar lo recuerda, para que la marea no vuelva a juntaros nunca.",
+ "fr": " : si tu signales une lettre à la Mer ou bloques quelqu'un qui t'écrit, la mer s'en souvient, pour que la marée ne vous réunisse plus jamais.",
+ "de": ": Wenn du einen Brief dem Meer meldest oder jemanden blockierst, merkt sich das Meer das, damit die Flut euch nie wieder zusammenführt.",
+ "pt-BR": ": se você denuncia uma carta ao Mar ou bloqueia quem escreve, o mar se lembra, para que a maré nunca mais junte vocês.",
+ "ja": "：手紙を海に報告したり、相手をブロックしたりすると、海はそれを覚えておきます。潮が二度とふたりを引き合わせないようにするためです。"},
+
+"What you own": {
+ "it": "Quello che possiedi",
+ "es": "Lo que tienes",
+ "fr": "Ce que tu possèdes",
+ "de": "Was dir gehört",
+ "pt-BR": "O que você tem",
+ "ja": "あなたの持ち物"},
+
+": whether you have bought the sextant, the bonfire, the seal you press on your letters, or the other things in the Wreck Emporium. We never see your payment details, only that the purchase happened.": {
+ "it": ": se hai comprato il sestante, il falò, il sigillo che imprimi sulle lettere, o le altre cose dell'Emporio del Relitto. Non vediamo mai i tuoi dati di pagamento, solo che l'acquisto è avvenuto.",
+ "es": ": si has comprado el sextante, la hoguera, el sello que imprimes en tus cartas u otras cosas del Emporio del Naufragio. Nunca vemos tus datos de pago, solo que la compra se hizo.",
+ "fr": " : si tu as acheté le sextant, le feu de camp, le sceau que tu presses sur tes lettres, ou les autres choses de l'Emporium de l'Épave. Nous ne voyons jamais tes données de paiement, seulement que l'achat a eu lieu.",
+ "de": ": ob du den Sextanten, das Lagerfeuer, das Siegel für deine Briefe oder die anderen Dinge aus dem Kontor des Wracks gekauft hast. Deine Zahlungsdaten sehen wir nie, nur, dass der Kauf stattgefunden hat.",
+ "pt-BR": ": se você comprou o sextante, a fogueira, o selo que imprime nas cartas ou as outras coisas do Empório do Naufrágio. Nunca vemos seus dados de pagamento, só que a compra aconteceu.",
+ "ja": "：六分儀、焚き火、手紙に押す封蝋、そのほか難破商館の品を買ったかどうか。支払いの情報を見ることはなく、購入があったことだけを知ります。"},
+
+"What you write to us": {
+ "it": "Quello che ci scrivi",
+ "es": "Lo que nos escribes",
+ "fr": "Ce que tu nous écris",
+ "de": "Was du uns schreibst",
+ "pt-BR": "O que você nos escreve",
+ "ja": "あなたからのたより"},
+
+": if you use the “Write to us” form, we keep your message, the app version and the language it was written in, plus the name and email address you chose to leave, if you left any. It is kept so a bug can be chased and a question answered, and it is the only place in Bottlegram where an email address exists at all.": {
+ "it": ": se usi il modulo «Scrivici», teniamo il tuo messaggio, la versione dell'app e la lingua in cui è scritto, più il nome e l'indirizzo email che hai scelto di lasciare, se ne hai lasciati. Lo teniamo per inseguire un errore e rispondere a una domanda, ed è l'unico posto di Bottlegram dove esista un indirizzo email.",
+ "es": ": si usas el formulario «Escríbenos», guardamos tu mensaje, la versión de la app y el idioma en que está escrito, además del nombre y el correo que hayas elegido dejar, si dejaste alguno. Lo guardamos para perseguir un error y responder una pregunta, y es el único lugar de Bottlegram donde existe un correo.",
+ "fr": " : si tu utilises le formulaire « Écris-nous », nous gardons ton message, la version de l'app et la langue dans laquelle il est écrit, plus le nom et l'adresse e-mail que tu as choisi de laisser, si tu en as laissé. Nous le gardons pour traquer un bug et répondre à une question, et c'est le seul endroit de Bottlegram où une adresse e-mail existe.",
+ "de": ": Wenn du das Formular „Schreib uns“ benutzt, behalten wir deine Nachricht, die App-Version und die Sprache, in der sie geschrieben ist, dazu den Namen und die E-Mail-Adresse, die du hinterlassen hast, falls überhaupt. Wir behalten sie, um einem Fehler nachzugehen und eine Frage zu beantworten, und es ist der einzige Ort in Bottlegram, an dem es eine E-Mail-Adresse gibt.",
+ "pt-BR": ": se você usa o formulário «Fale conosco», guardamos sua mensagem, a versão do app e o idioma em que ela foi escrita, mais o nome e o e-mail que você escolheu deixar, se deixou. Guardamos para correr atrás de um erro e responder a uma pergunta, e é o único lugar do Bottlegram onde existe um e-mail.",
+ "ja": "：「たよりを送る」フォームを使うと、メッセージ、アプリのバージョン、書かれた言語、そして残してくれた場合は名前とメールアドレスを保存します。不具合を追い、質問に答えるためで、Bottlegram のなかでメールアドレスが存在する場所はここだけです。"},
+
+"The nicknames you give a correspondent stay on your device. They are your private marginalia; the sea never sees them.": {
+ "it": "I soprannomi che dai a chi ti scrive restano sul tuo telefono. Sono le tue note a margine; il mare non le vede mai.",
+ "es": "Los apodos que das a quien te escribe se quedan en tu teléfono. Son tus notas al margen; el mar nunca las ve.",
+ "fr": "Les surnoms que tu donnes à qui t'écrit restent sur ton téléphone. Ce sont tes notes dans la marge ; la mer ne les voit jamais.",
+ "de": "Die Spitznamen, die du deinen Briefpartnern gibst, bleiben auf deinem Telefon. Sie sind deine Randnotizen; das Meer sieht sie nie.",
+ "pt-BR": "Os apelidos que você dá a quem escreve ficam no seu telefone. São suas anotações na margem; o mar nunca as vê.",
+ "ja": "文通相手につけたあだ名は、あなたの電話の中に残ります。あなただけの余白の書き込みで、海が目にすることはありません。"},
+
+"Your own wax seal and your ship are different, and it is worth being plain about them: the emblem, the colour and the ship you choose in the Emporium are kept by the sea and travel on the letters you send, because their whole purpose is that other castaways can recognise you across messages. Everyone who reads a letter of yours sees them. They say nothing about who you are, since they are drawings, but they are not private.": {
+ "it": "Il tuo sigillo di ceralacca e la tua nave sono un'altra cosa, ed è giusto dirlo chiaro: l'emblema, il colore e la nave che scegli nell'Emporio li tiene il mare e viaggiano sulle lettere che mandi, perché servono proprio a farti riconoscere dagli altri naufraghi da una lettera all'altra. Chiunque legga una tua lettera li vede. Non dicono niente di chi sei, sono disegni, ma non sono privati.",
+ "es": "Tu sello de lacre y tu barco son otra cosa, y conviene decirlo claro: el emblema, el color y el barco que eliges en el Emporio los guarda el mar y viajan en las cartas que envías, porque sirven justamente para que otros náufragos te reconozcan de una carta a otra. Quien lea una carta tuya los ve. No dicen nada de quién eres, son dibujos, pero no son privados.",
+ "fr": "Ton sceau de cire et ton navire, c'est autre chose, et autant le dire clairement : l'emblème, la couleur et le navire que tu choisis dans l'Emporium sont gardés par la mer et voyagent sur les lettres que tu envoies, car ils servent justement à ce que les autres naufragés te reconnaissent d'une lettre à l'autre. Quiconque lit une de tes lettres les voit. Ils ne disent rien de qui tu es, ce sont des dessins, mais ils ne sont pas privés.",
+ "de": "Dein Wachssiegel und dein Schiff sind etwas anderes, und das soll klar gesagt sein: Das Emblem, die Farbe und das Schiff, die du im Kontor wählst, behält das Meer, und sie reisen auf den Briefen, die du schickst, denn genau dafür sind sie da: damit andere Schiffbrüchige dich von Brief zu Brief wiedererkennen. Wer einen Brief von dir liest, sieht sie. Sie sagen nichts darüber, wer du bist, es sind Zeichnungen, aber privat sind sie nicht.",
+ "pt-BR": "Seu selo de lacre e seu navio são outra coisa, e vale dizer com clareza: o emblema, a cor e o navio que você escolhe no Empório ficam com o mar e viajam nas cartas que você envia, porque servem justamente para que outros náufragos reconheçam você de uma carta para outra. Quem lê uma carta sua os vê. Eles não dizem nada sobre quem você é, são desenhos, mas não são privados.",
+ "ja": "あなたの封蝋と船は別です。はっきり書いておきます。商館で選んだ紋章、色、船は海が保存し、あなたが送る手紙と一緒に旅します。ほかの漂流者が、手紙から手紙へとあなたを見分けられるようにするためのものだからです。あなたの手紙を読む人は、それを目にします。絵なので、あなたが誰かは何も語りませんが、非公開ではありません。"},
+
+"What the sea never asks": {
+ "it": "Cosa il mare non chiede mai",
+ "es": "Lo que el mar nunca pregunta",
+ "fr": "Ce que la mer ne demande jamais",
+ "de": "Was das Meer nie fragt",
+ "pt-BR": "O que o mar nunca pergunta",
+ "ja": "海が決して尋ねないこと"},
+
+"Your location is never read. The app asks your date of birth once, before it lets you in, keeps only the answer on your phone and forgets the date. Notifications are scheduled locally on your device by the app itself; there is no push server watching you.": {
+ "it": "La tua posizione non viene mai letta. L'app ti chiede la data di nascita una volta sola, prima di farti entrare, tiene sul telefono solo la risposta e dimentica la data. Le notifiche le programma l'app stessa sul tuo telefono; non c'è un server di notifiche che ti osserva.",
+ "es": "Tu ubicación nunca se lee. La app te pide la fecha de nacimiento una sola vez, antes de dejarte entrar, guarda en el teléfono solo la respuesta y olvida la fecha. Las notificaciones las programa la propia app en tu teléfono; no hay un servidor de notificaciones vigilándote.",
+ "fr": "Ta position n'est jamais lue. L'app te demande ta date de naissance une seule fois, avant de te laisser entrer, garde sur ton téléphone la réponse seulement et oublie la date. Les notifications sont programmées par l'app elle-même sur ton téléphone ; aucun serveur de notifications ne te surveille.",
+ "de": "Dein Standort wird nie gelesen. Die App fragt einmal nach deinem Geburtsdatum, bevor sie dich hineinlässt, behält auf deinem Telefon nur die Antwort und vergisst das Datum. Mitteilungen plant die App selbst auf deinem Gerät; es gibt keinen Push-Server, der dich beobachtet.",
+ "pt-BR": "Sua localização nunca é lida. O app pede sua data de nascimento uma única vez, antes de deixar você entrar, guarda no telefone só a resposta e esquece a data. As notificações são programadas pelo próprio app no seu telefone; não há um servidor de notificações observando você.",
+ "ja": "位置情報を読むことはありません。アプリは中に入る前に一度だけ生年月日を尋ね、答えだけを電話に残して、日付は忘れます。通知はアプリ自身があなたの端末の中で予定するもので、あなたを見張るプッシュサーバーはありません。"},
+
+"Who else touches a letter": {
+ "it": "Chi altro tocca una lettera",
+ "es": "Quién más toca una carta",
+ "fr": "Qui d'autre touche une lettre",
+ "de": "Wer sonst einen Brief berührt",
+ "pt-BR": "Quem mais toca uma carta",
+ "ja": "手紙に触れる、ほかの誰か"},
+
+"A few services do narrow work under our instruction, and each sees only what its work requires:": {
+ "it": "Alcuni servizi fanno un lavoro preciso su nostra istruzione, e ognuno vede solo quello che il suo lavoro richiede:",
+ "es": "Algunos servicios hacen un trabajo concreto siguiendo nuestras instrucciones, y cada uno ve solo lo que su trabajo requiere:",
+ "fr": "Quelques services font un travail précis sur nos instructions, et chacun ne voit que ce que son travail exige :",
+ "de": "Ein paar Dienste erledigen in unserem Auftrag eine eng umrissene Arbeit, und jeder sieht nur, was diese Arbeit braucht:",
+ "pt-BR": "Alguns serviços fazem um trabalho específico sob nossa instrução, e cada um vê só o que esse trabalho exige:",
+ "ja": "いくつかのサービスが、私たちの指示のもとで限られた仕事をしています。どれも、その仕事に必要なものだけを目にします。"},
+
+"hosts the sea: the database where accounts and letters live, in Frankfurt, in the European Union.": {
+ "it": "ospita il mare: il database dove vivono gli account e le lettere, a Francoforte, nell'Unione europea.",
+ "es": "aloja el mar: la base de datos donde viven las cuentas y las cartas, en Fráncfort, en la Unión Europea.",
+ "fr": "héberge la mer : la base de données où vivent les comptes et les lettres, à Francfort, dans l'Union européenne.",
+ "de": "beherbergt das Meer: die Datenbank, in der Konten und Briefe liegen, in Frankfurt, in der Europäischen Union.",
+ "pt-BR": "hospeda o mar: o banco de dados onde ficam as contas e as cartas, em Frankfurt, na União Europeia.",
+ "ja": "は海そのものを預かっています。アカウントと手紙が置かれたデータベースで、場所は欧州連合のフランクフルトです。"},
+
+"checks the text of each letter before it sails, so the sea keeps to its rules. It sees only the text.": {
+ "it": "controlla il testo di ogni lettera prima che salpi, perché il mare rispetti le sue regole. Vede solo il testo.",
+ "es": "revisa el texto de cada carta antes de que zarpe, para que el mar cumpla sus reglas. Solo ve el texto.",
+ "fr": "vérifie le texte de chaque lettre avant qu'elle prenne la mer, pour que la mer respecte ses règles. Il ne voit que le texte.",
+ "de": "prüft den Text jedes Briefes, bevor er in See sticht, damit sich das Meer an seine Regeln hält. Es sieht nur den Text.",
+ "pt-BR": "confere o texto de cada carta antes de ela zarpar, para que o mar cumpra suas regras. Vê só o texto.",
+ "ja": "は、手紙が海へ出る前に一通ずつ本文を確かめ、海が掟を守れるようにしています。目にするのは本文だけです。"},
+
+"translates a letter when you ask it to, and sees that letter's text to do so.": {
+ "it": "traduce una lettera quando glielo chiedi, e per farlo ne vede il testo.",
+ "es": "traduce una carta cuando se lo pides, y para hacerlo ve su texto.",
+ "fr": "traduit une lettre quand tu le demandes, et en voit le texte pour le faire.",
+ "de": "übersetzt einen Brief, wenn du darum bittest, und sieht dafür seinen Text.",
+ "pt-BR": "traduz uma carta quando você pede, e para isso vê o texto dela.",
+ "ja": "は、あなたが頼んだときに手紙を翻訳し、そのために本文を目にします。"},
+
+"processes the text of your letters when you correspond with a spirit of the sea. It sees the letters of that correspondence and the language you write in.": {
+ "it": "elabora il testo delle tue lettere quando sei in corrispondenza con uno spirito del mare. Vede le lettere di quel carteggio e la lingua in cui scrivi.",
+ "es": "procesa el texto de tus cartas cuando te escribes con un espíritu del mar. Ve las cartas de esa correspondencia y el idioma en que escribes.",
+ "fr": "traite le texte de tes lettres quand tu corresponds avec un esprit de la mer. Il voit les lettres de cette correspondance et la langue dans laquelle tu écris.",
+ "de": "verarbeitet den Text deiner Briefe, wenn du mit einem Geist des Meeres schreibst. Es sieht die Briefe dieses Briefwechsels und die Sprache, in der du schreibst.",
+ "pt-BR": "processa o texto das suas cartas quando você se corresponde com um espírito do mar. Vê as cartas dessa correspondência e o idioma em que você escreve.",
+ "ja": "は、あなたが海の精と文通しているとき、あなたの手紙の本文を処理します。目にするのはその文通の手紙と、あなたが書く言語です。"},
+
+"handles every purchase on iPhone, and": {
+ "it": "gestisce ogni acquisto su iPhone, e",
+ "es": "gestiona cada compra en iPhone, y",
+ "fr": "gère chaque achat sur iPhone, et",
+ "de": "wickelt jeden Kauf auf dem iPhone ab, und",
+ "pt-BR": "cuida de cada compra no iPhone, e",
+ "ja": "が iPhone での購入をすべて扱い、"},
+
+"every purchase on Android. Payment happens entirely on their side.": {
+ "it": "ogni acquisto su Android. Il pagamento avviene tutto dalla loro parte.",
+ "es": "cada compra en Android. El pago ocurre por completo de su lado.",
+ "fr": "chaque achat sur Android. Le paiement se fait entièrement de leur côté.",
+ "de": "jeden Kauf auf Android. Die Zahlung geschieht vollständig auf ihrer Seite.",
+ "pt-BR": "cada compra no Android. O pagamento acontece inteiramente do lado deles.",
+ "ja": "が Android での購入をすべて扱います。支払いはすべて、それぞれの側で行われます。"},
+
+"delivers the messages sent from the “Write to us” form to our mailbox, and sees what that message contains, including the name and address you chose to leave. It also tells our moderator that a report is waiting: a count and a link, never the letter. It never touches your letters.": {
+ "it": "consegna alla nostra casella i messaggi mandati con il modulo «Scrivici», e vede quello che contengono, compresi il nome e l'indirizzo che hai scelto di lasciare. Avvisa anche il nostro moderatore che c'è una segnalazione in attesa: un numero e un link, mai la lettera. Non tocca mai le tue lettere.",
+ "es": "entrega en nuestro buzón los mensajes enviados con el formulario «Escríbenos», y ve lo que contienen, incluidos el nombre y la dirección que elegiste dejar. También avisa a nuestro moderador de que hay una denuncia pendiente: un número y un enlace, nunca la carta. Nunca toca tus cartas.",
+ "fr": "livre dans notre boîte les messages envoyés avec le formulaire « Écris-nous », et voit ce qu'ils contiennent, y compris le nom et l'adresse que tu as choisi de laisser. Il prévient aussi notre modérateur qu'un signalement attend : un nombre et un lien, jamais la lettre. Il ne touche jamais tes lettres.",
+ "de": "stellt die Nachrichten aus dem Formular „Schreib uns“ in unser Postfach zu und sieht, was darin steht, auch den Namen und die Adresse, die du hinterlassen hast. Es sagt außerdem unserem Moderator, dass eine Meldung wartet: eine Zahl und ein Link, nie der Brief. Deine Briefe berührt es nie.",
+ "pt-BR": "entrega na nossa caixa de correio as mensagens enviadas pelo formulário «Fale conosco», e vê o que elas contêm, inclusive o nome e o endereço que você escolheu deixar. Também avisa nosso moderador que há uma denúncia esperando: um número e um link, nunca a carta. Nunca toca nas suas cartas.",
+ "ja": "は、「たよりを送る」フォームのメッセージを私たちのメールボックスに届け、その中身を目にします。あなたが残した名前とアドレスも含みます。報告が待っていることを管理人に知らせもしますが、伝えるのは件数とリンクだけで、手紙は送りません。あなたの手紙に触れることはありません。"},
+
+"One more pair of eyes, and it is human: when a letter is reported, a person reads it, that letter and that correspondence, nothing else, to decide whether the sea keeps its writer. This happens within a day of the report.": {
+ "it": "C'è un altro paio d'occhi, ed è umano: quando una lettera viene segnalata, una persona la legge, quella lettera e quel carteggio e nient'altro, per decidere se il mare tiene chi l'ha scritta. Succede entro un giorno dalla segnalazione.",
+ "es": "Hay un par de ojos más, y es humano: cuando una carta se denuncia, una persona la lee, esa carta y esa correspondencia y nada más, para decidir si el mar se queda con quien la escribió. Ocurre en el plazo de un día desde la denuncia.",
+ "fr": "Il y a une autre paire d'yeux, et elle est humaine : quand une lettre est signalée, une personne la lit, cette lettre et cette correspondance, rien d'autre, pour décider si la mer garde celui qui l'a écrite. Cela se fait dans la journée qui suit le signalement.",
+ "de": "Es gibt noch ein Paar Augen, und es ist menschlich: Wird ein Brief gemeldet, liest ein Mensch ihn, diesen Brief und diesen Briefwechsel, sonst nichts, um zu entscheiden, ob das Meer seinen Verfasser behält. Das geschieht innerhalb eines Tages nach der Meldung.",
+ "pt-BR": "Há mais um par de olhos, e ele é humano: quando uma carta é denunciada, uma pessoa a lê, aquela carta e aquela correspondência, nada mais, para decidir se o mar fica com quem a escreveu. Isso acontece em até um dia depois da denúncia.",
+ "ja": "もうひとつ、人の目があります。手紙が報告されると、ひとりの人がそれを読みます。その手紙とその文通だけを読み、書いた人を海に残すかどうかを決めます。報告から一日以内に行われます。"},
+
+"Where it travels": {
+ "it": "Dove viaggia",
+ "es": "Adónde viaja",
+ "fr": "Où elle voyage",
+ "de": "Wohin es reist",
+ "pt-BR": "Para onde viaja",
+ "ja": "どこへ渡るのか"},
+
+"The sea itself lives in the European Union. OpenAI, Google, Anthropic and Resend are based in the United States, so the text they handle crosses the ocean. Each of those transfers rests on the European Commission's Standard Contractual Clauses, or on the EU–US Data Privacy Framework where the company is certified under it. Apple and Google Play handle purchases under their own privacy policies.": {
+ "it": "Il mare vive nell'Unione europea. OpenAI, Google, Anthropic e Resend hanno sede negli Stati Uniti, quindi il testo che trattano attraversa l'oceano. Ognuno di questi trasferimenti si fonda sulle Clausole contrattuali tipo della Commissione europea, o sul Data Privacy Framework UE–USA quando l'azienda vi è certificata. Apple e Google Play gestiscono gli acquisti secondo le loro informative.",
+ "es": "El mar vive en la Unión Europea. OpenAI, Google, Anthropic y Resend tienen su sede en Estados Unidos, así que el texto que tratan cruza el océano. Cada una de esas transferencias se basa en las Cláusulas Contractuales Tipo de la Comisión Europea, o en el Marco de Privacidad de Datos UE–EE. UU. cuando la empresa está certificada en él. Apple y Google Play gestionan las compras según sus propias políticas de privacidad.",
+ "fr": "La mer vit dans l'Union européenne. OpenAI, Google, Anthropic et Resend sont établis aux États-Unis, donc le texte qu'ils traitent traverse l'océan. Chacun de ces transferts repose sur les clauses contractuelles types de la Commission européenne, ou sur le cadre de protection des données UE–États-Unis lorsque l'entreprise y est certifiée. Apple et Google Play gèrent les achats selon leurs propres politiques de confidentialité.",
+ "de": "Das Meer selbst liegt in der Europäischen Union. OpenAI, Google, Anthropic und Resend sitzen in den Vereinigten Staaten, also überquert der Text, den sie bearbeiten, den Ozean. Jede dieser Übermittlungen stützt sich auf die Standardvertragsklauseln der Europäischen Kommission oder auf den EU-US-Datenschutzrahmen, wenn das Unternehmen danach zertifiziert ist. Apple und Google Play wickeln Käufe nach ihren eigenen Datenschutzerklärungen ab.",
+ "pt-BR": "O mar vive na União Europeia. OpenAI, Google, Anthropic e Resend têm sede nos Estados Unidos, então o texto que eles tratam atravessa o oceano. Cada uma dessas transferências se apoia nas Cláusulas Contratuais Padrão da Comissão Europeia, ou no Quadro de Privacidade de Dados UE–EUA quando a empresa é certificada nele. Apple e Google Play cuidam das compras segundo suas próprias políticas de privacidade.",
+ "ja": "海そのものは欧州連合にあります。OpenAI、Google、Anthropic、Resend は米国の企業なので、これらが扱う本文は海を渡ります。こうした移転はいずれも、欧州委員会の標準契約条項、または企業が認証を受けている場合は EU・米国データ・プライバシー・フレームワークに基づいています。Apple と Google Play は、それぞれのプライバシーポリシーに従って購入を扱います。"},
+
+"Why we may": {
+ "it": "Perché possiamo",
+ "es": "Por qué podemos",
+ "fr": "Pourquoi nous le pouvons",
+ "de": "Warum wir das dürfen",
+ "pt-BR": "Por que podemos",
+ "ja": "なぜ扱えるのか"},
+
+"Carrying your letters, keeping your beach and translating a letter when you ask are what you agreed to when you began; that agreement is the legal basis (Article 6(1)(b) of the GDPR). Screening letters, handling reports and keeping a banished account from coming back rest on our legitimate interest, and yours, in a sea that is safe to write on (Article 6(1)(f)). So does answering what you write to us. Where the law requires us to keep something or hand it over, we do (Article 6(1)(c)).": {
+ "it": "Portare le tue lettere, tenere la tua spiaggia e tradurre una lettera quando lo chiedi sono ciò che hai accettato cominciando; quell'accordo è la base giuridica (articolo 6, paragrafo 1, lettera b del GDPR). Vagliare le lettere, gestire le segnalazioni e impedire a un account bandito di tornare si fondano sul nostro legittimo interesse, e sul tuo, a un mare dove si possa scrivere tranquilli (articolo 6, paragrafo 1, lettera f). Così anche rispondere a quello che ci scrivi. Quando la legge ci obbliga a conservare qualcosa o a consegnarlo, lo facciamo (articolo 6, paragrafo 1, lettera c).",
+ "es": "Llevar tus cartas, mantener tu playa y traducir una carta cuando lo pides es lo que aceptaste al empezar; ese acuerdo es la base jurídica (artículo 6.1.b del RGPD). Revisar las cartas, gestionar las denuncias e impedir que una cuenta desterrada vuelva se basan en nuestro interés legítimo, y en el tuyo, en un mar donde se pueda escribir con tranquilidad (artículo 6.1.f). También responder a lo que nos escribes. Cuando la ley nos obliga a conservar algo o a entregarlo, lo hacemos (artículo 6.1.c).",
+ "fr": "Porter tes lettres, garder ta plage et traduire une lettre quand tu le demandes, c'est ce que tu as accepté en commençant ; cet accord est la base légale (article 6, paragraphe 1, point b du RGPD). Vérifier les lettres, traiter les signalements et empêcher un compte banni de revenir reposent sur notre intérêt légitime, et le tien, à une mer où l'on peut écrire en paix (article 6, paragraphe 1, point f). Répondre à ce que tu nous écris aussi. Quand la loi nous oblige à conserver ou à transmettre quelque chose, nous le faisons (article 6, paragraphe 1, point c).",
+ "de": "Deine Briefe zu tragen, deinen Strand zu halten und einen Brief zu übersetzen, wenn du darum bittest, ist das, dem du zu Beginn zugestimmt hast; diese Vereinbarung ist die Rechtsgrundlage (Art. 6 Abs. 1 lit. b DSGVO). Briefe zu prüfen, Meldungen zu bearbeiten und ein verbanntes Konto an der Rückkehr zu hindern, beruht auf unserem berechtigten Interesse, und deinem, an einem Meer, auf dem man in Ruhe schreiben kann (Art. 6 Abs. 1 lit. f). Ebenso, auf das zu antworten, was du uns schreibst. Wenn das Gesetz uns verpflichtet, etwas aufzubewahren oder herauszugeben, tun wir es (Art. 6 Abs. 1 lit. c).",
+ "pt-BR": "Levar suas cartas, manter sua praia e traduzir uma carta quando você pede é o que você aceitou ao começar; esse acordo é a base legal (artigo 6.º, n.º 1, alínea b do RGPD). Conferir as cartas, cuidar das denúncias e impedir que uma conta banida volte se baseiam no nosso interesse legítimo, e no seu, por um mar onde se possa escrever em paz (artigo 6.º, n.º 1, alínea f). Responder ao que você nos escreve também. Quando a lei nos obriga a guardar algo ou entregá-lo, nós o fazemos (artigo 6.º, n.º 1, alínea c).",
+ "ja": "手紙を運ぶこと、あなたの浜を保つこと、頼まれたときに手紙を翻訳することは、あなたが始めるときに同意したことで、その合意が法的根拠です（GDPR 第6条第1項(b)）。手紙の確認、報告の処理、追放されたアカウントを戻らせないことは、安心して書ける海であってほしいという、私たちとあなたの正当な利益に基づきます（同(f)）。あなたからのたよりに答えることも同じです。法律が何かの保管や提出を求めるときは、それに従います（同(c)）。"},
+
+"How long": {
+ "it": "Per quanto tempo",
+ "es": "Cuánto tiempo",
+ "fr": "Combien de temps",
+ "de": "Wie lange",
+ "pt-BR": "Por quanto tempo",
+ "ja": "どれくらいのあいだ"},
+
+"Your account, your beach, your letters and their translations": {
+ "it": "Il tuo account, la tua spiaggia, le tue lettere e le loro traduzioni",
+ "es": "Tu cuenta, tu playa, tus cartas y sus traducciones",
+ "fr": "Ton compte, ta plage, tes lettres et leurs traductions",
+ "de": "Dein Konto, dein Strand, deine Briefe und ihre Übersetzungen",
+ "pt-BR": "Sua conta, sua praia, suas cartas e as traduções delas",
+ "ja": "アカウント、浜、手紙とその翻訳"},
+
+": until you leave the sea.": {
+ "it": ": finché non abbandoni il mare.",
+ "es": ": hasta que abandones el mar.",
+ "fr": " : jusqu'à ce que tu quittes la mer.",
+ "de": ": bis du das Meer verlässt.",
+ "pt-BR": ": até você abandonar o mar.",
+ "ja": "：あなたが海を去るまで。"},
+
+"A report and the copy of the reported letter": {
+ "it": "Una segnalazione e la copia della lettera segnalata",
+ "es": "Una denuncia y la copia de la carta denunciada",
+ "fr": "Un signalement et la copie de la lettre signalée",
+ "de": "Eine Meldung und die Kopie des gemeldeten Briefes",
+ "pt-BR": "Uma denúncia e a cópia da carta denunciada",
+ "ja": "報告と、報告された手紙の写し"},
+
+": until the writer of that letter leaves the sea.": {
+ "it": ": finché chi ha scritto quella lettera non abbandona il mare.",
+ "es": ": hasta que quien escribió esa carta abandone el mar.",
+ "fr": " : jusqu'à ce que l'auteur de cette lettre quitte la mer.",
+ "de": ": bis der Verfasser dieses Briefes das Meer verlässt.",
+ "pt-BR": ": até quem escreveu essa carta abandonar o mar.",
+ "ja": "：その手紙を書いた人が海を去るまで。"},
+
+"A banished account that leaves": {
+ "it": "Un account bandito che se ne va",
+ "es": "Una cuenta desterrada que se va",
+ "fr": "Un compte banni qui s'en va",
+ "de": "Ein verbanntes Konto, das geht",
+ "pt-BR": "Uma conta banida que vai embora",
+ "ja": "追放されたアカウントが去るとき"},
+
+": one random identifier, for as long as the ban stands, so that leaving does not undo it.": {
+ "it": ": un identificativo casuale, finché il bando resta, perché andarsene non lo annulli.",
+ "es": ": un identificador aleatorio, mientras dure el destierro, para que irse no lo anule.",
+ "fr": " : un identifiant aléatoire, tant que le bannissement tient, pour que partir ne l'annule pas.",
+ "de": ": eine zufällige Kennung, solange die Verbannung gilt, damit Gehen sie nicht aufhebt.",
+ "pt-BR": ": um identificador aleatório, enquanto o banimento durar, para que ir embora não o anule.",
+ "ja": "：ランダムな識別子ひとつを、追放が続くあいだ。去ることで追放が消えないようにするためです。"},
+
+": until you ask us to delete it, together with the copy in our mailbox.": {
+ "it": ": finché non ci chiedi di cancellarlo, insieme alla copia nella nostra casella.",
+ "es": ": hasta que nos pidas borrarlo, junto con la copia de nuestro buzón.",
+ "fr": " : jusqu'à ce que tu nous demandes de l'effacer, avec la copie dans notre boîte.",
+ "de": ": bis du uns bittest, es zu löschen, zusammen mit der Kopie in unserem Postfach.",
+ "pt-BR": ": até você pedir que a gente apague, junto com a cópia na nossa caixa de correio.",
+ "ja": "：削除を頼まれるまで。私たちのメールボックスにある写しも一緒です。"},
+
+"Backups of the database": {
+ "it": "Le copie di sicurezza del database",
+ "es": "Las copias de seguridad de la base de datos",
+ "fr": "Les sauvegardes de la base de données",
+ "de": "Sicherungskopien der Datenbank",
+ "pt-BR": "Os backups do banco de dados",
+ "ja": "データベースのバックアップ"},
+
+": up to seven days, then they are overwritten.": {
+ "it": ": fino a sette giorni, poi vengono sovrascritte.",
+ "es": ": hasta siete días, después se sobrescriben.",
+ "fr": " : jusqu'à sept jours, puis elles sont écrasées.",
+ "de": ": bis zu sieben Tage, dann werden sie überschrieben.",
+ "pt-BR": ": até sete dias, depois são sobrescritos.",
+ "ja": "：最長7日間。その後は上書きされます。"},
+
+"Leaving the sea": {
+ "it": "Abbandonare il mare",
+ "es": "Abandonar el mar",
+ "fr": "Quitter la mer",
+ "de": "Das Meer verlassen",
+ "pt-BR": "Abandonar o mar",
+ "ja": "海を去る"},
+
+"You can delete your account from inside the app, in the Wreck Emporium. It is immediate: your account, your letters, your correspondences, your blocks and what you wrote to us leave the sea, including your letters on the sands of those who received them. Reports you made about someone else's letter stay, with nothing that links them to you. A new launch of the app is a new castaway.": {
+ "it": "Puoi cancellare il tuo account dall'app, nell'Emporio del Relitto. È immediato: il tuo account, le tue lettere, i tuoi carteggi, i tuoi blocchi e quello che ci hai scritto lasciano il mare, comprese le tue lettere sulle spiagge di chi le ha ricevute. Le segnalazioni che hai fatto sulla lettera di qualcun altro restano, senza niente che le leghi a te. Un nuovo avvio dell'app è un nuovo naufrago.",
+ "es": "Puedes borrar tu cuenta desde la app, en el Emporio del Naufragio. Es inmediato: tu cuenta, tus cartas, tus correspondencias, tus bloqueos y lo que nos escribiste dejan el mar, incluidas tus cartas en las playas de quienes las recibieron. Las denuncias que hiciste sobre la carta de otra persona se quedan, sin nada que las ligue a ti. Abrir de nuevo la app es un náufrago nuevo.",
+ "fr": "Tu peux supprimer ton compte depuis l'app, dans l'Emporium de l'Épave. C'est immédiat : ton compte, tes lettres, tes correspondances, tes blocages et ce que tu nous as écrit quittent la mer, y compris tes lettres sur les plages de ceux qui les ont reçues. Les signalements que tu as faits sur la lettre de quelqu'un d'autre restent, sans rien qui les relie à toi. Un nouveau lancement de l'app, c'est un nouveau naufragé.",
+ "de": "Du kannst dein Konto in der App löschen, im Kontor des Wracks. Es geht sofort: dein Konto, deine Briefe, deine Briefwechsel, deine Blockierungen und was du uns geschrieben hast, verlassen das Meer, auch deine Briefe an den Stränden derer, die sie bekommen haben. Meldungen, die du über den Brief eines anderen gemacht hast, bleiben, ohne etwas, das sie mit dir verbindet. Ein neuer Start der App ist ein neuer Schiffbrüchiger.",
+ "pt-BR": "Você pode apagar sua conta pelo app, no Empório do Naufrágio. É imediato: sua conta, suas cartas, suas correspondências, seus bloqueios e o que você nos escreveu deixam o mar, inclusive suas cartas nas praias de quem as recebeu. As denúncias que você fez sobre a carta de outra pessoa ficam, sem nada que as ligue a você. Abrir o app de novo é um náufrago novo.",
+ "ja": "アカウントはアプリの中、難破商館から削除できます。すぐに行われます。アカウント、手紙、文通、ブロック、そして私たちへのたよりが海から消え、相手の浜に届いたあなたの手紙も消えます。ほかの人の手紙についてあなたがした報告は残りますが、あなたと結びつくものは何も残りません。もう一度アプリを開けば、新しい漂流者です。"},
+
+"Deleting the app without leaving the sea removes the app from your phone, but your beach waits for you in the sea until you return or leave it properly. On an iPhone, the key to it stays in your iCloud Keychain, so installing Bottlegram again brings you back to the same beach.": {
+ "it": "Cancellare l'app senza abbandonare il mare la toglie dal telefono, ma la tua spiaggia ti aspetta nel mare finché non torni o non te ne vai come si deve. Su iPhone la chiave resta nel tuo Portachiavi iCloud, quindi se reinstalli Bottlegram ti risvegli sulla stessa spiaggia.",
+ "es": "Borrar la app sin abandonar el mar la quita del teléfono, pero tu playa te espera en el mar hasta que vuelvas o te vayas como es debido. En iPhone la llave se queda en tu Llavero de iCloud, así que si vuelves a instalar Bottlegram despiertas en la misma playa.",
+ "fr": "Supprimer l'app sans quitter la mer l'enlève de ton téléphone, mais ta plage t'attend dans la mer jusqu'à ce que tu reviennes ou que tu partes pour de bon. Sur iPhone, la clé reste dans ton trousseau iCloud, donc si tu réinstalles Bottlegram tu te réveilles sur la même plage.",
+ "de": "Wenn du die App löschst, ohne das Meer zu verlassen, verschwindet sie von deinem Telefon, aber dein Strand wartet im Meer auf dich, bis du zurückkommst oder richtig gehst. Auf dem iPhone bleibt der Schlüssel in deinem iCloud-Schlüsselbund, und wenn du Bottlegram neu installierst, wachst du am selben Strand auf.",
+ "pt-BR": "Apagar o app sem abandonar o mar tira o app do telefone, mas sua praia espera por você no mar até você voltar ou ir embora direito. No iPhone, a chave fica nas suas Chaves do iCloud, então, se você instalar o Bottlegram de novo, acorda na mesma praia.",
+ "ja": "海を去らずにアプリを削除すると、アプリは電話から消えますが、あなたの浜は、戻ってくるか正式に去るまで海で待っています。iPhone では鍵が iCloud キーチェーンに残るので、Bottlegram を入れ直すと同じ浜で目を覚まします。"},
+
+"Your rights": {
+ "it": "I tuoi diritti",
+ "es": "Tus derechos",
+ "fr": "Tes droits",
+ "de": "Deine Rechte",
+ "pt-BR": "Seus direitos",
+ "ja": "あなたの権利"},
+
+"Whatever the law of your shore grants you, such as access, correction, erasure, objection or a copy of your data, you can exercise by writing to the lighthouse. Erasure you can also do yourself, in the app, without asking anyone. Because accounts are anonymous, we can only act on the account you write from or describe to us; we cannot look anyone up by name, because we do not have names.": {
+ "it": "Qualunque cosa ti riconosca la legge della tua riva, come l'accesso, la rettifica, la cancellazione, l'opposizione o una copia dei tuoi dati, puoi esercitarla scrivendo al faro. La cancellazione puoi farla anche da solo, nell'app, senza chiedere a nessuno. Poiché gli account sono anonimi, possiamo agire solo sull'account da cui scrivi o che ci descrivi; non possiamo cercare nessuno per nome, perché i nomi non li abbiamo.",
+ "es": "Lo que te reconozca la ley de tu orilla, como el acceso, la rectificación, la supresión, la oposición o una copia de tus datos, puedes ejercerlo escribiendo al faro. La supresión puedes hacerla tú mismo, en la app, sin pedírselo a nadie. Como las cuentas son anónimas, solo podemos actuar sobre la cuenta desde la que escribes o que nos describes; no podemos buscar a nadie por su nombre, porque no tenemos nombres.",
+ "fr": "Tout ce que la loi de ton rivage t'accorde, comme l'accès, la rectification, l'effacement, l'opposition ou une copie de tes données, tu peux l'exercer en écrivant au phare. L'effacement, tu peux aussi le faire toi-même, dans l'app, sans rien demander à personne. Comme les comptes sont anonymes, nous ne pouvons agir que sur le compte depuis lequel tu écris ou que tu nous décris ; nous ne pouvons chercher personne par son nom, puisque nous n'avons pas de noms.",
+ "de": "Was dir das Gesetz deiner Küste zusteht, etwa Auskunft, Berichtigung, Löschung, Widerspruch oder eine Kopie deiner Daten, kannst du ausüben, indem du dem Leuchtturm schreibst. Die Löschung kannst du auch selbst erledigen, in der App, ohne jemanden zu fragen. Weil die Konten anonym sind, können wir nur auf das Konto reagieren, von dem du schreibst oder das du uns beschreibst; nach Namen können wir niemanden suchen, denn Namen haben wir nicht.",
+ "pt-BR": "O que a lei da sua praia garante a você, como acesso, correção, exclusão, oposição ou uma cópia dos seus dados, você pode exercer escrevendo para o farol. A exclusão você também pode fazer sozinho, no app, sem pedir a ninguém. Como as contas são anônimas, só podemos agir sobre a conta da qual você escreve ou que você nos descreve; não podemos procurar ninguém pelo nome, porque não temos nomes.",
+ "ja": "アクセス、訂正、削除、異議、データの写しの取得など、あなたの岸の法律が認める権利は、灯台に手紙を書けば行使できます。削除は、誰にも頼まずにアプリの中で自分で行うこともできます。アカウントは匿名なので、私たちが対応できるのは、あなたが書いてきたアカウントか、説明してくれたアカウントだけです。名前を持っていないので、名前で人を探すことはできません。"},
+
+"If you think we have got something wrong, you can complain to the Italian data protection authority, the Garante per la protezione dei dati personali (": {
+ "it": "Se pensi che abbiamo sbagliato qualcosa, puoi presentare reclamo al Garante per la protezione dei dati personali (",
+ "es": "Si crees que nos hemos equivocado en algo, puedes reclamar ante la autoridad italiana de protección de datos, el Garante per la protezione dei dati personali (",
+ "fr": "Si tu penses que nous avons mal fait quelque chose, tu peux te plaindre auprès de l'autorité italienne de protection des données, le Garante per la protezione dei dati personali (",
+ "de": "Wenn du meinst, dass wir etwas falsch gemacht haben, kannst du dich bei der italienischen Datenschutzbehörde beschweren, dem Garante per la protezione dei dati personali (",
+ "pt-BR": "Se você acha que erramos em algo, pode reclamar à autoridade italiana de proteção de dados, o Garante per la protezione dei dati personali (",
+ "ja": "私たちの扱いに誤りがあると思うときは、イタリアのデータ保護機関である Garante per la protezione dei dati personali（"},
+
+"), or to the authority where you live.": {
+ "it": "), o all'autorità del paese in cui vivi.",
+ "es": "), o a la autoridad del lugar donde vives.",
+ "fr": "), ou à l'autorité du pays où tu vis.",
+ "de": ") oder bei der Behörde dort, wo du lebst.",
+ "pt-BR": "), ou à autoridade do lugar onde você vive.",
+ "ja": "）、またはお住まいの国の機関に苦情を申し立てることができます。"},
+
+"Children": {
+ "it": "Bambini e ragazzi",
+ "es": "Menores",
+ "fr": "Les enfants",
+ "de": "Kinder",
+ "pt-BR": "Crianças",
+ "ja": "子どもについて"},
+
+"Bottlegram is a place where castaways write to castaways, and it is not directed at children. It is not for anyone under 18, and the app asks your date of birth before it lets you in.": {
+ "it": "Bottlegram è un posto dove i naufraghi scrivono ai naufraghi, e non è pensata per i bambini. Non è per chi ha meno di 18 anni, e l'app chiede la data di nascita prima di farti entrare.",
+ "es": "Bottlegram es un lugar donde los náufragos escriben a náufragos, y no está pensada para menores. No es para menores de 18 años, y la app pide la fecha de nacimiento antes de dejarte entrar.",
+ "fr": "Bottlegram est un endroit où des naufragés écrivent à des naufragés, et elle ne s'adresse pas aux enfants. Elle n'est pas pour les moins de 18 ans, et l'app demande la date de naissance avant de te laisser entrer.",
+ "de": "Bottlegram ist ein Ort, an dem Schiffbrüchige Schiffbrüchigen schreiben, und es richtet sich nicht an Kinder. Es ist nicht für Menschen unter 18, und die App fragt nach dem Geburtsdatum, bevor sie dich hineinlässt.",
+ "pt-BR": "O Bottlegram é um lugar onde náufragos escrevem para náufragos, e não é feito para crianças. Não é para menores de 18 anos, e o app pede a data de nascimento antes de deixar você entrar.",
+ "ja": "Bottlegram は漂流者が漂流者に手紙を書く場所で、子ども向けではありません。18歳未満の方は利用できず、アプリは中に入る前に生年月日を尋ねます。"},
+
+"Changes": {
+ "it": "Cambiamenti",
+ "es": "Cambios",
+ "fr": "Changements",
+ "de": "Änderungen",
+ "pt-BR": "Mudanças",
+ "ja": "変更について"},
+
+"If this page changes, the date at the top changes with it. Nothing will ever be collected quietly that this page does not say out loud.": {
+ "it": "Se questa pagina cambia, cambia anche la data in cima. Niente verrà mai raccolto in silenzio che questa pagina non dica ad alta voce.",
+ "es": "Si esta página cambia, cambia también la fecha de arriba. Nunca se recogerá en silencio nada que esta página no diga en voz alta.",
+ "fr": "Si cette page change, la date en haut change avec elle. Rien ne sera jamais collecté en silence que cette page ne dise à voix haute.",
+ "de": "Wenn sich diese Seite ändert, ändert sich das Datum oben mit ihr. Nichts wird je still gesammelt, was diese Seite nicht laut sagt.",
+ "pt-BR": "Se esta página mudar, a data no topo muda junto. Nada será coletado em silêncio que esta página não diga em voz alta.",
+ "ja": "このページが変わるときは、上の日付も変わります。このページがはっきり言っていないことを、黙って集めることは決してありません。"},
+
+"Writing to whoever keeps the lighthouse": {
+ "it": "Scrivere a chi tiene il faro",
+ "es": "Escribir a quien cuida el faro",
+ "fr": "Écrire à qui garde le phare",
+ "de": "An den, der den Leuchtturm hütet",
+ "pt-BR": "Escrever para quem cuida do farol",
+ "ja": "灯台守へのたより"},
+
+"For any question about your data, or anything else at all, this address reaches a real person:": {
+ "it": "Per qualunque domanda sui tuoi dati, o su qualunque altra cosa, questo indirizzo raggiunge una persona vera:",
+ "es": "Para cualquier pregunta sobre tus datos, o sobre cualquier otra cosa, esta dirección llega a una persona de verdad:",
+ "fr": "Pour toute question sur tes données, ou sur n'importe quoi d'autre, cette adresse arrive à une vraie personne :",
+ "de": "Für jede Frage zu deinen Daten, oder zu irgendetwas anderem, erreicht diese Adresse einen echten Menschen:",
+ "pt-BR": "Para qualquer pergunta sobre seus dados, ou sobre qualquer outra coisa, este endereço chega a uma pessoa de verdade:",
+ "ja": "あなたのデータについての質問も、そのほかのことも、このアドレスに送れば本物の人に届きます。"},
+
 }
 
 # Le frasi che non si traducono: nomi propri, indirizzi, la rosa dei venti.
@@ -1275,7 +1791,9 @@ INVARIATE = [",",  # la virgola fra i due soprannomi: punteggiatura, non testo
              # I nomi delle spiagge dell'approdo che ruota: endonimi, come
              # nell'app. I LUOGHI invece si traducono (voci qui sopra).
              "Cala Goloritzé", "Reynisfjara", "Anse Source d'Argent",
-             "Haukland Beach", "Praia da Ursa"]
+             "Haukland Beach", "Praia da Ursa",
+             # I servizi nominati dalla privacy: nomi propri, uguali in tutte e sette.
+             "Supabase", "OpenAI", "Google Cloud Translation", "Anthropic", "Apple", "Google Play", "Resend", "www.garanteprivacy.it"]
 
 # ── Le frasi che vengono dall'app ──────────────────────────────────────────
 app = json.load(open(XCSTRINGS))
