@@ -1238,13 +1238,13 @@ SITO = {
  "pt-BR": "O Bottlegram nunca pergunta quem você é. O pouco que o mar guarda, quem mais toca uma carta e como pegar tudo de volta.",
  "ja": "Bottlegram はあなたが誰なのかを決して尋ねません。海が覚えておくわずかなこと、手紙に触れるほかの誰か、そしてすべてを取り戻す方法。"},
 
-"In effect since 5 November 2026 · Bottlegram is published by Bulb Mode SRL Semplificata, Via Ancona 15, 60035 Jesi (AN), Italy · VAT IT02730980428": {
- "it": "In vigore dal 5 novembre 2026 · Bottlegram è pubblicata da Bulb Mode SRL Semplificata, Via Ancona 15, 60035 Jesi (AN), Italia · P. IVA IT02730980428",
- "es": "En vigor desde el 5 de noviembre de 2026 · Bottlegram está publicada por Bulb Mode SRL Semplificata, Via Ancona 15, 60035 Jesi (AN), Italia · IVA IT02730980428",
- "fr": "En vigueur depuis le 5 novembre 2026 · Bottlegram est publiée par Bulb Mode SRL Semplificata, Via Ancona 15, 60035 Jesi (AN), Italie · TVA IT02730980428",
- "de": "Gültig seit dem 5. November 2026 · Bottlegram wird herausgegeben von Bulb Mode SRL Semplificata, Via Ancona 15, 60035 Jesi (AN), Italien · USt-IdNr. IT02730980428",
- "pt-BR": "Em vigor desde 5 de novembro de 2026 · O Bottlegram é publicado por Bulb Mode SRL Semplificata, Via Ancona 15, 60035 Jesi (AN), Itália · IVA IT02730980428",
- "ja": "2026年11月5日施行 · Bottlegram の提供者：Bulb Mode SRL Semplificata、Via Ancona 15, 60035 Jesi (AN), イタリア · VAT IT02730980428"},
+"In effect since 6 November 2026 · Bottlegram is published by Bulb Mode SRL Semplificata, Via Ancona 15, 60035 Jesi (AN), Italy · VAT IT02730980428": {
+ "it": "In vigore dal 6 novembre 2026 · Bottlegram è pubblicata da Bulb Mode SRL Semplificata, Via Ancona 15, 60035 Jesi (AN), Italia · P. IVA IT02730980428",
+ "es": "En vigor desde el 6 de noviembre de 2026 · Bottlegram está publicada por Bulb Mode SRL Semplificata, Via Ancona 15, 60035 Jesi (AN), Italia · IVA IT02730980428",
+ "fr": "En vigueur depuis le 6 novembre 2026 · Bottlegram est publiée par Bulb Mode SRL Semplificata, Via Ancona 15, 60035 Jesi (AN), Italie · TVA IT02730980428",
+ "de": "Gültig seit dem 6. November 2026 · Bottlegram wird herausgegeben von Bulb Mode SRL Semplificata, Via Ancona 15, 60035 Jesi (AN), Italien · USt-IdNr. IT02730980428",
+ "pt-BR": "Em vigor desde 6 de novembro de 2026 · O Bottlegram é publicado por Bulb Mode SRL Semplificata, Via Ancona 15, 60035 Jesi (AN), Itália · IVA IT02730980428",
+ "ja": "2026年11月6日施行 · Bottlegram の提供者：Bulb Mode SRL Semplificata、Via Ancona 15, 60035 Jesi (AN), イタリア · VAT IT02730980428"},
 
 "This page does not know who you are. Neither does the sea. What follows is the whole of it, written to be read.": {
  "it": "Questa pagina non sa chi sei. E nemmeno il mare. Quello che segue è tutto, scritto per essere letto.",
@@ -1542,13 +1542,13 @@ SITO = {
  "pt-BR": "Por que podemos",
  "ja": "なぜ扱えるのか"},
 
-"Carrying your letters, keeping your beach and translating a letter when you ask are what you agreed to when you began; that agreement is the legal basis (Article 6(1)(b) of the GDPR). Screening letters, handling reports and keeping a banished account from coming back rest on our legitimate interest, and yours, in a sea that is safe to write on (Article 6(1)(f)). So does answering what you write to us. Where the law requires us to keep something or hand it over, we do (Article 6(1)(c)).": {
- "it": "Portare le tue lettere, tenere la tua spiaggia e tradurre una lettera quando lo chiedi sono ciò che hai accettato cominciando; quell'accordo è la base giuridica (articolo 6, paragrafo 1, lettera b del GDPR). Vagliare le lettere, gestire le segnalazioni e impedire a un account bandito di tornare si fondano sul nostro legittimo interesse, e sul tuo, a un mare dove si possa scrivere tranquilli (articolo 6, paragrafo 1, lettera f). Così anche rispondere a quello che ci scrivi. Quando la legge ci obbliga a conservare qualcosa o a consegnarlo, lo facciamo (articolo 6, paragrafo 1, lettera c).",
- "es": "Llevar tus cartas, mantener tu playa y traducir una carta cuando lo pides es lo que aceptaste al empezar; ese acuerdo es la base jurídica (artículo 6.1.b del RGPD). Revisar las cartas, gestionar las denuncias e impedir que una cuenta desterrada vuelva se basan en nuestro interés legítimo, y en el tuyo, en un mar donde se pueda escribir con tranquilidad (artículo 6.1.f). También responder a lo que nos escribes. Cuando la ley nos obliga a conservar algo o a entregarlo, lo hacemos (artículo 6.1.c).",
- "fr": "Porter tes lettres, garder ta plage et traduire une lettre quand tu le demandes, c'est ce que tu as accepté en commençant ; cet accord est la base légale (article 6, paragraphe 1, point b du RGPD). Vérifier les lettres, traiter les signalements et empêcher un compte banni de revenir reposent sur notre intérêt légitime, et le tien, à une mer où l'on peut écrire en paix (article 6, paragraphe 1, point f). Répondre à ce que tu nous écris aussi. Quand la loi nous oblige à conserver ou à transmettre quelque chose, nous le faisons (article 6, paragraphe 1, point c).",
- "de": "Deine Briefe zu tragen, deinen Strand zu halten und einen Brief zu übersetzen, wenn du darum bittest, ist das, dem du zu Beginn zugestimmt hast; diese Vereinbarung ist die Rechtsgrundlage (Art. 6 Abs. 1 lit. b DSGVO). Briefe zu prüfen, Meldungen zu bearbeiten und ein verbanntes Konto an der Rückkehr zu hindern, beruht auf unserem berechtigten Interesse, und deinem, an einem Meer, auf dem man in Ruhe schreiben kann (Art. 6 Abs. 1 lit. f). Ebenso, auf das zu antworten, was du uns schreibst. Wenn das Gesetz uns verpflichtet, etwas aufzubewahren oder herauszugeben, tun wir es (Art. 6 Abs. 1 lit. c).",
- "pt-BR": "Levar suas cartas, manter sua praia e traduzir uma carta quando você pede é o que você aceitou ao começar; esse acordo é a base legal (artigo 6.º, n.º 1, alínea b do RGPD). Conferir as cartas, cuidar das denúncias e impedir que uma conta banida volte se baseiam no nosso interesse legítimo, e no seu, por um mar onde se possa escrever em paz (artigo 6.º, n.º 1, alínea f). Responder ao que você nos escreve também. Quando a lei nos obriga a guardar algo ou entregá-lo, nós o fazemos (artigo 6.º, n.º 1, alínea c).",
- "ja": "手紙を運ぶこと、あなたの浜を保つこと、頼まれたときに手紙を翻訳することは、あなたが始めるときに同意したことで、その合意が法的根拠です（GDPR 第6条第1項(b)）。手紙の確認、報告の処理、追放されたアカウントを戻らせないことは、安心して書ける海であってほしいという、私たちとあなたの正当な利益に基づきます（同(f)）。あなたからのたよりに答えることも同じです。法律が何かの保管や提出を求めるときは、それに従います（同(c)）。"},
+"Carrying your letters, keeping your beach and translating a letter when you ask are what you agreed to when you began; that agreement is the legal basis (Article 6(1)(b) of the GDPR). Screening letters, handling reports and keeping a banished account from coming back rest on our legitimate interest, and yours, in a sea that is safe to write on (Article 6(1)(f)). So does answering what you write to us, and so do the crash reports that keep the app working. Where the law requires us to keep something or hand it over, we do (Article 6(1)(c)).": {
+ "it": "Portare le tue lettere, tenere la tua spiaggia e tradurre una lettera quando lo chiedi sono ciò che hai accettato cominciando; quell'accordo è la base giuridica (articolo 6, paragrafo 1, lettera b del GDPR). Vagliare le lettere, gestire le segnalazioni e impedire a un account bandito di tornare si fondano sul nostro legittimo interesse, e sul tuo, a un mare dove si possa scrivere tranquilli (articolo 6, paragrafo 1, lettera f). Così anche rispondere a quello che ci scrivi, e le segnalazioni di errore che tengono l'app in funzione. Quando la legge ci obbliga a conservare qualcosa o a consegnarlo, lo facciamo (articolo 6, paragrafo 1, lettera c).",
+ "es": "Llevar tus cartas, mantener tu playa y traducir una carta cuando lo pides es lo que aceptaste al empezar; ese acuerdo es la base jurídica (artículo 6.1.b del RGPD). Revisar las cartas, gestionar las denuncias e impedir que una cuenta desterrada vuelva se basan en nuestro interés legítimo, y en el tuyo, en un mar donde se pueda escribir con tranquilidad (artículo 6.1.f). También responder a lo que nos escribes, y los informes de errores que mantienen la app funcionando. Cuando la ley nos obliga a conservar algo o a entregarlo, lo hacemos (artículo 6.1.c).",
+ "fr": "Porter tes lettres, garder ta plage et traduire une lettre quand tu le demandes, c'est ce que tu as accepté en commençant ; cet accord est la base légale (article 6, paragraphe 1, point b du RGPD). Vérifier les lettres, traiter les signalements et empêcher un compte banni de revenir reposent sur notre intérêt légitime, et le tien, à une mer où l'on peut écrire en paix (article 6, paragraphe 1, point f). Répondre à ce que tu nous écris aussi, tout comme les rapports de plantage qui gardent l'application en état de marche. Quand la loi nous oblige à conserver ou à transmettre quelque chose, nous le faisons (article 6, paragraphe 1, point c).",
+ "de": "Deine Briefe zu tragen, deinen Strand zu halten und einen Brief zu übersetzen, wenn du darum bittest, ist das, dem du zu Beginn zugestimmt hast; diese Vereinbarung ist die Rechtsgrundlage (Art. 6 Abs. 1 lit. b DSGVO). Briefe zu prüfen, Meldungen zu bearbeiten und ein verbanntes Konto an der Rückkehr zu hindern, beruht auf unserem berechtigten Interesse, und deinem, an einem Meer, auf dem man in Ruhe schreiben kann (Art. 6 Abs. 1 lit. f). Ebenso, auf das zu antworten, was du uns schreibst, und die Absturzberichte, die die App am Laufen halten. Wenn das Gesetz uns verpflichtet, etwas aufzubewahren oder herauszugeben, tun wir es (Art. 6 Abs. 1 lit. c).",
+ "pt-BR": "Levar suas cartas, manter sua praia e traduzir uma carta quando você pede é o que você aceitou ao começar; esse acordo é a base legal (artigo 6.º, n.º 1, alínea b do RGPD). Conferir as cartas, cuidar das denúncias e impedir que uma conta banida volte se baseiam no nosso interesse legítimo, e no seu, por um mar onde se possa escrever em paz (artigo 6.º, n.º 1, alínea f). Responder ao que você nos escreve também, e os relatórios de falhas que mantêm o app funcionando. Quando a lei nos obriga a guardar algo ou entregá-lo, nós o fazemos (artigo 6.º, n.º 1, alínea c).",
+ "ja": "手紙を運ぶこと、あなたの浜を保つこと、頼まれたときに手紙を翻訳することは、あなたが始めるときに同意したことで、その合意が法的根拠です（GDPR 第6条第1項(b)）。手紙の確認、報告の処理、追放されたアカウントを戻らせないことは、安心して書ける海であってほしいという、私たちとあなたの正当な利益に基づきます（同(f)）。あなたからのたよりに答えることと、アプリを動かしつづけるためのクラッシュレポートも同じです。法律が何かの保管や提出を求めるときは、それに従います（同(c)）。"},
 
 "How long": {
  "it": "Per quanto tempo",
@@ -1972,6 +1972,617 @@ SITO = {
  "pt-BR": "Assine com seu selo de lacre",
  "ja": "あなたの印で封をする"},
 
+
+# ── Le pagine per Google Play e Sentry nella privacy (06/11/2026) ─────────
+
+"receives a report when the app crashes or meets an error, on Android and, from version 1.0.1, on iPhone: the kind of error, where in the app's code it happened, the app version, and the model and system of the phone. It never receives the text of a letter or anything that identifies you, no IP address is stored, and the reports are kept in Germany, in the European Union.": {
+ "it": "riceve una segnalazione quando l'app si blocca o incontra un errore, su Android e, dalla versione 1.0.1, su iPhone: il tipo di errore, il punto del codice dell'app in cui è avvenuto, la versione dell'app, il modello e il sistema del telefono. Non riceve mai il testo di una lettera né niente che ti identifichi, nessun indirizzo IP viene conservato, e le segnalazioni restano in Germania, nell'Unione europea.",
+ "es": "recibe un informe cuando la app se cierra o encuentra un error, en Android y, desde la versión 1.0.1, en iPhone: el tipo de error, el punto del código de la app donde ocurrió, la versión de la app y el modelo y el sistema del teléfono. Nunca recibe el texto de una carta ni nada que te identifique, no se guarda ninguna dirección IP, y los informes se conservan en Alemania, en la Unión Europea.",
+ "fr": "reçoit un rapport quand l'application plante ou rencontre une erreur, sur Android et, à partir de la version 1.0.1, sur iPhone : le type d'erreur, l'endroit du code de l'application où elle s'est produite, la version de l'application, le modèle et le système du téléphone. Il ne reçoit jamais le texte d'une lettre ni rien qui t'identifie, aucune adresse IP n'est conservée, et les rapports sont gardés en Allemagne, dans l'Union européenne.",
+ "de": "erhält einen Bericht, wenn die App abstürzt oder auf einen Fehler stößt, auf Android und ab Version 1.0.1 auf dem iPhone: die Art des Fehlers, die Stelle im Code der App, an der er auftrat, die App-Version sowie Modell und System des Telefons. Den Text eines Briefes oder irgendetwas, das dich erkennbar macht, erhält es nie, keine IP-Adresse wird gespeichert, und die Berichte bleiben in Deutschland, in der Europäischen Union.",
+ "pt-BR": "recebe um relatório quando o app trava ou encontra um erro, no Android e, a partir da versão 1.0.1, no iPhone: o tipo de erro, o ponto do código do app onde ocorreu, a versão do app e o modelo e o sistema do celular. Nunca recebe o texto de uma carta nem nada que identifique você, nenhum endereço IP é guardado, e os relatórios ficam na Alemanha, na União Europeia.",
+ "ja": "は、アプリがクラッシュしたりエラーに出会ったりしたときに報告を受け取ります。対象は Android と、バージョン 1.0.1 以降の iPhone です。内容はエラーの種類、それが起きたアプリのコードの場所、アプリのバージョン、端末の機種とシステム。手紙の本文やあなたを特定するものは一切受け取らず、IP アドレスも保存されません。報告は欧州連合のドイツで保管されます。"},
+
+"Child safety — Bottlegram": {
+ "it": "Sicurezza dei minori — Bottlegram",
+ "es": "Seguridad infantil — Bottlegram",
+ "fr": "Protection des mineurs — Bottlegram",
+ "de": "Kinderschutz — Bottlegram",
+ "pt-BR": "Segurança infantil — Bottlegram",
+ "ja": "子どもの安全 — Bottlegram"},
+
+"Bottlegram is for adults, and has zero tolerance for child sexual abuse and exploitation. How it is prevented, how to report it, what we do, and who to contact.": {
+ "it": "Bottlegram è per adulti, e non tollera in alcun modo l'abuso e lo sfruttamento sessuale dei minori. Come si previene, come si segnala, cosa facciamo e a chi rivolgersi.",
+ "es": "Bottlegram es para adultos y tiene tolerancia cero con el abuso y la explotación sexual infantil. Cómo se previene, cómo se denuncia, qué hacemos y a quién dirigirse.",
+ "fr": "Bottlegram est réservé aux adultes et applique une tolérance zéro envers les abus et l'exploitation sexuels des enfants. Comment on les prévient, comment les signaler, ce que nous faisons et qui contacter.",
+ "de": "Bottlegram ist für Erwachsene und duldet keinerlei sexuellen Missbrauch oder sexuelle Ausbeutung von Kindern. Wie wir vorbeugen, wie du meldest, was wir tun und an wen du dich wendest.",
+ "pt-BR": "O Bottlegram é para adultos e tem tolerância zero com o abuso e a exploração sexual infantil. Como se previne, como denunciar, o que fazemos e a quem recorrer.",
+ "ja": "Bottlegram は大人のためのアプリで、子どもへの性的虐待と搾取を一切許しません。防ぎ方、報告のしかた、私たちの対応、連絡先。"},
+
+"Child safety": {
+ "it": "Sicurezza dei minori",
+ "es": "Seguridad infantil",
+ "fr": "Protection des mineurs",
+ "de": "Kinderschutz",
+ "pt-BR": "Segurança infantil",
+ "ja": "子どもの安全"},
+
+"Bottlegram is for adults. There is no place on this sea for anyone who would harm a child, and no second chance.": {
+ "it": "Bottlegram è per adulti. Su questo mare non c'è posto per chi farebbe del male a un bambino, e non c'è una seconda possibilità.",
+ "es": "Bottlegram es para adultos. En este mar no hay sitio para quien haría daño a un niño, ni segunda oportunidad.",
+ "fr": "Bottlegram est réservé aux adultes. Sur cette mer, il n'y a pas de place pour qui voudrait faire du mal à un enfant, et pas de seconde chance.",
+ "de": "Bottlegram ist für Erwachsene. Auf diesem Meer ist kein Platz für jemanden, der einem Kind schaden würde, und es gibt keine zweite Chance.",
+ "pt-BR": "O Bottlegram é para adultos. Neste mar não há lugar para quem faria mal a uma criança, nem segunda chance.",
+ "ja": "Bottlegram は大人のためのものです。子どもを傷つけようとする人の居場所はこの海になく、二度目の機会もありません。"},
+
+"Bottlegram is for people aged eighteen and over": {
+ "it": "Bottlegram è per chi ha diciotto anni o più",
+ "es": "Bottlegram es para mayores de dieciocho años",
+ "fr": "Bottlegram est réservé aux personnes de dix-huit ans et plus",
+ "de": "Bottlegram ist für Menschen ab achtzehn Jahren",
+ "pt-BR": "O Bottlegram é para maiores de dezoito anos",
+ "ja": "Bottlegram は18歳以上の人のためのものです"},
+
+"The app asks for a date of birth before anything else, on iPhone and on Android alike, and under 18 it does not open. The rules every castaway accepts before reaching the beach say the same thing. Someone who leaves the sea and comes back passes the same gate again.": {
+ "it": "L'app chiede la data di nascita prima di ogni altra cosa, su iPhone come su Android, e sotto i 18 anni non si apre. Le regole che ogni naufrago accetta prima di arrivare sulla spiaggia dicono la stessa cosa. Chi lascia il mare e ritorna ripassa dallo stesso cancello.",
+ "es": "La app pide la fecha de nacimiento antes que nada, en iPhone igual que en Android, y con menos de 18 años no se abre. Las reglas que cada náufrago acepta antes de llegar a la playa dicen lo mismo. Quien deja el mar y vuelve pasa otra vez por la misma puerta.",
+ "fr": "L'application demande une date de naissance avant toute chose, sur iPhone comme sur Android, et en dessous de 18 ans elle ne s'ouvre pas. Les règles que chaque naufragé accepte avant d'arriver sur la plage disent la même chose. Qui quitte la mer et revient repasse par la même porte.",
+ "de": "Die App fragt vor allem anderen nach dem Geburtsdatum, auf dem iPhone wie auf Android, und unter 18 öffnet sie sich nicht. Die Regeln, die jeder Schiffbrüchige vor dem Strand annimmt, sagen dasselbe. Wer das Meer verlässt und zurückkommt, geht wieder durch dieselbe Tür.",
+ "pt-BR": "O app pede a data de nascimento antes de tudo, no iPhone como no Android, e para menores de 18 anos ele não abre. As regras que cada náufrago aceita antes de chegar à praia dizem o mesmo. Quem deixa o mar e volta passa de novo pela mesma porta.",
+ "ja": "アプリは何よりも先に生年月日をたずね、iPhone でも Android でも同じく、18歳未満なら開きません。浜に着く前にすべての漂着者が受け入れる海のおきても、同じことを定めています。海を去って戻ってきた人も、同じ門をもう一度通ります。"},
+
+"What is forbidden": {
+ "it": "Che cosa è vietato",
+ "es": "Qué está prohibido",
+ "fr": "Ce qui est interdit",
+ "de": "Was verboten ist",
+ "pt-BR": "O que é proibido",
+ "ja": "禁じられていること"},
+
+"Child sexual abuse and exploitation is forbidden on Bottlegram in every form, with zero tolerance. That includes:": {
+ "it": "L'abuso e lo sfruttamento sessuale dei minori sono vietati su Bottlegram in ogni forma, con tolleranza zero. Questo comprende:",
+ "es": "El abuso y la explotación sexual infantil están prohibidos en Bottlegram en cualquier forma, con tolerancia cero. Eso incluye:",
+ "fr": "Les abus et l'exploitation sexuels des enfants sont interdits sur Bottlegram sous toutes leurs formes, avec une tolérance zéro. Cela comprend :",
+ "de": "Sexueller Missbrauch und sexuelle Ausbeutung von Kindern sind auf Bottlegram in jeder Form verboten, ohne jede Toleranz. Dazu gehören:",
+ "pt-BR": "O abuso e a exploração sexual infantil são proibidos no Bottlegram em qualquer forma, com tolerância zero. Isso inclui:",
+ "ja": "子どもへの性的虐待と搾取は、Bottlegram ではいかなる形でも禁じられ、一切容認されません。これには次のものが含まれます。"},
+
+"any sexual content involving a minor, in words or in any other form;": {
+ "it": "qualsiasi contenuto sessuale che coinvolga un minore, a parole o in qualunque altra forma;",
+ "es": "cualquier contenido sexual que involucre a un menor, con palabras o de cualquier otra forma;",
+ "fr": "tout contenu sexuel impliquant un mineur, en mots ou sous toute autre forme ;",
+ "de": "jeder sexuelle Inhalt, der einen Minderjährigen betrifft, in Worten oder in jeder anderen Form;",
+ "pt-BR": "qualquer conteúdo sexual que envolva um menor, em palavras ou de qualquer outra forma;",
+ "ja": "言葉であれ他のどんな形であれ、未成年者が関わる性的な内容"},
+
+"grooming: any attempt to befriend, persuade or manipulate a minor for a sexual purpose;": {
+ "it": "l'adescamento: ogni tentativo di fare amicizia con un minore, convincerlo o manipolarlo a scopo sessuale;",
+ "es": "el grooming: cualquier intento de ganarse la confianza de un menor, persuadirlo o manipularlo con fines sexuales;",
+ "fr": "la sollicitation (grooming) : toute tentative de se lier avec un mineur, de le persuader ou de le manipuler à des fins sexuelles ;",
+ "de": "Grooming: jeder Versuch, sich mit einem Minderjährigen anzufreunden, ihn zu überreden oder zu manipulieren, mit sexueller Absicht;",
+ "pt-BR": "o aliciamento: qualquer tentativa de ganhar a confiança de um menor, persuadi-lo ou manipulá-lo com fins sexuais;",
+ "ja": "グルーミング：性的な目的で未成年者に近づき、説得し、操ろうとするあらゆる試み"},
+
+"sexualising minors, or asking for, offering or pointing to child sexual abuse material;": {
+ "it": "sessualizzare i minori, o chiedere, offrire o indicare materiale pedopornografico;",
+ "es": "sexualizar a menores, o pedir, ofrecer o señalar material de abuso sexual infantil;",
+ "fr": "sexualiser des mineurs, ou demander, proposer ou indiquer du matériel pédopornographique ;",
+ "de": "Minderjährige zu sexualisieren oder Darstellungen sexuellen Kindesmissbrauchs zu verlangen, anzubieten oder auf sie zu verweisen;",
+ "pt-BR": "sexualizar menores, ou pedir, oferecer ou indicar material de abuso sexual infantil;",
+ "ja": "未成年者を性的に扱うこと、または児童性的虐待コンテンツを求め、提供し、その在りかを示すこと"},
+
+"sextortion, trafficking, or using Bottlegram to find, contact or arrange to meet a minor.": {
+ "it": "la sextortion, la tratta, o usare Bottlegram per trovare un minore, contattarlo o organizzare un incontro.",
+ "es": "la sextorsión, la trata, o usar Bottlegram para encontrar a un menor, contactarlo o concertar un encuentro.",
+ "fr": "la sextorsion, la traite, ou l'usage de Bottlegram pour trouver un mineur, le contacter ou organiser une rencontre.",
+ "de": "Sextortion, Menschenhandel oder Bottlegram zu nutzen, um einen Minderjährigen zu finden, zu kontaktieren oder ein Treffen zu verabreden.",
+ "pt-BR": "a sextorsão, o tráfico, ou usar o Bottlegram para encontrar um menor, contatá-lo ou marcar um encontro.",
+ "ja": "性的脅迫（セクストーション）、人身取引、または未成年者を探し、連絡し、会う約束をするために Bottlegram を使うこと。"},
+
+"Breaking this rule once is enough to be banished from the sea for good.": {
+ "it": "Basta infrangere questa regola una volta per essere banditi dal mare per sempre.",
+ "es": "Basta con romper esta regla una vez para ser desterrado del mar para siempre.",
+ "fr": "Enfreindre cette règle une seule fois suffit pour être banni de la mer pour toujours.",
+ "de": "Ein einziger Verstoß gegen diese Regel genügt, um für immer vom Meer verbannt zu werden.",
+ "pt-BR": "Basta quebrar esta regra uma vez para ser banido do mar para sempre.",
+ "ja": "このおきてを一度でも破れば、海から永久に追放されます。"},
+
+"How the sea keeps it out": {
+ "it": "Come il mare lo tiene fuori",
+ "es": "Cómo lo mantiene fuera el mar",
+ "fr": "Comment la mer le tient à l'écart",
+ "de": "Wie das Meer es fernhält",
+ "pt-BR": "Como o mar mantém isso longe",
+ "ja": "海はどうやって遠ざけているか"},
+
+"Letters are words only.": {
+ "it": "Le lettere sono solo parole.",
+ "es": "Las cartas son solo palabras.",
+ "fr": "Les lettres ne sont que des mots.",
+ "de": "Briefe sind nur Worte.",
+ "pt-BR": "As cartas são só palavras.",
+ "ja": "手紙は言葉だけ。"},
+
+"A letter is text, at most 800 characters. There are no photos, files or voice messages to send.": {
+ "it": "Una lettera è testo, al massimo 800 caratteri. Non ci sono foto, file o messaggi vocali da mandare.",
+ "es": "Una carta es texto, como máximo 800 caracteres. No hay fotos, archivos ni mensajes de voz que enviar.",
+ "fr": "Une lettre, c'est du texte, 800 caractères au plus. Il n'y a ni photos, ni fichiers, ni messages vocaux à envoyer.",
+ "de": "Ein Brief ist Text, höchstens 800 Zeichen. Es gibt keine Fotos, Dateien oder Sprachnachrichten zu verschicken.",
+ "pt-BR": "Uma carta é texto, no máximo 800 caracteres. Não há fotos, arquivos nem mensagens de voz para enviar.",
+ "ja": "手紙は文字だけで、長さは最大800字。写真やファイル、音声メッセージを送る手段はありません。"},
+
+"Every letter is checked before anyone receives it.": {
+ "it": "Ogni lettera viene controllata prima che qualcuno la riceva.",
+ "es": "Cada carta se revisa antes de que alguien la reciba.",
+ "fr": "Chaque lettre est vérifiée avant que quiconque la reçoive.",
+ "de": "Jeder Brief wird geprüft, bevor jemand ihn bekommt.",
+ "pt-BR": "Cada carta é verificada antes que alguém a receba.",
+ "ja": "すべての手紙は、誰かに届く前に確認されます。"},
+
+"Our server checks each letter before it sails and stops sexual content, with a threshold four times stricter when it involves a minor. If the check cannot run, the letter does not leave.": {
+ "it": "Il nostro server controlla ogni lettera prima che salpi e ferma i contenuti sessuali, con una soglia quattro volte più severa quando riguardano un minore. Se il controllo non può avvenire, la lettera non parte.",
+ "es": "Nuestro servidor revisa cada carta antes de que zarpe y detiene el contenido sexual, con un umbral cuatro veces más estricto cuando involucra a un menor. Si la revisión no puede hacerse, la carta no sale.",
+ "fr": "Notre serveur vérifie chaque lettre avant qu'elle ne prenne la mer et arrête les contenus sexuels, avec un seuil quatre fois plus strict lorsqu'un mineur est concerné. Si la vérification ne peut pas se faire, la lettre ne part pas.",
+ "de": "Unser Server prüft jeden Brief, bevor er in See sticht, und hält sexuelle Inhalte auf, mit einer viermal strengeren Schwelle, wenn ein Minderjähriger betroffen ist. Kann die Prüfung nicht laufen, geht der Brief nicht hinaus.",
+ "pt-BR": "Nosso servidor verifica cada carta antes que ela parta e barra o conteúdo sexual, com um limite quatro vezes mais rigoroso quando envolve um menor. Se a verificação não puder ser feita, a carta não sai.",
+ "ja": "サーバーは出航前にすべての手紙を確認して性的な内容を止め、未成年者が関わる場合は4倍厳しい基準を使います。確認ができないときは、手紙は出ていきません。"},
+
+"A letter cannot take anyone elsewhere.": {
+ "it": "Una lettera non può portare nessuno altrove.",
+ "es": "Una carta no puede llevar a nadie a otra parte.",
+ "fr": "Une lettre ne peut emmener personne ailleurs.",
+ "de": "Ein Brief kann niemanden woandershin bringen.",
+ "pt-BR": "Uma carta não pode levar ninguém para outro lugar.",
+ "ja": "手紙で誰かを外へ連れ出すことはできません。"},
+
+"Phone numbers, email addresses, links, website names and social media handles are stopped in the same check, so a correspondence cannot be moved off Bottlegram.": {
+ "it": "Numeri di telefono, indirizzi email, link, nomi di siti e profili social si fermano nello stesso controllo, così un carteggio non può essere portato fuori da Bottlegram.",
+ "es": "Los números de teléfono, las direcciones de correo, los enlaces, los nombres de sitios web y los usuarios de redes sociales se detienen en la misma revisión, así que una correspondencia no puede sacarse de Bottlegram.",
+ "fr": "Numéros de téléphone, adresses e-mail, liens, noms de sites et identifiants de réseaux sociaux sont arrêtés lors de la même vérification : une correspondance ne peut pas quitter Bottlegram.",
+ "de": "Telefonnummern, E-Mail-Adressen, Links, Website-Namen und Social-Media-Namen werden in derselben Prüfung aufgehalten, damit ein Briefwechsel nicht aus Bottlegram hinaus verlegt werden kann.",
+ "pt-BR": "Números de telefone, endereços de e-mail, links, nomes de sites e perfis de redes sociais são barrados na mesma verificação, para que uma correspondência não possa sair do Bottlegram.",
+ "ja": "電話番号、メールアドレス、リンク、サイト名、SNS のアカウント名は同じ確認で止められるため、文通を Bottlegram の外へ移すことはできません。"},
+
+"Nobody can be looked up.": {
+ "it": "Nessuno si può cercare.",
+ "es": "Nadie puede ser buscado.",
+ "fr": "Personne ne peut être recherché.",
+ "de": "Niemand lässt sich nachschlagen.",
+ "pt-BR": "Ninguém pode ser procurado.",
+ "ja": "誰かを探すことはできません。"},
+
+"There are no profiles, no photographs, no names and no search. Letters reach a beach chosen by the current, not by the writer.": {
+ "it": "Non ci sono profili, fotografie, nomi né ricerca. Le lettere arrivano su una spiaggia scelta dalla corrente, non da chi scrive.",
+ "es": "No hay perfiles, ni fotografías, ni nombres, ni búsqueda. Las cartas llegan a una playa elegida por la corriente, no por quien escribe.",
+ "fr": "Il n'y a ni profils, ni photographies, ni noms, ni recherche. Les lettres arrivent sur une plage choisie par le courant, pas par celui qui écrit.",
+ "de": "Es gibt keine Profile, keine Fotos, keine Namen und keine Suche. Briefe erreichen einen Strand, den die Strömung wählt, nicht der Schreibende.",
+ "pt-BR": "Não há perfis, fotografias, nomes nem busca. As cartas chegam a uma praia escolhida pela correnteza, não por quem escreve.",
+ "ja": "プロフィールも写真も名前も検索もありません。手紙が着く浜を選ぶのは潮で、書いた人ではありません。"},
+
+"How to report": {
+ "it": "Come segnalare",
+ "es": "Cómo denunciar",
+ "fr": "Comment signaler",
+ "de": "Wie du meldest",
+ "pt-BR": "Como denunciar",
+ "ja": "報告のしかた"},
+
+"In the app:": {
+ "it": "Nell'app:",
+ "es": "En la app:",
+ "fr": "Dans l'application :",
+ "de": "In der App:",
+ "pt-BR": "No app:",
+ "ja": "アプリで："},
+
+"under every open letter, and under every correspondence in the journal, there is “Report or block”. Choose the reason that fits, such as “Sexual content” or “Threats or danger”. The correspondence closes, and you can block its writer in the same gesture.": {
+ "it": "sotto ogni lettera aperta, e sotto ogni carteggio nel diario, c'è «Segnala o blocca». Scegli il motivo giusto, per esempio «Contenuto sessuale» o «Minacce o pericolo». Il carteggio si chiude, e con lo stesso gesto puoi bloccare chi l'ha scritto.",
+ "es": "debajo de cada carta abierta, y de cada correspondencia en el diario, está «Informar o bloquear». Elige el motivo que corresponda, como «Contenido sexual» o «Amenazas o peligro». La correspondencia se cierra, y con el mismo gesto puedes bloquear a quien la escribió.",
+ "fr": "sous chaque lettre ouverte, et sous chaque correspondance du journal, il y a « Signaler ou bloquer ». Choisis le motif qui convient, comme « Contenu sexuel » ou « Menaces ou danger ». La correspondance se ferme, et tu peux bloquer son auteur du même geste.",
+ "de": "unter jedem geöffneten Brief und unter jedem Briefwechsel im Tagebuch steht „Melden oder blockieren“. Wähle den passenden Grund, etwa „Sexuelle Inhalte“ oder „Drohungen oder Gefahr“. Der Briefwechsel schließt sich, und mit derselben Geste kannst du den Verfasser blockieren.",
+ "pt-BR": "embaixo de cada carta aberta, e de cada correspondência no diário, há «Relatar ou bloquear». Escolha o motivo que se aplica, como «Conteúdo sexual» ou «Ameaças ou perigo». A correspondência se fecha, e no mesmo gesto você pode bloquear quem a escreveu.",
+ "ja": "開いた手紙の下と、日誌の各文通の下に「報告・ブロック」があります。「性的な内容」や「脅迫・危険」など、当てはまる理由を選んでください。文通は閉じられ、同じ操作で書いた人をブロックできます。"},
+
+"By email:": {
+ "it": "Per email:",
+ "es": "Por correo:",
+ "fr": "Par e-mail :",
+ "de": "Per E-Mail:",
+ "pt-BR": "Por e-mail:",
+ "ja": "メールで："},
+
+"for anything about a child's safety, from inside or outside the app, write to": {
+ "it": "per qualunque cosa riguardi la sicurezza di un minore, dentro o fuori dall'app, scrivi a",
+ "es": "para cualquier cosa relacionada con la seguridad de un menor, dentro o fuera de la app, escribe a",
+ "fr": "pour tout ce qui touche à la sécurité d'un enfant, dans l'application ou en dehors, écris à",
+ "de": "für alles, was die Sicherheit eines Kindes betrifft, in der App oder außerhalb, schreib an",
+ "pt-BR": "para qualquer assunto sobre a segurança de uma criança, dentro ou fora do app, escreva para",
+ "ja": "子どもの安全に関することは、アプリの中でも外でも、次の宛先へ："},
+
+"If a child is in immediate danger,": {
+ "it": "Se un bambino è in pericolo immediato,",
+ "es": "Si un niño está en peligro inmediato,",
+ "fr": "Si un enfant est en danger immédiat,",
+ "de": "Wenn ein Kind in unmittelbarer Gefahr ist,",
+ "pt-BR": "Se uma criança estiver em perigo imediato,",
+ "ja": "子どもに差し迫った危険があるときは、"},
+
+"call your local emergency number first.": {
+ "it": "chiama prima il numero di emergenza locale.",
+ "es": "llama primero al número de emergencias local.",
+ "fr": "appelle d'abord le numéro d'urgence local.",
+ "de": "ruf zuerst die örtliche Notrufnummer an.",
+ "pt-BR": "ligue primeiro para o número de emergência local.",
+ "ja": "まず地域の緊急通報番号に連絡してください。"},
+
+"What we do": {
+ "it": "Che cosa facciamo",
+ "es": "Qué hacemos",
+ "fr": "Ce que nous faisons",
+ "de": "Was wir tun",
+ "pt-BR": "O que fazemos",
+ "ja": "私たちがすること"},
+
+"A person reads every report within a day. Reports of threats or danger reach the moderator first, ahead of everything else.": {
+ "it": "Una persona legge ogni segnalazione entro un giorno. Le segnalazioni di minacce o pericolo arrivano al moderatore per prime, prima di tutto il resto.",
+ "es": "Una persona lee cada denuncia en menos de un día. Las denuncias de amenazas o peligro llegan primero al moderador, antes que todo lo demás.",
+ "fr": "Une personne lit chaque signalement dans la journée. Les signalements de menaces ou de danger arrivent en premier chez le modérateur, avant tout le reste.",
+ "de": "Ein Mensch liest jede Meldung innerhalb eines Tages. Meldungen über Drohungen oder Gefahr erreichen den Moderator zuerst, vor allem anderen.",
+ "pt-BR": "Uma pessoa lê cada denúncia em até um dia. As denúncias de ameaças ou perigo chegam primeiro ao moderador, antes de todo o resto.",
+ "ja": "すべての報告は、1日以内に人が読みます。脅迫や危険についての報告は、ほかの何よりも先にモデレーターに届きます。"},
+
+"A letter that sexualises or endangers a minor is taken out of the sea, and its writer is banished. Leaving the sea does not lift the ban.": {
+ "it": "Una lettera che sessualizza o mette in pericolo un minore viene tolta dal mare, e chi l'ha scritta viene bandito. Lasciare il mare non toglie il bando.",
+ "es": "Una carta que sexualiza o pone en peligro a un menor se retira del mar, y quien la escribió es desterrado. Dejar el mar no levanta el destierro.",
+ "fr": "Une lettre qui sexualise ou met en danger un mineur est retirée de la mer, et son auteur est banni. Quitter la mer ne lève pas le bannissement.",
+ "de": "Ein Brief, der einen Minderjährigen sexualisiert oder gefährdet, wird aus dem Meer genommen, und sein Verfasser wird verbannt. Das Meer zu verlassen hebt die Verbannung nicht auf.",
+ "pt-BR": "Uma carta que sexualiza ou põe em perigo um menor é retirada do mar, e quem a escreveu é banido. Deixar o mar não suspende o banimento.",
+ "ja": "未成年者を性的に扱う、または危険にさらす手紙は海から取り除かれ、書いた人は追放されます。海を去っても追放は解けません。"},
+
+"We report child sexual abuse material and the exploitation of children to the competent authorities, in Italy the Polizia Postale e delle Comunicazioni, and we keep what the law requires us to keep for them, for as long as it requires.": {
+ "it": "Segnaliamo il materiale pedopornografico e lo sfruttamento dei minori alle autorità competenti, in Italia la Polizia Postale e delle Comunicazioni, e conserviamo per loro quello che la legge ci chiede di conservare, per tutto il tempo che chiede.",
+ "es": "Denunciamos el material de abuso sexual infantil y la explotación de menores ante las autoridades competentes, en Italia la Polizia Postale e delle Comunicazioni, y conservamos para ellas lo que la ley nos exige conservar, durante el tiempo que exige.",
+ "fr": "Nous signalons le matériel pédopornographique et l'exploitation des enfants aux autorités compétentes, en Italie la Polizia Postale e delle Comunicazioni, et nous conservons pour elles ce que la loi nous oblige à conserver, aussi longtemps qu'elle l'exige.",
+ "de": "Wir melden Darstellungen sexuellen Kindesmissbrauchs und die Ausbeutung von Kindern den zuständigen Behörden, in Italien der Polizia Postale e delle Comunicazioni, und bewahren für sie auf, was das Gesetz verlangt, so lange es das verlangt.",
+ "pt-BR": "Denunciamos o material de abuso sexual infantil e a exploração de crianças às autoridades competentes, na Itália a Polizia Postale e delle Comunicazioni, e guardamos para elas o que a lei exige, pelo tempo que exige.",
+ "ja": "児童性的虐待コンテンツと子どもの搾取は、所管当局（イタリアでは郵便・通信警察 Polizia Postale e delle Comunicazioni）に通報し、法律が求めるものを、求める期間、当局のために保管します。"},
+
+"We answer lawful requests from the police and the courts.": {
+ "it": "Rispondiamo alle richieste legittime della polizia e dei tribunali.",
+ "es": "Respondemos a las solicitudes legítimas de la policía y los tribunales.",
+ "fr": "Nous répondons aux demandes légales de la police et de la justice.",
+ "de": "Wir beantworten rechtmäßige Anfragen von Polizei und Gerichten.",
+ "pt-BR": "Respondemos aos pedidos legais da polícia e dos tribunais.",
+ "ja": "警察や裁判所からの適法な要請には応じます。"},
+
+"The law": {
+ "it": "La legge",
+ "es": "La ley",
+ "fr": "La loi",
+ "de": "Das Gesetz",
+ "pt-BR": "A lei",
+ "ja": "法律"},
+
+"Bottlegram complies with the child safety laws that apply to it, including the law of the European Union and of Italy.": {
+ "it": "Bottlegram rispetta le leggi sulla sicurezza dei minori che la riguardano, comprese quelle dell'Unione europea e dell'Italia.",
+ "es": "Bottlegram cumple las leyes de protección infantil que le son aplicables, incluidas las de la Unión Europea y de Italia.",
+ "fr": "Bottlegram respecte les lois sur la protection des enfants qui s'appliquent à elle, y compris le droit de l'Union européenne et de l'Italie.",
+ "de": "Bottlegram hält die für sie geltenden Kinderschutzgesetze ein, einschließlich des Rechts der Europäischen Union und Italiens.",
+ "pt-BR": "O Bottlegram cumpre as leis de proteção infantil que se aplicam a ele, incluindo as da União Europeia e da Itália.",
+ "ja": "Bottlegram は、欧州連合とイタリアの法律を含め、適用される子どもの安全に関する法律を守ります。"},
+
+"Child safety contact": {
+ "it": "Contatto per la sicurezza dei minori",
+ "es": "Contacto de seguridad infantil",
+ "fr": "Contact pour la protection des mineurs",
+ "de": "Kontakt für Kinderschutz",
+ "pt-BR": "Contato de segurança infantil",
+ "ja": "子どもの安全の担当窓口"},
+
+"The person responsible for child safety on Bottlegram, and the contact for Google, the authorities and anyone with a concern:": {
+ "it": "La persona responsabile della sicurezza dei minori su Bottlegram, e il contatto per Google, le autorità e chiunque abbia un dubbio:",
+ "es": "La persona responsable de la seguridad infantil en Bottlegram, y el contacto para Google, las autoridades y cualquiera que tenga una preocupación:",
+ "fr": "La personne responsable de la protection des mineurs sur Bottlegram, et le contact pour Google, les autorités et toute personne inquiète :",
+ "de": "Die verantwortliche Person für Kinderschutz bei Bottlegram, und der Kontakt für Google, die Behörden und alle, die eine Sorge haben:",
+ "pt-BR": "A pessoa responsável pela segurança infantil no Bottlegram, e o contato para o Google, as autoridades e qualquer pessoa preocupada:",
+ "ja": "Bottlegram で子どもの安全を担当する人。Google、当局、そして心配のあるすべての人の窓口です："},
+
+"Delete your account": {
+ "it": "Cancella il tuo account",
+ "es": "Borra tu cuenta",
+ "fr": "Supprimer ton compte",
+ "de": "Dein Konto löschen",
+ "pt-BR": "Apagar sua conta",
+ "ja": "アカウントを削除する"},
+
+"Delete your account — Bottlegram": {
+ "it": "Cancella il tuo account — Bottlegram",
+ "es": "Borra tu cuenta — Bottlegram",
+ "fr": "Supprimer ton compte — Bottlegram",
+ "de": "Dein Konto löschen — Bottlegram",
+ "pt-BR": "Apagar sua conta — Bottlegram",
+ "ja": "アカウントを削除する — Bottlegram"},
+
+"How to delete your Bottlegram account and everything in it, from the app or by email, and the little that is kept afterwards.": {
+ "it": "Come cancellare il tuo account Bottlegram e tutto quello che contiene, dall'app o per email, e il poco che resta dopo.",
+ "es": "Cómo borrar tu cuenta de Bottlegram y todo lo que contiene, desde la app o por correo, y lo poco que queda después.",
+ "fr": "Comment supprimer ton compte Bottlegram et tout ce qu'il contient, depuis l'application ou par e-mail, et le peu qui reste ensuite.",
+ "de": "Wie du dein Bottlegram-Konto und alles darin löschst, in der App oder per E-Mail, und das Wenige, das danach bleibt.",
+ "pt-BR": "Como apagar sua conta do Bottlegram e tudo o que há nela, pelo app ou por e-mail, e o pouco que fica depois.",
+ "ja": "Bottlegram のアカウントとその中身を、アプリまたはメールで削除する方法と、そのあとに残るわずかなもの。"},
+
+"Bottlegram, by Bulb Mode · Bulb Mode SRL Semplificata, Via Ancona 15, 60035 Jesi (AN), Italy": {
+ "it": "Bottlegram, di Bulb Mode · Bulb Mode SRL Semplificata, Via Ancona 15, 60035 Jesi (AN), Italia",
+ "es": "Bottlegram, de Bulb Mode · Bulb Mode SRL Semplificata, Via Ancona 15, 60035 Jesi (AN), Italia",
+ "fr": "Bottlegram, par Bulb Mode · Bulb Mode SRL Semplificata, Via Ancona 15, 60035 Jesi (AN), Italie",
+ "de": "Bottlegram, von Bulb Mode · Bulb Mode SRL Semplificata, Via Ancona 15, 60035 Jesi (AN), Italien",
+ "pt-BR": "Bottlegram, da Bulb Mode · Bulb Mode SRL Semplificata, Via Ancona 15, 60035 Jesi (AN), Itália",
+ "ja": "Bottlegram（提供：Bulb Mode）· Bulb Mode SRL Semplificata、Via Ancona 15, 60035 Jesi (AN), イタリア"},
+
+"Your Bottlegram account is anonymous: a random identifier, with no name or email address attached. Deleting it takes your beach and your letters with it, at once.": {
+ "it": "Il tuo account Bottlegram è anonimo: un identificativo casuale, senza nome né indirizzo email. Cancellarlo si porta via la tua spiaggia e le tue lettere, subito.",
+ "es": "Tu cuenta de Bottlegram es anónima: un identificador aleatorio, sin nombre ni correo asociados. Borrarla se lleva tu playa y tus cartas, al instante.",
+ "fr": "Ton compte Bottlegram est anonyme : un identifiant aléatoire, sans nom ni adresse e-mail. Le supprimer emporte ta plage et tes lettres, tout de suite.",
+ "de": "Dein Bottlegram-Konto ist anonym: eine zufällige Kennung, ohne Namen oder E-Mail-Adresse. Wenn du es löschst, gehen dein Strand und deine Briefe sofort mit.",
+ "pt-BR": "Sua conta do Bottlegram é anônima: um identificador aleatório, sem nome nem e-mail. Apagá-la leva junto sua praia e suas cartas, na hora.",
+ "ja": "Bottlegram のアカウントは匿名で、名前もメールアドレスも結びつかない無作為の識別子です。削除すれば、あなたの浜と手紙もすぐに一緒に消えます。"},
+
+"From the app": {
+ "it": "Dall'app",
+ "es": "Desde la app",
+ "fr": "Depuis l'application",
+ "de": "In der App",
+ "pt-BR": "Pelo app",
+ "ja": "アプリから"},
+
+"Open Bottlegram.": {
+ "it": "Apri Bottlegram.",
+ "es": "Abre Bottlegram.",
+ "fr": "Ouvre Bottlegram.",
+ "de": "Öffne Bottlegram.",
+ "pt-BR": "Abra o Bottlegram.",
+ "ja": "Bottlegram を開きます。"},
+
+"On your beach, tap “Emporium”.": {
+ "it": "Sulla tua spiaggia, tocca «Emporio».",
+ "es": "En tu playa, toca «Emporio».",
+ "fr": "Sur ta plage, touche « Emporium ».",
+ "de": "Tippe an deinem Strand auf „Kontor“.",
+ "pt-BR": "Na sua praia, toque em «Empório».",
+ "ja": "浜で「商館」をタップします。"},
+
+"Tap “Leave the sea”, then “Leave forever”.": {
+ "it": "Tocca «Abbandona il mare», poi «Abbandona per sempre».",
+ "es": "Toca «Abandonar el mar» y luego «Abandonar para siempre».",
+ "fr": "Touche « Quitter la mer », puis « Quitter pour toujours ».",
+ "de": "Tippe auf „Das Meer verlassen“, dann auf „Für immer verlassen“.",
+ "pt-BR": "Toque em «Abandonar o mar» e depois em «Abandonar para sempre».",
+ "ja": "「海を去る」をタップし、続いて「永遠に去る」をタップします。"},
+
+"It works the same on iPhone and on Android, and it is immediate. There is no waiting period and no way back: if you open the app again, you arrive as a new castaway on a new beach, and the app asks your date of birth again.": {
+ "it": "Funziona allo stesso modo su iPhone e su Android, ed è immediato. Non c'è un periodo di attesa e non si torna indietro: se riapri l'app, arrivi come un nuovo naufrago su una nuova spiaggia, e l'app ti chiede di nuovo la data di nascita.",
+ "es": "Funciona igual en iPhone y en Android, y es inmediato. No hay periodo de espera ni vuelta atrás: si abres la app de nuevo, llegas como un náufrago nuevo a una playa nueva, y la app vuelve a pedirte la fecha de nacimiento.",
+ "fr": "Cela fonctionne de la même façon sur iPhone et sur Android, et c'est immédiat. Il n'y a ni délai ni retour en arrière : si tu rouvres l'application, tu arrives en nouveau naufragé sur une nouvelle plage, et l'application te redemande ta date de naissance.",
+ "de": "Es funktioniert auf dem iPhone und auf Android gleich, und es geht sofort. Es gibt keine Wartezeit und keinen Weg zurück: Wenn du die App wieder öffnest, kommst du als neuer Schiffbrüchiger an einem neuen Strand an, und die App fragt erneut nach deinem Geburtsdatum.",
+ "pt-BR": "Funciona do mesmo jeito no iPhone e no Android, e é imediato. Não há período de espera nem volta: se você abrir o app de novo, chega como um náufrago novo numa praia nova, e o app pede de novo sua data de nascimento.",
+ "ja": "iPhone でも Android でも同じで、すぐに行われます。待つ期間も、元に戻す方法もありません。もう一度アプリを開くと、新しい浜の新しい漂着者として始まり、生年月日ももう一度たずねられます。"},
+
+"Without the app": {
+ "it": "Senza l'app",
+ "es": "Sin la app",
+ "fr": "Sans l'application",
+ "de": "Ohne die App",
+ "pt-BR": "Sem o app",
+ "ja": "アプリがないとき"},
+
+"If you no longer have the app, write to": {
+ "it": "Se non hai più l'app, scrivi a",
+ "es": "Si ya no tienes la app, escribe a",
+ "fr": "Si tu n'as plus l'application, écris à",
+ "de": "Wenn du die App nicht mehr hast, schreib an",
+ "pt-BR": "Se você não tem mais o app, escreva para",
+ "ja": "アプリがもう手元にない場合は、"},
+
+"with the subject “Leave the sea”. Because accounts have no names, we need you to describe yours so we can find it: the name of your beach, roughly when you arrived, and if you can, the first words of a letter you wrote. We delete it within seven days and write back when it is done. If nothing you tell us points to one account, we will say so; we cannot look anyone up by name or email, because we do not have them.": {
+ "it": "con oggetto «Leave the sea». Gli account non hanno nomi, quindi per trovare il tuo ci serve che tu lo descriva: il nome della tua spiaggia, più o meno quando sei arrivato e, se puoi, le prime parole di una lettera che hai scritto. Lo cancelliamo entro sette giorni e ti scriviamo quando è fatto. Se niente di quello che ci dici porta a un account solo, te lo diremo: non possiamo cercare nessuno per nome o per email, perché non li abbiamo.",
+ "es": "con el asunto «Leave the sea». Como las cuentas no tienen nombre, necesitamos que describas la tuya para encontrarla: el nombre de tu playa, más o menos cuándo llegaste y, si puedes, las primeras palabras de una carta que escribiste. La borramos en un plazo de siete días y te escribimos cuando esté hecho. Si nada de lo que nos digas apunta a una sola cuenta, te lo diremos: no podemos buscar a nadie por nombre ni por correo, porque no los tenemos.",
+ "fr": "avec l'objet « Leave the sea ». Les comptes n'ont pas de nom, donc pour trouver le tien nous avons besoin que tu le décrives : le nom de ta plage, à peu près quand tu es arrivé et, si tu peux, les premiers mots d'une lettre que tu as écrite. Nous le supprimons sous sept jours et t'écrivons quand c'est fait. Si rien de ce que tu nous dis ne mène à un seul compte, nous te le dirons : nous ne pouvons chercher personne par nom ou par e-mail, puisque nous ne les avons pas.",
+ "de": "mit dem Betreff „Leave the sea“. Konten haben keine Namen, deshalb musst du deines beschreiben, damit wir es finden: den Namen deines Strandes, ungefähr wann du angekommen bist, und wenn du kannst, die ersten Worte eines Briefes, den du geschrieben hast. Wir löschen es innerhalb von sieben Tagen und schreiben dir, wenn es erledigt ist. Wenn nichts von dem, was du uns sagst, zu genau einem Konto führt, sagen wir es dir: Wir können niemanden nach Name oder E-Mail suchen, weil wir sie nicht haben.",
+ "pt-BR": "com o assunto «Leave the sea». Como as contas não têm nome, precisamos que você descreva a sua para encontrá-la: o nome da sua praia, mais ou menos quando você chegou e, se puder, as primeiras palavras de uma carta que escreveu. Nós a apagamos em até sete dias e respondemos quando estiver feito. Se nada do que você disser apontar para uma única conta, nós avisaremos: não podemos procurar ninguém por nome ou e-mail, porque não os temos.",
+ "ja": "宛てに、件名を「Leave the sea」としてメールしてください。アカウントには名前がないため、見つけるにはあなたに説明していただく必要があります。浜の名前、だいたいいつ着いたか、できれば書いた手紙の書き出し。7日以内に削除し、終わったらお知らせします。お聞きした内容から一つのアカウントにたどり着けない場合は、そうお伝えします。名前やメールアドレスで人を探すことはできません。そもそも持っていないからです。"},
+
+"What is deleted": {
+ "it": "Che cosa si cancella",
+ "es": "Qué se borra",
+ "fr": "Ce qui est supprimé",
+ "de": "Was gelöscht wird",
+ "pt-BR": "O que é apagado",
+ "ja": "削除されるもの"},
+
+"All of this, at once and for good:": {
+ "it": "Tutto questo, subito e per sempre:",
+ "es": "Todo esto, al instante y para siempre:",
+ "fr": "Tout ceci, tout de suite et pour toujours :",
+ "de": "All das, sofort und für immer:",
+ "pt-BR": "Tudo isto, na hora e para sempre:",
+ "ja": "次のすべてが、すぐに、永久に消えます："},
+
+"your anonymous account, your beach and your language;": {
+ "it": "il tuo account anonimo, la tua spiaggia e la tua lingua;",
+ "es": "tu cuenta anónima, tu playa y tu idioma;",
+ "fr": "ton compte anonyme, ta plage et ta langue ;",
+ "de": "dein anonymes Konto, dein Strand und deine Sprache;",
+ "pt-BR": "sua conta anônima, sua praia e seu idioma;",
+ "ja": "匿名のアカウント、あなたの浜、あなたの言語"},
+
+"every letter you wrote and every letter you received, including your letters on the beaches of those who received them;": {
+ "it": "ogni lettera che hai scritto e ogni lettera che hai ricevuto, comprese le tue lettere sulle spiagge di chi le ha ricevute;",
+ "es": "cada carta que escribiste y cada carta que recibiste, incluidas tus cartas en las playas de quienes las recibieron;",
+ "fr": "chaque lettre que tu as écrite et chaque lettre que tu as reçue, y compris tes lettres sur les plages de ceux qui les ont reçues ;",
+ "de": "jeder Brief, den du geschrieben, und jeder, den du bekommen hast, auch deine Briefe an den Stränden derer, die sie bekommen haben;",
+ "pt-BR": "cada carta que você escreveu e cada carta que recebeu, inclusive suas cartas nas praias de quem as recebeu;",
+ "ja": "あなたが書いたすべての手紙と受け取ったすべての手紙。相手の浜に届いたあなたの手紙も含みます"},
+
+"your correspondences and the people you blocked;": {
+ "it": "i tuoi carteggi e le persone che hai bloccato;",
+ "es": "tus correspondencias y las personas que bloqueaste;",
+ "fr": "tes correspondances et les personnes que tu as bloquées ;",
+ "de": "deine Briefwechsel und die Menschen, die du blockiert hast;",
+ "pt-BR": "suas correspondências e as pessoas que você bloqueou;",
+ "ja": "文通と、あなたがブロックした相手"},
+
+"reports made about your letters, together with the copy of the letter they hold;": {
+ "it": "le segnalazioni fatte sulle tue lettere, insieme alla copia della lettera che contengono;",
+ "es": "las denuncias hechas sobre tus cartas, junto con la copia de la carta que guardan;",
+ "fr": "les signalements faits sur tes lettres, avec la copie de la lettre qu'ils contiennent ;",
+ "de": "Meldungen über deine Briefe, zusammen mit der Kopie des Briefes, die sie enthalten;",
+ "pt-BR": "as denúncias feitas sobre suas cartas, junto com a cópia da carta que elas guardam;",
+ "ja": "あなたの手紙についての報告と、そこに保管された手紙の写し"},
+
+"your seal, your ship, and the record of what you bought in the Wreck Emporium;": {
+ "it": "il tuo sigillo, la tua nave e il registro di quello che hai comprato nell'Emporio del Relitto;",
+ "es": "tu sello, tu barco y el registro de lo que compraste en el Emporio del Naufragio;",
+ "fr": "ton sceau, ton navire et la trace de ce que tu as acheté à l'Emporium de l'Épave ;",
+ "de": "dein Siegel, dein Schiff und die Aufzeichnung dessen, was du im Kontor des Wracks gekauft hast;",
+ "pt-BR": "seu selo, seu navio e o registro do que você comprou no Empório do Naufrágio;",
+ "ja": "あなたの封印、船、そして難破商館で買ったものの記録"},
+
+"the messages you sent us with “Write to us”, and the name and email address you left there, if any, as the app stored them.": {
+ "it": "i messaggi che ci hai mandato con «Scrivici», e il nome e l'indirizzo email che ci hai lasciato, se l'hai fatto, come li aveva salvati l'app.",
+ "es": "los mensajes que nos enviaste con «Escríbenos», y el nombre y el correo que dejaste allí, si los dejaste, tal como los guardó la app.",
+ "fr": "les messages que tu nous as envoyés avec « Écris-nous », et le nom et l'adresse e-mail que tu y as laissés, le cas échéant, tels que l'application les a enregistrés.",
+ "de": "die Nachrichten, die du uns mit „Schreib uns“ geschickt hast, und der Name und die E-Mail-Adresse, die du dort hinterlassen hast, falls du es getan hast, so wie die App sie gespeichert hat.",
+ "pt-BR": "as mensagens que você nos enviou com «Fale conosco», e o nome e o e-mail que deixou ali, se deixou, como o app os guardou.",
+ "ja": "「たよりを送る」で送ったメッセージと、そこに残した名前とメールアドレス（残した場合）。アプリが保存した分です。"},
+
+"On your phone, the app empties itself: the private names you gave your correspondents, which never left it, go with the rest.": {
+ "it": "Sul tuo telefono l'app si svuota: i nomi privati che hai dato ai tuoi corrispondenti, che non ne erano mai usciti, se ne vanno con il resto.",
+ "es": "En tu teléfono, la app se vacía: los nombres privados que diste a tus corresponsales, que nunca salieron de él, se van con lo demás.",
+ "fr": "Sur ton téléphone, l'application se vide : les noms privés que tu as donnés à tes correspondants, qui n'en étaient jamais sortis, partent avec le reste.",
+ "de": "Auf deinem Telefon leert sich die App: Die privaten Namen, die du deinen Briefpartnern gegeben hast und die es nie verlassen haben, gehen mit dem Rest.",
+ "pt-BR": "No seu celular, o app se esvazia: os nomes privados que você deu aos seus correspondentes, que nunca saíram dele, vão junto com o resto.",
+ "ja": "スマートフォンの中のアプリも空になります。文通相手につけた自分だけの呼び名は、もともと端末の外に出ていませんが、ほかのものと一緒に消えます。"},
+
+"What is kept": {
+ "it": "Che cosa resta",
+ "es": "Qué se conserva",
+ "fr": "Ce qui reste",
+ "de": "Was bleibt",
+ "pt-BR": "O que fica",
+ "ja": "残るもの"},
+
+"Reports you made": {
+ "it": "Le segnalazioni che hai fatto",
+ "es": "Las denuncias que hiciste",
+ "fr": "Les signalements que tu as faits",
+ "de": "Meldungen, die du gemacht hast",
+ "pt-BR": "As denúncias que você fez",
+ "ja": "あなたがした報告"},
+
+"about someone else's letter stay, with nothing that links them to you, so that the decision about that letter stands.": {
+ "it": "sulla lettera di qualcun altro restano, senza niente che le colleghi a te, perché la decisione su quella lettera resti valida.",
+ "es": "sobre la carta de otra persona se quedan, sin nada que las vincule contigo, para que la decisión sobre esa carta se mantenga.",
+ "fr": "sur la lettre de quelqu'un d'autre restent, sans rien qui les relie à toi, pour que la décision sur cette lettre tienne.",
+ "de": "über den Brief eines anderen bleiben, ohne etwas, das sie mit dir verbindet, damit die Entscheidung über diesen Brief bestehen bleibt.",
+ "pt-BR": "sobre a carta de outra pessoa ficam, sem nada que as ligue a você, para que a decisão sobre aquela carta continue valendo.",
+ "ja": "（他人の手紙についてのもの）は、あなたと結びつくものを何も残さずに保たれます。その手紙についての判断を変えないためです。"},
+
+"If your account had been banished,": {
+ "it": "Se il tuo account era stato bandito,",
+ "es": "Si tu cuenta había sido desterrada,",
+ "fr": "Si ton compte avait été banni,",
+ "de": "Wenn dein Konto verbannt worden war,",
+ "pt-BR": "Se sua conta tinha sido banida,",
+ "ja": "アカウントが追放されていた場合、"},
+
+"one random identifier of the deleted account is kept, with nothing else, for as long as the ban stands, so that leaving does not undo it. Your phone keeps the same identifier, in the iCloud Keychain on an iPhone and in Google Block Store on Android.": {
+ "it": "resta un identificativo casuale dell'account cancellato, e nient'altro, finché dura il bando, perché andarsene non lo annulli. Il tuo telefono tiene lo stesso identificativo, nel portachiavi iCloud su iPhone e in Google Block Store su Android.",
+ "es": "se conserva un identificador aleatorio de la cuenta borrada, y nada más, mientras dure el destierro, para que irse no lo anule. Tu teléfono guarda el mismo identificador, en el llavero de iCloud en un iPhone y en Google Block Store en Android.",
+ "fr": "un identifiant aléatoire du compte supprimé est conservé, et rien d'autre, tant que dure le bannissement, pour que partir ne l'annule pas. Ton téléphone garde le même identifiant, dans le trousseau iCloud sur un iPhone et dans Google Block Store sur Android.",
+ "de": "bleibt eine zufällige Kennung des gelöschten Kontos erhalten, sonst nichts, solange die Verbannung gilt, damit Gehen sie nicht aufhebt. Dein Telefon behält dieselbe Kennung, im iCloud-Schlüsselbund auf einem iPhone und in Google Block Store auf Android.",
+ "pt-BR": "fica guardado um identificador aleatório da conta apagada, e nada mais, enquanto durar o banimento, para que ir embora não o desfaça. Seu celular guarda o mesmo identificador, nas Chaves do iCloud no iPhone e no Google Block Store no Android.",
+ "ja": "削除したアカウントの無作為の識別子が一つだけ、追放が続くあいだ保たれます。去ることで追放が解けないようにするためです。端末にも同じ識別子が残ります。iPhone では iCloud キーチェーン、Android では Google Block Store です。"},
+
+"Your “Write to us” messages": {
+ "it": "I tuoi messaggi «Scrivici»",
+ "es": "Tus mensajes de «Escríbenos»",
+ "fr": "Tes messages « Écris-nous »",
+ "de": "Deine „Schreib uns“-Nachrichten",
+ "pt-BR": "Suas mensagens do «Fale conosco»",
+ "ja": "「たよりを送る」のメッセージ"},
+
+"also arrive in our mailbox as an email, and that copy stays there until you ask us to delete it.": {
+ "it": "arrivano anche nella nostra casella come email, e quella copia resta lì finché non ci chiedi di cancellarla.",
+ "es": "también llegan a nuestro buzón como correo, y esa copia se queda allí hasta que nos pidas borrarla.",
+ "fr": "arrivent aussi dans notre boîte aux lettres sous forme d'e-mail, et cette copie y reste jusqu'à ce que tu nous demandes de la supprimer.",
+ "de": "kommen auch als E-Mail in unser Postfach, und diese Kopie bleibt dort, bis du uns bittest, sie zu löschen.",
+ "pt-BR": "também chegam à nossa caixa de e-mail, e essa cópia fica lá até você nos pedir para apagá-la.",
+ "ja": "は、メールとしても私たちの受信箱に届き、その写しは削除を頼まれるまで残ります。"},
+
+"Purchases": {
+ "it": "Gli acquisti",
+ "es": "Las compras",
+ "fr": "Les achats",
+ "de": "Käufe",
+ "pt-BR": "As compras",
+ "ja": "購入"},
+
+"stay in the records of Google Play, or of Apple on an iPhone, which handle the payment. We never see payment details.": {
+ "it": "restano negli archivi di Google Play, o di Apple su iPhone, che gestiscono il pagamento. Non vediamo mai i dati di pagamento.",
+ "es": "se quedan en los registros de Google Play, o de Apple en un iPhone, que gestionan el pago. Nunca vemos los datos de pago.",
+ "fr": "restent dans les registres de Google Play, ou d'Apple sur un iPhone, qui gèrent le paiement. Nous ne voyons jamais les données de paiement.",
+ "de": "bleiben in den Unterlagen von Google Play, auf einem iPhone von Apple, die die Zahlung abwickeln. Zahlungsdaten sehen wir nie.",
+ "pt-BR": "ficam nos registros do Google Play, ou da Apple no iPhone, que cuidam do pagamento. Nunca vemos os dados de pagamento.",
+ "ja": "の記録は、支払いを扱う Google Play（iPhone では Apple）に残ります。私たちが支払い情報を見ることはありません。"},
+
+"Backups": {
+ "it": "I backup",
+ "es": "Las copias de seguridad",
+ "fr": "Les sauvegardes",
+ "de": "Sicherungen",
+ "pt-BR": "Os backups",
+ "ja": "バックアップ"},
+
+"of the database hold deleted data for up to seven days, then they are overwritten.": {
+ "it": "del database tengono i dati cancellati fino a sette giorni, poi vengono sovrascritti.",
+ "es": "de la base de datos guardan los datos borrados hasta siete días, y luego se sobrescriben.",
+ "fr": "de la base de données gardent les données supprimées jusqu'à sept jours, puis elles sont écrasées.",
+ "de": "der Datenbank halten gelöschte Daten bis zu sieben Tage, dann werden sie überschrieben.",
+ "pt-BR": "do banco de dados guardam os dados apagados por até sete dias, depois são sobrescritos.",
+ "ja": "（データベースのもの）には、削除したデータが最大7日間残り、そのあと上書きされます。"},
+
+"Crash reports": {
+ "it": "Le segnalazioni di errore",
+ "es": "Los informes de errores",
+ "fr": "Les rapports de plantage",
+ "de": "Absturzberichte",
+ "pt-BR": "Os relatórios de falhas",
+ "ja": "クラッシュレポート"},
+
+"never carried anything that points to you, so there is nothing of yours in them to delete.": {
+ "it": "non hanno mai contenuto niente che porti a te, quindi lì dentro non c'è niente di tuo da cancellare.",
+ "es": "nunca llevaron nada que apunte a ti, así que no hay nada tuyo en ellos que borrar.",
+ "fr": "n'ont jamais rien contenu qui mène à toi : il n'y a donc rien de toi à y supprimer.",
+ "de": "enthielten nie etwas, das auf dich verweist, also gibt es darin nichts von dir zu löschen.",
+ "pt-BR": "nunca levaram nada que aponte para você, então não há nada seu neles para apagar.",
+ "ja": "には、あなたにつながるものがもともと含まれていないため、削除すべきあなたのものはありません。"},
+
+"What the sea keeps, and for how long, is set out in full on the privacy page.": {
+ "it": "Che cosa tiene il mare, e per quanto, è scritto per intero nella pagina della privacy.",
+ "es": "Qué guarda el mar, y durante cuánto tiempo, está explicado entero en la página de privacidad.",
+ "fr": "Ce que garde la mer, et pendant combien de temps, est expliqué en entier sur la page de confidentialité.",
+ "de": "Was das Meer behält und wie lange, steht vollständig auf der Datenschutzseite.",
+ "pt-BR": "O que o mar guarda, e por quanto tempo, está explicado por inteiro na página de privacidade.",
+ "ja": "海が何をどれだけの期間保つかは、プライバシーのページにすべて書いてあります。"},
+
+"For a deletion request, or any question about your data:": {
+ "it": "Per una richiesta di cancellazione, o per qualunque domanda sui tuoi dati:",
+ "es": "Para una solicitud de borrado, o cualquier pregunta sobre tus datos:",
+ "fr": "Pour une demande de suppression, ou toute question sur tes données :",
+ "de": "Für einen Löschantrag oder jede Frage zu deinen Daten:",
+ "pt-BR": "Para um pedido de exclusão, ou qualquer pergunta sobre seus dados:",
+ "ja": "削除のご依頼や、データについてのご質問は："},
+
 }
 
 # Le frasi che non si traducono: nomi propri, indirizzi, la rosa dei venti.
@@ -1990,7 +2601,7 @@ INVARIATE = [",",  # la virgola fra i due soprannomi: punteggiatura, non testo
              "Cala Goloritzé", "Reynisfjara", "Anse Source d'Argent",
              "Haukland Beach", "Praia da Ursa",
              # I servizi nominati dalla privacy: nomi propri, uguali in tutte e sette.
-             "Bulb Mode SRL Semplificata", "Supabase", "OpenAI", "Google Cloud Translation", "Anthropic", "Apple", "Google Play", "Resend", "www.garanteprivacy.it"]
+             "Bulb Mode SRL Semplificata", "Sentry", "Francesco Gola", "francesco@bulbmode.com", "Supabase", "OpenAI", "Google Cloud Translation", "Anthropic", "Apple", "Google Play", "Resend", "www.garanteprivacy.it"]
 
 # ── Le frasi che vengono dall'app ──────────────────────────────────────────
 app = json.load(open(XCSTRINGS))
