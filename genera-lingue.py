@@ -185,13 +185,13 @@ SITO = {
  "pt-BR": "Em breve para iPhone e Android",
  "ja": "iPhone と Android にまもなく登場"},
 
-"Free · No ads · No accounts": {
- "it": "Gratis · Niente pubblicità · Nessun account",
- "es": "Gratis · Sin anuncios · Sin cuentas",
- "fr": "Gratuit · Sans publicité · Sans compte",
- "de": "Kostenlos · Keine Werbung · Kein Konto",
- "pt-BR": "Grátis · Sem anúncios · Sem contas",
- "ja": "無料・広告なし・アカウントなし"},
+"Free · No ads · No sign-up": {
+ "it": "Gratis · Niente pubblicità · Nessuna registrazione",
+ "es": "Gratis · Sin anuncios · Sin registro",
+ "fr": "Gratuit · Sans publicité · Sans inscription",
+ "de": "Kostenlos · Keine Werbung · Keine Anmeldung",
+ "pt-BR": "Grátis · Sem anúncios · Sem cadastro",
+ "ja": "無料・広告なし・登録不要"},
 
 "The app at Ficogrande, on Stromboli: the volcano smoking under a full moon, and two bottles washed up on the black sand.": {
  "it": "L'app a Ficogrande, a Stromboli: il vulcano che fuma sotto la luna piena, e due bottiglie arrivate sulla sabbia nera.",
@@ -390,13 +390,13 @@ SITO = {
  "pt-BR": "A noite em Haukland Beach como o app a desenha: a aurora sobre um mar ártico escuro.",
  "ja": "アプリが描くハウクラン・ビーチの夜。暗い北極の海の上を渡るオーロラ。"},
 
-"It turns by itself: dawn at La Digue, midday in Sardegna, dusk on the black sand of Reynisfjara, and an arctic night with the aurora overhead. In the app you get one shore, and you do not choose it — which is the best thing about it.": {
- "it": "Gira da sola: l'alba a La Digue, mezzogiorno in Sardegna, il tramonto sulla sabbia nera di Reynisfjara, e una notte artica con l'aurora sopra la testa. Nell'app te ne tocca una, e non la scegli tu — che è la cosa più bella.",
- "es": "Gira sola: el alba en La Digue, el mediodía en Cerdeña, el atardecer en la arena negra de Reynisfjara y una noche ártica con la aurora por encima. En la app te toca una, y no la eliges tú — que es lo mejor de todo.",
- "fr": "Elle tourne toute seule : l'aube à La Digue, midi en Sardaigne, le crépuscule sur le sable noir de Reynisfjara, et une nuit arctique avec l'aurore au-dessus. Dans l'application tu en reçois une, et tu ne la choisis pas — c'est ce qu'il y a de plus beau.",
- "de": "Er wechselt von selbst: Morgengrauen auf La Digue, Mittag auf Sardinien, Dämmerung auf dem schwarzen Sand von Reynisfjara und eine arktische Nacht mit dem Polarlicht darüber. In der App bekommst du einen Strand, und du suchst ihn nicht aus — das ist das Schönste daran.",
- "pt-BR": "Ela gira sozinha: o amanhecer em La Digue, o meio-dia na Sardenha, o entardecer na areia preta de Reynisfjara e uma noite ártica com a aurora lá em cima. No app você ganha uma praia, e não é você que escolhe — que é o melhor disso.",
- "ja": "ひとりでに移り変わる。ラ・ディーグの夜明け、サルデーニャの正午、レイニスフィヤラの黒い砂の夕暮れ、そして頭上をオーロラが渡る北極の夜。アプリでは一つの浜だけが与えられ、それを選ぶことはできない——そこがいちばんいいところだ。"},
+"It turns by itself: dawn at La Digue, midday in Sardegna, dusk on the black sand of Reynisfjara, and an arctic night with the aurora overhead. In the app the storm chooses your first shore for you — which is the best thing about it.": {
+ "it": "Gira da sola: l'alba a La Digue, mezzogiorno in Sardegna, il tramonto sulla sabbia nera di Reynisfjara, e una notte artica con l'aurora sopra la testa. Nell'app la tua prima riva la sceglie la tempesta — che è la cosa più bella.",
+ "es": "Gira sola: el alba en La Digue, el mediodía en Cerdeña, el atardecer en la arena negra de Reynisfjara y una noche ártica con la aurora por encima. En la app tu primera orilla la elige la tormenta — que es lo mejor de todo.",
+ "fr": "Elle tourne toute seule : l'aube à La Digue, midi en Sardaigne, le crépuscule sur le sable noir de Reynisfjara, et une nuit arctique avec l'aurore au-dessus. Dans l'application, c'est la tempête qui choisit ton premier rivage — c'est ce qu'il y a de plus beau.",
+ "de": "Er wechselt von selbst: Morgengrauen auf La Digue, Mittag auf Sardinien, Dämmerung auf dem schwarzen Sand von Reynisfjara und eine arktische Nacht mit dem Polarlicht darüber. In der App sucht der Sturm dir dein erstes Ufer aus — das ist das Schönste daran.",
+ "pt-BR": "Ela gira sozinha: o amanhecer em La Digue, o meio-dia na Sardenha, o entardecer na areia preta de Reynisfjara e uma noite ártica com a aurora lá em cima. No app quem escolhe sua primeira praia é a tempestade — que é o melhor disso.",
+ "ja": "ひとりでに移り変わる。ラ・ディーグの夜明け、サルデーニャの正午、レイニスフィヤラの黒い砂の夕暮れ、そして頭上をオーロラが渡る北極の夜。アプリでは、最初の浜は嵐が選んでくれる——そこがいちばんいいところだ。"},
 
 "One of the 250 shores the storm knows. Yours could be any of them.": {
  "it": "Una delle 250 rive che la tempesta conosce. La tua potrebbe essere una qualsiasi.",
