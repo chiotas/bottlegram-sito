@@ -638,21 +638,21 @@ SITO = {
  "pt-BR": "Kit de imprensa",
  "ja": "プレスキット"},
 
-"Two iPhone screens against a blurred sunset. On the left, the beach of Luskentyre with a bottle washed up on the sand, at 20:41 on a Thursday. On the right, the answer that came back, at 13:41 on the Friday. Between them, empty space and the words «seventeen hours».": {
- "it": "Due schermi di iPhone su un tramonto sfocato. A sinistra la spiaggia di Luskentyre con una bottiglia approdata sulla sabbia, alle 20:41 di giovedì. A destra la risposta che è tornata, alle 13:41 di venerdì. In mezzo, spazio vuoto e le parole «seventeen hours».",
- "es": "Dos pantallas de iPhone sobre un atardecer desenfocado. A la izquierda, la playa de Luskentyre con una botella varada en la arena, a las 20:41 de un jueves. A la derecha, la respuesta que volvió, a las 13:41 del viernes. Entre ambas, espacio vacío y las palabras «seventeen hours».",
- "fr": "Deux écrans d'iPhone sur un coucher de soleil flou. À gauche, la plage de Luskentyre avec une bouteille échouée sur le sable, à 20h41 un jeudi. À droite, la réponse qui est revenue, à 13h41 le vendredi. Entre les deux, du vide et les mots « seventeen hours ».",
- "de": "Zwei iPhone-Bildschirme vor einem unscharfen Sonnenuntergang. Links der Strand von Luskentyre mit einer angespülten Flasche im Sand, donnerstags um 20:41 Uhr. Rechts die Antwort, die zurückkam, freitags um 13:41 Uhr. Dazwischen leerer Raum und die Worte «seventeen hours».",
- "pt-BR": "Duas telas de iPhone sobre um pôr do sol desfocado. À esquerda, a praia de Luskentyre com uma garrafa encalhada na areia, às 20h41 de uma quinta-feira. À direita, a resposta que voltou, às 13h41 da sexta. Entre elas, espaço vazio e as palavras «seventeen hours».",
- "ja": "ぼかした夕焼けを背にした二つの iPhone の画面。左は木曜日の20時41分、砂に打ち上げられた瓶のあるラスケンタイアの浜。右は金曜日の13時41分、返ってきた返事。その間には余白と「seventeen hours」の文字。"},
+"Two iPhone screens, each with a beach drawn by hand. On the left, Unstad in the Lofoten, Norway, at night, with the aurora and the moon over a dark sea. On the right, Matira Beach on Bora Bora by day, with a blue sky, turquoise water and a palm on the white sand. Between them, the words «From Lofoten to Bora Bora».": {
+ "it": "Due schermi di iPhone, ciascuno con una spiaggia disegnata a mano. A sinistra Unstad, alle Lofoten, in Norvegia, di notte, con l'aurora e la luna sopra un mare scuro. A destra Matira Beach, a Bora Bora, di giorno, con il cielo azzurro, l'acqua turchese e una palma sulla sabbia bianca. In mezzo, le parole «Dalle Lofoten a Bora Bora».",
+ "es": "Dos pantallas de iPhone, cada una con una playa dibujada a mano. A la izquierda, Unstad, en las Lofoten, Noruega, de noche, con la aurora y la luna sobre un mar oscuro. A la derecha, Matira Beach, en Bora Bora, de día, con cielo azul, agua turquesa y una palmera en la arena blanca. Entre ambas, las palabras «De las Lofoten a Bora Bora».",
+ "fr": "Deux écrans d'iPhone, chacun avec une plage dessinée à la main. À gauche, Unstad, aux Lofoten, en Norvège, la nuit, avec l'aurore et la lune au-dessus d'une mer sombre. À droite, Matira Beach, à Bora Bora, le jour, avec un ciel bleu, une eau turquoise et un palmier sur le sable blanc. Entre les deux, les mots « Des Lofoten à Bora Bora ».",
+ "de": "Zwei iPhone-Bildschirme, jeder mit einem von Hand gezeichneten Strand. Links Unstad auf den Lofoten in Norwegen bei Nacht, mit dem Polarlicht und dem Mond über einem dunklen Meer. Rechts Matira Beach auf Bora Bora bei Tag, mit blauem Himmel, türkisem Wasser und einer Palme auf dem weißen Sand. Dazwischen die Worte «Von den Lofoten bis Bora Bora».",
+ "pt-BR": "Duas telas de iPhone, cada uma com uma praia desenhada à mão. À esquerda, Unstad, nas Lofoten, na Noruega, à noite, com a aurora e a lua sobre um mar escuro. À direita, Matira Beach, em Bora Bora, de dia, com céu azul, água turquesa e uma palmeira na areia branca. Entre elas, as palavras «Das Lofoten a Bora Bora».",
+ "ja": "二つの iPhone の画面に、手描きの浜がひとつずつ。左は夜のウンスタッド（ノルウェー、ロフォーテン）で、暗い海の上にオーロラと月。右は昼のボラボラ島のマティラ・ビーチで、青い空、ターコイズの海、白い砂の上のヤシ。その間には「ロフォーテンからボラボラまで」の文字。"},
 
-"Luskentyre at dusk, and the answer that came back the next day. The times are the ones the phone recorded.": {
- "it": "Luskentyre al tramonto, e la risposta tornata il giorno dopo. Gli orari sono quelli che ha segnato il telefono.",
- "es": "Luskentyre al atardecer, y la respuesta que volvió al día siguiente. Las horas son las que registró el teléfono.",
- "fr": "Luskentyre au crépuscule, et la réponse revenue le lendemain. Les heures sont celles qu'a enregistrées le téléphone.",
- "de": "Luskentyre in der Dämmerung und die Antwort, die am nächsten Tag zurückkam. Die Uhrzeiten sind die, die das Telefon festgehalten hat.",
- "pt-BR": "Luskentyre ao entardecer, e a resposta que voltou no dia seguinte. Os horários são os que o telefone registrou.",
- "ja": "夕暮れのラスケンタイアと、翌日に返ってきた返事。時刻は端末が記録したそのままです。"},
+"Two of the 250 beaches drawn by hand: Unstad in the Lofoten at night, and Matira Beach on Bora Bora by day.": {
+ "it": "Due delle 250 spiagge disegnate a mano: Unstad, alle Lofoten, di notte, e Matira Beach, a Bora Bora, di giorno.",
+ "es": "Dos de las 250 playas dibujadas a mano: Unstad, en las Lofoten, de noche, y Matira Beach, en Bora Bora, de día.",
+ "fr": "Deux des 250 plages dessinées à la main : Unstad, aux Lofoten, la nuit, et Matira Beach, à Bora Bora, le jour.",
+ "de": "Zwei der 250 von Hand gezeichneten Strände: Unstad auf den Lofoten bei Nacht und Matira Beach auf Bora Bora bei Tag.",
+ "pt-BR": "Duas das 250 praias desenhadas à mão: Unstad, nas Lofoten, à noite, e Matira Beach, em Bora Bora, de dia.",
+ "ja": "手描きの浜 250 のうちの二つ。夜のロフォーテンのウンスタッドと、昼のボラボラ島のマティラ・ビーチ。"},
 
 "In one paragraph": {
  "it": "In un paragrafo",
