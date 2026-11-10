@@ -104,6 +104,13 @@
     text-decoration: none; font-size: 0.95rem;
   }
   .scarico:hover { background: rgba(255, 253, 247, .7); }
+  /* Larga quanto il riquadro sopra: `.prosa p` la fermerebbe a 65ch. */
+  .prosa .anteprima { margin: 1.4rem 0 0; padding: 0.8rem 0; border-top: 1px solid var(--carta-bordo); border-bottom: 1px solid var(--carta-bordo);
+               font-style: italic; font-size: 0.98rem; color: var(--inchiostro-lieve); max-width: none; }
+  .anteprima a { color: inherit; text-decoration-color: var(--carta-bordo); }
+  .anteprima a:hover { text-decoration-color: currentColor; }
+  /* La barra in alto è fissa: chi arriva dalla striscia vede il titolo, non la barra sopra. */
+  #provarla { scroll-margin-top: 6rem; }
   .fase { display: flex; align-items: flex-start; gap: 2rem; margin-top: 2.2rem; }
   .fase.a-sinistra { flex-direction: row-reverse; }
   .fase-testo { flex: 1 1 auto; min-width: 0; }
@@ -229,6 +236,9 @@
       </div>
     </div>
   </section>
+
+  <!-- La striscia dell'anteprima: porta alla sezione in fondo. -->
+  <p class="anteprima"><a href="#provarla">Press preview from December 1 · write to bottlegram@bulbmode.com</a></p>
 
   <!-- ══════════════════ DA INCOLLARE ══════════════════ -->
   <h2>In one paragraph</h2>
@@ -381,11 +391,14 @@
     <a class="scarico" href="assets/press/bottlegram-press-kit.zip" download>Everything, as a zip <span class="peso">31&nbsp;MB</span></a>
   </div>
 
-  <!-- ══════════════════ PROVARLA ══════════════════ -->
-  <div class="recapito primo">
-    <h2 style="margin-top:0;">Trying it before it opens</h2>
-    <p>Bottlegram opens soon on iPhone and&nbsp;Android. Until then, write to this address and you get a build to try, along with a beach of your own and enough bottles to see what comes back:</p>
-    <a class="indirizzo" href="mailto:bottlegram@bulbmode.com?subject=Press%20—%20test%20build">bottlegram@bulbmode.com</a>
+  <!-- ══════════════════ PROVARLA ══════════════════
+       Dal 10/11/2026: prima del 1° dicembre non si dà niente a nessuno; quel
+       giorno il mare apre alla stampa con i link di TestFlight e di Google
+       Play. La data del giorno per tutti NON va su questa pagina. -->
+  <div class="recapito primo" id="provarla">
+    <h2 style="margin-top:0;">Try it before it opens</h2>
+    <p>On December 1 the sea opens to the press, before everyone else. Write to bottlegram@bulbmode.com, and that morning you'll get a TestFlight link for iPhone and a Google Play test link for Android, with a beach of your own.</p>
+    <a class="indirizzo" href="mailto:bottlegram@bulbmode.com?subject=Press%20preview">bottlegram@bulbmode.com</a>
     <p class="lieve" style="margin-top:1.1rem;">The same address reaches Francesco directly for an interview, a question, or any detail beyond this page.</p>
   </div>
 
@@ -406,7 +419,7 @@
      `lingua.js` scambia i nodi di testo e sceglie da solo la lingua del
      browser. L'inglese resta nell'HTML ed è quello che legge chi arriva senza
      JavaScript. -->
-<script src="lingue.js?v=17"></script>
+<script src="lingue.js?v=18"></script>
 <script src="lingua.js?v=14"></script>
 
 <!-- I due telefoni hanno le loro scritte dentro, quindi non basta tradurre la

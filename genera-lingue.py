@@ -1002,21 +1002,21 @@ SITO = {
  "pt-BR": "25 segundos",
  "ja": "25秒"},
 
-"Trying it before it opens": {
- "it": "Provarla prima che apra",
- "es": "Probarla antes de que abra",
- "fr": "L'essayer avant l'ouverture",
- "de": "Ausprobieren, bevor es losgeht",
- "pt-BR": "Experimentar antes de abrir",
+"Try it before it opens": {
+ "it": "Provala prima che apra",
+ "es": "Pruébala antes de que abra",
+ "fr": "Essayez-la avant l'ouverture",
+ "de": "Probieren Sie es aus, bevor es losgeht",
+ "pt-BR": "Experimente antes de abrir",
  "ja": "公開前に試す"},
 
-"Bottlegram opens soon on iPhone and Android. Until then, write to this address and you get a build to try, along with a beach of your own and enough bottles to see what comes back:": {
- "it": "Bottlegram apre presto su iPhone e Android. Fino ad allora, scrivi a questo indirizzo e ricevi una build da provare, con una spiaggia tua e bottiglie a sufficienza per vedere cosa torna indietro:",
- "es": "Bottlegram abre pronto en iPhone y Android. Hasta entonces, escribe a esta dirección y recibirás una build para probar, con una playa propia y botellas suficientes para ver qué vuelve:",
- "fr": "Bottlegram ouvre bientôt sur iPhone et Android. D'ici là, écrivez à cette adresse et vous recevrez une version à essayer, avec une plage à vous et assez de bouteilles pour voir ce qui revient :",
- "de": "Bottlegram öffnet bald auf iPhone und Android. Bis dahin schreiben Sie an diese Adresse und Sie erhalten einen Build zum Ausprobieren, dazu einen eigenen Strand und genug Flaschen, um zu sehen, was zurückkommt:",
- "pt-BR": "O Bottlegram abre em breve no iPhone e no Android. Até lá, escreva para este endereço e você recebe uma build para testar, com uma praia sua e garrafas suficientes para ver o que volta:",
- "ja": "Bottlegram はまもなく iPhone と Android で公開されます。それまでのあいだ、このアドレスに連絡いただければ試用ビルドをお送りします。あなた専用の浜と、何が返ってくるかを確かめるのに十分な数の瓶つきで。"},
+"On December 1 the sea opens to the press, before everyone else. Write to bottlegram@bulbmode.com, and that morning you'll get a TestFlight link for iPhone and a Google Play test link for Android, with a beach of your own.": {
+ "it": "Il 1° dicembre il mare apre alla stampa, prima di tutti gli altri. Scrivi a bottlegram@bulbmode.com, e quella mattina riceverai un link TestFlight per iPhone e un link di prova di Google Play per Android, con una spiaggia tua.",
+ "es": "El 1 de diciembre el mar abre a la prensa, antes que al resto. Escribe a bottlegram@bulbmode.com y esa mañana recibirás un enlace de TestFlight para iPhone y un enlace de prueba de Google Play para Android, con una playa propia.",
+ "fr": "Le 1er décembre, la mer ouvre à la presse, avant tout le monde. Écrivez à bottlegram@bulbmode.com : ce matin-là, vous recevrez un lien TestFlight pour iPhone et un lien de test Google Play pour Android, avec une plage à vous.",
+ "de": "Am 1. Dezember öffnet das Meer für die Presse, vor allen anderen. Schreiben Sie an bottlegram@bulbmode.com, und an diesem Morgen erhalten Sie einen TestFlight-Link für das iPhone und einen Google-Play-Testlink für Android, dazu einen eigenen Strand.",
+ "pt-BR": "Em 1º de dezembro o mar abre para a imprensa, antes de todo mundo. Escreva para bottlegram@bulbmode.com e, nessa manhã, você recebe um link do TestFlight para iPhone e um link de teste do Google Play para Android, com uma praia sua.",
+ "ja": "12月1日、海はほかのみなさんより早く、プレスに開きます。bottlegram@bulbmode.com までご連絡いただければ、その日の朝に iPhone 用の TestFlight のリンクと Android 用の Google Play のテストリンクを、あなた専用の浜と一緒にお送りします。"},
 
 "The same address reaches Francesco directly for an interview, a question, or any detail beyond this page.": {
  "it": "Lo stesso indirizzo arriva direttamente a Francesco per un'intervista, una domanda, o qualunque dettaglio oltre questa pagina.",
@@ -2623,6 +2623,14 @@ SITO = {
  "de": "Jetzt bei Google Play",
  "pt-BR": "Disponível no Google Play",
  "ja": "Google Play で手に入れよう"},
+
+"Press preview from December 1 · write to bottlegram@bulbmode.com": {
+ "it": "Anteprima per la stampa dal 1° dicembre · scrivi a bottlegram@bulbmode.com",
+ "es": "Avance para la prensa desde el 1 de diciembre · escribe a bottlegram@bulbmode.com",
+ "fr": "Avant-première presse dès le 1er décembre · écrivez à bottlegram@bulbmode.com",
+ "de": "Presse-Vorschau ab dem 1. Dezember · schreiben Sie an bottlegram@bulbmode.com",
+ "pt-BR": "Prévia para a imprensa a partir de 1º de dezembro · escreva para bottlegram@bulbmode.com",
+ "ja": "12月1日からプレス向けに先行公開 · bottlegram@bulbmode.com までご連絡ください"},
 }
 
 # Le frasi che non si traducono: nomi propri, indirizzi, la rosa dei venti.
