@@ -8,12 +8,12 @@
 <meta name="theme-color" content="#F5EBD1">
 <link rel="icon" href="assets/icona.png" sizes="any">
 <link rel="apple-touch-icon" href="assets/icona.png">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css?v=2">
 
 <meta property="og:type" content="article">
 <meta property="og:title" content="Bottlegram — press kit">
 <meta property="og:description" content="A slow messaging app where letters travel by sea, and the current decides who reads them and when.">
-<meta property="og:image" content="https://www.bottlegram.app/assets/press/attesa-en.png?v=2">
+<meta property="og:image" content="https://www.bottlegram.app/assets/press/unstad-notte.png">
 <meta name="twitter:card" content="summary_large_image">
 
 <style>
@@ -23,8 +23,20 @@
      tutta larghezza, il blocco da copiare, la scheda dei fatti e la
      griglia delle schermate. */
 
-  /* L'apertura esce dalla colonna del testo: è il pezzo che si guarda,
-     e in 46rem le diciassette ore non si leggevano. */
+  /* Il banner: il disegno della notte a Unstad a tutta larghezza, subito
+     sotto la barra fissa (0,85rem + i 44px del selettore + 0,85rem + 1px di
+     bordo). Dal telefono è il formato press, intero; da 48rem in su il poster
+     largo dello stesso disegno, tagliato a 3:1 dall'alto: sotto la bottiglia
+     (al 67% dell'altezza) e l'erba (al 74%) c'è solo sabbia, e a 1440 il
+     titolo sale così di 130px. Sugli schermi bassi il 72vh taglia ancora un
+     po' di sabbia, mai la luna o la bottiglia. */
+  .banner { margin: calc(1.7rem + 45px) 0 0; }
+  .banner img { display: block; width: 100%; height: auto; max-height: 72vh; object-fit: cover; object-position: 50% 0%; }
+  @media (min-width: 48rem) { .banner img { aspect-ratio: 3 / 1; } }
+  .banner figcaption { margin: 0.9rem auto 0; padding: 0 1.4rem; }
+  .banner + .prosa { padding-top: clamp(2.2rem, 6vw, 3.2rem); }
+
+  /* I due telefoni escono dalla colonna del testo, a metà della pagina lunga. */
   .apertura { margin: clamp(1.8rem, 4vw, 2.6rem) 0 clamp(2.6rem, 6vw, 3.8rem); }
   .apertura img { display: block; width: 100%; height: auto; border-radius: 12px; }
   @media (min-width: 62rem) {
@@ -92,6 +104,18 @@
     text-decoration: none; font-size: 0.95rem;
   }
   .scarico:hover { background: rgba(255, 253, 247, .7); }
+  .fase { display: flex; align-items: flex-start; gap: 2rem; margin-top: 2.2rem; }
+  .fase.a-sinistra { flex-direction: row-reverse; }
+  .fase-testo { flex: 1 1 auto; min-width: 0; }
+  .fase-testo h3 { margin-top: 0; }
+  .fase-foto { flex: none; width: 200px; line-height: 0; }
+  .fase-foto img { display: block; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 8px 22px rgba(40, 34, 20, .18); }
+  @media (max-width: 40rem) {
+    .fase, .fase.a-sinistra { flex-direction: column; align-items: center; gap: 1.1rem; }
+    .fase-foto { width: 58%; }
+  }
+  .scarichi .negozi { flex-basis: 100%; margin-top: 0.5rem; gap: 0.6rem 0.9rem; }
+  .scarichi .negozi p { margin: 0; font-size: 0.92rem; }
   .peso { color: var(--inchiostro-lieve, #6b5c46); font-size: 0.85rem; }
 
   /* I titoli separano: a 22 px su un testo di 18 le sezioni non si
@@ -160,6 +184,22 @@
 </header>
 
 <main id="contenuto">
+
+<!-- Il banner (10/11/2026): il disegno senza testo, quindi uguale in ogni
+     lingua. JPG a q97 perché il cielo scuro non faccia bande: 105 KB a 900,
+     281 KB a 1800, 866 KB a 3600; il poster 256 KB a 1920 e 691 KB a 3840.
+     Il PNG da 1800 è l'anteprima dei link; nello zip va il PNG da 3600. -->
+<figure class="banner">
+  <picture>
+    <source media="(min-width: 48rem)" width="3840" height="1646" sizes="100vw"
+            srcset="assets/press/unstad-notte-largo-1920.jpg 1920w, assets/press/unstad-notte-largo-3840.jpg 3840w">
+    <img src="assets/press/unstad-notte.jpg" width="1800" height="1088" sizes="100vw" fetchpriority="high"
+         srcset="assets/press/unstad-notte-900.jpg 900w, assets/press/unstad-notte.jpg 1800w, assets/press/unstad-notte-3600.jpg 3600w"
+         alt="The beach at Unstad, in the Lofoten, at night, drawn by hand: a full moon and the aurora high over a dark arctic sea, a rocky peak on the horizon to the right, and to the left two rocks in the water and a bottle with a letter inside on the sand.">
+  </picture>
+  <figcaption class="didascalia">Unstad, in the Lofoten, at night: one of the 250 beaches drawn by hand.</figcaption>
+</figure>
+
 <article class="prosa">
 
   <h1>Press kit</h1>
@@ -178,20 +218,17 @@
     </dl>
     <p class="numeri">250 beaches drawn by hand · 31,125 sea routes · three bottles a day · six to thirty-six hours a crossing</p>
     <div class="scarichi">
-      <a class="scarico primario" href="assets/press/bottlegram-press-kit.zip" download>Download the press kit <span class="peso">32&nbsp;MB</span></a>
+      <a class="scarico primario" href="assets/press/bottlegram-press-kit.zip" download>Download the press kit <span class="peso">31&nbsp;MB</span></a>
       <a class="scarico" href="#storia">Read the story</a>
+      <!-- I negozi, piccoli per non affollare il riquadro. L'App Store si accende
+           col Release: vedi l'interruttore in styles.css. -->
+      <div class="negozi piccoli">
+        <a class="solo-dopo" href="https://apps.apple.com/app/id6804406606"><img src="assets/badge/app-store-preordine.svg" width="118" height="40" loading="lazy" alt="Pre-order on the App Store"></a>
+        <a href="https://play.google.com/store/apps/details?id=com.bulbmode.bottlegram"><img class="badge-google" src="assets/badge/google-play-en.png" width="134" height="40" alt="Get it on Google Play"></a>
+        <p class="lieve"><span class="solo-prima">Pre-register on Google Play. On iPhone, the sea opens soon.</span><span class="solo-dopo">Pre-order on the App Store, or pre-register on Google Play.</span></p>
+      </div>
     </div>
   </section>
-
-  <figure class="apertura">
-    <!-- JPG per la pagina (120 KB, 40 KB sul telefono, contro i 500 del PNG);
-         i PNG restano per lo zip e per l'anteprima dei link. -->
-    <img id="apertura" src="assets/press/attesa-en.jpg" width="1800" height="1088"
-         srcset="assets/press/attesa-en-900.jpg 900w, assets/press/attesa-en.jpg 1800w"
-         sizes="(min-width: 62rem) min(64rem, 92vw), calc(100vw - 2.8rem)"
-         alt="Two iPhone screens, each with a beach drawn by hand. On the left, Unstad in the Lofoten, Norway, at night, with the aurora and the moon over a dark sea. On the right, Matira Beach on Bora Bora by day, with a blue sky, turquoise water and a palm on the white sand. Between them, the words «From Lofoten to Bora Bora».">
-    <figcaption class="didascalia" style="margin: 1rem auto 0;">Two of the 250 beaches drawn by hand: Unstad in the Lofoten at night, and Matira Beach on Bora Bora by day.</figcaption>
-  </figure>
 
   <!-- ══════════════════ DA INCOLLARE ══════════════════ -->
   <h2>In one paragraph</h2>
@@ -224,6 +261,19 @@
 
   <p class="guida corsivo" style="margin-top:1.4rem;">Francesco Gola, seascape photographer</p>
 
+  <!-- I due telefoni (10/11/2026): la tavola «From Lofoten to Bora Bora» con le
+       bottiglie sulla sabbia, dalle grezze della serie 2 (Unstad con le
+       bottiglie, Matira con la bottiglia). Hanno le scritte dentro, quindi c'è
+       un file per lingua, e lo script in fondo li cambia. JPG a q90 4:4:4:
+       il fondo sfocato tiene senza bande già lì. -->
+  <figure class="apertura">
+    <img id="telefoni" src="assets/press/attesa-en.jpg" width="1800" height="1088" loading="lazy"
+         srcset="assets/press/attesa-en-900.jpg 900w, assets/press/attesa-en.jpg 1800w"
+         sizes="(min-width: 62rem) min(64rem, 92vw), calc(100vw - 2.8rem)"
+         alt="Two iPhone screens, each with a beach drawn by hand. On the left, Unstad in the Lofoten, Norway, at night, with the aurora and the moon over a dark sea and two bottles on the sand. On the right, Matira Beach on Bora Bora by day, with turquoise water, a palm and a bottle on the sand. Between them, the words «From Lofoten to Bora Bora».">
+    <figcaption class="didascalia" style="margin: 1rem auto 0;">Two beaches in the app, with bottles on the sand: Unstad in the Lofoten at night, and Matira Beach on Bora Bora by day.</figcaption>
+  </figure>
+
   <!-- Le citazioni sono frasi della storia qui sopra, parola per parola: un
        giornalista le può attribuire senza chiedere. La frase dell'amico in
        «Why slow» resta fuori, perché non è sua. -->
@@ -246,18 +296,48 @@
 
   <!-- ══════════════════ COME FUNZIONA ══════════════════ -->
   <h2>How it works</h2>
+  <!-- Accanto a ogni passo la sua schermata della galleria qui sotto (stessi
+       file, stessi alt). Prima il centro della pagina era tutto testo. -->
 
-  <h3>The sea chooses who reads it</h3>
-  <p class="lieve">Every day the sea leaves you three bottles. You put a letter in one and hand it to the current, and the current carries it to a beach of its own choosing.</p>
+  <div class="fase">
+    <div class="fase-testo">
+      <h3>The sea chooses who reads it</h3>
+      <p class="lieve">Every day the sea leaves you three bottles. You put a letter in one and hand it to the current, and the current carries it to a beach of its own choosing.</p>
+    </div>
+    <a class="fase-foto" href="assets/press/schermate/02-bottiglia.jpg"><img src="assets/press/schermate/02-bottiglia-piccola.jpg"
+         srcset="assets/press/schermate/02-bottiglia-piccola.jpg 360w, assets/press/schermate/02-bottiglia.jpg 1320w"
+         sizes="(max-width: 40rem) calc((100vw - 2.8rem) * 0.58), 200px" width="360" height="782" loading="lazy" alt="The tide brings you a bottle"></a>
+  </div>
 
-  <h3>The sea takes its time</h3>
-  <p class="lieve">Every beach is a real place, at its real latitude and longitude, and the routes between them run around the coastlines instead of through them: a bottle bound for the far side of Africa goes around Africa. The further your letter has to travel, the longer the sea keeps it. Six hours sometimes, a day and a half other times. While it is out there you can follow it on a nautical chart, a little further along every time you look.</p>
+  <div class="fase a-sinistra">
+    <div class="fase-testo">
+      <h3>The sea takes its time</h3>
+      <p class="lieve">Every beach is a real place, at its real latitude and longitude, and the routes between them run around the coastlines instead of through them: a bottle bound for the far side of Africa goes around Africa. The further your letter has to travel, the longer the sea keeps it. Six hours sometimes, a day and a half other times. While it is out there you can follow it on a nautical chart, a little further along every time you look.</p>
+    </div>
+    <a class="fase-foto" href="assets/press/schermate/05-carta.jpg"><img src="assets/press/schermate/05-carta-piccola.jpg"
+         srcset="assets/press/schermate/05-carta-piccola.jpg 360w, assets/press/schermate/05-carta.jpg 1320w"
+         sizes="(max-width: 40rem) calc((100vw - 2.8rem) * 0.58), 200px" width="360" height="782" loading="lazy" alt="Follow it around the coastlines"></a>
+  </div>
 
-  <h3>They can answer, and then it is your turn</h3>
-  <p class="lieve">Whoever finds your letter can write back, and the sea takes its own time to deliver the answer. A correspondence alternates: you write, they answer, you write again. Once the cork is in, the letter belongs to the sea. Everything you choose to keep goes into a journal that stays on your beach.</p>
+  <div class="fase">
+    <div class="fase-testo">
+      <h3>They can answer, and then it is your turn</h3>
+      <p class="lieve">Whoever finds your letter can write back, and the sea takes its own time to deliver the answer. A correspondence alternates: you write, they answer, you write again. Once the cork is in, the letter belongs to the sea. Everything you choose to keep goes into a journal that stays on your beach.</p>
+    </div>
+    <a class="fase-foto" href="assets/press/schermate/06-carteggio.jpg"><img src="assets/press/schermate/06-carteggio-piccola.jpg"
+         srcset="assets/press/schermate/06-carteggio-piccola.jpg 360w, assets/press/schermate/06-carteggio.jpg 1320w"
+         sizes="(max-width: 40rem) calc((100vw - 2.8rem) * 0.58), 200px" width="360" height="782" loading="lazy" alt="Answer, then wait for the tide"></a>
+  </div>
 
-  <h3>And then there are the spirits</h3>
-  <p class="lieve">The sea has its spirits. They were here long before any castaway, each with a life of their own to tell, and every so often one of them picks up a bottle and writes to you. If a spirit writes to you, you were lucky. Their letters always carry their mark.</p>
+  <div class="fase a-sinistra">
+    <div class="fase-testo">
+      <h3>And then there are the spirits</h3>
+      <p class="lieve">The sea has its spirits. They were here long before any castaway, each with a life of their own to tell, and every so often one of them picks up a bottle and writes to you. If a spirit writes to you, you were lucky. Their letters always carry their mark.</p>
+    </div>
+    <a class="fase-foto" href="assets/press/schermate/04-lettera-spirito.jpg"><img src="assets/press/schermate/04-lettera-spirito-piccola.jpg"
+         srcset="assets/press/schermate/04-lettera-spirito-piccola.jpg 360w, assets/press/schermate/04-lettera-spirito.jpg 1320w"
+         sizes="(max-width: 40rem) calc((100vw - 2.8rem) * 0.58), 200px" width="360" height="782" loading="lazy" alt="Uncork a letter from far away"></a>
+  </div>
 
   <!-- ══════════════════ I FATTI ══════════════════ -->
   <h2>Fact sheet</h2>
@@ -298,7 +378,7 @@
   </ul>
 
   <div class="scarichi">
-    <a class="scarico" href="assets/press/bottlegram-press-kit.zip" download>Everything, as a zip <span class="peso">32&nbsp;MB</span></a>
+    <a class="scarico" href="assets/press/bottlegram-press-kit.zip" download>Everything, as a zip <span class="peso">31&nbsp;MB</span></a>
   </div>
 
   <!-- ══════════════════ PROVARLA ══════════════════ -->
@@ -326,20 +406,20 @@
      `lingua.js` scambia i nodi di testo e sceglie da solo la lingua del
      browser. L'inglese resta nell'HTML ed è quello che legge chi arriva senza
      JavaScript. -->
-<script src="lingue.js?v=15"></script>
+<script src="lingue.js?v=17"></script>
 <script src="lingua.js?v=14"></script>
 
-<!-- L'apertura ha le sue scritte dentro, quindi non basta tradurre la pagina:
-     ci sono sette file. Si ascolta il selettore che `lingua.js` ha appena
+<!-- I due telefoni hanno le loro scritte dentro, quindi non basta tradurre la
+     pagina: ci sono sette file. Il banner in cima non ha testo e non cambia. Si ascolta il selettore che `lingua.js` ha appena
      messo in barra, invece di insegnare a `lingua.js` a cambiare gli `src` —
      quel file serve a tutto il sito, e questa è una faccenda di una pagina. -->
 <script>
 (() => {
   const sel = document.getElementById('scegli-lingua');
-  const img = document.getElementById('apertura');
+  const img = document.getElementById('telefoni');
   if (!sel || !img) return;
   // Se il file di una lingua manca, si torna all'inglese invece di lasciare
-  // il riquadro rotto in cima alla pagina.
+  // il riquadro rotto a metà pagina.
   const metti = (lg) => {
     img.srcset = `assets/press/attesa-${lg}-900.jpg 900w, assets/press/attesa-${lg}.jpg 1800w`;
     img.src = `assets/press/attesa-${lg}.jpg`;
@@ -348,6 +428,22 @@
   const vesti = () => metti(sel.value);
   vesti();
   sel.addEventListener('change', vesti);
+})();
+</script>
+
+<!-- I badge di Google Play hanno la scritta dentro: un file per lingua, come
+     li dà Google. Quello dell'App Store per ora è solo in inglese (le versioni
+     tradotte Apple le dà da un sito che da qui non si raggiunge). -->
+<script>
+(() => {
+  const sel = document.getElementById('scegli-lingua');
+  if (!sel) return;
+  const metti = () => document.querySelectorAll('img.badge-google').forEach((img) => {
+    img.onerror = () => { img.onerror = null; img.src = 'assets/badge/google-play-en.png'; };
+    img.src = `assets/badge/google-play-${sel.value}.png`;
+  });
+  metti();
+  sel.addEventListener('change', metti);
 })();
 </script>
 

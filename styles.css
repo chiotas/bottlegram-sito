@@ -352,6 +352,27 @@ background-image:
   width: 3rem; height: 3rem;
   transform: translateY(-50%) rotate(-9deg);
 }
+
+/* I PULSANTI DEI NEGOZI: i badge ufficiali di Apple e di Google, tali e quali
+   (ai PNG di Google è tolto solo il margine trasparente, che l'inglese ha di
+   41 px e le altre lingue no). Alti uguali, come chiedono tutti e due, e mai
+   sotto i 40 px che Apple chiede sullo schermo; lo spazio libero attorno lo
+   fa il `gap`. */
+.negozi { display: flex; flex-wrap: wrap; align-items: center; gap: 0.9rem 1rem; }
+.negozi a { line-height: 0; }
+.negozi img { height: 48px; width: auto; }
+.negozi.piccoli img { height: 40px; }
+
+/* L'INTERRUTTORE DELL'APP STORE. Fino al Release della 1.0 la pagina del
+   pre-ordine non esiste: il badge dell'App Store e le frasi che lo nominano
+   (classe `solo-dopo`) restano spenti, e si leggono quelle che parlano solo di
+   Google Play (`solo-prima`). Il giorno del Release si scambiano i due valori
+   di QUESTA riga, e basta (per chi ha questo file in cache cambia entro una
+   decina di minuti; per farlo vedere subito si alza anche il `?v=` di
+   styles.css in index.html e in press.html): */
+:root { --prima-del-release: inline; --dopo-il-release: none; }
+.solo-prima { display: var(--prima-del-release); }
+.solo-dopo { display: var(--dopo-il-release); }
 .filo {
   font-family: var(--mare-serif); font-style: italic;
   font-size: 0.95rem; opacity: 0.72;

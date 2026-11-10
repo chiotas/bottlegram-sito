@@ -638,21 +638,21 @@ SITO = {
  "pt-BR": "Kit de imprensa",
  "ja": "プレスキット"},
 
-"Two iPhone screens, each with a beach drawn by hand. On the left, Unstad in the Lofoten, Norway, at night, with the aurora and the moon over a dark sea. On the right, Matira Beach on Bora Bora by day, with a blue sky, turquoise water and a palm on the white sand. Between them, the words «From Lofoten to Bora Bora».": {
- "it": "Due schermi di iPhone, ciascuno con una spiaggia disegnata a mano. A sinistra Unstad, alle Lofoten, in Norvegia, di notte, con l'aurora e la luna sopra un mare scuro. A destra Matira Beach, a Bora Bora, di giorno, con il cielo azzurro, l'acqua turchese e una palma sulla sabbia bianca. In mezzo, le parole «Dalle Lofoten a Bora Bora».",
- "es": "Dos pantallas de iPhone, cada una con una playa dibujada a mano. A la izquierda, Unstad, en las Lofoten, Noruega, de noche, con la aurora y la luna sobre un mar oscuro. A la derecha, Matira Beach, en Bora Bora, de día, con cielo azul, agua turquesa y una palmera en la arena blanca. Entre ambas, las palabras «De las Lofoten a Bora Bora».",
- "fr": "Deux écrans d'iPhone, chacun avec une plage dessinée à la main. À gauche, Unstad, aux Lofoten, en Norvège, la nuit, avec l'aurore et la lune au-dessus d'une mer sombre. À droite, Matira Beach, à Bora Bora, le jour, avec un ciel bleu, une eau turquoise et un palmier sur le sable blanc. Entre les deux, les mots « Des Lofoten à Bora Bora ».",
- "de": "Zwei iPhone-Bildschirme, jeder mit einem von Hand gezeichneten Strand. Links Unstad auf den Lofoten in Norwegen bei Nacht, mit dem Polarlicht und dem Mond über einem dunklen Meer. Rechts Matira Beach auf Bora Bora bei Tag, mit blauem Himmel, türkisem Wasser und einer Palme auf dem weißen Sand. Dazwischen die Worte «Von den Lofoten bis Bora Bora».",
- "pt-BR": "Duas telas de iPhone, cada uma com uma praia desenhada à mão. À esquerda, Unstad, nas Lofoten, na Noruega, à noite, com a aurora e a lua sobre um mar escuro. À direita, Matira Beach, em Bora Bora, de dia, com céu azul, água turquesa e uma palmeira na areia branca. Entre elas, as palavras «Das Lofoten a Bora Bora».",
- "ja": "二つの iPhone の画面に、手描きの浜がひとつずつ。左は夜のウンスタッド（ノルウェー、ロフォーテン）で、暗い海の上にオーロラと月。右は昼のボラボラ島のマティラ・ビーチで、青い空、ターコイズの海、白い砂の上のヤシ。その間には「ロフォーテンからボラボラまで」の文字。"},
+"The beach at Unstad, in the Lofoten, at night, drawn by hand: a full moon and the aurora high over a dark arctic sea, a rocky peak on the horizon to the right, and to the left two rocks in the water and a bottle with a letter inside on the sand.": {
+ "it": "La spiaggia di Unstad, alle Lofoten, di notte, disegnata a mano: la luna piena e l'aurora alte su un mare artico scuro, un picco di roccia all'orizzonte sulla destra e, sulla sinistra, due scogli nell'acqua e una bottiglia con una lettera dentro sulla sabbia.",
+ "es": "La playa de Unstad, en las Lofoten, de noche, dibujada a mano: la luna llena y la aurora en lo alto, sobre un mar ártico oscuro, un pico de roca en el horizonte a la derecha y, a la izquierda, dos rocas en el agua y una botella con una carta dentro sobre la arena.",
+ "fr": "La plage d'Unstad, aux Lofoten, la nuit, dessinée à la main : la pleine lune et l'aurore haut au-dessus d'une mer arctique sombre, un pic rocheux à l'horizon sur la droite et, sur la gauche, deux rochers dans l'eau et une bouteille avec une lettre dedans sur le sable.",
+ "de": "Der Strand von Unstad auf den Lofoten bei Nacht, von Hand gezeichnet: der Vollmond und das Polarlicht hoch über einem dunklen arktischen Meer, rechts ein Felsgipfel am Horizont, links zwei Felsen im Wasser und eine Flasche mit einem Brief darin im Sand.",
+ "pt-BR": "A praia de Unstad, nas Lofoten, à noite, desenhada à mão: a lua cheia e a aurora no alto, sobre um mar ártico escuro, um pico de rocha no horizonte à direita e, à esquerda, duas pedras na água e uma garrafa com uma carta dentro na areia.",
+ "ja": "手描きの、夜のウンスタッド（ロフォーテン）の浜。暗い北極の海の上の高い空に満月とオーロラ、右手の水平線に岩の峰、左手には水の中の岩がふたつと、砂の上の手紙の入った瓶。"},
 
-"Two of the 250 beaches drawn by hand: Unstad in the Lofoten at night, and Matira Beach on Bora Bora by day.": {
- "it": "Due delle 250 spiagge disegnate a mano: Unstad, alle Lofoten, di notte, e Matira Beach, a Bora Bora, di giorno.",
- "es": "Dos de las 250 playas dibujadas a mano: Unstad, en las Lofoten, de noche, y Matira Beach, en Bora Bora, de día.",
- "fr": "Deux des 250 plages dessinées à la main : Unstad, aux Lofoten, la nuit, et Matira Beach, à Bora Bora, le jour.",
- "de": "Zwei der 250 von Hand gezeichneten Strände: Unstad auf den Lofoten bei Nacht und Matira Beach auf Bora Bora bei Tag.",
- "pt-BR": "Duas das 250 praias desenhadas à mão: Unstad, nas Lofoten, à noite, e Matira Beach, em Bora Bora, de dia.",
- "ja": "手描きの浜 250 のうちの二つ。夜のロフォーテンのウンスタッドと、昼のボラボラ島のマティラ・ビーチ。"},
+"Unstad, in the Lofoten, at night: one of the 250 beaches drawn by hand.": {
+ "it": "Unstad, alle Lofoten, di notte: una delle 250 spiagge disegnate a mano.",
+ "es": "Unstad, en las Lofoten, de noche: una de las 250 playas dibujadas a mano.",
+ "fr": "Unstad, aux Lofoten, la nuit : l'une des 250 plages dessinées à la main.",
+ "de": "Unstad auf den Lofoten bei Nacht: einer der 250 von Hand gezeichneten Strände.",
+ "pt-BR": "Unstad, nas Lofoten, à noite: uma das 250 praias desenhadas à mão.",
+ "ja": "夜のロフォーテン、ウンスタッド。手描きの浜 250 のひとつ。"},
 
 "In one paragraph": {
  "it": "In un paragrafo",
@@ -2583,6 +2583,46 @@ SITO = {
  "pt-BR": "Para um pedido de exclusão, ou qualquer pergunta sobre seus dados:",
  "ja": "削除のご依頼や、データについてのご質問は："},
 
+
+"Two iPhone screens, each with a beach drawn by hand. On the left, Unstad in the Lofoten, Norway, at night, with the aurora and the moon over a dark sea and two bottles on the sand. On the right, Matira Beach on Bora Bora by day, with turquoise water, a palm and a bottle on the sand. Between them, the words «From Lofoten to Bora Bora».": {
+ "it": "Due schermi di iPhone, ciascuno con una spiaggia disegnata a mano. A sinistra Unstad, alle Lofoten, in Norvegia, di notte, con l'aurora e la luna sopra un mare scuro e due bottiglie sulla sabbia. A destra Matira Beach, a Bora Bora, di giorno, con l'acqua turchese, una palma e una bottiglia sulla sabbia. In mezzo, le parole «Dalle Lofoten a Bora Bora».",
+ "es": "Dos pantallas de iPhone, cada una con una playa dibujada a mano. A la izquierda, Unstad, en las Lofoten, Noruega, de noche, con la aurora y la luna sobre un mar oscuro y dos botellas en la arena. A la derecha, Matira Beach, en Bora Bora, de día, con agua turquesa, una palmera y una botella en la arena. Entre ambas, las palabras «De las Lofoten a Bora Bora».",
+ "fr": "Deux écrans d'iPhone, chacun avec une plage dessinée à la main. À gauche, Unstad, aux Lofoten, en Norvège, la nuit, avec l'aurore et la lune au-dessus d'une mer sombre et deux bouteilles sur le sable. À droite, Matira Beach, à Bora Bora, le jour, avec une eau turquoise, un palmier et une bouteille sur le sable. Entre les deux, les mots « Des Lofoten à Bora Bora ».",
+ "de": "Zwei iPhone-Bildschirme, jeder mit einem von Hand gezeichneten Strand. Links Unstad auf den Lofoten in Norwegen bei Nacht, mit dem Polarlicht und dem Mond über einem dunklen Meer und zwei Flaschen im Sand. Rechts Matira Beach auf Bora Bora bei Tag, mit türkisem Wasser, einer Palme und einer Flasche im Sand. Dazwischen die Worte «Von den Lofoten bis Bora Bora».",
+ "pt-BR": "Duas telas de iPhone, cada uma com uma praia desenhada à mão. À esquerda, Unstad, nas Lofoten, na Noruega, à noite, com a aurora e a lua sobre um mar escuro e duas garrafas na areia. À direita, Matira Beach, em Bora Bora, de dia, com água turquesa, uma palmeira e uma garrafa na areia. Entre elas, as palavras «Das Lofoten a Bora Bora».",
+ "ja": "二つの iPhone の画面に、手描きの浜がひとつずつ。左は夜のウンスタッド（ノルウェー、ロフォーテン）で、暗い海の上にオーロラと月、砂の上に瓶がふたつ。右は昼のボラボラ島のマティラ・ビーチで、ターコイズの海とヤシ、砂の上に瓶がひとつ。その間には「ロフォーテンからボラボラまで」の文字。"},
+
+"Two beaches in the app, with bottles on the sand: Unstad in the Lofoten at night, and Matira Beach on Bora Bora by day.": {
+ "it": "Due spiagge nell'app, con le bottiglie sulla sabbia: Unstad, alle Lofoten, di notte, e Matira Beach, a Bora Bora, di giorno.",
+ "es": "Dos playas en la app, con botellas en la arena: Unstad, en las Lofoten, de noche, y Matira Beach, en Bora Bora, de día.",
+ "fr": "Deux plages dans l'application, avec des bouteilles sur le sable : Unstad, aux Lofoten, la nuit, et Matira Beach, à Bora Bora, le jour.",
+ "de": "Zwei Strände in der App, mit Flaschen im Sand: Unstad auf den Lofoten bei Nacht und Matira Beach auf Bora Bora bei Tag.",
+ "pt-BR": "Duas praias no app, com garrafas na areia: Unstad, nas Lofoten, à noite, e Matira Beach, em Bora Bora, de dia.",
+ "ja": "アプリの中の二つの浜と、砂の上の瓶。夜のロフォーテンのウンスタッドと、昼のボラボラ島のマティラ・ビーチ。"},
+
+"Pre-register on Google Play. On iPhone, the sea opens soon.": {
+ "it": "Preregistrati su Google Play. Su iPhone il mare apre presto.",
+ "es": "Regístrate previamente en Google Play. En iPhone, el mar abre pronto.",
+ "fr": "Préinscris-toi sur Google Play. Sur iPhone, la mer ouvre bientôt.",
+ "de": "Registriere dich vorab bei Google Play. Auf dem iPhone öffnet das Meer bald.",
+ "pt-BR": "Faça o pré-registro no Google Play. No iPhone, o mar abre em breve.",
+ "ja": "Google Play で事前登録できます。iPhone では、海はもうすぐ開きます。"},
+
+"Pre-order on the App Store, or pre-register on Google Play.": {
+ "it": "Preordinalo su App Store, o preregistrati su Google Play.",
+ "es": "Resérvalo en el App Store o regístrate previamente en Google Play.",
+ "fr": "Précommande-le sur l'App Store, ou préinscris-toi sur Google Play.",
+ "de": "Bestell es im App Store vor oder registriere dich vorab bei Google Play.",
+ "pt-BR": "Reserve na App Store ou faça o pré-registro no Google Play.",
+ "ja": "App Store で予約注文、Google Play で事前登録ができます。"},
+
+"Get it on Google Play": {
+ "it": "Disponibile su Google Play",
+ "es": "Disponible en Google Play",
+ "fr": "Disponible sur Google Play",
+ "de": "Jetzt bei Google Play",
+ "pt-BR": "Disponível no Google Play",
+ "ja": "Google Play で手に入れよう"},
 }
 
 # Le frasi che non si traducono: nomi propri, indirizzi, la rosa dei venti.
@@ -2595,7 +2635,9 @@ INVARIATE = [",",  # la virgola fra i due soprannomi: punteggiatura, non testo
              # "3" delle bottiglie, e gli altri tre finivano nell'elenco delle
              # frasi senza traduzione a ogni giro, dove coprivano le vere.
              "iOS", "www.bottlegram.app", "250", "31,125", "1", "2", "3", "4",
-             "6–36", "32 MB",
+             "6–36", "31 MB",
+             # Il badge dell'App Store è per ora in inglese in tutte e sette.
+             "Pre-order on the App Store",
              # I nomi delle spiagge dell'approdo che ruota: endonimi, come
              # nell'app. I LUOGHI invece si traducono (voci qui sopra).
              "Cala Goloritzé", "Reynisfjara", "Anse Source d'Argent",

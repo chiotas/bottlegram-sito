@@ -8,7 +8,7 @@
 <meta name="theme-color" content="#0A0F2E">
 <link rel="icon" href="assets/icona.png" sizes="any">
 <link rel="apple-touch-icon" href="assets/icona.png">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css?v=2">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Bottlegram — a slow messaging app">
@@ -52,7 +52,12 @@
       <div class="azioni">
         <p class="timbro"><span class="cera" data-sigillo="bottle" data-tinta="0.015" aria-hidden="true"></span>Coming to iPhone and&nbsp;Android</p>
         <p class="garanzie">Free to write, free to receive</p>
-        <p class="sottovoce">The sea opens soon.</p>
+        <!-- I negozi. L'App Store si accende col Release: vedi l'interruttore in styles.css. -->
+        <div class="negozi">
+          <a class="solo-dopo" href="https://apps.apple.com/app/id6804406606"><img src="assets/badge/app-store-preordine.svg" width="141" height="48" loading="lazy" alt="Pre-order on the App Store"></a>
+          <a href="https://play.google.com/store/apps/details?id=com.bulbmode.bottlegram"><img class="badge-google" src="assets/badge/google-play-en.png" width="161" height="48" alt="Get it on Google Play"></a>
+        </div>
+        <p class="sottovoce"><span class="solo-prima">Pre-register on Google Play. On iPhone, the sea opens soon.</span><span class="solo-dopo">Pre-order on the App Store, or pre-register on Google Play.</span></p>
       </div>
     </div>
 
@@ -656,7 +661,11 @@
     <p class="guida affiora">On a shore you have never seen, a castaway is pushing the cork into a bottle right now. The sea will decide whose sand it touches next. Maybe yours.</p>
     <div class="azioni affiora">
       <p class="timbro"><span class="cera" data-sigillo="bottle" data-tinta="0.015" aria-hidden="true"></span>Coming to iPhone and&nbsp;Android</p>
-      <p class="sottovoce">The sea opens soon.</p>
+      <div class="negozi">
+        <a class="solo-dopo" href="https://apps.apple.com/app/id6804406606"><img src="assets/badge/app-store-preordine.svg" width="141" height="48" loading="lazy" alt="Pre-order on the App Store"></a>
+        <a href="https://play.google.com/store/apps/details?id=com.bulbmode.bottlegram"><img class="badge-google" src="assets/badge/google-play-en.png" width="161" height="48" alt="Get it on Google Play"></a>
+      </div>
+      <p class="sottovoce"><span class="solo-prima">Pre-register on Google Play. On iPhone, the sea opens soon.</span><span class="solo-dopo">Pre-order on the App Store, or pre-register on Google Play.</span></p>
     </div>
   </div>
 </section>
@@ -685,7 +694,23 @@
      sono passati al tu, ma chi aveva `lingue.js` in cache continuava a leggere
      il Lei — Francesco l'ha visto coi suoi occhi la notte stessa. A ogni
      cambio di frasi si alza il numero, e la cache vecchia muore lì. -->
-<script src="lingue.js?v=14"></script>
+<script src="lingue.js?v=17"></script>
 <script src="lingua.js?v=14"></script>
+
+<!-- I badge di Google Play hanno la scritta dentro: un file per lingua, come
+     li dà Google. Quello dell'App Store per ora è solo in inglese (le versioni
+     tradotte Apple le dà da un sito che da qui non si raggiunge). -->
+<script>
+(() => {
+  const sel = document.getElementById('scegli-lingua');
+  if (!sel) return;
+  const metti = () => document.querySelectorAll('img.badge-google').forEach((img) => {
+    img.onerror = () => { img.onerror = null; img.src = 'assets/badge/google-play-en.png'; };
+    img.src = `assets/badge/google-play-${sel.value}.png`;
+  });
+  metti();
+  sel.addEventListener('change', metti);
+})();
+</script>
 </body>
 </html>
